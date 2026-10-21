@@ -9,6 +9,17 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Contents:** [Current milestone](#2026-10-21--journey18-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+## 2026-10-21 — Focused archery/sign mastering progress
+
+### Source verified; Journey18 still playable
+
+- The user set a scope rule: finish the current build before starting another objective. New ideas and playtest reports enter backlog unless explicitly reprioritized. Current delivery is archery22 plus sign-art23; audio candidates, armor, survivor pursuit, nightly routines and ragdolls remain outside it. A fresh feature/debug readout distinguishes released scope, estimates and all52 recorded debug IDs.
+- Actual private source Solo bow input now passes tap cancellation, held fatigue, regeneration/recovery guards, one physical arrow and12-to11ammo. The damage check passes normal Briar Shot mana/charge and one real impact after shooter death, with closed SQLite damage/ammo receipts. A real NullRHI listen host plus one rendered remote owner passes draw/recovery/projectile/ammo replication. These are bounded source proofs, not universal multiplayer or cooked acceptance.
+- Retained failed probes exposed test setup errors: ClawTest travel readiness, borrowed-kit campaign naming, starter rats spawning after initial AI cleanup and ordinary armor reducing the fixture's intended lethal hit. Corrected only private fixtures; production damage cancellation and armor remain. Four actual draw/recovery images were reviewed; intrusive first-person arm geometry needs a bounded pose/placement diagnosis before visual approval.
+- Original oak/iron signs use six PBR textures and cream serif mesh lettering. Eight posts,17 boards and34 faces were replaced in source; native review caught and corrected the FBX Y reflection using separately pinned additive meshes. Four actual source front/back views establish glyph/arrow orientation, with forest shade still requiring normal-game cooked readability review. Actual dependency inspection passes without content saves. The separate oversized Courier's Marker remains backlog.
+- Methods/tools: existing Unreal5.8.3 C++/SQLite/replication authorities, focused agents, serial coordinator-owned UBT/native runs, real InputKey events, closed-engine SQL, hashed receipts and personal image review. Steam Blender generated original sign geometry/textures, guided by the recorded official D&D Phandalin timber-street illustration. No unrelated framework or character overhaul was introduced.
+- Journey19 package-local launcher support is integrated while root default remains18. Freeze, cook, cooked acceptance and promotion are pending. Original campaigns and the immutable18 package are retained. Local details: `docs/current-build23.md`, `docs/player-archery22.md`, `BUILD23-CHANGED-FILES.md` and the dated backlog readout. Only this log is published remotely.
+
 ## 2026-10-21 — Player archery22 source increment
 
 ### Integrated source; not a released package
