@@ -9,6 +9,17 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Contents:** [Current milestone](#2026-10-21--journey18-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+## 2026-10-21 — Player archery22 source increment
+
+### Integrated source; not a released package
+
+- Added server-timed hold/release draw, partial power, sustained holding fatigue, letdown and sequential recovery/nocking. DEX and existing purchased Ranger talents improve handling/endurance; STR drives ordinary bow velocity/power, with Rangers using the higher of STR and DEX.
+- Added craftable longbow, reed and bodkin arrows through existing item/inventory/dice/crafting authorities. Exact slot/type transactions reject swapped ammunition, preserve replay safety and retain schema35. Physical server arrows reuse the existing analytic gravity/drag solver, swept collision and replicated movement. Bow hitscan is removed.
+- Existing Briar Shot can prime a faster, lower-drop nature arrow using normal mana/cooldown. A private released-flight lease preserves a launched shot through shooter death without removing ordinary live-source damage guards. Shared bow/arrow art remains temporary; no distinct new finished models or general world-drop conversion is claimed.
+- Methods/tools: three bounded agent lanes prepared policy, actual Core transaction and native acceptance fixtures; coordinator reviewed/integrated C++/PowerShell/Python changes. Consulted Epic Unreal5.8 projectile documentation and official D&D Ranger art/reference. MSVC C++20 policy checks21,680 and actual integrated Core checks95 pass; Unreal5.8.3 Editor build3 compiles/links. Two earlier compilation failures are preserved with their corrections.
+- Actual rendered Solo attempt was coordinator-interrupted when the user began Journey18 playtesting; only the owned test process was stopped. Actual flight/contact, released-shot damage, remote-owner replication and visual acceptance remain pending. Serial private Solo/combat/network runners are compiled and prepared; no passing runtime result is inferred.
+- Current promoted Journey18, default launcher, packages, maps/assets and user campaigns are unchanged. Source preimages and private test evidence are retained locally. Detailed local report: `docs/player-archery22.md`; changed-file/build/backup inventory: `ARCHERY22-CHANGED-FILES.md`. No new release is claimed.
+
 ## 2026-10-21 — Journey18 playable master
 
 ### Released
