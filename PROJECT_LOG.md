@@ -5,9 +5,29 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Latest source work:** [UI and talents](#2026-10-21--ui-and-talent-source-increment). Playable master remains Journey17.
+**Current playable master:** [Journey18](#2026-10-21--journey18-playable-master). Earlier source/prepared entries below remain historical.
 
-**Contents:** [Current milestone](#2026-10-21--journey17-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-21--journey18-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+
+## 2026-10-21 — Journey18 playable master
+
+### Released
+
+- Promoted `0.21.0-preview12-playtest18`, runtime `808a256cb901a4950845c7d18921ab6c950d90e2`, schema35, package `21a65016a7`. The default Journey launcher now selects18; original campaigns remain protected.
+- Same-process/same-window title → GUI hero name → ordinary creator → world entry; responsive creator, saved talent-point display and36 shared branch paintings; the scoped Cleric Mercy ally mend; supported lantern-lit healer ledger; durable two-per30seconds health-potion allowance; separate gameplay Quit.
+- Actual Game build/cook/archive, 1,749 cooked roots, named packaged startup/closed SQL, one healer inspection/stage advance, two accepted potion uses/third refusal, graceful Quit and26 actual Slate clicks/two drags at each of888×500 and1920×1080 pass. All16 captures were personally reviewed. Source Load/Host and bounded two-client Mercy retain their stated separate scopes.
+- Found and corrected the CMD launcher's Windows PowerShell5.1 incompatibility before publication: `Double.IsFinite` replaced by compatible NaN/infinity checks. Ten real PS5.1 mock cases passed; a new immutable freeze/package was built. Superseded75-file candidate retired only after its launcher/marker/ledger/freeze/receipts were preserved.
+- Retained18/17/16/15. Preserved82 saved-state/diagnostic files (870,312,413 bytes) before retiring14; measured recovery 3,340,353,536 bytes. Retiring the incompatible candidate recovered another 4,228,902,912 measured bytes. User-held0.2.0 terminal directory untouched.
+
+### Limits
+
+Legacy faces/body seams and texture quality remain poor; one verification capture shows texture-streaming-pool pressure. Long talent labels/compact HUD text need polish. Dense prairie, full bandit rescue return/payment, survivor pursuit, modern character art, crypt awakening/jitter and indoor villager routines remain open. This package does not claim all new class abilities,144 unique icons, a new dungeon, all16 bandit quests, full audio review, sustained performance or complete multiplayer acceptance.
+
+### Methods and tools
+
+Reused the existing Unreal5.8.3 C++/Slate/Core/SQLite architecture and licensed local content. Coordinator ran serial UBT/UAT cooks, actual AssetRegistry dependency checks, frozen-input/package hashes, normal-input native probes, closed-engine database/profile readback and personal cooked-image review. PowerShell5.1 compatibility was exercised against the actual launcher with a bounded mocked process boundary. Focused agents prepared/reviewed isolated release tools and exact retention receipts; the coordinator owned native builds, integration, package promotion and deletion. No licensed assets, saves, credentials or build payloads were uploaded.
+
+Detailed local record: `docs/journey-playtest18-delivery.md`; complete paths/package/backups/deletions: `PLAYTEST18-CHANGED-FILES.md`. These local artifacts are not uploaded to this log-only repository.
 
 ## 2026-10-21 — UI and talent source increment
 
