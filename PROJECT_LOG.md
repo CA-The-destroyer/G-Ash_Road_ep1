@@ -5,9 +5,32 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey18](#2026-10-21--journey18-playable-master). Earlier source/prepared entries below remain historical.
+**Current playable master:** [Journey19](#2026-10-21--journey19-playable-master). Earlier source/prepared entries below remain historical.
 
-**Contents:** [Current milestone](#2026-10-21--journey18-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-21--journey19-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+
+## 2026-10-21 — Journey19 playable master
+
+### Delivered: archery and directional signs
+
+- Default Journey launcher now selects19, frozen runtime `1ec7a65`, schema35, package `da50bbfd73`. Hold/release bow draw, fatigue/recovery/nocking, DEX/talents, STR/Ranger power, physical typed ammunition, craftable longbow/reed/bodkin arrows and Briar Shot are delivered. Measured bow-only first-person placement clears the aiming view. Shared weapon art/legacy animations remain.
+- Eight existing posts,17 directional boards and34 two-sided serif labels use original oak/iron/PBR art. Corrected axes/routes and restrained paint-only shade readability passed actual cooked review; four additional ordinary night views show subdued words without visible bloom. The user accepted this look as good enough. No global lighting changes or courier-marker gameplay replacement.
+- Native build/cook/actual registry, real GUI name→creator→arrival in one PID/HWND, separate private-copy graceful Quit, Solo real-input fatigue/recovery/ammo/physical flight, charged target damage after shooter death and cooked8/17/34 sign audit pass. Ten gate captures plus four night captures personally reviewed. Promotion rehashed76 immutable package files and13,026 frozen inputs. Source network evidence remains one host/remote owner; no broad cooked multiplayer claim.
+- Failed candidate2 is preserved with its failed art/dimension evidence. The corrected startup runner produced actual888×500 captures; only its private display fixture changed. Exact guarded sign-verifier deltas preserve original source archery runs transparently. Production archery/armor/damage guards were not weakened to satisfy fixtures.
+- Retention keeps19/18/17/16. All69 selected15 saved-state/diagnostic files (871,416,932bytes) were preserved and hash-verified before retiring its4,213,404,072byte package; measured disk recovery3,341,811,712bytes. Original campaigns and the user-held empty0.2.0 directory remain untouched.
+- Scope remains focused. Survivor pursuit, denser trail activity, nighttime indoor routines, gloves/boots, ragdolls, character overhaul and foliage/deer sounds remain backlog. Legacy character/streaming limits and the unresolved D3D12 crash are stated in release notes. New suggestions do not silently change the active objective.
+- Methods/tools: existing Unreal5.8.3 C++/SQLite/replication, focused agents with one native coordinator, Steam Blender original artwork, official D&D Phandalin construction reference, real input/closed-SQL/capture acceptance, deterministic hashes, immutable candidate preservation and guarded launcher promotion. Local delivery: `docs/journey-playtest19-delivery.md`; all changed/generated/package/backup paths: `BUILD23-CHANGED-FILES.md`. Only this log is published to GitHub.
+
+## 2026-10-21 — Journey19 cooked review and bounded correction
+
+### Candidate built; not yet promoted
+
+- Candidate2 at `6e70cb1` built/cooked successfully. The actual staged AssetRegistry, packaged Solo draw/fatigue/recovery/physical-flight check and Briar Shot target damage after shooter death pass. The measured bow-only first-person placement now clears the aiming view. These are bounded checks, not a universal multiplayer claim.
+- Personal review rejected the sign art gate despite8/17/34 mechanical counts: the separate old courier marker blocks one view and cream lettering becomes nearly black in shade. Preserved the complete unpromoted candidate inside Archive after76 immutable file hashes matched before/after; no campaign or package was deleted and Journey18 stays default.
+- Corrected only the sign paint with a restrained color×0.02 emissive readability floor while retaining ordinary lit shading. This explicitly replaces the earlier no-emissive art decision; it is not a global lighting change or a claim of physically illuminated paint. Native authoring confirms exactly one material package changed; maps, routes and geometry are unchanged. Source shade/sun views reviewed; final cooked/night review remains required.
+- The opt-in sign verifier now selects an actual clear standing camera around the old courier marker without hiding or moving it. Editor13 compiles. Exact guarded-source delta review preserves original generic ClawTest archery proofs and discloses that they predate this verifier-only change.
+- Startup's actual same PID/HWND, name entry, creator and arrival passed, but screenshots used1920×1129 instead of the intended888×500. That full gate remains failed. The private runner now requests explicit windowed resolution through supported engine settings; fresh execution must establish the correction. No production menu/display rewrite.
+- Methods/tools: serial UBT/cook/native jobs, actual packaged input and closed SQLite evidence, personal capture review, scoped agents, original Phandalin-referenced sign geometry, hash-pinned native author transactions and immutable candidate preservation. No unrelated backlog lane was integrated.
 
 ## 2026-10-21 — Focused archery/sign mastering progress
 
@@ -1388,6 +1411,17 @@ This is the complete reachable local source history across all recorded branches
 | 2026-10-20T23:52:14-05:00 | `e579a385eec8c1ba467ffdad09ccfd910b988e57` | Integrate persistent outlaw camps, woodland ecology and crypt traversal repairs |
 | 2026-10-21T00:50:32-05:00 | `57a8c5be519850f655adc3e6ed1b41385141a018` | Promote Journey17 with scoped packaged acceptance and retained saves |
 | 2026-10-21T08:15:45-05:00 | `6f71a7343eeaae63b416952029b21a291433d015` | Fit creator input and expose saved talents with authoritative Cleric mend |
+| 2026-10-21T08:22:14-05:00 | `0632c876cad8acf9901d465acdedff4ec2d0969f` | Record verified source UI milestone in project log |
+| 2026-10-21T08:42:41-05:00 | `d549a1fdf75425645350097750503647eb09b99a` | Record terrain-aligned prairie pilot and hold bright art before expansion |
+| 2026-10-21T10:50:29-05:00 | `41eeb426f8fbaca6df36e7156492bfe3a85a7705` | Add gameplay Quit, supported healer ledger and durable potion limit |
+| 2026-10-21T10:53:41-05:00 | `00cf2e57976cdcde29225fa72e50347beb366403` | Record source acceptance, complete changed-file ledger and project log milestone |
+| 2026-10-21T11:31:16-05:00 | `bd25003b4972fe6f0d438b5e08a82e2cc30aae8d` | Prepare Journey18 master with verified continuous frontend and exact prairie exclusion |
+| 2026-10-21T12:31:14-05:00 | `fdee4fedd651df8f51649b4242e4b93cb707e83c` | Deliver verified Journey18 master, preserve saves and record exact package retention |
+| 2026-10-21T13:45:22-05:00 | `b908a119960274bcacbc4b1f851023cc729fc98d` | Integrate server-timed physical player archery; retain pending runtime gates |
+| 2026-10-21T15:18:29-05:00 | `1379e94bc0510f8012c17c3663582927252e53d7` | Finish scoped archery verification, measured bow view and sign mastering tools |
+| 2026-10-21T15:27:41-05:00 | `6e70cb175967546f3f91b774a47b2ccc79028b53` | Correct isolated Journey sign verification campaign namespace |
+| 2026-10-21T16:20:24-05:00 | `1ec7a65a32d47626b27cf37e9613c698810322e2` | Correct Journey19 sign readability and bounded cooked verification fixtures |
+| 2026-10-21T16:42:10-05:00 | `2f7eb3d8eba58478a801d46f86e6d7b598b1ccda` | Promote Journey19 archery and signs with scoped acceptance and retention |
 
 </details>
 
