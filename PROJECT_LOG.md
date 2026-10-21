@@ -5,7 +5,27 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
+**Latest source work:** [UI and talents](#2026-10-21--ui-and-talent-source-increment). Playable master remains Journey17.
+
 **Contents:** [Current milestone](#2026-10-21--journey17-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+
+## 2026-10-21 — UI and talent source increment
+
+### Integrated source, not a new playable release
+
+- The user's order is UI/skill trees, dense prairie, full bandit rescue, survivor encounter, healer repairs, then modern characters. The scoped UI/skill-tree source increment passes; the prairie pilot is next. Journey17 remains the current playable master; no package, map or user save was changed by this increment.
+- The creator now uses a fitted panel/preview transform shared by drawing and pointer conversion. All existing appearance, class and27-point choices remain. Character statistics show authoritative unspent talent points and respect a rebound L shortcut; stale data shows synchronization instead of a guessed zero.
+- Existing36 painted branch icons now serve their child cards/details with specialization and capstone badges. This is shared branch art, not144 unique illustrations.
+- The first new active capstone consumer is Cleric Mercy in the Ashes: ordinary slot2 can mend an aimed ally within8metres, otherwise self-mend;25% higher mana cost and10-second recovery. Server aim, line of sight, travel/session/area and active saved ownership control eligibility. One existing SQLite transaction commits both caster mana and target health before live changes, retaining saved poses and schema35.
+- Review caught a remote talent-menu restriction gap. Reliable same-controller open/close notifications now restrict server casting/quickswap separately from local widget state.
+
+### Evidence and remaining work
+
+- MSVC C++20 `/W4 /WX`:2,560 portable creator geometry/input checks and250 Core healing/rollback/restart/concurrency checks pass. Existing pinned icon metadata/source fences pass. The Unreal5.8.3 Editor source build passes; the first interrupted build is retained without claiming a pass.
+- Actual native acceptance passes with a dedicated server and two remote clients: normal slot2 targeting, paid heal, wall/menu/cooldown refusals, replicated vitals and closed-engine schema35 readback. Creator checks pass26 actual Slate clicks and2 drags at each of888x500 and1920x1080 with saved class/appearance readback. All10 final captures were personally reviewed. The atlas loader now finishes selected editor texture compilation before validating dimensions, fixing the temporary32x32 fallback.
+- Only one of36 capstones gains a new active mechanic; other capstones retain existing effects. Prairie547 source/DLL pins were explicitly rebased after phase4; all410 old native hashes are unchanged. A read-only30x30m charcoal survey precedes any apply; no prairie art completion is claimed. Later phases have not been skipped ahead.
+- Methods: inspect existing C++/Canvas/Slate/spell/Core authorities, reuse stable saved talent IDs and existing images, bounded prepared subagent work, one coordinator's serial native builds/runners, portable geometry tests, real SQLite transactions, dedicated remote gameplay and rendered Slate pointer acceptance. Official Epic DPI guidance and the project's recorded D&D artwork guide presentation. The user's TheGamer reference still returned502 on retry.
+- Local status/evidence: `docs/ui-talents19.md`, `docs/ordered-next18.md`, `ORDERED-NEXT18-CHANGED-FILES.md`. Original source backups are retained. Only this project log is uploaded.
 
 ## 2026-10-21 — Journey17 playable master
 
@@ -1324,5 +1344,7 @@ This is the complete reachable local source history across all recorded branches
 | 2026-10-20T15:13:13-05:00 | `39448ca3df1b89ba1a0c7c72a5c679e4889bbd7c` | Retain current plus three releases and preserve saved campaigns |
 | 2026-10-20T23:14:14-05:00 | `e33824f5ae8e9c17f3d8e9622cdc13dcd56457cf` | Integrate persistent outlaw camps, woodland ecology and crypt traversal repairs |
 | 2026-10-20T23:52:14-05:00 | `e579a385eec8c1ba467ffdad09ccfd910b988e57` | Integrate persistent outlaw camps, woodland ecology and crypt traversal repairs |
+| 2026-10-21T00:50:32-05:00 | `57a8c5be519850f655adc3e6ed1b41385141a018` | Promote Journey17 with scoped packaged acceptance and retained saves |
+| 2026-10-21T08:15:45-05:00 | `6f71a7343eeaae63b416952029b21a291433d015` | Fit creator input and expose saved talents with authoritative Cleric mend |
 
 </details>
