@@ -1348,3 +1348,19 @@ This is the complete reachable local source history across all recorded branches
 | 2026-10-21T08:15:45-05:00 | `6f71a7343eeaae63b416952029b21a291433d015` | Fit creator input and expose saved talents with authoritative Cleric mend |
 
 </details>
+
+
+## 21 October 2026 — gameplay Quit, healer ledger and potion limit (source, not a new release)
+
+Local implementation commit: `41eeb42` on `work/outlaw-camps18`. Journey17 (`0.21.0-preview12-playtest17`, schema35) remains the promoted playable package; existing user saves were preserved.
+
+- Gameplay menu now includes Quit to Desktop below Resume. A real six-key menu route reached the production graceful-exit handler and exited with code0; the six-row888×500 capture was personally reviewed.
+- The healer's list is supported by a timber table about3.45m from the cottage door, illuminated by an existing lantern. Native terrain/support/clearance authoring and fresh readback passed. Source runtime verifies zero book/query centre error, normal stage2→3 inspection and exactly one accepted inspection receipt/event. The final lit-table view was personally reviewed; cook/package acceptance remains open.
+- Health potions share a durable per-character/campaign allowance of two uses per rolling30seconds. Server-side admission, inventory debit and receipt are atomic.91 integrated CPU cases and an actual Solo native consumption/countdown/SQL check passed. The third attempt neither heals nor consumes an item. Remote and packaged checks remain separate.
+- Same-process title/name selection is built behind an explicit future-launch capability. Actual New acceptance remains open: the visible test's mouse position changed/became unavailable before name input. The verifier now records and guards cursor coordinates; neither failed run proves a production focus bug. Load/Host/window continuity are not claimed verified.
+- Crypt motion telemetry is integrated but has not diagnosed the patrol jitter. A genuine own-rig2-second get-up clip, replicated awakening candidate and exact three-pile author/readback tools are prepared, with27 pure policy cases passing. Native animation import, pile placement, awakening/late-join acceptance remain pending. Existing Attack source is a full1.7-second clip. Safe indoor nighttime villager routes also remain pending.
+- Native combined197-action build and two focused incremental builds passed. Failed setup/dark-view evidence was retained; the final healer, Quit and potion captures were reviewed individually. No release package was created or promoted.
+
+Methods/tools: bounded parallel agent preparation with one integrating coordinator; existing C++/Blueprint-compatible Unreal architecture; installed Epic UE5.8 engine-source/API review; deterministic Python authoring; canonical Steam Blender for CPU animation preparation; serial UnrealBuildTool builds; actual Slate/InputKey routes and rendered source clients; MSVC CPU tests; SQLite online-backup private fixtures and closed-engine readback; SHA256 input/output fences, explicit rollback archives and focused changed-file inventories. Git staging was explicit; only this project log is authorized for GitHub publication.
+
+Detailed local evidence: `docs/playtest21-source-work.md`; full local source/tools/native changes, generated documentation/evidence/build outputs and backups: `SOURCE-WORK21-CHANGED-FILES.md` and its JSON ledger. Licensed assets, private fixtures, saves and build payloads are not uploaded with this log.
