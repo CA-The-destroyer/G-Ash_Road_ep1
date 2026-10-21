@@ -5,7 +5,34 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Contents:** [Current milestone](#2026-10-20--next-playable-master-in-progress) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-21--journey17-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+
+## 2026-10-21 — Journey17 playable master
+
+### Shipped
+
+- **Journey `0.21.0-preview12-playtest17` is the current playable release.** Start with `PlayAshMarchJourney.cmd`; New creates a separate campaign. Existing saved state is retained.
+- Frozen runtime `e579a385`, schema35, package `c01ab617f8`. Native Windows build/cook/archive succeeded; all1,743 required cooked roots are present. Promotion rehashed74 immutable package files and12,635 frozen inputs.
+- Woodland population:48 surveyed habitats/82 potential inhabitants share12 active wilderness actors. Deer, hares, foxes, four wolf packs, spiders, ghouls and Whisper use existing creature art. Ordinary wandering/flight, observed-target hunting and protected natural-kill loot/XP rules are integrated.
+- Persistent outlaw foundation:19 surveyed sites and the first rescue camp with six defenders/two archers, physical arrows, shelters, campfire, alarm and prisoner interactions. Human and Goblin camps remain separate.
+- Local groves/inner-camp woodland and four technically bounded meadows are included. Five crypt wall instances/six vault cells were refitted, preserving floors and stairs; unsupported falling checkpoints are rejected.
+
+### Actual packaged checks
+
+- Real Slate name validation/cancel/spaced-name selection, normal character creation/arrival and read-only schema35 character persistence pass.
+- Actual deer wandering/flight and a reviewed cooked deer image pass; six-defender/two-archer camp activation and a reviewed camp image pass.
+- A real remote client completes all236 normal crypt descent/return markers against packaged headless-listen authority, without interior fixture teleports or collision overrides. This is a bounded floor witness, not whole-party or restart acceptance.
+- Six actual cooked captures were reviewed. One wildlife capture attempt failed an Editor-relative verifier output-path guard; the verifier was adapted to the packaged allowed path, retaining native/copy hash identity. The game package was unchanged.
+- Obsolete publisher compatibility metadata was repaired narrowly: one Grux Skeleton save preserves176 bones/20 sockets/reference poses; seven spruce material saves preserve effective shader bindings. Fresh-process checks pass.
+
+### Open and prepared
+
+- Creator clipping/footer overlap at888×500 and legacy low-detail faces remain open. Modern characters/sliders are not delivered by this master.
+- The four meadows remain visibly sparse/mown. A30×30m wider-clump pilot is prepared, with native survey/application/visual approval still pending. Prairie alchemy and water polish remain low priority.
+- Full first-rescue return/payment,15 additional real quest bindings, six equipped bosses, complete crossbow/squad/faction behavior and the rest of the large bandit directive remain unfinished.
+- The original crypt fall-through cause and retained invalid-save recovery are unaccepted; six vault silhouettes still need art review. Broad wildlife multiplayer, sustained GPU performance, Load/old-save migration and subjective audio remain separate checks.
+- An authoritative unspent-talent-points notice is prepared outside17. Existing playable L skill trees remain; deeper ability/content expansion is ongoing.
+- Detailed local report: `docs/journey-playtest17-delivery.md`; route guide: `tools/prepared/journey-playtest17-review/PLAYTEST-ROUTE.md`; complete file/package/backup inventory: `PLAYTEST17-CHANGED-FILES.md`. Only this log is published here.
 
 ## 2026-10-20 — next playable master in progress
 
@@ -1295,5 +1322,7 @@ This is the complete reachable local source history across all recorded branches
 | 2026-10-20T14:03:07-05:00 | `8aaad4083679e4b3038fdf7f4cc325b4e8a4926d` | Add GUI hero naming and dedicated menu music with focus cues |
 | 2026-10-20T14:24:34-05:00 | `2d4f1706fb62017b4681804538ce48ce5462ec9d` | Promote playtest16 and record prepared campaign content work |
 | 2026-10-20T15:13:13-05:00 | `39448ca3df1b89ba1a0c7c72a5c679e4889bbd7c` | Retain current plus three releases and preserve saved campaigns |
+| 2026-10-20T23:14:14-05:00 | `e33824f5ae8e9c17f3d8e9622cdc13dcd56457cf` | Integrate persistent outlaw camps, woodland ecology and crypt traversal repairs |
+| 2026-10-20T23:52:14-05:00 | `e579a385eec8c1ba467ffdad09ccfd910b988e57` | Integrate persistent outlaw camps, woodland ecology and crypt traversal repairs |
 
 </details>
