@@ -10,6 +10,15 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-21--journey19-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-22 — Focused rescue testing and measured navigation corrections (source)
+
+- Reused an actual failed Following save rather than repeating combat and753m of escort setup. The read-only SQLite backup compares all62 table schemas/rows; original failed evidence and exact input bytes remain preserved. No user campaign was reset.
+- Short native inspection measured a valid saved23.26-degree slope rejected by flat-site restoration. Saved civilian poses now use the native walking threshold, retaining height/capsule/admission checks and the stricter rule for initial authored placement.
+- The next inspection identified the civilian's own visibility-only speaking box as false ground. Navigation excludes only that exact mapped, same-camp/role, query-only focus component. Real terrain/other characters and the existing rescuer exclusion remain. Raw versus corrected native traces confirm the cause; Editor compilation passes.
+- New source segment38264e3367 passes233.04m physical walking, normal home arrival,20XP/75copper and matching closed reward/wallet/XP records in201.18seconds. Readiness-time samples include ordinary movement and disclose173.60cm player/541.28cm civilian displacement from stored input; no strict5cm continuity claim is made. This is not a fresh fight, complete route, restart, renderer, multiplayer or packaged-game proof. Earlier failures remain failed.
+- Methods/tools: Unreal5.8.3 C++, normal authoritative gameplay, headless native checks, SQLite read-only backups/closed snapshots, exact source/module hashes and bounded agent review with one native-job coordinator. Focused checks while diagnosing, one full affected-quest check on the final candidate, and concise build-specific playtest cards are documented in docs/testing-workflow20.md.
+- Journey19 remains the playable default. Journey20 is not frozen, packaged or promoted. Detailed evidence: docs/bandit-rescue20.md and evidence/unreal/bandit20-following-segment-38264e3367/segment-verification.json; local-only files/backups: MASTER20-CONTINUATION-CHANGED-FILES.md. Only this project log is published.
+
 ## 2026-10-21 — Shorter exterior distance and regional mist (source)
 
 - User explicitly requested shorter view distance with fog to reduce VRAM pressure. Integrated Medium default, a render-only cap on existing standing-tree visuals (at most180m at Medium), and cheaper regional height mist. Exact allowlisting preserves authored collision, harvest identities, supports, AI/quests and World Partition loading. Existing saved quality choices remain authoritative; this user's19 preference was separately preserved and changed only to Medium.
