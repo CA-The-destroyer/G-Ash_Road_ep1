@@ -10,6 +10,20 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-22--journey20-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-22 — Pursuit, healer and regional wilderness source integration
+
+### Integrated source; Journey20 remains the playable master
+
+- The active user-authorized batch remains survivor pursuit, healer remainder, modern characters and living wilderness. Later regional guidance explicitly covers wandering bandits, ghouls, wolves, deer and other loose populations. Fixed rescue/survivor events retain their authored triggers. No Journey21 release package, launcher promotion or campaign reset has occurred.
+- Source integrates one-time treatment-armed pursuit, supported scaled vampire hit dice/resistance/regeneration/sunlight behavior, the supplied opening “we found them” followed by a nonoverlapping scream, and lower combat shouts/laughs. Ten owned vampire and five bandit alert SoundWaves passed native import with original WAVs unchanged. Actual encounter playback, combat and listening acceptance remain pending.
+- Sabeth's120cm outward wall move passed actual expanded simple/complex collision and production interaction focus. Fresh saved readback passed with0cm difference using the author's actual340-degree arrival input; the original failed yaw0 fixture remains failed. Finite transactional healer shop code compiles; ordinary purchase/reopen gameplay remains pending. Existing healer ledger is retained.
+- Broad regional discovery is600m, useful prewarm220–300m, ambient-only hard local visual cutoff200m and network relevance240m. Nearby births still require real cover, existing populations use stable routes and generation birth locks, and all wilderness shares the existing12-actor budget. Individual roaming poses across server restart remain an existing schema35 limitation.
+- A focused third native survey passed13 real roadside routes:4main,7north and2mixed-human patrols, adding23 potential inhabitants to the preserved48 habitats. It reused12 exact accepted geometric witnesses and surveyed the remaining patrol location. Failed earlier overall surveys remain failed. These rows are integrated and compile; actual regional admission/physical movement/component visibility checks are separate acceptance work.
+- Actual UE5.8.3 Editor build6 succeeds. Build4's shadowed local variable was corrected narrowly; its failed evidence is retained. Isolated character Lab build2 succeeds for the typed DNA/RigLogic inspector and supported empty-Common assembly route. No accepted modern character pair or new character art delivery is claimed.
+- Survivor woodland cover remains unresolved: the corrected author verifies real existing triangle-collision rocks but rejected an original obstruction before creating/saving any scenery. A read-only exact-collider diagnostic is prepared. Earlier uncovered-origin and collision-count failures remain preserved. No hidden wall or weakened line-of-sight gate was substituted.
+- Methods/tools: existing C++/SQLite/server authorities and saved identities; bounded preparation agents with one serial native coordinator; installed Epic implementation/API and official D&D rules/art references; actual Landscape/capsule/route surveys; source-hashed mono audio imports; precise native probes, preserved failures and rollback preimages. After UAT, reuse valid unchanged proof and check only changed behavior or concrete remaining risks.
+- Local details: docs/parallel-priorities21.md, docs/wilderness21.md, docs/healer21.md, docs/survivor21.md and JOURNEY21-IN-PROGRESS-CHANGED-FILES.md. Only this project log is published; assets, saves and build payloads remain local.
+
 ## 2026-10-22 — Journey20 playable master
 
 - Journey20 is now the default playable master, source `4ea3411`, schema35. The launcher and package identity agree. Existing campaigns were retained; the first Cries from the Woods rescue uses the existing authoritative quest, movement and transactional reward systems.
