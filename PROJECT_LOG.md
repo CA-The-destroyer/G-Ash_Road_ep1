@@ -5,10 +5,23 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey19](#2026-10-21--journey19-playable-master). Earlier source/prepared entries below remain historical.
+**Current playable master:** [Journey20](#2026-10-22--journey20-playable-master). Earlier source/prepared entries below remain historical.
 
-**Contents:** [Current milestone](#2026-10-21--journey19-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-22--journey20-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-22 — Journey20 playable master
+
+- Journey20 is now the default playable master, source `4ea3411`, schema35. The launcher and package identity agree. Existing campaigns were retained; the first Cries from the Woods rescue uses the existing authoritative quest, movement and transactional reward systems.
+- Fixed saved civilian restoration on valid walking slopes and navigation mistaking its own query-only speaking box for ground. Initial placement remains stricter; real collision, normal interactions, stats and reward authority remain. The complete current-source rescue passed984.19m of actual escort, six defenders including two archers, normal20XP/75copper and restart without duplicate payment.
+- UAT build/cook/stage/archive succeeded in276.48seconds. Its wrapper initially rejected missing validation pins for two already-present font files. A separately recorded metadata completion adds only those pins, verifies actual packaged fonts and preserves every original compiled/cooked byte. Original failed evidence remains failed; no rebuild or recook was performed for that metadata correction.
+- Precise packaged checks passed: same-window name entry, creator and arrival; the actual238.15m fixed escort section; normal20XP/75copper; and actual reload with no duplicate reward or civilians. The cooked continuation explicitly inherits earlier genuine quest progress. This is not a fresh complete cooked fight/rescue proof or broad multiplayer acceptance.
+- The reviewed tree-distance/fog change is included: Medium standing-tree rendering up to180m with regional height mist. Reused source measurements show17.7–29.4% fewer draw calls but only2.6–6.3MiB lower local GPU-memory medians. No large VRAM saving or crash-fix claim.
+- Standing user direction: after passing UAT, reuse valid prior results and run only precise changed-behavior or concrete unresolved-risk checks. Apply this to all future work and delegated tasks. Repeated full packaged rescue, four-view art, camp/home and ordinary-approach suites were skipped, not passed. The rule is recorded in AGENTS.md and docs/testing-workflow20.md.
+- Legacy face/neck/armor/cape quality, floating bodies, camp admission/ongoing life, sparse wildlife, Stone Rill interiors, crypt fall/wall reports and prior crashes remain open backlog. Next existing priority is the survivor pursuit scene; new reports do not silently change direction.
+- Retention keeps20/19/18/17. Journey16 saved state and diagnostics were hash-preserved before deleting its older package: 60 files, 870,701,228 bytes preserved; 3,348,038,919 bytes net package reduction. The user-held0.2.0 directory remains untouched.
+- Methods/tools: installed Unreal5.8.3 C++/UBT/UAT, existing SQLite/server authorities, bounded agents with one native coordinator, genuine read-only checkpoint clones, closed-SQL/restart comparison, actual packaged Slate input, personal capture review, SHA256 release manifests and guarded launcher promotion. No duplicate gameplay framework was introduced.
+- Local delivery and scope: docs/journey-playtest20-delivery.md; player card: docs/playtest20-card.md; complete source/tools/docs/evidence/package/backup/retired-path inventory: MASTER20-CHANGED-FILES.md/.json. Only this project log is published; licensed assets, private saves, credentials and build payloads stay local.
 
 ## 2026-10-22 — Focused rescue testing and measured navigation corrections (source)
 
