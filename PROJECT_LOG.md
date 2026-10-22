@@ -5,9 +5,9 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey21](#2026-10-22--journey21-playable-master). Earlier source/prepared entries below remain historical.
+**Current playable master:** [Journey22](#2026-10-22--journey22-playable-master). Earlier source/prepared entries below remain historical.
 
-**Contents:** [Current milestone](#2026-10-22--journey21-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-22--journey22-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
 ### Focused regional acceptance and small-fauna blocker resolution
@@ -15,6 +15,19 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 - The first real regional probe exposed a pre-existing spawn blocker: the54cm class-template capsule hit the floor before deferred25cm fox/18cm hare configuration. UE5.8's actual LevelActor implementation performs this template collision test first. The corrected preliminary capsule derives18cm half/8cm radius from the actual33-archetype catalogue; full creature placement/collision and DontSpawnIfColliding remain.
 - Editor build7 succeeds. The focused source retry passed normal director admission of the actual fox,102cm of physical movement while locally hidden228.88m from the camera, then the same actor/generation restored151.17m away at r.ViewDistanceScale2. Peak active danger actors3, within12. No enemy spawn, move or AI order was forced by the observer.
 - This is a NullRHI native movement/component-state check, not rendered pixels, remote replication, long-duration ecology or a new playable release. The original failed run is retained. Journey20, user campaigns and its launcher remain unchanged. Receipt: evidence/unreal/ash-march-campaign-journey-roam-probe-75bf9586e6/verification.json.
+
+## 2026-10-22 — Journey22 playable master
+
+### Released scope and precise acceptance
+
+- **Journey22 is the playable master:** `0.21.0-preview12-playtest22`, source `8051561d65be35b18160b1be0d1fe09e007ec8c4`, save schema35. Actual UAT built/cooked/staged/archived the executable; the exact cooked registry includes the retained Journey21 closure and both new Fighter icons. The launcher was backed up and promoted21→22. Existing allocations and campaigns were not reset; automatic migration from older package menus is not implied.
+- **Fighter Sure Strike** adds a real timed shield/dagger defense into an ordinary paid melee counter against the original attacker. Normal reach, stamina, wear, recovery and server damage authority remain. The opportunity is consumed by the next admitted swing; wrong target, miss, expiry or inventory/modal interruption cannot bank it. The authoritative2second timer publishes owner-ready zero. Economy of Motion remains the existing alternative stamina passive. This does **not** complete active abilities for all12 classes or add a general mainhand parry.
+- Actual source acceptance:136 rule/catalogue checks, three real Core owned/unowned/wrong-class fixtures with normal purchases and durable reopen/replay, one rendered owned control and two headless eligibility controls. Source Windows-loopback dedicated authority/owner/observer evidence covers ready privacy, same-Controller cancellation and timer expiry followed by baseline damage. The two original failed network receipts stay false; separate QPC-correlated reanalysis and a new expiry proof carry their stated scope. Asynchronous host/owner observations are not a negative-latency measurement. Native Rank2, listen-server, LAN, reconnect and latency/loss are not claimed.
+- After UAT, **one precise packaged owned/tree/counter run** and its actual image review passed, including seven committed ordinary melee receipts, wrong-target/expiry/miss/inventory cancellation and closed-save replay. Both new icons have actual cooked membership. Unchanged Journey21 frontend/campaign/rescue/healer/ecology evidence is carried through explicit compatibility review; those broad suites were not rerun or relabelled as new passes.
+- Two original painted Fighter fork icons retain1254×1254 source PNGs. Their recorded source-native platform result is156×156, distinct from the configured256 cap; source tree/HUD and exact cooked tree/counter screenshots were reviewed. This is not144 unique icons or all-resolution acceptance. Methods/tools: modular Unreal5.8 C++ over existing SQLite/server talent and combat authorities, bounded Core/native/network probes, UAT, cooked registry readback, exact hashes, preserved preimages/failures, serial native coordination and bounded agents. Built-in ImageGen created original paintings; official D&D art informed materials/silhouettes without importing reference art.
+- Backup retention Apply passed; current22 plus three previous releases are kept under the reviewed plan. Preserved bytes=886493316; removed bytes=4241623277. Saved campaigns/required diagnostics follow the verified preservation plan. The legacy terminal/package is not forcibly closed.
+- Existing limits remain: the Journey21 ordinary early Fighter survivor fight failed, so vampire fight-to-loot/balance remains open; Oren's visual review stays deferred. Next priority is a **bounded additive world-pacing pilot** with authored quest encounters protected, not a claim that more wilderness content has already shipped. Other class active skills remain subsequent work.
+- Local detail: `docs/ash-march-journey-playtest22.md`, `SKILL-TREES22-CHANGED-FILES.md`, the actual22 promotion/cooked/focused evidence and the scoped source compatibility reviews. Only PROJECT_LOG.md is published. Source, native assets, private saves, reference art and executable packages stay local.
 
 ## 2026-10-22 — Fighter skill-tree source acceptance
 
