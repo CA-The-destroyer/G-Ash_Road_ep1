@@ -10,6 +10,12 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-22--journey20-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+### Focused regional acceptance and small-fauna blocker resolution
+
+- The first real regional probe exposed a pre-existing spawn blocker: the54cm class-template capsule hit the floor before deferred25cm fox/18cm hare configuration. UE5.8's actual LevelActor implementation performs this template collision test first. The corrected preliminary capsule derives18cm half/8cm radius from the actual33-archetype catalogue; full creature placement/collision and DontSpawnIfColliding remain.
+- Editor build7 succeeds. The focused source retry passed normal director admission of the actual fox,102cm of physical movement while locally hidden228.88m from the camera, then the same actor/generation restored151.17m away at r.ViewDistanceScale2. Peak active danger actors3, within12. No enemy spawn, move or AI order was forced by the observer.
+- This is a NullRHI native movement/component-state check, not rendered pixels, remote replication, long-duration ecology or a new playable release. The original failed run is retained. Journey20, user campaigns and its launcher remain unchanged. Receipt: evidence/unreal/ash-march-campaign-journey-roam-probe-75bf9586e6/verification.json.
+
 ## 2026-10-22 — Pursuit, healer and regional wilderness source integration
 
 ### Integrated source; Journey20 remains the playable master
