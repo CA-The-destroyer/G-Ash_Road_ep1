@@ -1422,6 +1422,8 @@ This is the complete reachable local source history across all recorded branches
 | 2026-10-21T15:27:41-05:00 | `6e70cb175967546f3f91b774a47b2ccc79028b53` | Correct isolated Journey sign verification campaign namespace |
 | 2026-10-21T16:20:24-05:00 | `1ec7a65a32d47626b27cf37e9613c698810322e2` | Correct Journey19 sign readability and bounded cooked verification fixtures |
 | 2026-10-21T16:42:10-05:00 | `2f7eb3d8eba58478a801d46f86e6d7b598b1ccda` | Promote Journey19 archery and signs with scoped acceptance and retention |
+| 2026-10-21T16:43:23-05:00 | `76f35fd746112be3d0dea7c069585505f55393b6` | Record published source history through Journey19 milestone |
+| 2026-10-21T20:25:56-05:00 | `ecf5b79ecad8727bda5f08dd6a8827e80e55d1ba` | Fix first bandit rescue follow and civilian speaking targets |
 
 </details>
 
@@ -1440,3 +1442,18 @@ Local implementation commit: `41eeb42` on `work/outlaw-camps18`. Journey17 (`0.2
 Methods/tools: bounded parallel agent preparation with one integrating coordinator; existing C++/Blueprint-compatible Unreal architecture; installed Epic UE5.8 engine-source/API review; deterministic Python authoring; canonical Steam Blender for CPU animation preparation; serial UnrealBuildTool builds; actual Slate/InputKey routes and rendered source clients; MSVC CPU tests; SQLite online-backup private fixtures and closed-engine readback; SHA256 input/output fences, explicit rollback archives and focused changed-file inventories. Git staging was explicit; only this project log is authorized for GitHub publication.
 
 Detailed local evidence: `docs/playtest21-source-work.md`; full local source/tools/native changes, generated documentation/evidence/build outputs and backups: `SOURCE-WORK21-CHANGED-FILES.md` and its JSON ledger. Licensed assets, private fixtures, saves and build payloads are not uploaded with this log.
+
+
+## 21 October 2026 — first bandit rescue follow corrections (source, not a release)
+
+Journey19 remains the promoted playable master; this is scoped source progress toward the first Cries from the Woods rescue, not delivery of the full bandit directive or a Journey20 package. Schema35, user campaigns and the running Journey19 package remain unchanged.
+
+- Corrected Elin's absolute-world-goal argument to the existing delta-based navigation planner, the160–170cm waypoint stopping gap, and extraction guidance that could send her ahead of the rescuer and block the player. Waypoints now guide only behind actual rescuer progress. No teleport, collision waiver, health override or fabricated reward.
+-17 API/arrival checks and20 follow-policy regressions pass. Seven actual incremental Unreal Editor builds pass. Source preimages and failed native diagnostics remain inside the project Archive/evidence paths.
+- A fresh private native chain earned the Fighter's iron sword through normal Mara/Peltsmith dialogue, five live skeever kills, pickups and trade. Actual six-defender/two-archer combat passed with11 accepted swings, two consumed potions and five archer shots; clue, alarm and captive release used the normal interaction/permit paths.
+- First return attempt failed after46.41m; saved positions established the leading/stopping geometry. A fresh earned-checkpoint retry repeats ordinary combat and walks925.78m before the private straight-line player driver hits a real static mesh58m from home. Failed evidence stays failed. A collision-aware private continuation walks the remaining route from the actual saved pose, without actor placement or authority mutation.
+- Actual chest/eye traces identify Seren's own32cm capsule blocking her30cm speaking proxy. Enlarging only the query-only civilian proxy to34cm preserves solid collision, speaking distance and normal LOS checks. Actual normal F/authorized claim now grants20XP/75copper; native restart restores completed state and one living Seren/Elin each. This is a two-session source proof, not a cooked or multiplayer delivery. The evidence comparison separately inspects a2.169cm normal floor-settling change rather than silently treating pose bytes as quest state. Existing transactional reward authority is reused, not duplicated.
+- The strict source gate now passes38 pinned evidence files. A separate read-only comparison preserves the original failed wrapper; all authoritative reward/XP/wallet/encounter/identity state stays exact while normal physical settling is bounded to5cm. The original source database and retained WAL match all62 checkpoint tables without alteration. Candidate20 mastering, fresh full cooked rescue/restart and rendered camp/home/frontend checks are next; no20package or promotion is claimed.
+- Main-menu Music/Voice/Sound sliders and a25% relative music-default increase are recorded as backlog intake under the user's one-objective rule. No audio default or running package was changed.
+
+Methods/tools: bounded parallel source audits/prepared patches with one integrating coordinator; existing Unreal C++ movement, quest, loot and SQLite authorities; Python boundary regressions and read-only SQL; serial UnrealBuildTool/MSVC builds; opt-in NullRHI private native input fixtures; actual normal combat/RPCs; SHA256 checkpoints and explicit source archives. The verifier protects the exact observed packaged user process and stops only its own PID/start-time identity. Detailed evidence and remaining limits: docs/bandit-rescue20.md; focused changed-file inventory: BANDIT-RESCUE20-CHANGED-FILES.md/.json.
