@@ -9,6 +9,14 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Contents:** [Current milestone](#2026-10-21--journey19-playable-master) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-21 — Shorter exterior distance and regional mist (source)
+
+- User explicitly requested shorter view distance with fog to reduce VRAM pressure. Integrated Medium default, a render-only cap on existing standing-tree visuals (at most180m at Medium), and cheaper regional height mist. Exact allowlisting preserves authored collision, harvest identities, supports, AI/quests and World Partition loading. Existing saved quality choices remain authoritative; this user's19 preference was separately preserved and changed only to Medium.
+- Serial UE5.8.3 Editor builds and four actual fixed-camera comparisons pass their bounded source checks. First weak-mist candidate was visually held and strengthened; all failed/build/CSV evidence remains. Final four images personally reviewed. Draw-call medians fell17.7–29.4%, while actual local GPU-memory medians fell only2.6–6.3MiB. No large VRAM, universal FPS or crash-fix claim.
+- Methods/tools: installed engine sources and official Epic documentation, the recorded D&D Barovia gate reference for atmospheric layering, bounded review/measurement agents, coordinator-owned UBT/native captures, real CSV GPU counters matched to camera coordinates and hash-preserved preimages. Two temporary512m streaming sources make this an art diagnostic, not ordinary player residency or multiplayer acceptance.
+- Journey19 stays default; all76 promoted package payload files rehashed unchanged. Only its local Saved/Config view preference changed. New fog/tree limits are source-only until the next package. The bandit source proof remains historical against its old DLL; fresh candidate rescue/restart and approach checks are still required. No new package or campaign migration. Local details: `docs/distance-fog20.md`, `DISTANCE-FOG20-CHANGED-FILES.md`.
+
 ## 2026-10-21 — Journey19 playable master
 
 ### Delivered: archery and directional signs
@@ -1424,6 +1432,7 @@ This is the complete reachable local source history across all recorded branches
 | 2026-10-21T16:42:10-05:00 | `2f7eb3d8eba58478a801d46f86e6d7b598b1ccda` | Promote Journey19 archery and signs with scoped acceptance and retention |
 | 2026-10-21T16:43:23-05:00 | `76f35fd746112be3d0dea7c069585505f55393b6` | Record published source history through Journey19 milestone |
 | 2026-10-21T20:25:56-05:00 | `ecf5b79ecad8727bda5f08dd6a8827e80e55d1ba` | Fix first bandit rescue follow and civilian speaking targets |
+| 2026-10-21T20:26:40-05:00 | `e095caeb9624736e2142c41af0ecd5ccf1de3ff0` | Record verified bandit rescue source milestone in project log |
 
 </details>
 
