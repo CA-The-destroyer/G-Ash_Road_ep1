@@ -10,6 +10,20 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-23 — Journey30 integrated three-feature batch; packaged release pending
+
+Journey29/schema37 remains the promoted playable release. The user approved all three next improvements together. Three bounded agents prepared quest hubs, class progression and regional danger; the coordinator integrated actual source and one transactional schema40 migration. No new Content/maps or unrelated feature implementation was admitted.
+
+- Twelve source-bound jobs across Hester, Tobin, Sabeth, Torren, Edda and the Stone Rill herbalist: lawful supply/craft orders plus server-qualified wolf kills and actual road-anchor visits, journal guidance, participant receipts and atomic replay-safe rewards. Five match the separate64 authored library, seven are supplementary; this is not all64 quests complete.
+- Seventy-two appended skill enhancements across all12 classes,216 total nodes. Actual learned-action choices at11/13,14/16,18/20 modify existing consumers. Original144 definitions/purchases remain a prefix,19-point budget through20, no free reset or promise of21–50 abilities.
+- One aimed-hostile worded danger card, actual saved relative level, elite/boss cues, fixed regional tiers. Eight existing deep crypt rooms receive authored11–20 stats only for future legitimate generations; roads, upper crypt and current saved generations retain their values. Repeatable higher-tier XP is available, but full campaign pacing is untuned.
+
+Focused headless validation uses one final MSVC Core40 object plus separate narrow mains:1,550 class checks,39 quest checks,40 encounter checks,534 policy cases and9 migration service checks passed. An actual retained schema39 fixture was backed up read-only;70 tables/129 typed original rows survive composed40 with only the exact known catalogue hash updated. SQLite integrity and foreign keys pass. Original player saves were untouched. Full linked Unreal Editor build is running; Game UAT/cook/stage/archive, exact cooked closure and precise packaged startup remain pending. No automated Editor gameplay or repeated broad replay is planned under the user's standing direction; native/UI/network and balance are owner checks.
+
+Methods/tools: bounded parallel agents with owned prepared patches, reviewed SHA256 preimages and narrow integration, existing C++/Blueprint adapters, data-driven progression/catalogues, SQLite transactions and persistent event receipts, Python readback, MSVC focused compile, Unreal5.8.3 UBT/UAT, NullRHI verification and immutable release manifests. Existing art/icons/frame are reused, with the staged official Denman Rooke Barbarian reference consulted by the class agent. No licensed assets, saves or build payload are published here.
+
+Source evidence: `evidence/unreal/journey30-integration/`; focused fixture `tools/prepared/class-progression30/proof/build-e92ba5cf11/verification.json`. Working delivery/card: `docs/journey-playtest30-delivery.md`, `docs/playtest30-card.md`. Original Journey29 package remains immutable. Mara's redundant tunic and empty-corpse cleanup stay backlog.
+
 ## 2026-10-23 — Journey29 retained; progression30 source integrated; packaged release pending
 
 - **Playable remains Journey29/schema37.** No progression30 package or new native gameplay acceptance is claimed. Its immutable payload and existing player saves remain unchanged.
