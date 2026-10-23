@@ -10,6 +10,55 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-23 — Journey32 backlog batch: source and Core checks; packaged release pending
+
+User explicitly asked to pick up and clear more backlog after Journey31.
+Journey31/schema40 remains the promoted playable package while32 is built.
+Integrated source adds the shared crafting split (12general/26equipment/1cooking/
+2alchemy), equipment anvils at three existing registered sites, separate work/
+cook/armoring cues, equipped basic backpack1% aggregate carried weight, approved
+human player injury gain+7.5%, Mara welcome with no redundant tunic grant, and
+180second empty-body cleanup with persistent tombstones and quest/looting guards.
+Fresh survivor vampire profile3 uses4/4/4 solo waves with4second overlapping
+releases; saved profiles0/1/2 and completed encounters keep their original rows.
+
+Actual Core checks pass:1300carry/audio,41corpse,39craft,12class openings and
+72low-tier recovery cases,440vampire cases, plus actual schema40-to41 readback
+preserving71old tables/1308typed rows. One successful Core compilation is reused.
+Retained fixture failures were repaired without inventing gameplay success.
+Schema41 adds the corpse lifecycle table and transactional triggers; existing
+quest/inventory/economy/reward IDs and saved items remain authoritative.
+
+Four native assets imported: complete supplied anvil/timber-base section and
+three supplied CC0 mono cues. Actual imported anvil extents37.573/41.620/42.330cm,
+owned physical collision and source-forge preservation passed. The failed unsaved
+first import caught an FBX unit multiplier; corrected import-a02 passed. Root
+viewed the CPU Blender material preview; no Unreal rendered placement/audio
+quality acceptance is claimed. Full decomposition materials remain an art gap;
+cleanup uses a decaying-remains interaction cue then authoritative removal.
+
+To avoid compiling the gameplay code twice, root cancelled its standalone
+248-action Editor attempt after48 completed compilations. It is not a passed
+build. All62 reflected Unreal declaration headers retain exact promoted31 bytes;
+new helpers are plain C++. Final GameUAT full compilation/build/cook/stage/archive
+is now the mandatory native gate. Existing linked31Editor imported the assets;
+four exact new roots plus the original anvil material are explicitly cooked.
+Final package/startup/promotion are pending, not inferred from source checks.
+
+Methods: three bounded parallel implementation agents, one integrating/native-job
+coordinator, modular UnrealC++, shared Core/SQLite transactions, MSVC focused
+checks with reused object, Python typed migration/hash manifests, PowerShell/CIM
+owned-process checks, Steam Blender asset extraction/CPU preview, and UE5.8.3
+NullRHI import/UAT. Original Tagham and immutable releases are preserved. Subjective
+sound/placement, remote replication, full decay art and vampire arrival/balance
+remain owner acceptance or named gaps. No broad unchanged campaign replay.
+
+Evidence: `evidence/unreal/journey32-integration/core-a06/verification.json`,
+`migration41.json`, `source-review32.json`, actual native import
+`evidence/unreal/crafting32/import-a02.json`, reviewed freeze
+`evidence/unreal/journey32-integration/runtime-freeze32.json`. Only the project
+log is published; assets, packages and saved campaigns are not uploaded.
+
 ## 2026-10-23 — Journey31 vampire running speed
 
 **Journey31/schema40 is promoted.** The normal launcher selects
