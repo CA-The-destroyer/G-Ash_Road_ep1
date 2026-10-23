@@ -5,10 +5,59 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey31](#2026-10-23--journey31-vampire-running-speed). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey32](#2026-10-23--journey32-crafting-carrying-and-corpse-cleanup). Earlier failure/promotion records remain historical.
 
 **Contents:** [Current milestone](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-23 — Journey32 crafting, carrying and corpse cleanup
+
+Journey32 / schema 41 is promoted through the normal continuous-session launcher.
+This integrated backlog batch delivers all 41 recipes through shared station
+categories, anvil/stump equipment assemblies at three existing sites, distinct
+work/cooking/armoring cues, equipped basic backpack 1% aggregate weight reduction,
+approved human injury playback +7.5%, Mara without an unnecessary tunic grant,
+and persisted 180-second empty-loot corpse cleanup with quest/open-loot guards.
+Fresh survivor profiles have 4/4/4 solo waves released 4 seconds apart. Existing
+saved rosters, completed encounters and earned rewards remain unchanged.
+
+Actual composed Core checks pass: 1,300 carry/audio, 41 corpse lifecycle, 39 crafting,
+12 class openings / 72 recovery outcomes and 440 vampire cases. Actual 40→41 migration
+preserves 71 old tables and 1,308 typed rows. Four exact crafting assets imported;
+the failed unsaved scale attempt and corrected import remain recorded. Root
+reviewed the CPU Blender anvil preview. Subjective sound and rendered placement
+acceptance remain with the owner.
+
+Full Game compilation passes all 247 actions. UAT build/cook/stage/archive passes,
+with 89 immutable package files and 2,562 required cooked roots verified. Actual
+private packaged startup opens schema 41 / Solo / tamriel and logs the camp anvil's
+physical readiness. The owned probe was stopped; no original campaign opened.
+The cancelled standalone Editor attempt is not called a pass. Existing reflected
+headers and character-body assets remain at31. No broad unchanged replay occurred.
+
+The initial promotion validation caught a tooling classification issue: the
+reviewed Blender PNG was evidence, not a runtime file-map entry. The acceptance
+builder was narrowly corrected; its frozen proof/receipt/current hash remains
+mandatory and the unmodified promoter hashes the evidence. Prior records and
+tool preimages remain. No binary/asset edit, recook or gameplay rerun was needed.
+
+Retention keeps32/31/30/29. Exactly85 reviewed28 payload leaves (5,255,245,850 gross bytes)
+were retired after preserving20 saved/diagnostic leaves in place and verified
+Archive copies plus matching crash binaries/symbols. Original Tagham and the
+legacy0.2.0 terminal remain untouched. Full decomposition materials, floating
+corpse/ragdoll fixes, wider character art, remote multiplayer and owner-visible
+vampire arrival balance remain open; this release does not close those bugs.
+
+User asked for larger batches and to continue. The next coherent work item is
+Living Wilderness33: wildlife/gait, ordinary road ecology/roaming night threats,
+hidden ambushes and early living camps. Three lanes have inspected existing
+systems; no33 runtime implementation is claimed in this release milestone.
+Hunyuan stays running as requested.
+
+Details: [delivery](docs/journey-playtest32-delivery.md),
+[promotion](evidence/unreal/journey32-integration/promotion.json),
+[actual UAT](evidence/unreal/ash-march-journey-package-4e9ce3561e/verification.json),
+[changed-file inventory](JOURNEY32-CHANGED-FILES.md).
 
 ## 2026-10-23 — Journey32 backlog batch: source and Core checks; packaged release pending
 
