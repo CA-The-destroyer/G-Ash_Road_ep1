@@ -10,6 +10,16 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-23 — Journey30 retained; vampire speed source increment; packaged release pending
+
+The owner reports slow, sparse solo vampire reinforcements. Triage confirms that the released fresh solo profile is3/2/2 and six seconds controls release eligibility, not contact. No available Journey30 Saved/client log was found in the bounded package search, so an old save, wrong build, dominant admission delay or exact owner arrival times are not established. The player-facing wave issue remains open.
+
+The owner explicitly directed vampires to run20% faster than humans. A narrow four-file source increment now derives vampire576cm/s from the existing human enemy run reference480cm/s. Both implemented vampire archetypes use it for approach and authoritative pursuit; player sprint, human bandit behavior, saved wave rosters/profiles, combat stats, rewards, cover and collision are unchanged. The existing authored run-sample validation stays480 through a separate constant, avoiding a false missing-asset/spawn rejection after the movement cap change. No asset or global attack-animation retiming is introduced.
+
+Actual full linked Editor compile passes seven incremental actions. This is integrated/built source for a subsequent package, not a new playable release; Journey30/schema40 remains default and immutable. No Game UAT/cook, GPU render, automated gameplay or campaign reset ran for this increment. Arrival feel, visible locomotion and the two-vampire reinforcement count remain owner-facing open items. The separately reported crafting audio/stations, basic-backpack1% reduction, larger fox and smoother animal running stay backlog.
+
+Methods: dedicated bounded Debug Triage, exact30freeze source comparison before integration, four reviewed preimages, shared C++ movement policy, existing asset compatibility check and coordinator-owned Unreal5.8.3 linked incremental compilation. No duplicate movement/save framework. See `docs/vampire-speed31.md`, `docs/debug-vampire-waves30.md`, `evidence/unreal/vampire-speed31/editor-build-a01.json` and `tools/prepared/vampire-speed31/CHANGED-FILES.md`. Only this project log is published; payloads, assets and saves remain local.
+
 ## 2026-10-23 — Journey30 quest hubs, class choices and regional danger
 
 Journey30/schema40 is promoted and is the normal launcher default. Actual full linked Editor a03 and final Game UAT pass;248 Game actions, all9 existing maps and87 immutable package files are recorded. Exact cooked-root closure has no missing packages. One fresh private NullRHI packaged startup opens a schema40 campaign, Solo session and ready world area. The probe alone was stopped. The87-file ledger was rehashed before an archived, atomic29→30 launcher promotion. Journey29 remains immutable.
