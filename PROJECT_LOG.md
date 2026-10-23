@@ -5,10 +5,21 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey27](#2026-10-23--journey27-useful-loot-and-illustrated-locks). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey28](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio). Earlier failure/promotion records remain historical.
 
 **Contents:** [Current milestone](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-23 — Journey29 source batch; packaged release pending
+
+- **Playable remains Journey28/schema37.** Journey29 is integrated source and imported content; no new cooked package or promotion is claimed.
+- **Integrated:** finite survivor vampire-wave pacing and sex-aware voice routing, title-save schema32–37 recognition, the existing two-heals/rolling30-second budget shared by healing food and health potions, wider living-wilderness admission and bandit aggression, living-only AI census preserving lootable corpses, and twelve deterministic WoodShrew nest candidates with three finite waves and persistent completion. Original quest/item/save identities and existing damage/reward/loot authorities remain in use.
+- **Actual road admission:** one ordinary headless walk on a private copied campaign completes with31 samples,19 with forward line of sight and up to11 living creatures within200m. New wildlife, independent night-patrol and outlaw IDs are observed at the preserved saved clock18.70–18.87. No teleport, forced spawn or immunity is used. This is not rendered density or all-world coverage. Native nest placement/emergence and owner gameplay balance remain pending.
+- **Art rejection:**41 supplied-thrall native packages and nine clips imported, but personally reviewed native idle/run/attack poses lie sideways and intersect the floor. Exact import/animation/fixture cause is unresolved. All41 files and failed evidence are preserved in Archive, and the previous body is restored. The missing animated male model remains a gap. This stops the asset repair loop and does not claim finished vampire art. Deferral: `evidence/unreal/vampire29-integration/model-deferral.json`.
+- **Build:** a03 Editor compilation passes after six narrow source fixes and release of the exact owned failed-preview DLL lock. Faileda01/a02 evidence is preserved. Only the recorded model restoration follows that build; all other compiled inputs and road logic retain their bytes. Final game UAT compilation is pending. Source equivalence: `evidence/unreal/vampire29-integration/source-equivalence-after-model-deferral.json`. Unchanged broad playthroughs are reused, not counted as fresh passes. NPC pickpocketing remains deferred.
+- **Next-phase quest request:** the supplied meaningful-progression/64-minor-quest specification is preserved.64 disabled quest definitions and prepared level1–50/quest transaction candidates exist outside active runtime. No new quest, level50 framework, localized standing or cooldown implementation is claimed installed. Original characters retain their current progression. These follow the active wilderness batch.
+
+Methods/tools: existing Unreal5.8 C++/SQLite server authorities, bounded parallel preparation with one integrating coordinator, canonical Steam Blender CPU source-art audits, serial native import/readback, MSVC transaction/policy checks, UnrealBuildTool, stable source identities, exact hash-bound integration receipts and preserved preimages. Only PROJECT_LOG.md is published; source, assets, recordings, campaigns and builds remain local.
 
 ## 2026-10-23 — Journey28 universal loot and approved human injury audio
 
