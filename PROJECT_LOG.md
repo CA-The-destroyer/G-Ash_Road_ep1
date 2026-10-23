@@ -5,10 +5,30 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey29](#2026-10-23--journey29-living-wilderness-and-finite-encounters). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey30](#2026-10-23--journey30-quest-hubs-class-choices-and-regional-danger). Earlier failure/promotion records remain historical.
 
 **Contents:** [Current milestone](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-23 — Journey30 quest hubs, class choices and regional danger
+
+Journey30/schema40 is promoted and is the normal launcher default. Actual full linked Editor a03 and final Game UAT pass;248 Game actions, all9 existing maps and87 immutable package files are recorded. Exact cooked-root closure has no missing packages. One fresh private NullRHI packaged startup opens a schema40 campaign, Solo session and ready world area. The probe alone was stopped. The87-file ledger was rehashed before an archived, atomic29→30 launcher promotion. Journey29 remains immutable.
+
+Delivered together under the approved three-feature objective:
+
+1. Twelve source-bound local jobs at six existing Harrowford/Stone Rill residents. Supply/craft chains, qualified wolf kills and actual road-anchor visits use shared inventory, accepted participants, journal return guidance, persistent event receipts and idempotent rewards. Five requested-library definitions are bound plus seven supplementary jobs; the remaining59 requested library definitions are not complete.
+2. Seventy-two appended signature enhancements across all12 classes,216 nodes total. Original144 definitions and purchase history remain. Exclusive choices/ranks at11/13,14/16,18/20 affect actual action consumers, with19 points through20. These enhance existing earned actions; they are not72 newly animated spells or complete21–50 progression.
+3. One aimed-hostile worded danger card with actual relative level and separate elite/boss cues. Eight existing deep crypt rooms receive fixed future-generation tiers11–20 with real authored stats/hitdice/XP. Roads, upper crypt, original identities, existing generations/deaths/rewards and normal reset clocks remain. Repeatable high-tier earning exists; full campaign pace and party balance are untuned.
+
+Focused validation reused one final Core40 object:1,550 class action/purchase checks,39 quest checks,40 generation cases,534 policy cases and9 migration service checks pass. A read-only copy of actual schema39 preserves70 tables/129 typed old rows through composed40, except the exact known catalogue hash; integrity and foreign keys pass. A focused craft-order check confirms old crafts, inventory alone and replay cannot fabricate new craft credit, with actual delivery/reward replay verified. Original player campaigns were not reset or used as migration fixtures.
+
+Failures remain inspectable: the first native attempt exposed Unreal5.8 GetPawn pointer deduction; the next exposed UHT parameter shadowing. Narrow adapter/reflection corrections and the independently found nine-purchase resource-stat guard are integrated. The craft fixture initially lacked a trusted presence provider and was corrected without production edits. A scope evidence-path typo was corrected before freeze; no extra cook/replay was performed for metadata. No automated Editor gameplay or repeated broad packaged playthrough ran, as directed. Rendered UI/input, actual NPC offers/navigation, remote multiplayer and subjective balance remain owner checks, not inferred from UAT.
+
+Retention keeps30/29/28/27. Exactly83 reviewed26 payload leaves were deleted,5,138,142,083bytes freed; no26 nonpayload saves/diagnostics existed. Original24 Tagham's hash remains23bf5e0ea2d7ec9f690a130d7fccd19847296ffbb4b6887ea10657a4c17123d8, and legacy0.2.0 is untouched. A cleanup guard first matched the coordinator's own review command and stopped without deletion; standalone Apply of the same hash-reviewed plan succeeded.
+
+Methods/tools: three bounded preparing agents plus one integrating/build owner; reviewed patch hashes/preimages, shared C++/Blueprint adapters and generated data catalogues, SQLite transactions and persistent server event receipts, Python typed readback, MSVC focused compilation, Unreal5.8.3 UBT/UAT, NullRHI startup, cooked AssetRegistry closure and immutable SHA256 ledgers. Existing icons/art/maps are reused, with the class agent's staged official Denman Rooke Barbarian reference. Only this project log is published to GitHub; licensed assets, saves and payload remain local.
+
+Release evidence: `evidence/unreal/journey30-integration/promotion.json`, UAT `evidence/unreal/ash-march-journey-package-ddf3a88aef/verification.json`, closure `evidence/unreal/journey30-cooked-roots/cooked-roots.json`, startup `evidence/unreal/journey30-startup-ecf7172be9/verification.json`, retention `Archive/journey26-payload-retired30-20261023T2119058676670Z/result.json`. Freeze SHA f0e291f2764ab3caede5d5b37d8b800372ef044fc11d020fa1a826321e61c3db;87-file ledger SHA3485fe7737cd4664b941e3cd56860d97443dba1a1aafb2a3aa508a0783511ad6. See `docs/journey-playtest30-delivery.md`, `docs/playtest30-card.md` and `JOURNEY30-CHANGED-FILES.md`. Mara's redundant tunic, corpse cleanup and other new suggestions remain backlog.
 
 ## 2026-10-23 — Journey30 integrated three-feature batch; packaged release pending
 
