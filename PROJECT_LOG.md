@@ -5,10 +5,56 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey30](#2026-10-23--journey30-quest-hubs-class-choices-and-regional-danger). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey31](#2026-10-23--journey31-vampire-running-speed). Earlier failure/promotion records remain historical.
 
 **Contents:** [Current milestone](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-23 — Journey31 vampire running speed
+
+**Journey31/schema40 is promoted.** The normal launcher selects
+`0.21.0-preview12-playtest31`. This is a bounded speed increment over30, not
+completion of the reported vampire-wave issue. Both survivor vampire archetypes
+run576cm/s on approach and server pursuit,20% above the unchanged human enemy
+480cm/s reference. Player sprint remains760cm/s. The authored run blendspace
+sample/validator remains480; no global animation-rate change.
+
+Exactly four runtime movement/policy files plus ProjectVersion differ from30.
+Core/schema40, nine maps, native Content, wave counts/timestamps, spawn-cover
+rules, AI capacity, HP/XP, loot and rewards are unchanged. Fresh solo waves remain
+3/2/2. Wave admission/counts and owner-visible arrival/gait acceptance remain open.
+Crafting/anvil sounds and stations, backpack1%, fox scale/gait and human sound
+volume remain backlog; this release does not silently include them.
+
+Actual verification: initial full linked Editor a01 seven actions; final-config
+a03 up-to-date with complete Source/Config pins. A freeze attempt caught missing
+inl input records in a02, retained it, and corrected evidence coverage without
+changing game code. Actual Game UAT built six actions, cooked/staged/archived all
+nine maps in246seconds. All88 immutable package files, freeze-before/after,
+exact cooked closure and final private NullRHI packaged startup passed. Startup
+opened a schema40 campaign, Solo session and tamriel area, then stopped only its
+owned probe. No user campaign was opened/reset; original Tagham hash unchanged.
+
+Unchanged30 Core/asset proof was reused per the user's focused testing direction.
+No broad campaign/rescue replay, rendered gameplay, audio audibility, remote
+multiplayer or solo/party balance pass is claimed. Methods/tools: modular Unreal
+C++, UE5.8.3 Build.bat/RunUAT BuildCookRun, PowerShell/CIM process ownership,
+Python hash-bound source/package manifests, cooked AssetRegistry dump, NullRHI
+startup and independent bounded release/retention agents with one coordinator.
+
+Retention completed: keep31/30/29/28. Retired84 exact27 payload leaves,
+5,146,946,752bytes gross. All20 nonpayload saved/diagnostic leaves remain in place
+and were hash-copied to Archive with matching crash binaries/symbols. Original24
+Tagham and legacy0.2.0 preserved. Only this log is published to GitHub; no assets,
+packages, saves or credentials are uploaded.
+
+Evidence: `evidence/unreal/vampire-speed31/promotion.json`, actual UAT
+`ash-march-journey-package-fb3717b954/verification.json`,
+`journey31-cooked-roots/cooked-roots.json`,
+`journey31-startup-faa27e2ac4/verification.json`, and
+`Archive/journey27-payload-retired31-20261023T2152047851239Z/result.json`.
+Delivery: `docs/vampire-speed31.md`; complete changed files/packages/archives:
+`JOURNEY31-CHANGED-FILES.md` and `.json`.
 
 ## 2026-10-23 — Journey30 retained; vampire speed source increment; packaged release pending
 
