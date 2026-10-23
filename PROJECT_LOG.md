@@ -5,10 +5,18 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey26](#2026-10-22--journey26-earned-class-abilities). Earlier source/prepared entries below remain historical.
+**Current playable master:** Journey24 temporarily, after an inherited25/26 startup defect was confirmed. Corrected27 is rebuilding; see [current blocker and work](#2026-10-23--journey27-startup-blocker-and-corrected-candidate). Earlier milestone records remain historical.
 
-**Contents:** [Current milestone](#2026-10-22--journey26-earned-class-abilities) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-23--journey27-startup-blocker-and-corrected-candidate) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-23 — Journey27 startup blocker and corrected candidate
+
+- **Status correction:** first27 UAT `1061d7b7fd` successfully built/cooked/staged/archived and its registry closure passed. Actual source and cooked launch then failed before gameplay with `Incomplete woodland population18 binding`. Earlier attribution to uncooked World Partition was wrong. The inherited25/26 four-bandit ambush has a valid three-point staged/intercept/staged primary route; the blanket validator incorrectly required five points. Prior25/26 promotion records remain historical, not proof those packages start.
+- **Safe default:** launcher temporarily selects Journey24, the last actual startup/walk-verified package. Rejected unpromoted27 is preserved under `Archive/rejected-playtest27-startup-a01`; original freeze/UAT/failure receipts remain. No original player campaign was opened or reset.
+- **Narrow repair:** two source files accept at least3 primary points only for ambushes; ordinary habitats still require5. Counts, rosters, individual approaches, stable IDs and all69 actual rows remain unchanged. A compiled MSVC check using all actual data passed588 assertions, reproduced exactly one old-rule rejection and rejects invalid mutations. Actual Editor a03 compiled/linked6 actions successfully.
+- **27 delivery scope:** six audited smith-shop props gain useful canonical loot; saved stolen provenance and actual NPC witness checks; Venn buys stolen goods with a finite purse; three original layered lock textures and richer mouse/keyboard interface retain existing server lock/key/DEX authority. This is a bounded loot pilot, not universal set-dressing conversion, guard arrest/combat or NPC pickpocketing. Pickpocket28 remains prepared outside active source. No maps or unrelated Content changes.
+- **Current verification:** fresh `runtime-freeze27-a02.json` covers35 runtime/config paths and3 UI assets. Corrected UAT is running. Actual six-prop/fence/observer and rendered lock/input/one-saved-attempt checks, cooked closure and promotion remain pending; no broad unchanged world/rescue/class replay is required. See `docs/journey-playtest27-delivery.md` and `evidence/unreal/theft-lock27-integration/startup-rollback.json`.
 
 ## 2026-10-22 — Journey26 earned class abilities
 
