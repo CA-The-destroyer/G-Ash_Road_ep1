@@ -10,6 +10,65 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-24 — Journey35 native hunting/grave quest and three-ghoul checks pass; UAT running
+
+Journey34 remains the promoted playable. Journey35 is frozen in development;
+actual Game UAT build/cook/package is running and no accepted35 release is
+claimed. This update records functional integrated content and its limits.
+
+- Fifteen personal hunting contracts use cumulative10/30/70 milestones and
+  once-only increasing rewards. Five journal chapters organize main quests,
+  side quests, bandit missions, hunts and message history. Existing authorities
+  and saves remain in use; missing fauna are not invented.
+- The actual burial copse, off-route cart and low canvas register cache are
+  saved in33 unique owned Content packages. Original actors, six camp defender
+  positions, prisoner/alarm/ledger/extraction reservations and source art remain.
+  Seven owned collision-mesh copies support the new fixtures. Real table/book
+  contact and normal loose-object collection pass.
+- Solo headless native RPCs accept a hunt, accept Sabeth's Grave Robbers request,
+  follow all three clues, collect the actual0.8kg sealed register, record the
+  optional keeper warning, return the actual item and receive28XP/90copper plus
+  the configured sword reward. Fresh process restart preserves completion,
+  hunting acceptance, exact money/XP and the original-book tombstone.
+- Two concrete integration defects were fixed: unloaded distant Sabeth now uses
+  her existing saved role-loss state, while nearby dialogue/reward still needs
+  the actual living actor/token/range/LOS; the register spawn checks actual book
+  bounds instead of rejecting the table against a generic constructor cube.
+- The burial habitat independently spawns three ghouls through the normal
+  director at prewarm distance. Actual movement/contact damages the player;
+  the verifier's labelled server Hurt fixture then records all three deaths.
+  Fresh restart preserves dead mask7. No enemy teleport, stat override or
+  global spawn-protection relaxation was used.
+- Core64 Grave cases/eight Rusk scenarios match all133 final Core inputs.
+  Retained4,634 hunting checks cover unchanged hunting bodies/hooks, with17
+  integrated checks and typed42-to43 migration. Journal172+350 assertions pass.
+  Final linked Editor a19 passes. Failed native/build/author checks remain.
+- Freeze35 pins785 source/config inputs,42 changed source/config paths and33
+  reviewed native packages against actual promoted34. UAT is the next gate;
+  afterward only precise packaged startup/cooked-site checks are planned.
+
+Methods/tools: Unreal5.8.3 C++/reflected classes, existing server-authoritative
+CampaignService and SQLite transactions, Python authoring through Unreal Editor,
+owned collision copies, private headless NullRHI native RPC/physics fixtures,
+MSVC/Unreal Build Tool/UAT, exact hash/input ledgers and fresh-process restoration.
+Official Ravenloft artwork and the existing original Ash Road direction guided
+the burial scenery. No unrelated game system or save authority was rebuilt.
+
+Limits: player approach/tutorial advancement and initial encounter-roll setup
+are explicit fixtures. No rendered UI/site-art approval, sound listening,
+ordinary route travel, full patrol cycle, ordinary player-attack acceptance or
+multiplayer gameplay is claimed. Vampire/werewolf70-kill renewable coverage is
+still limited. The other catalogue quest scenes are not delivered by this batch.
+The newest three reviewed routine rollback copies per burial/cache family are
+retained; only exact hash-verified redundant older copies were retired. Original
+campaigns, failed diagnostics and all release payloads remain protected.
+
+Evidence: `evidence/unreal/quest-content35-integration/native-quest-a10/verification.json`,
+`ghoul-live-a02/verification.json`, `editor-build-a19.json`,
+`composed-core35-a01.json`, `composed-native35-a01.json` and
+`runtime-freeze35-a01.json`. Detailed current source/release limits remain in
+`docs/quest-content35-progress.md` and `CURRENT_WORK.md`.
+
 ## 2026-10-24 — Journey35 burial-ghoul site integrated; release pending
 
 Journey34 remains the current playable master. Journey35 is development work,
