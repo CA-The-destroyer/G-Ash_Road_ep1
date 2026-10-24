@@ -5,10 +5,28 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey35](#2026-10-24--journey35-hunting-grave-robbers-and-burial-ghouls). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey36](#2026-10-24--journey36-discovery-map-and-compass). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-24--journey35-hunting-grave-robbers-and-burial-ghouls) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-24--journey36-discovery-map-and-compass) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-24 — Journey36: discovery map and compass
+
+**Journey36 is playable through the normal Journey launcher**, build `0.21.0-preview12-playtest36`, additive save schema44.
+
+- Registered camp and configured landmark discoveries now add saved personal map icons:19 registered camps plus eight configured landmarks. Sites reveal through actual server proximity, and discovery does not unlock quest-earned fast travel.
+- M opens a4.5km view around the outdoor player. Wheel/+/- zoom, arrow keys pan and Home recenters. Click a known site or chart point to pin a named/custom compass destination; right click clears it. The compass gives direction and direct distance. Pins are session-local; discovered places persist per character.
+- Local pin/unpin ticks use distinct pitch/gain; new discoveries have a quiet chime. Fresh committed discovery alone sends the owning-client cue; reopening or restoring saved discovery is silent. Existing cooked audio and chart/frame art are reused.
+
+Actual UAT build/cook/stage/archive,93 immutable package leaves, all2574 required cooked roots, final linked Editor a03 and1,124 compiled Core checks pass. The exact packaged InputKey/mouse selection, pan/zoom/Home, compass, audio-event and two-process save/restart/no-replay check passes. Normal start saw the real27-entry catalogue and discovered its current camp; this does not claim27 manual location visits. The corrected map screenshot was personally reviewed. An initial replication-macro compile error, incorrectly named private fixture and too-tight first map capture were corrected; all failed evidence remains.
+
+The corrected incremental BuildCookRun passed in256.24seconds. Earlier complete candidate UAT also passed, but its presentation was rejected. Existing Journey35 hunting/Grave Robbers and other unchanged gameplay proof is reused; no broad packaged quest/combat replay was repeated. Multiplayer rendered playtesting and subjective sound listening remain owner acceptance. The existing raster chart still has printed labels; no new cartographic art, fog of war or route finding is claimed.
+
+Methods/tools: inspected and extended the existing calibrated Unreal canvas map, server-authoritative campaign SQLite transactions and owner-only controller components; consulted Epic UE5.8 replication references. Used C++/MSVC, focused CMake checks, deterministic input probes, actual UE5.8.3 UAT/NullRHI cooking, native AssetRegistry closure and one rendered client at a time. Precise source/config/content-provenance freezes and complete package ledgers bind the delivery. No licensed assets, source, saves, credentials or package payloads are published with this log.
+
+Retention keeps36/35/34/33. Reviewed32 retirement removed89 immutable payload leaves /5,258,048,123gross bytes, with no32 saved/crash state present. The superseded unpromoted candidate's93 payload leaves /5,289,568,294gross bytes were retired after corrected36 promotion; matching failed-run executable/PDB, captures and logs remain protected. The original24 campaign is unchanged. No user/Hunyuan process was stopped. Incoming weapon-art reports remain record-only backlog.
+
+Local evidence: `docs/journey-playtest36-delivery.md`, `evidence/unreal/map-discovery36/promotion.json`, `rendered-a03/verification.json`, `cooked-a02/cooked-roots.json`, and `JOURNEY36-CHANGED-FILES.md`.
 
 ## 2026-10-24 — Journey35: hunting, Grave Robbers and burial ghouls
 
