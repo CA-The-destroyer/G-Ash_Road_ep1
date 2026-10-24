@@ -5,10 +5,51 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey32](#2026-10-23--journey32-crafting-carrying-and-corpse-cleanup). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey33](#2026-10-23--journey33-living-wilderness). Earlier failure/promotion records remain historical.
 
 **Contents:** [Current milestone](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-23 — Journey33 living wilderness
+
+Journey33/schema41 is promoted through the normal continuous-session launcher.
+The larger Living Wilderness batch integrates genuine speed-matched fox/deer
+walking with the retained flight runs, about12% taller foxes, fairer existing
+ordinary/night category scheduling under the12living cap, strictly hidden215m
+idle regional turnover and early supported camp scenery/binding/routine fixes.
+Two watches and real walk/rest schedules reuse existing actors and approved
+access corridors; fitted art remains one camp, with18 other surveyed sites generic.
+No new species, fake work/lute/banter or complete social simulation is claimed.
+
+Methods/tools: three bounded worker lanes with coordinator integration; C++ with
+MSVC, Python3.11, PowerShell, Blender5.2.3 and Unreal5.8.3. Supplied animation
+inspection and stance-travel measurement informed compatible skeletal imports
+and native bone checks. Focused portable policy/source checks, composed
+source/reflection review, final Game UAT and cooked-registry closure bind the
+actual artifact. Read-only SQLite backup supplies isolated hour-only test copies;
+NullRHI normal-input runs observe the native world. The90-file package includes
+2564 required roots; actual private
+schema41/Solo/tamriel startup passed without opening original campaigns. Two
+normal-input known-route runs used fresh private copies at actual clocks12 and21.
+day: 31 samples, max 8 living actors≤200m, 12 forward-LOS samples; night: 31 samples, max 11 living actors≤200m, 24 forward-LOS samples. Actual night IDs: wild29-night-road-05, wild29-night-road-06, wild29-night-road-07.
+
+These are two actual passes of the same known ordinary route using fresh private copies at clocks12 and21, NullRHI/no sound. Counts are native component/distance and forward-LOS proxies, not rendered pixel density, unique population totals or all-world coverage. Northern route windows remain source-bound. The two runs observed 0 natural turnover events; this does not establish execution of an unobserved branch. Rendered fox/deer gait and foot contact, subjective scale, two nonzero camp patrol legs/displacement, combat interruption, sound and remote multiplayer remain owner acceptance.
+
+The failed typed-pawn/local-mesh compile attempts and preimages remain retained;
+the corrected final Game build passed. UAT's existing Zen retry recovered a
+normal cook-sponsor shutdown during stage handoff; the original cook/archive
+succeeded without recooking. No33 standaloneEditor pass is claimed. Existing
+maps, meshes/skeletons/run clips, reflected/native layout headers and schema41
+authorities remain at32; the character-model overhaul is deferred.
+
+Keep33/32/31/30. Exactly 86 reviewed29 payload leaves (5,255,943,532 gross bytes) were retired; all 31 actual nonpayload saved/diagnostic leaves remain in place, with 67 verified Archive copies including required matching crash binaries/symbols. Gross deleted bytes are not net reclaimed space. Original Tagham and legacy0.2.0 remain protected; Hunyuan was not stopped.
+
+Floating corpse poses, cape/armor presentation and DBG040 remain open. No broad
+unchanged campaign replay was repeated. Details:
+[delivery](docs/journey-playtest33-delivery.md),
+[promotion](evidence/unreal/living-wilderness33-integration/promotion.json),
+[ordinary day/night observations](evidence/unreal/ordinary33-e5eedf13f6/verification.json),
+[changed-file inventory](JOURNEY33-CHANGED-FILES.md).
 
 ## 2026-10-23 — Journey32 crafting, carrying and corpse cleanup
 
