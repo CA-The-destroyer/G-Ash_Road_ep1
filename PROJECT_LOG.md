@@ -5,10 +5,53 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey33](#2026-10-23--journey33-living-wilderness). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey34](#2026-10-23--journey34-quests-and-tactical-camps). Earlier failure/promotion records remain historical.
 
 **Contents:** [Current milestone](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-23 — Journey34 quests and tactical camps
+
+Journey34/schema42 is promoted through the normal continuous-session launcher.
+The larger three-lane batch adds one fully bound Rusk bounty using indexed real
+death/book evidence and once-only reward authority; Elin's original rescue
+retains its sole payer. Together these are2 native quest scenes of16, with14
+not delivered. Six eligible Human camp types receive future-uncommitted
+mender/ember slots4/5,48 persisted mana and bounded4-heal/6-offense resources.
+Existing saved generations, Human/Goblin separation and the AI budget remain.
+The owner-only typed journal derives every supported current quest family,
+retains Message History and adds session-local selection/known-target guidance.
+
+Methods/tools: bounded parallel worker lanes with coordinator integration;
+C++/MSVC, Unreal Engine5.8.3, SQLite backup/typed-schema comparison, Python and
+PowerShell. Existing art/animation/UI was reused. Focused real SQLite authority
+tests and portable projection/policy tests cover8 bounty scenarios,23 caster
+resource checks,57 caster policy/95 source contracts and journal172 CPU/34
+contracts. Private41→42 preserves72 tables/1308 typed rows/164 schema objects
+and adds eight empty graph tables plus the exact shared event index.
+Original Editor a01: 259 actions/3 UHT-generated files, 1783.44s UBT (1784.00s runner). Final Editor a02: 4 incremental actions/0 new UHT files, 27.20s UBT (27.70s runner); no Editor gameplay launch. Six source-bound proofs cover33 reviewed production deltas among769 runtime inputs.
+Final Game UAT build/cook/stage/archive passes91 immutable package leaves
+and2567 required roots; a private final packaged Solo/tamriel startup passes.
+
+The exact final packaged34 clinical check passed in 26.96s, NullRHI/no sound. It used three explicitly fixture-spawned bodies, a wounded ally fixture and production cast/damage paths on real supported placement. Four actual facts passed: ally healing, player damage, interruption with cost retained, and actor rebind with durable expenditure retained. This is not ordinary camp admission or a full fight, rendered telegraph/listening, multiplayer, full server restart or exhaustion-through-all-casts acceptance.
+
+The first Journey34 candidate completed its Game UAT/cook/archive successfully, but its private clinical fixture failed: a 2s GameMode cadence correctly exceeded the 1.65/1.85s spell-stall guards. Only the opt-in verifier changed to a real 30Hz weak-world timer; production casting policy was unchanged. The original candidate, failed clinical/native receipts and correction receipt remain retained. Final acceptance below belongs only to the new frozen candidate, not to that failed clinical attempt. A final-startup runner attempt also hit an empty-log/null read race; a separate string-guard adapter corrected only that runner. Its failed evidence and adapter remain recorded in evidence/unreal/quest-camps34-integration/startup-tool-correction.json; no package or freeze changed.
+The original package is retained at [candidate archive](C:/temp/Codex/Skyrim_Coop/Archive/quest-camps34-caster-timing-a01/candidate34).
+
+The ordinary watch→Rusk→orders→reward loop was NOT RUN;25XP/120copper is a
+Core-authority proof and configured outcome, not an observed native payment.
+The journal GUI, rendered font/input and remote-owner replication were NOT RUN.
+Natural camp fights, cast gesture/art/sound quality, full server restart and
+multiplayer remain owner acceptance. No new boss/species, all16 quest delivery,
+finished faction system, blanket world/GUI correctness or unrelated bug closure.
+
+Keep34/33/32/31. Exactly87 reviewed30 payload leaves (5,257,272,951.0 gross bytes) were retired. All0 actual nonpayload leaves remain in place, with0 verified Archive copies; the plan found no crash set requiring additional payload symbol copies. Gross deleted bytes are not net reclaimed space. Original Journey24 Tagham and legacy0.2.0 remain protected; Hunyuan was not stopped.
+
+The original24 Tagham and exact private41 source fixture remain protected under
+actual preservation receipts; this closeout opens no saved DB and publishes no
+network content. DBG040/corpse/cape/armor issues remain open. Details:
+[delivery](docs/journey-playtest34-delivery.md),
+[promotion](C:/temp/Codex/Skyrim_Coop/evidence/unreal/quest-camps34-integration/promotion.json), [clinical evidence](C:/temp/Codex/Skyrim_Coop/evidence/unreal/journey34-caster-b1e519e77ffa41d68644c764840e8fa6/verification.json).
 
 ## 2026-10-23 — Journey33 living wilderness
 
