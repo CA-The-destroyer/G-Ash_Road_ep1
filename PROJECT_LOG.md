@@ -10,6 +10,45 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-23 — Journey35 journal chapters integrated; content release pending
+
+The user authorized hunting contracts and The Grave Robbers, requested an
+organized journal and authorized additional physical quest sites where needed.
+Journey34/schema42 remains the playable master; no Journey35 package exists.
+
+The journal chapter increment is integrated into development source: Main
+Quests, Side Quests, Bandit Missions, Hunting Contracts and Message History.
+Five tabs use two rows, show real entry counts and remember local selection
+and text scroll per quest chapter. Existing owner-only progress, tracking and
+history authorities remain. Actual checks pass:172 retained production
+projection assertions,350 chapter checks and a linked UE5.8.3 Editor build
+(10 actions/3 UHT-generated files,99.87s UBT). Rendered/input and packaged
+acceptance are not claimed. The initial test-counter shadow warning was fixed
+without disabling /WX; failed evidence remains.
+
+A separate schema43 hunting Core candidate compiles and passes4,634 checks:
+reward-table enumeration plus actual private SQLite accepted-only co-op kill
+credit, stable-death replay,10/30/70 caps, once-only tier rewards, rollback/retry,
+restart and a two-service claim race. It is NOT integrated or connected to a
+native NPC. Native validation, legacy neutral-fauna death identities, journal
+producer, preserving42-to43 migration comparison and renewable population
+coverage remain required. Fifteen proposed families are not a claim of fifteen
+new world populations or a complete huntable roster.
+
+Grave Robbers has selected real bindings: the existing Ashen Account grave-
+robber site, Mourning Acre cemetery and Sabeth as the living giver. The approved
+unique sacred burial register must be physically returned and consumed in the
+same reward transaction. New disturbed graves, clue-trail and sheltered camp
+dressing are authorized but NOT placed. No fake seal-breaking consequence or
+completed third native bandit quest is claimed.
+
+All three workers stopped on account usage-limit errors. The coordinator
+continued the journal and hunting candidate directly using C++/MSVC, Unreal
+5.8.3, Python, PowerShell and private SQLite fixtures. No original saved
+campaign, shipped34 package, map or Content asset was changed. Hunyuan remains
+running. No35 promotion or retention was performed. See
+[precise progress](docs/quest-content35-progress.md).
+
 ## 2026-10-23 — Journey34 quests and tactical camps
 
 Journey34/schema42 is promoted through the normal continuous-session launcher.
