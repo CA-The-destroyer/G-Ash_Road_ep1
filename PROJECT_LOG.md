@@ -5,10 +5,55 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey36](#2026-10-24--journey36-discovery-map-and-compass). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey37](#2026-10-24--journey37-equipped-armor-fitted-cape-and-wooden-torch). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-24--journey36-discovery-map-and-compass) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-24--journey37-equipped-armor-fitted-cape-and-wooden-torch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-24 — Journey37: equipped armor, fitted cape and wooden torch
+
+**Journey37 is playable through the normal Journey launcher**, build
+`0.21.0-preview12-playtest37`, existing save schema44. No fresh campaign is
+required. This completes the focused equipment presentation batch after36.
+
+- Genuine independent male/female hide gloves and fur-trimmed boots now follow
+  their native body rigs; first-person gloves use their matching arm rig.
+  Saved slot changes restore only the corresponding original hands/footwear.
+- The owner rejected the floating rear-only cape. A new original Blender model
+  adds a fitted neck opening, shoulder mantle, front cloth fastening and joined
+  rear drape. Broader male tunic clearance and skirt clearance are included.
+  Inventory turns inherit the body transform once; framing keeps the avatar in
+  the checked preview. This uses limited analytic movement, not physics cloth.
+- The supplied wooden branch/cloth torch replaces the held cylinder at56cm,
+  with measured palm grip and fuel-head flame anchor. Existing offhand, light,
+  fire and local glare behavior remain; eligible bandit night torches reuse it.
+  Original model credit ships with the package. Anchored fixtures are retained.
+
+Actual linked UE5.8.3, private male/female native25-check runs, real UAT
+build/cook/stage/archive, all2592 required cooked roots and precise packaged
+saved-equipment/torch checks pass. Earlier unchanged transaction, rig and torch
+proofs are reused; broad unchanged quest/combat replay is skipped. Failed
+import/material/fixture/framing checks and rejected cape fits remain recorded.
+The owner save is protected; no user game or Hunyuan process was stopped.
+
+Methods: modular Unreal C++, compatible LeaderPose followers and exact material
+section masks; original Blender indexed garment modeling with generated runtime
+geometry; PBR/FBX import and measured attachment anchors; CPU Python inspection;
+private SQLite plus appearance-sidecar fixtures; PowerShell UAT and hash-bound
+release/retention receipts. Standing D&D art references guide garment support
+and torch silhouette without copying artwork. Only this log is published.
+
+Limits: independent hide helmet/leggings, true leather torso, matching torso
+first-person sleeves, modern faces/bodies and simulated cloth remain unfinished.
+Every class/race, broad animation poses and remote multiplayer visual acceptance
+remain owner checks. The4216-triangle Broad Axe is an optimized prepared review
+candidate, not an installed weapon; no new quest/world content is claimed.
+
+Retention keeps37/36/35/34. The90 exact older33 immutable payload leaves are
+retired under the established policy; saved state, unique recovery material and
+failure diagnostics remain protected. Detailed local evidence, file inventory,
+art credit and limits are in `docs/journey-playtest37-delivery.md` and
+`JOURNEY37-CHANGED-FILES.md`.
 
 ## 2026-10-24 — Journey36: discovery map and compass
 
