@@ -5,10 +5,45 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey37](#2026-10-24--journey37-equipped-armor-fitted-cape-and-wooden-torch). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey38](#2026-10-24--journey38-four-integrated-weapon-models). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-24--journey37-equipped-armor-fitted-cape-and-wooden-torch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-24--journey38-four-integrated-weapon-models) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-24 — Journey38: four integrated weapon models
+
+Journey38 replaces four existing melee items with supplied optimized models:
+the borrowed hatchet, iron war axe, iron battleaxe and iron mace. Matched icons,
+first-person and third-person/inventory art, new/restored physical drops and
+the seven exact authored loose placements share the same catalogue. The
+role-only bandit battleaxe uses the selected battleaxe model.
+
+Existing saved identities, dice, reach, prices, inventory weights, physical
+mass overrides, quantity, condition and stolen provenance remain under their
+existing authorities. Save schema44 is unchanged; no fresh campaign is needed.
+Four LODs and separately baked normal maps accompany each mesh, with two owned
+simple collision boxes for dynamic bodies.56 new packages are included.
+
+The release gates bind the actual linked Unreal build, private native held,
+icon, swing, inventory-turn, authored-conversion and physical drop/restart/
+recovery checks, fresh saved-asset readback, real UAT and precise cooked restore
+acceptance. A focused cooked four-model comparison resolves a first-frame
+material concern without an asset change or recook.117 CPU assertions cover the catalogue and all seven source
+aliases. Broad unchanged quest/combat replay is skipped under the owner's
+standing testing direction. Failed import/build/verifier attempts are retained.
+
+Methods and tools: Blender5.2.3 headless mesh optimization and per-LOD texture
+baking; UE5.8.3 C++ shared presentation hooks, native FBX/PBR import and asset
+readback; Python/MSVC catalogue checks; private SQLite plus full appearance
+sidecar fixtures; real physics contact observation; PowerShell UAT; hash-bound
+release, cooked-root and exact-leaf retention receipts. Existing D&D-inspired
+item rules remain. No source models or game payloads are published here.
+
+Limits: this is four integrated saved items from45 model candidates. Other41
+remain separate definition/art/mechanism gates. Static bows and crossbows do not
+establish draw deformation or a working reload system. Clinical conversion
+checks do not claim normal streamed-room traversal. Broad poses, a perfect
+second-hand grip and remote multiplayer art acceptance remain owner checks.
 
 ## 2026-10-24 — Journey37: equipped armor, fitted cape and wooden torch
 
