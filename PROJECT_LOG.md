@@ -10,6 +10,49 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-23--journey28-universal-loot-and-approved-human-injury-audio) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-24 — Journey35 burial-ghoul site integrated; release pending
+
+Journey34 remains the current playable master. Journey35 is development work,
+not a packaged release. The user requested ghouls near the burial site.
+
+Mourning Acre retains its existing ghoul/skeleton roster. The new Grave Robbers
+burial copse now has a separately identified three-ghoul encounter with six
+local patrol points. It reuses the existing server encounter admission, combat,
+loot, hunting credit, generation/death persistence and recovery rules under the
+unchanged12-living budget. Quest acceptance does not recreate its defenders.
+
+The actual saved site has three opened stone coffins, displaced lids, disturbed
+earth and a keeper warning. Twenty-six owned Content packages changed; original
+actors and source mesh packages are preserved. Four owned collision copies keep
+source material bindings. All three ghoul slots around the patrol passed432
+actual capsule samples with continuous sweeps. Two player approaches remain clear.
+
+Final linked Editor a05 passes: five actions,23.80s UBT. It includes the newly
+integrated Grave quest/item/atomic-return bridge and the additive ghoul binding.
+The actual Grave Core suite previously passed64 checks and eight retained Rusk
+scenarios. The Editor a04 global-topic naming failure is retained and corrected.
+Four failed site-author attempts also remain recorded; the final author preserves
+the measured horizontal coffin orientation and records the statue's0.202cm
+maximum rebuilt-bounds difference.
+
+A fresh private headless game session loads the saved three-slot/six-point
+habitat and reaches tamriel. Spawning was disabled for this binding-only check;
+live admission, patrol, combat, rendered art, sound listening, navmesh routing
+and multiplayer acceptance are not claimed. The cart evidence, sheltered
+register location and complete native Grave Robbers loop remain pending.
+No35 UAT/package/promotion occurred; original campaigns were not opened.
+
+Methods/tools: existing Unreal5.8.3 C++ gameplay and replicated actor systems,
+SQLite-backed quest/reward transactions, Python authoring with explicit owned
+package saves, measured mesh bounds, collision/capsule sweeps, a hidden NullRHI
+Editor, fresh private-session startup logs, source/hash receipts and retained
+failure evidence. Gothic visual direction references previously consulted
+Ravenloft product artwork and its artist's portfolio; no reference image imported.
+
+Local details: docs/burial-ghouls35.md and the Journey35 working changed-file
+inventory. The separate Bandit Raider06 asset handoff is queued after the active
+native work; no candidate character content was imported into this release.
+
 ## 2026-10-23 — Journey35 journal chapters integrated; content release pending
 
 The user authorized hunting contracts and The Grave Robbers, requested an
