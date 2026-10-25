@@ -10,6 +10,51 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-24--journey39-saved-purse-contents) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-25 — Original crash shader identified; targeted collection repair saved
+
+The owner explicitly prioritized the inventory-Take crash, then Journey40 with
+completed work. Journey39 remains the playable master. Final Editor a09 passes;
+source/content40 is frozen and actual Development UAT is running. There is no
+new package or promotion claim at this checkpoint.
+
+Offline inspection of the actual39 crash shader, followed by full SHA checks of
+the shipped containers and exact shader extraction, identifies vertex slot4 as
+MaterialCollection0. The shader belongs only to the PN grass/flower materials.
+Native census confirms those shipped families share duplicate wind/bending
+collection IDs. This matches Epic's documented cached-buffer lifetime hazard.
+The small original dump still omits the allocation/free history; quiet pickups
+are not causal proof and sole-cause attribution is not claimed.
+
+Five duplicate same-path collections are actually repaired through normal
+parameter-layout notifications; Grass and Grux stay canonical. Hash-verified
+preimages precede all edits. A separate process confirms all11 project IDs
+unique with original parameter GUIDs/order/names/defaults preserved. Four
+repaired PN packages remain existing cooked dependencies; the fifth Morigesh
+source duplicate is not an added cook root. No engine binary patch, global
+renderer/GC change or removal of item physics is included.
+
+Root accepts this targeted source correction conditional on actual40 cooked
+identities/current cached dependencies, four complete shipped material maps,
+fresh cooked shader hashes and ordinary cheese Take plus20seconds. Protected
+compiled collection GUIDs have no supported public cooked getter and remain
+explicitly unobserved. Actual game-master map-cue capture is prepared; no
+desktop loopback, synthetic event or personal listening approval is invented.
+
+Completed hunting, den, compact-name, deadwood and individual-continuity work
+joins40. Six historical proof scopes are explicitly reviewed against the final
+build; original failed full cheese exit/reentry and strict grazer/spider-site
+claims remain failed/deferred. Source evidence is reused under the owner's
+standing instruction, without broad post-UAT gameplay replay. Separate modern
+character, metal and loot-physics work remains isolated and is not admitted.
+
+Methods/tools: bounded parallel agents with one integrating coordinator,
+installed Unreal5.8.3 C++/Python native APIs, private SQLite fixtures, exact
+artifact hashes and shader-container format inspection, source/API review,
+official Epic failure reference, serial MSVC/UBT/UAT and private opt-in rendered
+witnesses. Detailed evidence: docs/crash-resolution40.md and the Journey40
+freeze/decision receipts. No owner campaign or immutable39 payload was edited.
+
+
 ## 2026-10-25 — Ordinary hunting replenishment and sustainable contract supply
 
 ### Integrated source; current playable remains Journey39
