@@ -10,6 +10,41 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-25 — Feature and debug lists reconciled against Journey40
+
+Consolidated the current feature list into21 stable areas under the existing
+four parent workstreams. Journey40 (`0.21.0-preview12-playtest40`), schema46,
+remains the playable master. Source-only attached-harvestable manual-Save repair,
+female Mara preview and conversation face camera are explicitly separate from
+the packaged release. Ranger outfit/modern character art and one-response
+lip-sync remain prepared or incomplete; no later release is claimed.
+
+Debug reconciliation contains58 unique numbered cases:7 scoped released fixes,
+3 source-verified corrections,2 source corrections with incomplete acceptance,
+30 partially resolved cases,15 open cases and1 unconfirmed historical status.
+Thirteen unnumbered topic groups preserve recent reports without inventing
+IDs or merging distinct Save/support/floating-bow and journal/compass causes.
+Original reports/evidence remain verbatim under the current disposition table;
+pre-rollup documents and the previous current-work queue are archived.
+
+Methods/tools: coordinator-owned documentation integration; two bounded parallel
+agents audited features and debug evidence independently; Python reconciled
+unique IDs/counts/stable anchors and preserved case text. Existing release,
+source and focused runtime receipts were reused within their original scope.
+No gameplay code/assets/saves changed, no Unreal/build/GPU job and no redundant
+packaged playthrough. No unsupported completion percentage was invented.
+
+The active order remains Ranger leather outfit, existing Mara fit/motion and
+conversation integration, one complete lip-synced response, then next accepted
+playtest. This documentation effort does not begin unrelated backlog work.
+
+Current lists: `docs/backlog-status.md`, `docs/debug-triage.md`.
+Audit and validation: `tools/prepared/backlog-rollup25`.
+Complete local inventory: `BACKLOG-ROLLUP25-CHANGED-FILES.md` / `.json`.
+Only this project log is published to GitHub; source/assets/builds and private
+campaign state are not uploaded by this milestone.
+
+
 ## 2026-10-25 — Main-character conversation face camera in the source preview
 
 Owner liked the Mara face closeup and requested it for main-character
