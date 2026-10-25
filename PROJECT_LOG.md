@@ -5,10 +5,66 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey38](#2026-10-24--journey38-four-integrated-weapon-models). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey39](#2026-10-24--journey39-saved-purse-contents). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-24--journey38-four-integrated-weapon-models) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-24--journey39-saved-purse-contents) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+## 2026-10-24 — Journey39: saved purse contents
+
+Journey39 is promoted through the normal Journey launcher as
+`0.21.0-preview12-playtest39`. All seven audited physical purse sources now use
+the supplied owner-approved leather purse. Copper, silver and gold coin instances
+represent the actual saved remainder. Aiming inside takes one coin;
+interacting with the bag collects its remaining coins. An empty bag stays physical.
+Existing owners, Take/Steal, witness checks, stable IDs, depletion, mass and saved
+resting poses remain under the existing server authority. Older collected purses
+do not respawn or refill. Cosmetic instances never own a second payout.
+
+Actual evidence passes: 21 SQLite groups/160 assertions; 251 catalogue assertions
+and every bounded denomination balance; read-only nine-map coverage; native
+64-package asset readback; seven real purse contacts; final source partial,
+empty and restart; and a real remote observer at 500c/400c/0 followed by an empty
+late join. The network fixture uses the real shared source and normal area
+relevance; clients do not authorize transactions. A stale client decoration flag
+found in the failed network attempts was corrected without changing server money.
+
+UAT builds, cooks, stages and archives 97 immutable package leaves. All 2,712
+required cooked roots are present, including 162 explicit packages. Precise
+packaged saved restart and an actual cooked coin/leather material inspection
+pass. Broad unchanged quest/combat/travel replays are skipped under the owner's
+standing testing rule. The initial batch-wrapper command-length failure and
+rejected dark, overexposed and checkerboard captures remain recorded. The final
+launcher calls the same installed AutomationTool through bundled DotNet and
+retains every cook root; no gameplay or asset rollback was needed.
+
+Methods and tools: UE 5.8.3 C++ shared loot, physics and replication; existing
+portable C++/SQLite economy transactions; Blender 5.2.3 headless derivatives from
+read-only supplied art; native FBX/PBR import and saved-asset readback; Python
+verification and hash manifests; PowerShell UAT; headless source/network checks;
+and personally reviewed native/cooked captures. The approved purse artwork was
+preserved. Source art, game payloads, campaigns and credentials remain local.
+
+Limits: coin artwork and provisional copper/silver tints still await owner
+approval. Coin instances move with the bag; individually spilling coin physics
+is not implemented. Private inspection lighting/close framing do not certify
+normal interior illumination. One NullRHI source/source observer fixture does
+not establish rendered network art, packet-loss, dedicated-server or cooked
+multiplayer acceptance. Owner playtesting remains pending.
+
+Schema 44 campaigns migrate forward to 45; schema 45 saves cannot reopen in
+Journey38. Protected original Journey24 Tagham remains hash-unchanged. Retention
+keeps Journey39/38/37/36 and retires only 92 reviewed immutable Journey35 payload leaves:
+5,289,184,495 gross bytes, not a free-space measurement. No Journey35 save/crash files
+were present. Unique archives and failed evidence remain.
+
+The owner's table-coin, barrel and humanoid-corpse extension is queued after this
+release. Its audit identifies 34 loose coin bindings and 53 barrels. Shared
+barrel/corpse storage needs a saved-currency extension, including humanoid
+eligibility and corpse cleanup/glow handling; those changes are not shipped here.
+Local delivery, exact changed files and closeout receipts are recorded in
+`docs/journey-playtest39-delivery.md`, `PURSE39-CHANGED-FILES.md` and
+`evidence/unreal/purse39/`.
 
 ## 2026-10-24 — Journey38: four integrated weapon models
 
