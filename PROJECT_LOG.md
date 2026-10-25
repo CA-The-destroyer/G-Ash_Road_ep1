@@ -10,6 +10,44 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-25 — New female Mara visible in a separate in-game POC
+
+The owner requested the new female Human model on Mara and explicitly accepted
+an unclothed model to avoid waiting for wardrobe polish. Root copied the reviewed
+female dependency closure additively:130 new assets and six identical reused
+assets, with no existing game or Lab payload overwritten. Existing ready clothes
+were included. The real `opening-mara` NPC retains its gameplay actor, quests,
+dialogue, collision and saved authority; a local visual helper uses the assembled
+female Blueprint, native hair/face rig and verified Foundation25 idle/walk bank.
+
+The linked source build a04 passed. A focused rendered NVIDIA witness
+`mara-preview25-ad189e7100` exited normally0 with immutable inputs. It observed
+the actual new female face/hair, female body in gameplay, normal bound F dialogue
+and saved opening stage0→1 in a private schema46 campaign. Root inspected the
+actual screenshots. The fullbody diagnostic view is obstructed/poorly framed;
+the available garment has visible torn/spiky coverage and fit defects. These
+images establish an early visible model POC, not finished body/wardrobe art,
+full motion,2K memory budget, multiplayer or player-creator acceptance.
+
+`PlayMaraPreview.cmd` now opens a separate source-game preview campaign using
+the actual checked module. Journey40 remains the playable cooked master, and
+owner saves were not modified. No new release package was created.
+
+Methods/tools: isolated UE5.8 MetaHuman assembly and add-only hash-bound asset
+migration; narrow Unreal C++ presentation and camera observer; UnrealBuildTool
+linked build; Python/PowerShell owned-process runner, actual D3D12 GPU readback,
+normal input/SQLite outcome observation and visual screenshot review. The first
+witness was stopped after a concrete stock-outfit validation refusal; its failed
+evidence is preserved. Only the exact observed outfit component/mesh identity
+was subsequently accepted, retaining unknown-component rejection. Earlier root
+build cancellations and original source rollback copies are retained.
+
+Evidence: `evidence/unreal/mara-preview25-ad189e7100/verification.json`,
+`evidence/unreal/mara-preview25-poc-ready.json`,
+`evidence/unreal/mara-preview25-source-a01/editor-build-a04.json` and
+`MARA25-CHANGED-FILES.md/.json`.
+
+
 ## 2026-10-25 — Attached harvestable Save correction verified in source; provisional character import
 
 **Playable master remains Journey40, `0.21.0-preview12-playtest40`. This is a
