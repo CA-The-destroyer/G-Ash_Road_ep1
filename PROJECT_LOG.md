@@ -10,6 +10,101 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-24--journey39-saved-purse-contents) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-25 — Ordinary hunting replenishment and sustainable contract supply
+
+### Integrated source; current playable remains Journey39
+
+The owner said continue from creature continuity with hunting replenishment.
+116exact registered ordinary habitats now renew fully depleted cohorts using
+the existing server director and SQLite encounter/generation authority. No new
+spawner, migration or save owner was introduced; current source remains46.
+Journey39 (`0.21.0-preview12-playtest39`, schema45) remains promoted. No owner
+campaign, release payload or launcher was changed by this increment.
+
+- Every living slot preserves identity, wounds, rolls and saved activity even
+  without a native actor/checkpoint. A new generation starts only after the
+  entire eligible cohort is defeated; this is not dead-slot resurrection inside
+  a surviving pack.
+- The final death stores a deterministic absolute UTC recovery deadline:
+  grade1common creatures5–9minutes, grade2creatures8–14minutes, stronger monsters
+  12–18minutes. Polls, reloads and day-length changes cannot slide it. Legacy
+  fully cleared registered rows receive one persisted bounded normalization;
+  no old death time is guessed from a potentially changed day length.
+- New fresh members of a recovered cohort arrive12–20seconds apart through
+  normal floor/capsule, phase, protection, appearance, fairness and shared12AI
+  gates. Saved survivor restoration has higher priority than due recovered
+  births, followed by ordinary new births; existing ecological score orders
+  within a category. A full cap still requires legitimate capacity.
+- Death, XP, hunt credit, loot and rewards keep existing generation/slot IDs
+  and transactions. Old dead native references can detach without destroying,
+  reusing or refilling their corpse/loot actors. Story waves, crypt bosses,
+  prisoner camps, finite shrew nests and unregistered encounters are excluded.
+
+### Coverage and actual tests
+
+Exact source/native-authoring audit reconstructs167base groups plus19subsystem
+camps, agreeing with the186-group native catalogue. The116eligible habitats
+cover12hunting contracts; the existing separate accepted-unfinished meadow
+Wood Shrew supplier makes13/15supported supply paths. Werewolves and vampires
+still need ordinary repeatable habitat content. The survivor vampire event is
+finite. Two old candidate territories actually blocked during native authoring
+are not invented as live habitats. These boundaries are recorded per contract.
+
+Actual Core tests pass10real SQLite cases/5,306assertions: survivor preservation,
+full-depletion boundary/reopen/new identity, legacy timers,70legitimate fox
+generations through10/30/70tiers and once-only rewards, predator deaths without
+bystander credit, concurrent due admission and transactional rollback.
+
+Actual a05 native `ordinary24-0de470f1ac` passes17checks: a private prior-death
+Core fixture renews normally to generation2, then two distinct fresh native
+individuals admit19.980493seconds apart. An actual authoritative environmental
+death frees one living slot before the second birth; the first corpse retains
+its identity and one nonempty storage source/two loot rows. Player XP stays0,
+all186groups remain enabled and peak living count is12. No NPC hand spawn,
+pose relocation or production clock acceleration was used.
+
+Independent review then found an additive-score counterexample that could let
+a favorable recovered birth overtake a saved individual. The final comparison
+uses categories first and ecological score second;3,280specific ordering/
+transitivity assertions pass. Linked Unreal5.8.3 Editor a06 passes. Final probe
+assertions require death before the second fresh birth and retained corpse
+identity. Retained actual log/SQLite already meets those stricter conditions.
+Exact source reconstruction against a05 build hashes proves that only the
+comparison/helper and probe assertions changed. The unchanged native renewal/
+death/cadence evidence is reused; **no native a06 replay/pass is claimed**.
+This follows the owner's instruction to test the precise changed risk and avoid
+repeating passing unchanged paths. No broad quest/art/travel replay or recook.
+
+Three bounded workers handled coverage, lifecycle/loot review and prepared Core
+tests; the coordinator integrated code and owns serial builds/native jobs.
+Methods/tools: C++20, existing server director/SQLite transactions, deterministic
+IDs/UTC deadlines, CMake/MSVC/UnrealBuildTool, PowerShell/Python, source/module
+SHA256 pins, fresh private SQLite fixtures, headless native event/geometry
+checks and exact evidence reuse. Epic's official World Partition documentation
+informed the distinction between loaded actors and durable population state.
+
+### Preserved failures and remaining limits
+
+The original `hunting41-ece30dba3c` fixture was rejected by the existing strict
+ordinary-walker owned-save guard. That guard remains. Initial
+`ordinary24-950061a255` miscounted a legitimate restored individual as a new
+birth. `ordinary24-dac680e8f8` timed out at a full cap; its route never reached
+the observer160m hold radius. All failed evidence is retained, distinct from
+the accepted capacity/death fixture and final ordering proof.
+
+No rendered/remote/cooked/all-species or cross-generation old physical corpse
+detachment acceptance is claimed. Environmental fatal damage is not a player
+combat-input proof. Earlier strict new-grazer/spider readability failures and
+DBG040 portable Take rendering AV remain open. Recovery does not establish
+global visible wildlife density or finish the two missing creature habitats.
+
+Owner-authorized coordination preserved independent CharacterLab processes;
+the game native window was returned after the case. No owner game/Hunyuan
+process was stopped. No new package/promotion, retention or reset occurred.
+Detailed local records: `docs/hunting-replenishment41.md`,
+`evidence/unreal/hunting-replenishment41/source-checkpoint.json`,
+`HUNTING-REPLENISHMENT41-CHANGED-FILES.md`. Only PROJECT_LOG.md is published.
+
 ## 2026-10-25 — Server-owned creature continuity and prompt restoration
 
 ### Source milestone; Journey39 remains playable
