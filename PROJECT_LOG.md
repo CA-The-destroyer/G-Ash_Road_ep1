@@ -10,6 +10,82 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-24--journey39-saved-purse-contents) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-25 — Server-owned creature continuity and prompt restoration
+
+### Source milestone; Journey39 remains playable
+
+The owner approved preserving individual creatures across runtime unloading.
+The existing encounter generation/slot and campaign SQLite authority now retain
+health, exact feet position, home, facing and compatible roaming/camp activity.
+This is integrated source in additive schema46, not a promoted release. The
+immutable Journey39 package still uses45; no owner save was opened or migrated.
+
+- Checkpoints occur at admission, damage, roughly5s intervals, retirement,
+  manual save, travel and normal shutdown. Invalid/stale/dead-slot writes are
+  rejected using authoritative generation/alive validation and revision CAS.
+- Restoration uses the saved position with real floor/full-capsule and observer
+  appearance checks. Blocked positions defer. Nearby established observers can
+  veto the bounded initial-arrival exception; fresh births do not receive it.
+- A known living checkpoint protects the generation and survivors from the
+  ordinary recovery timer. Death atomically removes only that individual's
+  checkpoint, preserves companions and keeps existing reward/loot authority.
+  Eligible new generations remain distinct identities, rather than resurrected
+  kills. Finite named/story content retains its existing rules.
+- Previously materialized missing individuals receive ordinary admission
+  priority over fresh births. The shared12AI cap, owner fairness, fixed-story
+  precedence and normal safe placement/visibility guards remain in place.
+- Compatible Wood Shrew mound progress can resume the existing exit corridor.
+  It is compiled; this neutral fixture does not prove mid-mouth restoration.
+
+### Precise evidence
+
+Core a03 passes8real SQLite cases/200assertions: reopen/exact doubles, competing
+connections, stale/dead writes, isolated campaigns,45→46 preservation, atomic
+rollback, exact death cleanup, survivor timer protection and later legitimate
+generation recovery. Linked Unreal5.8.3 Editor a17 passes.
+
+Current two-process source NullRHI case `ordinary24-0865facc26` passes all20
+state/identity/death checks plus the added scheduling gates. A naturally admitted
+hare moved180.003cm, took actual1HP injury(7→6), then retained exact pose, health,
+activity, stats/mesh and death identity across test-only Destroy/recreation and
+a separate process restart. Same-world return measured2UTC timestamp seconds;
+restart admission measured2.026native world seconds, excluding map load. There
+was one live individual, no duplicate XP and all186normal groups/shared cap12.
+Fatal authoritative environment damage then persisted the death through four
+normal polls and final independent SQLite reads.
+
+The initial a15 native case also passed its functional checks but measured192s
+return delay; that led to the tested priority correction. Original evidence is
+retained. A13 was deliberately cancelled at its verified owned compiler after
+measuring RAM; a14's actual member-shadowing/unbraced-log compile errors were
+fixed and retained as failed evidence. No user/Hunyuan process was stopped.
+
+Owner-authorized coordination arranged the native window after the independent
+CharacterLab render finished normally, then returned it after both owned test
+processes exited. Methods/tools: bounded parallel C++ workers, existing server
+director and SQLite transactions, CMake/MSVC/UnrealBuildTool, Python/PowerShell,
+source/module SHA256 pins, private fixture databases and focused headless checks.
+Epic's official saving/loading and World Partition references informed the
+separation between runtime actors and durable gameplay records.
+
+### Limits and next priority
+
+The fixture simulates unloading with explicit Destroy; actual World Partition
+cell events, all species/camp transitions, rendered appearance, remote clients
+and cooked release acceptance remain unproven. Distant bodies pause. Abrupt
+crashes may lose movement since the last checkpoint. DBG040 portable Take
+rendering AV remains P1 OPEN. Earlier strict spider/new-grazer failures remain.
+
+Next approved feature is gradual legitimate offscreen hunting replenishment
+across habitats for10/30/70 contracts; it is not implemented by this checkpoint.
+The existing2–3day-length generic timer is not accepted as final hunting pacing.
+Weapons42's separate proposed46 must rebase. Prepared asset handoffs remain
+queued. No new package, launcher promotion, retention change or owner reset.
+
+Local detail: `docs/creature-continuity41.md`,
+`tools/prepared/creature-continuity41/closeout.json`, and
+`CREATURE-CONTINUITY41-CHANGED-FILES.md`. Only PROJECT_LOG.md is published.
+
 ## 2026-10-25 — Living wilderness source expansion and verified shrew dens
 
 ### Current delivery boundary
