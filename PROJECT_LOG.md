@@ -10,6 +10,79 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-24--journey39-saved-purse-contents) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-25 — Living wilderness source expansion and verified shrew dens
+
+### Current delivery boundary
+
+Journey39 (`0.21.0-preview12-playtest39`, schema45) remains the promoted playable
+package. The owner asked for a larger task after the smaller feedback fixes, so
+the active source objective is living wilderness. No new playable package,
+launcher promotion, owner-save migration or blanket crash repair is claimed.
+
+### Functional source progress
+
+- Eight additive persistent populations reuse existing routes and species:
+  three southern wolf packs, two mixed deer/hare forage groups, two four-person
+  human melee/archer bands, and northern night spiders. Their24 planned saved
+  members share the existing twelve-living-AI cap. Old groups and story results
+  are preserved. No new spawner or save schema is introduced.
+- The retained Journey39 log exposed93 spawns for39 unique generation/slots,
+  with52 same-generation readmissions within three seconds. The director now
+  consistently grants60s regional residence before capacity turnover and60s
+  readmission cooldown. Actual all-observer culling protects retirement. The
+  cooldown blocks new births without blocking another safe handoff of old
+  members to an under-served player. Multiplayer timing remains unverified.
+- The actual new-content daytime route passes against Editor41 a04:186 encounter
+  definitions register, new charcoal wolf/forage/human states persist, both new
+  wolves and two new bandits physically move into the component-visible/LOS/
+  forward200m proxy, existing wildlife remains readable and the global cap stays
+  at12. Saved rosters, rolls and normal defeat receipts match actual logs.
+  These are three observed new groups, not acceptance of all eight routes.
+- A04 also exposed different groups born only0.9–1.8m apart. Admission now keeps
+  actual different-group footprints12m apart, or60m between neutral wildlife and
+  hostile groups. Stored births defer without relocating; same-group formations
+  and authored story/camp/nest/ambush rules remain intact. A05's spacing component
+  passes, but its full case remains failed: a patrol member is reclaimed after
+  30.003s at250.49m, before becoming readable. Its minimum sampled distance223.09m
+  was a separate observation. The current60s floor accounts for moving-away NPCs.
+- Current Editor41 a06 and its focused native case pass: both new bandit members
+  are simultaneously readable,186 definitions register, cap12 holds, actual
+  spacing rejection is exercised and saved state matches. Sixteen accepted
+  births have spacing records; minimum applicable-rule margin is1.26m. Observed
+  capacity releases occur after88–108s. This fresh case is not a same-seed A/B;
+  full60s post-release observation remains censored. Final complete wolf-pack,
+  other-site, night, remote and rendered coverage remain open.
+- The original Wood Shrew mound now has a real-world source pass: twelve actual
+  definitions register, one accepted woodland mound is constructed, and two
+  original saved actors walk serially through its mouth and resume pursuit.
+  Native ten-hull collision and fresh asset readback pass. Other sites, rendering,
+  multiplayer and cooked delivery remain separate.
+
+### Testing evidence and limits
+
+Native jobs remain serial and coordinator-owned. Bounded workers prepare isolated
+patches, content audits and independent reviews. Tools include Unreal5.8.3 C++,
+MSVC linked builds, existing Core/SQLite authority, Blender headless original
+geometry, asset hash/readback checks and fresh private NullRHI route witnesses.
+No broad unchanged quest replay or owner campaign access is used.
+
+The initial route fixture failed because historical waypoints store pawn centers
+while safe arrival requires feet. Its failed evidence remains; the fixture now
+uses the existing94cm arrival offset. A separate stricter240–300m continuity case
+also remains failed: its actors persist into200m but lack readable LOS on that
+route, and its full cooldown observation is censored. The successful content
+witness has separate scope and new source inputs; no failed case is relabeled.
+
+DBG040 remains P1 OPEN. Pickup material-churn cleanup and crash-context logging
+are not a proven rendering-crash repair. Night archer torch/bow presentation,
+relaxed bandit recordings, other physical routes, remote fairness and cooked
+delivery remain open. Existing imported combat threats are not repurposed as
+casual chatter; ordinary road caster models are not falsely labeled functional
+healers or spellcasters.
+
+Detailed progress: `docs/living-wilderness41-progress.md`,
+`docs/woodshrew40-progress.md`, and `NAME-COLORS40-CHANGED-FILES.md`.
+
 ## 2026-10-24 — Source feedback fixes and wilderness foundation
 
 Journey39 remains the promoted playable master. This is source work, not a new
