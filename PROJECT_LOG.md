@@ -10,6 +10,76 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-25 — Attached harvestable Save correction verified in source; provisional character import
+
+**Playable master remains Journey40, `0.21.0-preview12-playtest40`. This is a
+source verification milestone, not a new packaged release.**
+
+### Manual Save correction
+
+Owner Journey40 had two actual refused manual Saves. Inspection found a definite
+contract mismatch: attached harvestables intentionally retain their authored
+attachment and persistent availability without a movable resting-pose row, but
+manual Save required such a row. Two existing eligibility predicates now exclude
+that category. Held-object refusal, ordinary moving/resting-body checks, support
+validation, transactions and snapshot backup are unchanged. Original source is
+preserved in `Archive/loose-save-checkpoint40-before-a01`.
+
+Linked Editor builda02 passes. Actual AMD case
+`evidence/unreal/loose-save-attached40-7e51116d88/verification.json` passes normal
+menu Save with a real authored attached garlic, snapshot SQL readback and a
+fresh-process reopen of its private snapshot clone. Both processes exit0 on
+verified AMD vendor1002; available source/no world pose/inventory0 and saved
+interior location survive. Completed original snapshot remains immutable. Root
+inspected the actual saved-menu image. No owner save was opened or changed.
+
+Earlier6e1f33c179 stopped before Save when the test guard rejected Unreal's own
+SDK-status child query. The failed evidence is retained. A runner-only correction
+checks exact SDK command, private output path, parent ancestry and process birth
+identity. The same linked module was reused; no unrelated campaign replay or
+recook was performed. This category proof does not establish the owner's exact
+blocking actor or close all genuine free-body failures. DBG049 remains open for
+delivery and remaining distinct cases.
+
+### Provisional character source intake
+
+The owner-authorized add-only import brings101new game Content packages:
+editable descriptor/dependency packages plus16weighted body meshes and16own
+342-bone Skeletons. Existing141character packages and original Lab assets remain
+unchanged. Source surfaces reproduce exactly; rejected coarse Dragonborn heads
+are excluded. These are provisional bodies, not16approved finished ancestries.
+
+Native importa05 exits0. Independent game readbacka02 passes all16body/22root
+checks and exits0 without saving assets. Readbacka01's invalid unregistered
+assembly-readiness diagnostics and exit1 are preserved and classified; they do
+not prove absent rigs/textures. See
+`tools/prepared/character-foundation25/game-import25/README.md`, CATALOG.json and
+the complete character CHANGED-FILES.md. No active player/NPC selection, runtime
+assembly, creator sliders or Journey40 package is implied by this import.
+
+### GPU coordination and queued work
+
+The owner closed the game and freed both GPUs. Root completed the bounded Save
+check on AMD, then returned the shared Unreal/native slot to the separately
+owner-authorized current Human assembly lane on NVIDIA. Main runtime hooks still
+require ownership review. Native/build/RAM coordination remains shared; future
+owner playtests reserve NVIDIA and shift compatible agent work to AMD/CPU.
+
+Known tracked-quest compass range and dry-majority weather patches are prepared,
+not installed. Weather CPU C++ simulation validates bounds and dry-majority
+target time; actual store/render checks remain pending. Owner positive feedback
+on spawns/vampire event and subsequent tuning, prairie, buyers, hunting offers,
+floating bow/trees and quest-tracking reports remain in the backlog. None is
+quietly counted as a released fix.
+
+Methods/tools: actual Unreal C++ inspection and linked MSVC/UBT build, narrowly
+opted-in gameplay observation, real bound menu input, explicit D3D12 adapter
+verification, private SQLite online backup/read-only queries, immutable hashes,
+preserved failed evidence, isolated character Lab/content manifests and parallel
+prepared work. Only this project log is published to GitHub; no licensed assets,
+build payloads or campaign state are uploaded.
+
+
 ## 2026-10-25 — Journey40 targeted crash repair and living world batch
 
 **Shipped:** Journey40 (`0.21.0-preview12-playtest40`, additive schema46) is now
