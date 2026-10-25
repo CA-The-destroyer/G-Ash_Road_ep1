@@ -5,9 +5,73 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey39](#2026-10-24--journey39-saved-purse-contents). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey40](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-24--journey39-saved-purse-contents) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+
+
+## 2026-10-25 — Journey40 targeted crash repair and living world batch
+
+**Shipped:** Journey40 (`0.21.0-preview12-playtest40`, additive schema46) is now
+the normal Journey launcher's default. The batch includes compact difficulty-
+colored hostile names,10%faster Wood Shrews, starter kills credited to hunting
+contracts, original mound-den emergence, individual creature continuity,
+bounded hunting replenishment, one saved floating-deadwood correction and a
+separate page-turn map-discovery cue. Night archers avoid bow/torch hand conflict
+using actual nearby companion light; an individual wearable lantern is not added.
+
+**Targeted crash correction:** exact shipped39 shader/container evidence links
+the reported renderer failure to grass/flower MaterialCollection0. Five saved
+material-collection identity collisions were corrected through standard Editor
+notifications; all11 IDs are unique after reopening and parameter definitions
+are preserved. This repairs the demonstrated collision hazard. The original
+allocation/free history and sole-cause/global-stability proof remain unavailable;
+quiet controls are not used as causal evidence.
+
+**Actual acceptance:** final a10 Editor build and real UAT build/cook/stage/archive
+pass; all2715 required cooked roots are present. Actual final NVIDIA RTX4060Ti
+normal entry/cheese Take20, schema46, current ProjectVersion40, six PN IDs/current
+cached dependencies, four own complete material maps and game-master map-cue
+capture pass, normal process exit0. The independent container checker matches
+350code maps/4633shaders/every membership. All98 package leaves were rehashed
+before promotion. No broad unchanged quest, rescue or travel replay was repeated.
+Valid source/native evidence is reused within its original scope; hunting has
+5306SQLite plus3280ordering assertions and continuity has200SQLite assertions
+plus a two-process20-check native case.
+
+**Preserved failures and exact correction:** the first40 AMD normal-Take/MPC
+component passed but the overall case failed Engine-version postcheck. Six
+leading mojibake bytes in DefaultGame.ini hid its first settings section; only
+those bytes were removed for the final cook. Earlier affected compilation records
+are reused explicitly only after exact Engine/argv/content/runtime equality
+checks across this prefix repair. The first full candidate and cook proof are
+archived. The earlier checker hash-kind failure is retained: material/DDC keys
+and shader-code hashes are different, so identical bytecode hashes are valid.
+Protected compiled collection GUIDs are not observable through the public API.
+Full exit/reentry fixtures and strict forage/webhunter claims remain deferred;
+global wildlife density, all-site art and remote multiplayer are not complete.
+Map audio was captured but not personally auditioned or owner-approved.
+
+**Storage and ownership:** retention keeps40/39/38/37; reviewed36 cleanup removed
+93files /5,289,478,182gross bytes, no36 saved/crash state. All retained releases
+were rehashed before/after; measured free-space increase5,263,884,288bytes. Unique
+original crash diagnostics, five-asset preimages, owner campaigns and the held
+first40 candidate remain. NVIDIA was explicitly freed by the owner; all three
+release workers and the character chat were notified, and the native/GPU slot
+was returned to character work after the final case. Character/metal/weapon asset
+lanes and the new better-fire-effects request are not part of40.
+
+**Methods/tools:** modular existing C++ gameplay, SQLite migration/transaction
+checks, PowerShell/Python orchestration with immutable SHA256 manifests, native
+Unreal Editor readback, installed5.8.3 UAT/NullRHI cook and registry closure,
+CDB crash inspection, exact cooked shader/container parsing and Epic's official
+material-collection lifetime reference. No engine patch, private-field cast,
+client-authoritative gameplay or global physics/GC workaround was introduced.
+Only PROJECT_LOG.md is published; asset/build/save payloads stay local.
+
+Details: [delivery](docs/journey-playtest40-delivery.md),
+[crash evidence and limits](docs/crash-resolution40.md),
+[all changed files/generated package/backups](JOURNEY40-CHANGED-FILES.md).
 
 
 ## 2026-10-25 — Original crash shader identified; targeted collection repair saved
