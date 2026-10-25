@@ -10,6 +10,50 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-25 — Main-character conversation face camera in the source preview
+
+Owner liked the Mara face closeup and requested it for main-character
+conversations. A local C++ camera helper now follows the existing dialogue RPC,
+using explicit direct-Interact intent, configurable main-character IDs and an
+optional actor tag. Initial IDs cover Mara, village messenger, wounded survivor
+and courier. It blends into a collision-checked32degree face shot and back to
+normal gameplay. Movement, damage, menus/travel, dismissal and camera loss or
+takeover release the shot and its locally owned player hiding. Automatic shouts
+without direct-talk intent do not initiate a closeup. No server quest, save,
+combat or movement authority was changed.
+
+Linked build a08 and focused witness `mara-preview25-5fcf48354d` pass. Real bound
+F on existing Mara caused the production closeup, ordinary dialogue and saved
+opening stage0→1. Natural dialogue expiry returned to the actual player camera
+and92degree FOV after blending. The owned NVIDIA process exited normally0 and
+inputs stayed immutable. Root inspected both actual conversation/return images.
+A bounded independent source review caught and corrected ambient-trigger and
+hidden-pawn cleanup issues. Other eligible NPCs/remote clients and every
+interruption path are not separately rendered by this check.
+
+The owner's Mara garment distortion remains a real rejected-art defect.
+Hiding that garment exposed incomplete body coverage beneath the source outfit,
+so the POC now retains the assembly's matching stock white shirt/shorts while
+hiding only the corrupt medieval garment. The current source preview has
+coherent temporary coverage; no medieval wardrobe fit is approved or repaired.
+Offline garment trials remain rejected and unimported. The existing source
+preview launcher readiness marker was refreshed; Journey40 remains the cooked
+master, with no new release package and no owner-save modification.
+
+Methods/tools: reused local camera/preview code and Epic camera/blend references;
+narrow Unreal C++ hooks, sphere collision checks, linked UnrealBuildTool builds,
+Python/PowerShell owned-process runner, actual GPU readback, normal input and
+SQLite outcome observation, actual FOV/camera observations and screenshot review.
+Build a05 compilation failure and the earlier a07 limited return observation
+remain preserved; a08 verifies completed blending rather than only a pending
+view-target pointer.
+
+Evidence: `tools/prepared/dialogue-camera25/delivery.json`,
+`evidence/unreal/mara-preview25-source-a01/editor-build-a08.json`,
+`evidence/unreal/mara-preview25-5fcf48354d/verification.json`, and
+`DIALOGUE-CAMERA25-CHANGED-FILES.md/.json`.
+
+
 ## 2026-10-25 — New female Mara visible in a separate in-game POC
 
 The owner requested the new female Human model on Mara and explicitly accepted
