@@ -10,6 +10,57 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-24--journey39-saved-purse-contents) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-24 — Source feedback fixes and wilderness foundation
+
+Journey39 remains the promoted playable master. This is source work, not a new
+package, launcher promotion or a claim that the open crash has been fixed.
+
+- Compact enemy names replace the large difficulty panel. One actual rendered
+  live Wood Shrew name was reviewed yellow, with the normal HUD retained. Other
+  bands reuse the existing relative-level categories without changing combat.
+- Starter Wood Shrew deaths now record accepted hunting progress in the original
+  once-only SQLite transaction. Unfinished accepted hunts may maintain meadow
+  supply after the opening reward. Three audited movement paths use the requested
+  10% increase. Nine real SQLite groups/304 assertions pass; a native actual
+  acceptance/ordinary kill saved hunt1/starter1/original XP8 once and measured
+  the181.5cm/s cap. Wider supply, networking and den rollout remain separate.
+- Map discovery has its own imported page-turn SoundWave, with fresh saved-asset
+  readback and a source mapping separate from level-up and pin/unpin. Runtime
+  listening and cooked delivery are not claimed.
+- A strong authored deadwood candidate near the meadow was measured against338
+  actual Landscape contacts. Its single saved instance moved38.566cm downward,
+  preserving XY, rotation, scale, materials and collision. A hash-verified
+  original external-actor package is archived; fresh saved readback confirms five
+  distributed body contacts. Exact owner-photo matching remains a visual limit.
+- An original earth/root mound with a real tunnel is generated and imported.
+  Fresh native asset readback passes. The actual32/18 capsule clears the mouth
+  overlaps/sweeps while both solid controls collide; ten convex pieces remain.
+  Runtime placement now recognizes the shared standing-tree catalogue and a real
+  nest was constructed. Actual two-creature emergence remains under verification.
+- DBG040 remains P1 open. Redundant collection material resets were removed and
+  bounded pickup crash context was added. Actual source cheese Takes survived,
+  including before the cleanup, so these observations do not establish a crash
+  repair or general rendering stability. Failed fixtures and diagnostics remain.
+- The owner's requested larger follow-on is living wilderness. An actual retained
+  log audit found93 spawns for39 unique slots and52 rapid same-generation
+  readmissions. A bounded director residency/cooldown correction is prepared;
+  it is not installed or accepted. Reuse existing populations, saved identities,
+  finite story encounters and the12-AI budget before adding competing spawners.
+
+Methods/tools: bounded parallel agent preparation with one integrating
+coordinator; installed Unreal5.8.3 C++/engine API review and existing gameplay
+authorities; real MSVC/SQLite rollback, restart and contention checks; canonical
+Steam Blender for original geometry; serial UnrealBuildTool and Python asset
+jobs; opt-in NullRHI fixtures and focused rendered inspection; read-only private
+save readback, SHA256 fences and exact rollback packages. No owner campaign,
+Hunyuan process or immutable playable package was rewritten or stopped. Failed
+compile, import and fixture attempts are retained rather than relabelled passes.
+
+Local detail: `docs/woodshrew40-progress.md`, `docs/floating-tree40-progress.md`,
+`docs/name-colors40-progress.md`, `docs/cheese-crash40-progress.md` and
+`NAME-COLORS40-CHANGED-FILES.md`. Only this project log is published; source,
+licensed art, private campaigns, crash payloads and build packages stay local.
+
 ## 2026-10-24 — Journey39: saved purse contents
 
 Journey39 is promoted through the normal Journey launcher as
