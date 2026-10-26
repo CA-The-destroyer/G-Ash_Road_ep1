@@ -10,6 +10,44 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-26 — Denser diagonal fabric folds on Mara
+
+The owner requested cloth wrinkles at nonparallel angles, then more wrinkles.
+Mara's Ranger collar now has unequal primary folds and twelve additional
+geometry creases with different angles, depths, lengths and terminating
+gathers. These are modeled folds, not extra texture noise. Neckline, hem and
+end anchors, the existing olive linen maps and the rest of the outfit are
+retained. The front drape and its following center stitching are the only
+components replaced in the full suit.
+
+The original component assembly was reused. New source readback checks
+2,236,169 face corners with zero position/UV error and exact material routing.
+Unreal's existing native transfer/outfit/bake path produced the new mesh,
+reusing all 27 original materials and 86 material/texture packages. Seven Lab
+authoring assets were created; only the new skeletal mesh was migrated into
+the game. No duplicate source texture set or default-outfit substitution.
+
+The new native mesh has valid normalized weights and full-precision UVs.
+Fresh rest, idle, walk and collar-angle checks pass, followed by main build a19
+and an actual in-game Mara collar/fullbody witness. Unchanged normal dialogue
+and saved quest progression proof is reused. The private PlayMaraPreview.cmd
+launcher is updated; Journey40 remains the playable master and no cooked
+release was published.
+
+The source model and matching UV layouts/coordinate records are retained.
+The source-only lining UV repair is not silently promoted into the six
+retained cowl pieces. Dense wrinkle sampling raises the complete suit to
+1,074,249 triangles; production LOD/memory work and owner final art approval
+remain separate. This is authored drape geometry, not a new cloth simulation.
+
+Methods/tools: Blender CPU geometry work and actual mesh renders, retained
+UV coordinates and FBX corner readback, Python hash-bound source assembly,
+Unreal 5.8.3 native clothing transfer/bake and C++ presentation, PowerShell
+guarded builds, actual GPU/vendor verification and isolated focused checks.
+Rejected merge diagnostics were archived locally. Only this project log is
+published; models, textures, private saves and build payloads remain local.
+
+
 ## 2026-10-26 — Actual Mara Ranger POC and native linen polish
 
 The actual selected Ranger outfit is now dressed on the existing Mara in a
