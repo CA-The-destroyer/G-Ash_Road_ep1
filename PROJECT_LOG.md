@@ -10,6 +10,59 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-26 — Human class armor production and verified dual-GPU work
+
+The owner requested new class armor chats using the Ranger production lessons
+and humans as the baseline, then prioritized actual Fighter 3D construction.
+Five chats now cover the eleven remaining classes: Fighter/Paladin, Barbarian,
+Rogue/Bard/Monk, Cleric/Druid and Wizard/Sorcerer/Warlock. Each has a separate
+prepared directory and a shared construction, UV, material and native-fitting
+brief. Existing class artwork was audited before additive revisions. Chat
+creation and concept sheets are not finished wearables.
+
+The first Fighter-specific chest source is saved as BLEND and three FBX exports:
+chest, complete base tunic and combined comparison. Its construction pass is
+115,548 triangles on the proven human female source; male fit and other armor
+slots remain separate work. Root reviewed the first actual render and returned
+it for correction: pale/marbled leather, collar and shoulder shape, strap/belt
+substance and bag construction do not yet reproduce the selected art. It has
+not been promoted or claimed art-approved. The generated rear reference's
+duplicated front buckle column was explicitly rejected.
+
+Both GPUs completed actual Blender renders: AMD Radeon Graphics through Cycles
+HIP for a hardware detail and NVIDIA RTX4060Ti through OptiX for five cardinal
+and oblique views. Device enumeration, enabled-device choices and render timing
+are recorded separately. Independent compatible workloads are assigned across
+the GPUs; they do not pool VRAM. Owner playtesting retains NVIDIA priority.
+
+Separately, the selected Ranger chestnut palette passed an additive Unreal
+material import and eight paired studio views. Nine material clones and three
+UV0 masks change selected leather BaseColor only; existing mesh, weights, UVs,
+source textures and other PBR channels remain unchanged. Native lighting reads
+warm red-brown; owner palette approval remains separate. The runtime overrides
+are staged only. The checked a19 Mara preview and Journey40 master are unchanged.
+
+Ranger production also has five actual modular source exports, retained UV
+layouts and staged canonical equipment integration. Native skinning/removal,
+legacy player-body compatibility and runtime equipment coverage remain pending.
+The native LOD inspector built successfully; reduced-mesh generation/visual
+acceptance is tracked in its own receipts and is not implied by this source
+milestone.
+
+Methods/tools: Unreal Engine5.8.3 and its existing MetaHuman clothing/Dataflow
+path, Blender5.2.3, Cycles HIP/OptiX, source-art generation/revision, Python
+source/export checks, retained UV images and coordinates, immutable input hashes
+and focused offscreen native comparison. No stock-outfit demo substitutes for
+the requested class armor. No new packaged release or universal fit claim.
+
+Local records: tools/prepared/class-armors26/{CHATS.md,PRODUCTION-BRIEF.md,
+GPU-WORKLOADS.md}; martial/fighter/source/fighter-jack-a01/build-receipt.json
+and render receipts; tools/prepared/ranger-native26/leather-contrast-native26/
+HANDOFF.md; evidence/unreal/ranger26-leather-import-a02 and
+ranger26-leather-capture-a03. Licensed source art, models, textures, private
+saves and build payloads stay local; only this project log is published.
+
+
 ## 2026-10-26 — Denser diagonal fabric folds on Mara
 
 The owner requested cloth wrinkles at nonparallel angles, then more wrinkles.
