@@ -10,6 +10,45 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-25 — Ranger chest diagnostic measured and stopped during cleanup
+
+Owner explicitly approved one monitored attempt after the coordinator explained
+that its20GiB RAM/16GiB free-commit reservation was speculative. The one-job
+wrapper gained an explicit owner-authorized monitored profile,4GiB entry reserve
+and2GiB live emergency reserve; original conservative defaults remain for any
+unapproved invocation. This does not lower the production2K image requirement:
+the unchanged1254px master remains a diagnostic shape seed only.
+
+Actual standard seed2401024 ran offline on the NVIDIA RTX4060Ti for~90seconds.
+Shape generation reached remeshing/inner-layer cleanup for11,255,554 intermediate
+quads. Actual worker lifetime peak commit was10,337MiB; total system free commit
+fell to1,150MiB. The monitor stopped owned work. Supervisor exit1; no usable mesh
+or result, no Blender fit/native import/Mara equipment change, and no retry.
+Owned processes exited, the owned studio lock released, and postcheck NVIDIA
+free VRAM returned to5,690MiB. No foreign process or system setting changed.
+
+Methods/tools: existing pinned LocalMesh Engine and worker, exact offline cache,
+atomic shared lock, no recursive lower-tier fallback,1200second bound, Python
+Win32 memory counters and periodic nvidia-smi telemetry. A Windows venv redirector
+initially made the wrapper's child-private counters irrelevant; a separate
+parentage/command-verified monitor measured the actual inference child and its
+lifetime peak. System commit includes other processes; this interrupted peak
+is not a completed-run memory bound. Existing failed evidence is preserved.
+
+The preceding final leather concept handoff is hash-verified:95 selected parts,
+19 matching atlases,19 assembly guides;114 selected part/icon files match.
+These are prepared concepts, not owner-approved3D or installed equipment.
+
+Next geometry decision must constrain cleanup complexity or use a real larger
+commit window, rather than lower the emergency reserve or silently repeat this
+same expensive cleanup. Ranger→Mara fit/motion→one spoken facial response remains
+the active order. Journey40/schema46 remains the playable master.
+
+Outcome/evidence: `tools/prepared/mara-orchestration25/monitored-chest-attempt-a01.md`
+and `.json`; complete local inventory: `RANGER-MONITORED25-CHANGED-FILES.md`/`.json`.
+Only PROJECT_LOG.md is published to GitHub by this milestone.
+
+
 ## 2026-10-25 — Feature and debug lists reconciled against Journey40
 
 Consolidated the current feature list into21 stable areas under the existing
