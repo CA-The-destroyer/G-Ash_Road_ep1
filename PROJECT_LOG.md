@@ -10,6 +10,54 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-26 — Actual Mara Ranger POC and native linen polish
+
+The actual selected Ranger outfit is now dressed on the existing Mara in a
+private source preview. This uses the constructed Ranger geometry, not default
+MetaHuman clothing. Existing Mara dialogue, interaction, collision, quest and
+save authorities are retained. Normal F dialogue and saved opening-stage1
+proof are reused for that unchanged authority. Journey40 remains the playable
+master; this milestone does not publish a new cooked release.
+
+The complete source suit preserves its selected component construction and
+corner UV/material routing through FBX readback, native transfer and bake.
+The delivered full-detail candidate is824273triangles with27material slots;
+production LODs/material and memory optimization are still needed. Reduced body
+LODs collapsed glove deformation, so the private one-body candidate holds the
+tested full rig. Native rest/idle/walk evidence and actual in-world Mara views
+are recorded separately from final owner art approval.
+
+After the baseline POC, the owner's olive linen photograph guided an additive
+collar material pass: irregular interlaced yarn, olive dye variation and matte
+fiber roughness. Exportable2K color/OpenGLnormal/roughness and16bit source
+height accompany the eight-mesh variant, unchanged geometry/UV coordinates,
+eight UV-layout images and eight coordinate arrays. Only the exact native
+collar material slot is overridden. The64mm tile uses15.625UV scale once;
+fresh native readback confirms all three2K maps with12of12mips resident in the
+detail view. Current three prominent fold bands remain for later shape polish.
+
+Builda18 and the focused native source preview pass. The explicit portrait-only
+budget is1800MB; this avoids the full-source wardrobe's close-view shortage in
+the conservative800MB pool and does not alter released-game settings. This is
+not a completed production memory fix. The earlier suspected extra arms proved
+to be camping tent flaps and poles aligned behind Mara; component isolation
+and a shifted view corrected the misdiagnosis without deleting world geometry.
+
+Methods/tools: Blender5.2.3 source inspection and CPU actual-mesh comparison
+renders; deterministic Python/Numpy physical textile maps; retained UV layouts,
+corner readback and file hashes; Unreal5.8.3 native MetaHuman/Dataflow weight
+transfer/outfit/bake and C++ presentation; PowerShell guarded builds/launches;
+isolated campaigns, actual GPU/vendor verification and precise native checks.
+No repeated default outfit demonstration or broad packaged playthrough.
+
+The private launcher is PlayMaraPreview.cmd. Evidence, source references,
+failed attempts, preimages and changed-file inventory remain local under
+tools/prepared/ranger-native26 and evidence/unreal. Owner final art approval,
+universal body fitting, multiplayer/rejoin, fitted sole-ground quality, organic
+fold refinement and production performance are not claimed. Only this project
+log is published; licensed assets, private saves and build payloads stay local.
+
+
 ## 2026-10-26 — Actual Ranger production and universal visual fidelity
 
 The owner rejected default-outfit demonstrations as a substitute for the Ranger
