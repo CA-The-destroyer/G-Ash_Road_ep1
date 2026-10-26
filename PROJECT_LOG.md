@@ -10,6 +10,49 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-25 — Bounded chest reconstruction completed, repair required
+
+Owner approved constraining remeshing and retrying. An isolated process-local
+adapter capped the public cleanup call's requested DC grid at512 while retaining
+Standard1024 shape generation, seed2401024,12steps,4096 derived atlas and150k
+final triangle budget. Installed Engine/shared worker/configuration and original
+failed a01 are unchanged. The shape was preserved before in-place cleanup.
+
+Actual generation completed normal0 in261.2seconds, producing a38,369,760byte
+GLB with141,576triangles and two embedded4096x4096 images. Actual DC512 produced
+2,494,552 intermediate quads, versus11,255,554 observed in the failed attempt.
+The first effective adaptive grid was unlogged; the second also began with more
+available commit. Do not attribute all success to the cap or claim universal
+memory requirements. Actual worker peak commit15,636MiB; minimum system free
+commit2,315MiB stayed above the unchanged2GiB emergency reserve. Sampled dedicated
+VRAM headroom fell to55MiB, so concurrent GPU work remains unsuitable.
+
+Methods/tools: bounded read-only agent review of installed prior implementation,
+isolated Python adapter, pinned offline cache, atomic studio lock, one fresh
+attempt identity, no recursive lower-tier fallback, Win32 owned-job containment
+covering venv launcher and actual Python worker, self-reported actual-worker
+memory telemetry, periodic NVIDIA counters and1200second timeout. Canonical
+Steam Blender rendered six CPU axis views and saved an editable review scene;
+normal0. Engine pins/source master/old failed artifacts remain intact.
+
+Root visually reviewed all six views. Rounded shoulder/scarf/tasset volumes
+are useful reconstruction reference, but sleeve/torso holes, mirrored-front
+details on the back, warped hardware and fused straps prevent rig/equipment
+acceptance. UV-split raw boundary counts are not literal hole counts. Native
+1254px input remains diagnostic; a4K derived atlas does not create native4K
+source detail or lower production intake requirements.
+
+Leather lane received immutable shape/model and review for chest-only surface
+repair/retopology against exact Mara body, approved back and continuous underarm
+straps. No new garment imported/equipped; stock-clothed Mara and rejected r13
+remain unchanged. Shared native/CUDA window released. Ranger→Mara fit/motion→
+one spoken facial response remains active. Journey40/schema46 remains master.
+
+Delivery: `tools/prepared/mara-orchestration25/chest-bounded-a02/DELIVERY.md`.
+Complete local inventory: `RANGER-BOUNDED25-A02-CHANGED-FILES.md`/`.json`.
+Only this project log is published; generated models and other payloads stay local.
+
+
 ## 2026-10-25 — Ranger chest diagnostic measured and stopped during cleanup
 
 Owner explicitly approved one monitored attempt after the coordinator explained
