@@ -10,6 +10,66 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-25 — Native MetaHuman outfit control proves fitting, baking and sampled poses
+
+The owner approved trying Epic's native clothing workflow. The isolated
+CharacterLab now has newly constructed Cloth, Outfit and Wardrobe assets from a
+known-good Epic garment, followed by genuine native fitting to the existing
+female Mara descriptor's exported combined face/body and a baked skeletal mesh.
+This is a stock shirt/shorts technical control, not the selected Ranger design.
+Journey40 remains the playable master; current game Mara and campaign saves were
+not replaced.
+
+**Verified:** public Python Dataflow node/property/connection APIs; new native
+skin-weight transfer and sized outfit; official combined-target export; actual
+ResizeOutfitTemplate variables and execution; skeletal baking with342 bones,
+13760 vertices and24989 triangles, no unweighted or invalid-bone vertices and
+all normalized65535 weight sums. Fresh saved readback matches the output. Six
+native rest/Idle/Walk sampled captures pass, with garment/body bone alignment and
+45.3093cm observed walk change. Original source/template/descriptor files retain
+their hashes. The capture's front/back filename labels are reversed; its explicit
+visual-review correction identifies actual views without altering receipts.
+
+**Methods/tools:** Epic documentation, installed public headers and real native
+API probes; Unreal Python/Dataflow; a small editor-only C++ wrapper for Epic's
+existing export, collection/topology/weight inspection and single-pose evaluation;
+serial Unreal Editor jobs, explicit actual GPU vendor checks, native SceneCapture
+readback and CPU Blender source inspection. Bounded parallel API/template reviews
+supported the coordinator, who owned builds, asset saves and native execution.
+No custom fitter/skinner, Engine patch or broad packaged regression suite was added.
+
+**Corrections retained:** body-only input failed the combined-topology RBF check;
+protected Bounds was not a usable Python read. An initial path audit misclassified
+Windows separators. A native source count assertion compared the1973-triangle
+Nanite fallback to the24989-triangle MeshDescription actually imported by
+Dataflow; fresh source readback resolves the mismatch. Early capture callbacks
+could reenter during native compilation and duplicate actors/lights, producing
+D3D12 command-list exhaustion on both GPUs. Guarding the helper and explicitly
+evaluating component poses yielded the passing focused check. Failed evidence
+remains; the original source fit was not rerun just to repair an audit report.
+Native inpaint transfer also used its closest-point fallback for some vertices;
+that warning and the scope of visual checks remain explicit.
+
+**Art boundary:** the saved pre-cleanup reconstruction already contains the
+central jacket/sleeve holes. They predate DC512 cleanup. Ranger r09 and local
+surface correction remain rejected; a sound static source must match selected
+R02 coverage, sleeves/shoulders, continuous leather beneath the front X and the
+legitimate rear X/diamond with plain rear waist belt. The native pipeline now
+removes the need for another custom fitting algorithm, but does not repair bad
+source geometry or establish likeness/art acceptance.
+
+**Still open:** selected Ranger geometry/materials, actual Creator Wear UI and new
+WI production assembly, continuous/all-pose fit, cloth simulation and runtime
+wardrobe integration. Only sampled poses were checked. The render-only pilot is
+baked for runtime use; no new release is claimed.
+
+Local result: `tools/prepared/mara-native-outfit25/README.md`; exact new-source
+receipt: `evidence/unreal/mara-native-outfit25-final-a09/control.json`; fresh render
+receipt: `evidence/unreal/mara-native-outfit25-capture-a08/capture.json`.
+Official references: [Outfit asset workflow](https://dev.epicgames.com/documentation/metahuman/building-an-outfit-asset-in-unreal-engine)
+and [render-mesh construction](https://dev.epicgames.com/documentation/metahuman/building-a-metahuman-parametric-outfit-with-a-render-mesh).
+
+
 ## 2026-10-25 — Bounded chest reconstruction completed, repair required
 
 Owner approved constraining remeshing and retrying. An isolated process-local
