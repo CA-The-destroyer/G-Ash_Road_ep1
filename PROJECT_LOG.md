@@ -10,6 +10,41 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-26 — Actual Ranger production and universal visual fidelity
+
+The owner rejected default-outfit demonstrations as a substitute for the Ranger
+outfit. Work now targets the selected Ranger torsoR02, glovesR02, female
+trousersR03 and bootsR02 on Mara. The first constructed chest is not accepted
+finished art: the owner requires a serious art pass matching the approved coin
+purse's leather and metal quality. Boots and trousers have approved shapes;
+gloves are being corrected against their original layered reference.
+
+**Universal acceptance rule:** every 3D component and its UV/material treatment
+must reproduce its selected art almost exactly. Leather must read as leather,
+straps must match scale and flow, and metal must read as metal. No component or
+small-fitting exceptions. Technical import or fit success is not art approval.
+The rule and repeatable armor-production direction are recorded in AGENTS.md.
+
+**Methods:** parallel bounded component authoring, CPU headless Blender5.2.3,
+reference/coordinate preservation, explicit exportable PBR channels and shared
+Style48 metal treatment. A read-only purse comparison identifies concrete
+geometry/UV/material differences. Root owns Unreal5.8.3 native Dataflow dressing,
+C++ bridge, integration and focused native review. The already proven native
+outfit workflow is reused; repeated default controls and another custom fitter
+are excluded. Representative source fits will support native parametric resizing
+instead of redesigning the same outfit for every wearer.
+
+**Actual status:** Ranger authoring/art correction is in progress. The actual
+Ranger has not yet passed native fitting or been activated in the game. The
+current private Mara preview is a fixed single-body bake, not completed automatic
+multi-body equipment fitting. Journey40 remains the playable master. No release,
+asset upload or saved-campaign migration is implied by this entry.
+
+Local work: tools/prepared/leather-armor25/mara-ranger-poc25/native-ranger26-a01;
+root preparation/audit: tools/prepared/ranger-native26. Only this project log is
+published; models, textures, licensed inputs, saves and build payloads stay local.
+
+
 ## 2026-10-25 — Native MetaHuman outfit control proves fitting, baking and sampled poses
 
 The owner approved trying Epic's native clothing workflow. The isolated
