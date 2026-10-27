@@ -10,6 +10,74 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+
+## 2026-10-27 — Actual MetaHuman Barbarian face and reusable outfit fitting
+
+Lab character work only. Journey40, Main and private Mara remain unchanged;
+no new playable package or complete class outfit is claimed.
+
+The actual male Fighter chest completed Epic's temporary-body outfit resize,
+garment-only save and fresh reload. The source retains all 123,636 triangles and
+its approved corner UV/material routes. A fresh three-view NVIDIA capture shows
+the actual saved garment in rest and Walk. Root reviewed those views; torso
+contour, rear/belt/underlay appearance and skirt motion remain source/art work.
+The supported workflow now persists the garment only, avoiding unnecessary
+attempts to save internal merged-body textures and helpers.
+
+The owner-directed next Barbarian effort produced an actual editable Red Sonja
+MetaHuman descriptor, two focused sculpt passes, copper-red hair and gray-green
+eyes. Fresh processes reopen the saved geometry without applying a preview state
+first. Four corresponding actual Unreal portraits exist after the refinement.
+Root reviewed the front/quarter views. The initial pale-hair result and failed
+headless FBX-export run are retained. Actual generated material readback showed
+the original low-melanin values already applied; increasing melanin produced
+the observed copper color. The unsupported defaults-override hypothesis was
+discarded. The installed straight groom lacks the reference waves; exact likeness,
+expressions, complete outfit and game integration remain unapproved.
+
+The physical body remains unchanged by the face work. Each sculpt's actual
+before/after face exports pass exact oriented all-channel UV/material comparison
+for 192,282 corners and 64,094 triangles, alongside unchanged native DNA topology.
+Ten corresponding 2048px UV-layout images accompany each export pair. Original
+characters and shared groom assets remain unchanged; owned previous stages are
+preserved under the project's Archive.
+
+The selected Barbarian leather top now has an actual female-baseline source:
+cup shapes retained, independent cup placement, shortened skin-routed bands,
+lowered halter ties and corrected stitching. All 50 original UV0 maps remain
+exact. Five source/body overlays and static FBX/GLB readback exist. This is a
+baseline diagnostic, with athletic/hulking targets, fur cape and complete set
+still open. Native top import/save and fresh front/back/Walk capture now pass
+through the existing connected Inpaint/bake path: eight primary components,
+12,372 source control points and 42 parented soft-detail groups. Dense cup
+geometry initially exposed a mapping ambiguity. Exact native float32 source
+positions resolve all 3,256 coarse-position ambiguities, retaining UV/material
+and polygon coverage. No source triangle is silently removed. A generated-cache
+input-list error and capture module-search-path omission were corrected in
+preserved Python successors, without rebuilding the native operators.
+
+An actual combined Sonja head/body and saved-top portrait also rendered. Root
+identified the visible gray underlayer as native body-material top underwear,
+despite successful empty Outfits selection and no-op body hide-mask. The
+installed skin property's supported underwear toggle now removes that gray
+layer in the actual combined image, reviewed by root. Native after-apply
+material/geometry preservation passes. The final wrapper's live-material check
+was mistakenly scheduled after actor cleanup, so the complete wrapper remains
+failed and its evidence is preserved; the verified toggle and exported image
+are recorded separately. No repeat render was performed for that cleanup-order
+error. Technical capture is separate from final art approval.
+
+Methods/tools: existing UE5.8 MetaHuman sculpt/commit-DNA and wardrobe instance
+parameters, installed Epic outfit/Dataflow/Inpaint/bake implementations, one
+serial Unreal/build slot, bounded parallel CPU source preparation, actual NVIDIA
+portraits, Blender CPU body-overlay/export work, exact source/UV/material pins,
+fresh saved readback, retained failed evidence and archived preimages. GitHub
+receives this project log only. Detailed evidence/limits are in
+docs/temporary-outfit-fitting-20261027.md and
+docs/barbarian-milestone-20261027.md; local changed-file inventories retain the
+actual source, layout, native asset, build and diagnostic paths.
+
+
 ## 2026-10-27 — Current Fighter transfer, saved visual proof and armor shader studies
 
 Lab work only; Journey40, Main and private Mara remain unchanged. The current
