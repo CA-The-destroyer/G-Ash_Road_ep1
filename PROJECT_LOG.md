@@ -10,6 +10,50 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-27 — Fighter connected transfer and armor material studies
+
+Lab progress only; Journey40 remains the playable master and private Mara a19
+is unchanged. Exact native UV restoration and parent-garment attachment weights
+were saved and reopened. The connected-source Epic Inpaint probe now passes
+all22 primary parts:36,160 original points,54,097 native vertices,72,232triangles,
+31,349 direct seeds and4,811 inpaint points. Read-only source/donor fingerprints
+and protected inputs remain identical. No primary weights were committed.
+
+The earlier observer failure is precisely located in unnamed polygon groups on
+the merged body donor; all seven garment material routes pass unchanged. The
+actual captured-pose LBS comparison predicts zero original-point wedge tearing
+and much better outer-jacket/skirt deformation, including underlap maximum edge
+ratio11.24 to1.22. Base-shirt distortion/facing counts worsen, however, so full
+field adoption is held for exact triangle/seed diagnosis. Zero seam separation
+is not moving fit, collision or visual approval.
+
+Official male target generation produced actual meshes and27attached matching
+measurements on the observed NVIDIA adapter. A pre-save anatomy signature guard
+refused the output: its saved comparison references Defaults25 while generation
+uses RuntimeSource25. Both have60,816body triangles but different coordinate
+signatures. Exact lineage diagnosis is pending; no target was saved, no source
+DNA changed and no male fitted-outfit approval is claimed.
+
+Eight existing armor lanes resumed. Matched human class concepts, Fighter source
+A21/H05/L09 refinements and Ranger hood source preparation remain separate from
+native fit acceptance. A new owner-requested chainmail/plate materials chat
+prepared actual linked-ring and plate study geometry, usable source UV layouts,
+shared scratch/polish inputs and a contract based on the existing weapons and
+approved metal shader. No per-link runtime physics. PBR bakes, mapped game exports
+and native/visual material approval are pending.
+
+Methods/tools: Steam Blender for bounded source construction, CPU numeric/UV
+audits, Unreal5.8.3 C++/Python and installed Epic geometry/MetaHuman APIs, serial
+Lab builds, NullRHI read-only commandlets, actual bone-pose LBS diagnostics and
+hash-bound before/after preservation. Parallel chats have narrow file ownership;
+native/build work stays serial. NVIDIA is primary when available, with observed
+AMD fallback and NVIDIA reserved during owner playtests. No default outfit
+demonstration substitutes for requested armor.
+
+New loot level bands, effective-use requirements and equipped-versus-inventory
+comparison were recorded as backlog, preserving the active armor priority.
+Only this project log is published; assets, saves and build payloads stay local.
+
 ## 2026-10-26 — Fighter leather native modules and matched human class art
 
 Prepared/native-lab work only; Journey40 remains the playable master and private
