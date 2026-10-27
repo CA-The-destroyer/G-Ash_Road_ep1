@@ -11,6 +11,57 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-27 — Barbarian wearable construction, weathered leather and real cape cloth
+
+CharacterLab work only; Main, private Mara and Journey40 remain unchanged. The
+corrected d06 bikini bottom now imports, fits the saved athletic female profile,
+saves and independently reloads. Its19 source parts retain22,768 triangles and
+both UV channels. The existing exact repair restores ten proved original Outfit
+UV corners after import/resize; no tolerance broadening or new fitter was used.
+Root viewed six actual rest/checker/Walk captures. This is one sampled body/pose
+set, not universal body-range or game approval.
+
+The owner's request to weather the leather is implemented in additive w02 top
+and bottom variants: dark chestnut wear, grime, rubbed edges, fine grain and
+roughness variation. Streaky w01 is retained as rejected evidence. Native saved
+variants and separate fresh reload pass, with exact positions, skin weights,
+corner UVs and tangent frames preserved. Nine bottom material routes and three
+top slots use13 newly imported maps and two reused top normals. Source FBX/GLB,
+portable material bindings and UV-layout PNGs remain available.
+
+Native close-ups exposed a real preview problem: only64/128px texture levels
+were resident. A bounded transient close-view/residency request loads all15 maps
+at original1024/2048px resolution; measured mip0 readback and root-reviewed
+images show the leather grain. No persistent texture settings or Content assets
+were changed for that correction. Actual front/back/cup views are distinct and
+root-reviewed; an equal-file-size duplicate suspicion was disproved without
+another native run. Final native art and equipment approval
+remain distinct from numeric import/save checks.
+
+The actual cape now uses Epic's Chaos cloth/Dataflow path, a separate726-point
+proxy with66 fixed/660 dynamic particles, native tethers and body-derived
+collision. A fresh four-second/240-step trial shows genuine secondary motion,
+with changing solver-versus-skinned residual up to8.9036cm. Exact render import
+retains35,904 source triangles and two UV channels. A measured half-precision
+final-buffer defect was resolved in a new full-precision cloth candidate, whose
+actual built buffers pass source comparison and separate fresh reload at maximum
+UV error5.96e-8. Original assets and failed attempts remain protected. Shoulder
+bunching/contact, athletic cape adaptation and final natural fur are unfinished;
+coarse tufts are not accepted finished fur.
+
+Methods/tools: three existing specialist chats with a single root-owned Unreal
+build/import/render slot; Blender source authoring and portable texture exports;
+UE5.8.3 C++ bridge helpers, MetaHuman/Outfit and Chaos cloth/Dataflow; focused
+Python geometry/UV/material/weight comparisons; actual save/reopen and narrowly
+targeted rendered checks. Existing passing results were reused rather than
+repeating broad suites. NVIDIA is used when owner-free, with AMD fallback under
+the standing GPU rule. No claim of simultaneous multi-GPU use in this batch.
+Only this project log is published to GitHub; assets, saves and builds stay local.
+
+Detailed evidence: `docs/barbarian-milestone-20261027.md`; complete cumulative
+created/modified outputs, retained diagnostics and copied preimages:
+`tools/prepared/barbarian-face27/BARBARIAN-CHANGED-FILES.md`.
+
 ## 2026-10-27 — Actual athletic Barbarian fit and garment construction
 
 CharacterLab work only. Journey40, Main and private Mara remain unchanged.
