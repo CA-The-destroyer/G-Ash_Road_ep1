@@ -10,6 +10,46 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-26 — Fighter leather native modules and matched human class art
+
+Prepared/native-lab work only; Journey40 remains the playable master and private
+Mara a19 is unchanged. Matching Fighter gloves and boots source-a05 now import
+through the existing Epic Dataflow skin-transfer/outfit-bake workflow with342-bone
+compatibility, normalized weights, full precision UVs and actual material routes.
+Focused rest/idle/opposite-walk captures exist. Bright studio lighting washed out
+the glove finish; a controlled lower-light comparison restores the authored dark
+leather without recoloring source textures. Grip/combat and mixed-clothing fit
+are not established.
+
+Refined Fighter chest A15 adds a real lower closure support and explicit parent
+semantics for140 source meshes. Its native import preserves two source UV channels;
+17 actual shader texture routes verify UV1 wear color/roughness and UV0 grain
+normal with the authored scale applied once. Parent-garment detail weight work
+uses supported Epic APIs rather than another body fitter. Earlier native walking
+evidence still rejects primary skirt clearance; the outfit is not complete or
+promoted. Sleeve/glove and trouser/boot overlaps also require correction.
+
+The owner requested accurate male and female class images. Five existing class
+art chats are producing matched front/back/opposed-side references from retained
+designs and saved human body references, using built-in imagegen and visual
+review. Duplicated profiles, extra rear belt tails and mismatched male silhouettes
+are being revised, with prior drafts retained. Generated concepts are not fitted
+models, UV maps, PBR maps or owner-approved final art.
+
+The new chainmail art lane retained three exact owner photographs for linked-ring
+relief, belted hauberk drape and coif/padding layering. Chainmail concepts remain
+pending review; dedicated plate art and all mail/plate 3D are still pending.
+Ranger's corrected harness/waist source and portable material packet continue in
+their existing lane; color-only activation stays held until geometry is ready.
+
+Methods/tools: existing UE5.8.3 C++/Python editor bridge, Epic Chaos Outfit/Dataflow
+and supported skin-weight APIs; Blender5.2.3 via the canonical Steam executable;
+bounded CPU source/FBX/UV audits, compatible AMD/NVIDIA native/source rendering,
+and built-in imagegen for actual reference art. Native jobs remain serialized;
+NVIDIA is reserved during owner playtesting. No default outfit demo, new gameplay
+authority, package or licensed-asset upload is claimed. Detailed evidence:
+tools/prepared/fighter-production26/DELIVERY.md and native/review-batch-a01/checks.json.
+
 ## 2026-10-26 — Human class armor production and verified dual-GPU work
 
 The owner requested new class armor chats using the Ranger production lessons
