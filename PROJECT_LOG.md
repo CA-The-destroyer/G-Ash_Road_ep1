@@ -10,6 +10,52 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 **Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+## 2026-10-27 — Current Fighter transfer, saved visual proof and armor shader studies
+
+Lab work only; Journey40, Main and private Mara remain unchanged. The current
+A21 source import and native identity readback passed. Existing Epic connected
+transfer and detail-parent operators restored 40 measured corner UVs and saved
+three fresh diagnostic meshes without changing original source geometry or
+imports. Fresh saved ten-view AMD capture passed. A body-backed pixel trace
+identified the pale shoulder region as existing leather shading, not body
+exposure. A single overlapping sleeve-fan center drifted about 2 mm during Walk.
+An existing SkinWeightModifier diagnostic changed exactly its 18 wedges, kept the
+other 130,302 vertex codes and all authored data exact, and saved a fresh mesh.
+Root compared fresh NVIDIA oblique/Walk views: the specific sleeve dot is absent.
+This narrow result does not approve the complete outfit, material finish or all
+animations.
+
+The male fitting donor now uses Epic's exported merge factory instead of
+duplicating an incomplete renderless mesh. The previous duplication crash is
+preserved. Actual NVIDIA readback matches all 60,816 saved body triangles,
+full-body inclusion, the 342-bone reference and 27 DNA measurements. Saving
+correctly stopped on a temporary body material. A new read-only actual inventory
+passes and identifies six transient body textures without source payloads; the
+parent material chain is persistent. Supported exact material/texture persistence
+from the descriptor buffers is the next implementation, not a stock substitute.
+No reusable male target is saved or accepted yet.
+
+The mail/plate shader study now has all 13 diagnostic channels and a source
+blend/UV layouts. Six finished maps were reused; seven remaining maps completed
+on observed AMD HIP in 85.4 seconds. A temporary unwelded 117-to-1 bake proxy
+passed exact positions, topology, corner normals, UVs, attributes, material routes
+and original-source preservation. Two mapped light views exist. Normal gutters,
+portable exports/readback, metal appearance and native/art acceptance remain
+open. These are shader studies, not finished armor or runtime chain-link physics.
+
+Methods/tools: installed Epic UE5.8.3 source and supported MetaHuman/Outfit APIs;
+isolated Lab C++/Python; serial UnrealBuildTool/MSVC builds; NullRHI diagnostics;
+actual AMD/NVIDIA saved-mesh captures; Steam Blender with bounded AMD HIP/CPU
+jobs; source-control-point/corner-UV identities, exact bone-weight readback and
+SHA256 preservation. Three bounded existing armor chats continue source,
+material and target-dependency work under one integrating coordinator. No
+gameplay regression or packaged replay is added for unchanged game systems.
+Source preimages, failed attempts and generated evidence remain local. Only
+this project log is published.
+
+Details: docs/armor-checkpoint-20261027-morning.md; CURRENT_WORK.md;
+tools/prepared/ranger-native26/CONTINUATION-CHANGES-20261026.md.
+
 ## 2026-10-27 — Fighter connected transfer and armor material studies
 
 Lab progress only; Journey40 remains the playable master and private Mara a19
