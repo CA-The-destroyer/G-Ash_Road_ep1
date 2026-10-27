@@ -11,6 +11,18 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-27 — Actual class garments in the Journey camp; separate playable source preview
+
+`PlayClassKits.cmd` now opens the existing Journey world with Ranger Mara, the male Fighter chest a09, and the athletic Barbarian's weathered w02 top/corrected d06 bottom. The two additional characters use grounded server-authoritative camp defenders through the existing patrol/combat path. Main build a28 passes. Focused actual-game case `class-kits27-062c7b4054` passes on NVIDIA with exit 0: both defenders patrolled about 275.37 cm and rejected friendly targets. Root reviewed six front/back captures. This establishes the sampled in-game presentation and patrol behavior, not complete combat-animation or final art approval.
+
+Body-only skin baking now removes the Barbarian's old baked gray tank/shorts. The official MetaHuman palette MID-to-MIC helper supplies valid inputs to the existing TextureGraph recipes. Root and the body lane reviewed all four corrected 2K maps; the final game records the corrected a02 material on the rendered Body component. No geometry, skin weights, approved UVs, face, groom or garment silhouette changed for this material correction. The earlier checker/fallback trial is explicitly rejected and was never migrated into the game.
+
+Base migration added 278 assets; clean skin migration added five. There were zero existing game asset overwrites. The hash-gated launcher binds the current module and verified dependency files to the actual evidence. Full-body source geometry, skeleton/reference, runtime UV checks and PNG/SVG layouts are retained. This is a separate source preview and private campaign/save, not a cooked release. Journey40 remains the promoted playable master.
+
+The Fighter is a chest-only partial kit, with matching male limbs/head/leg armor still needed. Barbarian cape/final natural fur, attack/hit/death visuals, weapon grips, complete player equipment, universal body coverage and multiplayer validation remain unfinished. Two patrol posts are established; a full camp geometry expansion is not claimed. Daylight scene captures do not establish all-pose or all-lighting quality. See `tools/prepared/ready-kits27/README.md` and `CHANGED-FILES.md` for scope, launch instructions, exact files and retained failed iterations. No files moved/deleted and no release package generated.
+
+Methods: Unreal C++/Blueprint and existing guard authority, MetaHuman/Outfit construction, body-only TextureGraph baking, Blender through its canonical Steam executable, Python/PowerShell, dependency-registry inspection, focused actual-game captures, retained UV PNG/SVG layouts, and hash-bound asset/build evidence. Parallel preparation used the existing three feature chats; coordinator alone owned native/build jobs and active integration. Only this project log is published to GitHub; source assets, saves and build payloads remain local.
+
 ## 2026-10-27 — Saved Barbarian cape upper-back improvement and fur reference
 
 CharacterLab only; Main, private Mara, Journey40 and the playable launcher remain
