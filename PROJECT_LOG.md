@@ -11,6 +11,53 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-27 — Saved Barbarian cape upper-back improvement and fur reference
+
+CharacterLab only; Main, private Mara, Journey40 and the playable launcher remain
+unchanged. The actual cape now has an isolated support-map update and a copied,
+body-measured Physics Asset. Four spine_04 sections replace its oversized capsule;
+the other59 body setups and source assets stay intact. Native restore proofs
+permit only198 map values and the physics path to differ, preserving skin,
+geometry, UVs, materials, other properties and tethers. Full precision and
+35,904 source triangles/two UV channels persist through a separate fresh reload.
+
+The focused150-step rest/Walk trial uses exactly the old skinned poses. Actual
+center-back lift improves from6.01/7.06/7.07cm to-.249/.109/.213cm in three
+samples. Eight rendered views show a much smoother upper back. Full contact is
+unfinished: moving side-drape proxy/capsule penetration still reaches4.42cm,
+including spine_04/spine_03 regions. Athletic cape adaptation and final natural
+fur remain separate; the coarse tufts are placeholders.
+
+Two integration pitfalls were resolved without broad retesting. Regenerating
+the original graph recomputed skin weights, so the accepted update copies the
+actual collection and changes only the intended field. A baseline reference
+comparison differed by one root/Root display byte while every parent and
+transform matched; only that pinned pair is admitted. The final wrapper's path
+separator comparison was resolved offline: all51 protected byte/hash records
+match, with18 display-only path spellings. Failed receipts, a corrected isolated
+diagnostic-reader serialization error, and successful readbacks remain retained.
+No unchanged motion suite or packaged playthrough was repeated.
+
+Fur preparation includes a776-card/3,452-triangle source patch with underfur,
+body clumps and guard hairs, both UV layouts and portable alpha bindings.
+Corrected strand direction/atlas regions reach95.27% projected coverage on the
+same geometry. This is not native GPU overdraw or finished fur; the existing
+256px input and unverified normal convention remain quality limits. The owner's
+new fur-mantle photo is preserved with a brief emphasizing dense underfur,
+uneven guard hairs, dark roots, tawny tips and a soft outline. It guides finish
+while retaining the selected cape construction.
+
+Methods/tools: three existing specialist chats and one root-owned serial native
+slot; Blender5.2.3 CPU source/BVH measurements, NumPy geometry comparisons,
+UE5.8.3 C++ PhysicsAsset/Chaos cloth/Dataflow APIs, collection-only native Build,
+actual rendered buffer and saved-asset inspection, focused Python rest/Walk
+captures, and fresh readback. NVIDIA/AMD selection follows the owner's reserved
+GPU rule; no claim of simultaneous GPU use. Only PROJECT_LOG.md is published.
+Source assets, licensed inputs, saves and build payloads remain local.
+
+Evidence/remaining work: `docs/barbarian-cape-contact-20261027.md`. Complete
+current batch file inventory: `tools/prepared/barbarian-cape27/CONTACT-CHANGED-FILES.md`.
+
 ## 2026-10-27 — Barbarian wearable construction, weathered leather and real cape cloth
 
 CharacterLab work only; Main, private Mara and Journey40 remain unchanged. The
