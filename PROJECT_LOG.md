@@ -11,6 +11,54 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-27 — Actual athletic Barbarian fit and garment construction
+
+CharacterLab work only. Journey40, Main and private Mara remain unchanged.
+No new playable package or complete Barbarian outfit is claimed.
+
+An actual athletic female MetaHuman body is saved. Shoulder breadth changes
+from32.2317 to34.1592cm and chest from89.6630 to94.0955cm, with height and waist
+essentially retained. This is one measured profile, not a complete creator range.
+The existing Epic Outfit path resizes the actual saved leather top to that body.
+Connected transfer covers12,372 original primary points and33,532 soft-detail
+vertices. Exact source corner UVs/material routing are retained. Only the final
+garment is saved; the internal merged fitting body stays transient.
+
+Actual combined fresh-body Readback, fit/save and five NVIDIA clay/checker
+captures pass. Root reviewed front/back rest, Walk, rear-neck detail and the
+visible UV checker. Separate garment-only fresh reload passes without loading
+the MetaHuman descriptor or constructing the donor. Original assets stay intact.
+The sampled walk follows the body; fine surface judgement is limited by clay
+exposure. Broader body shapes, more demanding poses, final art and game equipment
+integration remain open.
+
+The retained first combined failure exposed per-process generated face-material
+debug names. The readback-only correction allows only the observed exact
+slot-specific name pairs, requiring all remaining material definitions, oriented
+UV/material corners and native DNA topology to match exactly. A second caller
+correction checks for a saved package file rather than treating a live in-memory
+fitting body as already saved. No new body authoring run or fitting framework
+was needed. Actual successful Author a04, combined Fit a02 and Reload a01 are
+retained locally with the failed evidence.
+
+The supporting Blender lane built a continuous fur-cape backing with shoulder
+supports, and a separate thin leather bikini bottom with narrow hip straps and
+rawhide ties. Matched front/back/side bottom art preceded modeling. Source models,
+static FBX/GLB readbacks, usable UV coordinates and paired layout images remain
+local. Root reviewed cardinal source views. The bottom's rear cut is still
+straighter than its art; native attachment/motion and final leather are pending.
+The cape's sparse coarse tufts are construction placeholders. Real natural fur
+requires dense varied strands, irregular clumps, believable flow, soft edges and
+visible hide; named reusable material inputs and remaining card/material/LOD work
+are recorded. No final fur or cloth simulation is claimed.
+
+Methods: the existing Unreal C++ bridge and MetaHuman/Outfit tools, focused Python
+automation and exact UV/material audits, NVIDIA native captures, bounded CPU
+Blender source work, built-in image generation for the bottom design sheet, and
+three coordinated existing chats sharing one root-owned Unreal/build slot.
+Only this project log is published; source art, licensed assets, native packages,
+builds and private saves remain local.
+
 ## 2026-10-27 — Actual MetaHuman Barbarian face and reusable outfit fitting
 
 Lab character work only. Journey40, Main and private Mara remain unchanged;
