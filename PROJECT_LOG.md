@@ -11,6 +11,66 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-28 — Two Harrowford characters and shared civilian workwear in a playable source preview
+
+Sabeth Vale (healer) and Elswyth Fen (weaver) now use their distinct native
+character bodies, faces, hair and fitted civilian clothes in the actual village.
+Their existing actor/speaker identities, quests, dialogue, healer shop and save
+authorities remain. The mature stocky Peltsmith and his corrected workwear also
+remain in the source preview. This upgrades existing people; it does not add
+duplicate villagers or claim a new player-character body. Journey40 remains
+the promoted cooked release.
+
+The reusable civilian shirt, trousers and ankle workboots retain the source UV
+layouts, material routes and shared textures. The Peltsmith has a separate trade
+apron. Sabeth's saved actual fits were reused and freshly reloaded; Elswyth's
+three fits were built for her different body and freshly reloaded. Six garment
+packages and two real profile Data Assets were added to Main with zero
+overwrites. Earlier optimized native character assemblies and 369 base runtime
+dependencies were reused, rather than rebuilt/copied again. The owner's supplied
+Villager looks reference is retained locally; shirts/trousers remain an allowed
+part of the mix, alongside future skirts, aprons, vests and work coats.
+
+Visual checks caught real defects beyond save success. The Peltsmith's tall-boot
+trouser tuck and fitted normal discontinuities were corrected while preserving
+UVs, materials and skin weights. Actual geometry confirmed Elswyth intersected
+the cottage wall; she moved 2.97m and Sabeth 4.46m into clear adjacent spaces.
+Expanded simple/complex collision, landscape support and ordinary focus/reach
+passed. Only two existing actor transforms changed. The original map-family
+backup is retained: 10,575 copies, 183,334,585 bytes. No owner campaign is changed.
+
+Main build a06 passes. Comma-separated profile/verification targets now use
+Unreal's explicit non-separator parsing, fixing a first-entry-only selection.
+The view check refuses visible walls even when the Camera channel misses them.
+The women carry existing physical work lanterns, providing practical light in
+cottage shade. That light is still harsh from below; lighting balance, clothing
+fold/material polish, a closed carrying grip and their recorded voice banks
+remain unfinished. Technical or preview admission is not finished-art approval.
+
+Focused actual Journey world check npc-profile27-world-b1c0fd9fd8 passes on AMD
+for all three characters. Root reviewed nine images. Body/Face head alignment
+is 0cm; normal dialogue and original Peltsmith/healer trade acknowledge on the
+same actors; member inventory, XP, coins and local quest outcomes stay unchanged.
+Earlier failed selection and rejected dark/wall-obscured views are retained.
+Native Idle/Walk skeleton object equality is confirmed for both women.
+
+PlayNewNpcs.cmd -Character Tagham -DMWarp is installed and validates against the
+current module, three profiles and 407 asset/world dependencies. It uses AMD by
+default and a separate source-preview save; Ctrl+Shift+F10 provides the existing
+camp/Harrowford warps. No new cooked package is produced. NVIDIA previously hit
+an MMU fault while the active compute was non-Nanite VSM per-page draw-command
+culling; root cause and VRAM exhaustion were not established. AMD provides the
+passing evidence, with no driver/global rendering change.
+
+Methods reused: Epic's native MetaHuman/Outfit and optimized assembly workflow,
+C++/Blueprint/Data Assets, Blender source/UV preservation, Python/PowerShell,
+exact-body garment caches, additive dependency migration, actual source geometry,
+scoped map transactions and focused in-world visual/service checks. Reuse passed
+stages; do not repeat unrelated playthroughs. Next Corin/Venn/farm-worker recipes
+are prepared only. Delivery and complete file/archive inventories are local at
+tools/prepared/npc-roster27/harrowford-delivery-a01. Only this log is published;
+art, licensed assets, saves and binaries remain local.
+
 ## 2026-10-27 — Male Fighter gloves verified; NPC cast and rollout preparation
 
 The Class Kits Fighter now wears actual male-fitted gloves alongside his chest, trousers and boots. The saved glove geometry and textures were reused through the existing official native resize; exact uniquely named shader copies avoid inherited slot-name ambiguity. Native UV/material/weights/342-bone checks pass. The first actual hand closeups exposed small skin slivers beneath the closed glove, so technical success was not promoted as visual completion.
