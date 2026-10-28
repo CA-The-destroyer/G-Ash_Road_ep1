@@ -11,6 +11,16 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-27 — Fighter's missing trousers and boots fixed in the source preview
+
+The owner rejected the bare-legged chest-only Fighter. The existing Fighter trousers, knee patches and boots are now fitted to the actual male body and required by the Class Kits presentation. `PlayClassKits.cmd` opens the corrected camp preview with the original chest preserved. This is a source preview correction, not a new cooked release; Journey40 remains the packaged master.
+
+The source lane retained the original 318 objects, 129,704 triangles, UV layouts and worn PBR routes. Unreal's existing Outfit pipeline builds the original resizable source, then the installed official resize fits it onto the admitted male body. No stock costume, unresized female attachment, arbitrary axis scaling or saved temporary donor supplies the missing clothing. Native a02 passes full-precision UV, material-route and 342-bone reference checks. The failed a01 material-name ambiguity is retained: UVs were intact, but repeated inherited material leaf names prevented exact route resolution. Uniquely named native copies of the same material graphs resolve it without changing textures, UVs or the checks.
+
+Migration added 29 dependencies with zero overwrites. Main build `fighter-lower27-build-a01` passes. Focused actual Journey case `class-kits27-328a0916a0` passes on NVIDIA with exit 0; the Fighter patrolled 277.89 cm and rejected friendly targets. Root reviewed front/back walking images with trousers and boots visible and the sampled waist/lower-leg interfaces covered. The launcher binds the new module and assets; the chest-only readiness preimage is retained. Fine fold/grime fidelity, all-pose fit, matching male head armor/gloves, Barbarian cape/fur and combat visuals remain separate unfinished work.
+
+Methods reused: the existing Blender CPU source/export path, actual selected-art comparison, retained UV PNG/SVGs, Unreal Dataflow/Outfit skin transfer and official body resize, C++ presentation, dependency-registry migration and one focused game check. Details and changed files: `tools/prepared/fighter-lower27/README.md` and `CHANGED-FILES.md`. No files moved/deleted or cooked package generated. Only the project log is published to GitHub.
+
 ## 2026-10-27 — Actual class garments in the Journey camp; separate playable source preview
 
 `PlayClassKits.cmd` now opens the existing Journey world with Ranger Mara, the male Fighter chest a09, and the athletic Barbarian's weathered w02 top/corrected d06 bottom. The two additional characters use grounded server-authoritative camp defenders through the existing patrol/combat path. Main build a28 passes. Focused actual-game case `class-kits27-062c7b4054` passes on NVIDIA with exit 0: both defenders patrolled about 275.37 cm and rejected friendly targets. Root reviewed six front/back captures. This establishes the sampled in-game presentation and patrol behavior, not complete combat-animation or final art approval.
