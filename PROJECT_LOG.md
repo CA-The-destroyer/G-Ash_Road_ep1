@@ -16,7 +16,7 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 Four copied Broken Leather sources now have substantial missing coverage and
 actual closed-thickness ragged tears, curled grain lips, exposed suede and
 short static fibers. Original primary art UVs and complete base clothing are
-preserved. The waist/leg guard remains a legs-slot item rather than chest armor.
+preserved. The waist/leg guard remains a legs-slot item rather than torso armor.
 
 The owner refined the representative repair into a broad mismatched strip of
 dirty faded olive cloth, with physical-scale woven PBR, asymmetric diagonal
@@ -35,7 +35,7 @@ serial native slot. Existing Lab bridge code was reused without a build.
 This is source content and native static/PBR evidence, not new playable bandits.
 Official body fitting, dressed hostile motion/weapon handling and canonical
 Broken Leather protection/loot integration remain open. Main a06 NPC preview
-and Journey40 remain unchanged. The new female-Barbarian bandit wardrobe policy
+and Journey40 remain unchanged. The new Barbarian bandit wardrobe policy
 is a gated intake; unfitted clothing is not activated.
 
 Selected sources: `tools/prepared/bandit-cast28/SOURCE-CATALOG-CURRENT.json`.
@@ -47,14 +47,14 @@ Changed files: `tools/prepared/bandit-cast28/CHANGED-FILES.md`.
 The owner refined the bandit wardrobe into a separate poor-protection Broken
 Leather item family with four distinct damaged variants, also reusable on
 compatible humanoid undead. Ordinary bandits should receive very incomplete
-item-backed combinations, including shirt plus leg armor without a chest item;
+item-backed combinations, including shirt plus leg armor without a torso item;
 bosses may wear a complete compatible set. Server-selected loadouts must persist.
 Canonical item protection/value/weight/loot and undead body fits remain unbuilt.
 
 Following the owner's simpler production method, four actual copied leather
 source models now exist with different missing whole shoulder/tasset/pouch
 assemblies. Original source models and approved UVs are preserved. Separate
-chest and boot exports, shared complete shirt/trousers exports, source layouts
+torso and boot exports, shared complete shirt/trousers exports, source layouts
 and fresh FBX geometry/UV/material-route readbacks are retained. New packed
 grime/scuff/damp masks and a dirt-pigment overlay include the boot Hide material
 coverage missed by the first pass. NVIDIA CUDA rendered the actual source copies.
@@ -64,7 +64,7 @@ not final ruined art or new native fits. Jagged leather tears are not claimed.
 Exact original-part/native correspondence now resolves all123,636 actual native
 triangles using positions, both UV channels and material routes. Four extra
 theoretical source triangles are repeated zero-area pouch closures. Prepared
-male subset plans preserve fitted survivor IDs/positions/weights/UVs; their new
+character subset plans preserve fitted survivor IDs/positions/weights/UVs; their new
 native subset operator has not yet been compiled or executed.
 
 Actual source inspection found a usable nonadditive Whisper four-state bank.
@@ -99,7 +99,7 @@ actual modular source outfits are now built: left shoulder only, right shoulder
 only with different missing armor tabs, and a lightly armored raider. Complete
 shirts, trousers and boots remain. Fresh FBX geometry readbacks pass with UV
 error0 and exact material routing;36 UV-layout pages and six CPU clay renders
-are retained. These are female resizable baseline sources, not new male fits or
+are retained. These are character resizable baseline sources, not new target fits or
 finished ragged art. Worn/damaged finish and further equipment remain work.
 
 A prepared deterministic loadout policy reuses saved encounter/generation/slot
@@ -121,7 +121,7 @@ actual foot contact and garment/Face following are separate unapproved checks.
 Actual read-only Main asset-bank inspection checked320 candidate records and10
 native sequence skeletons, finding no exact-target combat bank. Existing UE
 humanoid animation banks are retarget candidates; attack/hit/death/bow coverage
-is still required. Existing male-fitted armor may allow exact native subsets,
+is still required. Existing target-fitted armor may allow exact native subsets,
 but source/native triangulation differs by4 and repeated UVs make477 removed
 triangles per partial-armor variant ambiguous without actual rest-position/
 corner mapping. No left/right deletion is guessed and no redundant full fits
@@ -167,7 +167,7 @@ backup is retained: 10,575 copies, 183,334,585 bytes. No owner campaign is chang
 Main build a06 passes. Comma-separated profile/verification targets now use
 Unreal's explicit non-separator parsing, fixing a first-entry-only selection.
 The view check refuses visible walls even when the Camera channel misses them.
-The women carry existing physical work lanterns, providing practical light in
+The characters carry existing physical work lanterns, providing practical light in
 cottage shade. That light is still harsh from below; lighting balance, clothing
 fold/material polish, a closed carrying grip and their recorded voice banks
 remain unfinished. Technical or preview admission is not finished-art approval.
@@ -177,7 +177,7 @@ for all three characters. Root reviewed nine images. Body/Face head alignment
 is 0cm; normal dialogue and original Peltsmith/healer trade acknowledge on the
 same actors; member inventory, XP, coins and local quest outcomes stay unchanged.
 Earlier failed selection and rejected dark/wall-obscured views are retained.
-Native Idle/Walk skeleton object equality is confirmed for both women.
+Native Idle/Walk skeleton object equality is confirmed for both characters.
 
 PlayNewNpcs.cmd -Character Tagham -DMWarp is installed and validates against the
 current module, three profiles and 407 asset/world dependencies. It uses AMD by
@@ -196,9 +196,9 @@ are prepared only. Delivery and complete file/archive inventories are local at
 tools/prepared/npc-roster27/harrowford-delivery-a01. Only this log is published;
 art, licensed assets, saves and binaries remain local.
 
-## 2026-10-27 — Male Fighter gloves verified; NPC cast and rollout preparation
+## 2026-10-27 — Fighter gloves verified; NPC cast and rollout preparation
 
-The Class Kits Fighter now wears actual male-fitted gloves alongside his chest, trousers and boots. The saved glove geometry and textures were reused through the existing official native resize; exact uniquely named shader copies avoid inherited slot-name ambiguity. Native UV/material/weights/342-bone checks pass. The first actual hand closeups exposed small skin slivers beneath the closed glove, so technical success was not promoted as visual completion.
+The Class Kits Fighter now wears actual target-fitted gloves alongside his torso, trousers and boots. The saved glove geometry and textures were reused through the existing official native resize; exact uniquely named shader copies avoid inherited slot-name ambiguity. Native UV/material/weights/342-bone checks pass. The first actual hand closeups exposed small skin slivers beneath the closed glove, so technical success was not promoted as visual completion.
 
 A distinct covered-skin visible-body variant now removes only measured hand triangles beneath the closed gloves; the original full body remains the animation/physics driver. Surviving positions, weights, corner UVs, tangent/color data, materials and all reference bones are preserved. Two failed isolated editor attempts are retained: legacy shared-UV indexing needed the supported bulk edit path, then sparse triangle IDs needed explicit compaction/remapping before the mesh build. The successful mask a03 saves and reads back exactly, without changing original Content. This is a wardrobe-specific LOD0 variant requiring the gloves, not a general body or equipment rollout.
 
@@ -210,23 +210,23 @@ The owner is playtesting; NVIDIA is reserved, active preview binaries/assets sta
 
 ## 2026-10-27 — Fighter's missing trousers and boots fixed in the source preview
 
-The owner rejected the bare-legged chest-only Fighter. The existing Fighter trousers, knee patches and boots are now fitted to the actual male body and required by the Class Kits presentation. `PlayClassKits.cmd` opens the corrected camp preview with the original chest preserved. This is a source preview correction, not a new cooked release; Journey40 remains the packaged master.
+The owner rejected the incomplete upper-armor-only Fighter. The existing Fighter trousers, knee patches and boots are now fitted to the actual character body and required by the Class Kits presentation. `PlayClassKits.cmd` opens the corrected camp preview with the original torso preserved. This is a source preview correction, not a new cooked release; Journey40 remains the packaged master.
 
-The source lane retained the original 318 objects, 129,704 triangles, UV layouts and worn PBR routes. Unreal's existing Outfit pipeline builds the original resizable source, then the installed official resize fits it onto the admitted male body. No stock costume, unresized female attachment, arbitrary axis scaling or saved temporary donor supplies the missing clothing. Native a02 passes full-precision UV, material-route and 342-bone reference checks. The failed a01 material-name ambiguity is retained: UVs were intact, but repeated inherited material leaf names prevented exact route resolution. Uniquely named native copies of the same material graphs resolve it without changing textures, UVs or the checks.
+The source lane retained the original 318 objects, 129,704 triangles, UV layouts and worn PBR routes. Unreal's existing Outfit pipeline builds the original resizable source, then the installed official resize fits it onto the admitted character body. No stock costume, unresized character attachment, arbitrary axis scaling or saved temporary donor supplies the missing clothing. Native a02 passes full-precision UV, material-route and 342-bone reference checks. The failed a01 material-name ambiguity is retained: UVs were intact, but repeated inherited material leaf names prevented exact route resolution. Uniquely named native copies of the same material graphs resolve it without changing textures, UVs or the checks.
 
-Migration added 29 dependencies with zero overwrites. Main build `fighter-lower27-build-a01` passes. Focused actual Journey case `class-kits27-328a0916a0` passes on NVIDIA with exit 0; the Fighter patrolled 277.89 cm and rejected friendly targets. Root reviewed front/back walking images with trousers and boots visible and the sampled waist/lower-leg interfaces covered. The launcher binds the new module and assets; the chest-only readiness preimage is retained. Fine fold/grime fidelity, all-pose fit, matching male head armor/gloves, Barbarian cape/fur and combat visuals remain separate unfinished work.
+Migration added 29 dependencies with zero overwrites. Main build `fighter-lower27-build-a01` passes. Focused actual Journey case `class-kits27-328a0916a0` passes on NVIDIA with exit 0; the Fighter patrolled 277.89 cm and rejected friendly targets. Root reviewed front/back walking images with trousers and boots visible and the sampled waist/lower-leg interfaces covered. The launcher binds the new module and assets; the upper-armor-only readiness preimage is retained. Fine fold/grime fidelity, all-pose fit, matching target head armor/gloves, Barbarian cape/fur and combat visuals remain separate unfinished work.
 
 Methods reused: the existing Blender CPU source/export path, actual selected-art comparison, retained UV PNG/SVGs, Unreal Dataflow/Outfit skin transfer and official body resize, C++ presentation, dependency-registry migration and one focused game check. Details and changed files: `tools/prepared/fighter-lower27/README.md` and `CHANGED-FILES.md`. No files moved/deleted or cooked package generated. Only the project log is published to GitHub.
 
 ## 2026-10-27 — Actual class garments in the Journey camp; separate playable source preview
 
-`PlayClassKits.cmd` now opens the existing Journey world with Ranger Mara, the male Fighter chest a09, and the athletic Barbarian's weathered w02 top/corrected d06 bottom. The two additional characters use grounded server-authoritative camp defenders through the existing patrol/combat path. Main build a28 passes. Focused actual-game case `class-kits27-062c7b4054` passes on NVIDIA with exit 0: both defenders patrolled about 275.37 cm and rejected friendly targets. Root reviewed six front/back captures. This establishes the sampled in-game presentation and patrol behavior, not complete combat-animation or final art approval.
+`PlayClassKits.cmd` now opens the existing Journey world with Ranger Mara, the Fighter torso a09, and the athletic Barbarian's weathered w02 top/corrected d06 bottom. The two additional characters use grounded server-authoritative camp defenders through the existing patrol/combat path. Main build a28 passes. Focused actual-game case `class-kits27-062c7b4054` passes on NVIDIA with exit 0: both defenders patrolled about 275.37 cm and rejected friendly targets. Root reviewed six front/back captures. This establishes the sampled in-game presentation and patrol behavior, not complete combat-animation or final art approval.
 
 Body-only skin baking now removes the Barbarian's old baked gray tank/shorts. The official MetaHuman palette MID-to-MIC helper supplies valid inputs to the existing TextureGraph recipes. Root and the body lane reviewed all four corrected 2K maps; the final game records the corrected a02 material on the rendered Body component. No geometry, skin weights, approved UVs, face, groom or garment silhouette changed for this material correction. The earlier checker/fallback trial is explicitly rejected and was never migrated into the game.
 
 Base migration added 278 assets; clean skin migration added five. There were zero existing game asset overwrites. The hash-gated launcher binds the current module and verified dependency files to the actual evidence. Full-body source geometry, skeleton/reference, runtime UV checks and PNG/SVG layouts are retained. This is a separate source preview and private campaign/save, not a cooked release. Journey40 remains the promoted playable master.
 
-The Fighter is a chest-only partial kit, with matching male limbs/head/leg armor still needed. Barbarian cape/final natural fur, attack/hit/death visuals, weapon grips, complete player equipment, universal body coverage and multiplayer validation remain unfinished. Two patrol posts are established; a full camp geometry expansion is not claimed. Daylight scene captures do not establish all-pose or all-lighting quality. See `tools/prepared/ready-kits27/README.md` and `CHANGED-FILES.md` for scope, launch instructions, exact files and retained failed iterations. No files moved/deleted and no release package generated.
+The Fighter is an upper-armor-only partial kit, with matching target limbs/head/leg armor still needed. Barbarian cape/final natural fur, attack/hit/death visuals, weapon grips, complete player equipment, universal body coverage and multiplayer validation remain unfinished. Two patrol posts are established; a full camp geometry expansion is not claimed. Daylight scene captures do not establish all-pose or all-lighting quality. See `tools/prepared/ready-kits27/README.md` and `CHANGED-FILES.md` for scope, launch instructions, exact files and retained failed iterations. No files moved/deleted and no release package generated.
 
 Methods: Unreal C++/Blueprint and existing guard authority, MetaHuman/Outfit construction, body-only TextureGraph baking, Blender through its canonical Steam executable, Python/PowerShell, dependency-registry inspection, focused actual-game captures, retained UV PNG/SVG layouts, and hash-bound asset/build evidence. Parallel preparation used the existing three feature chats; coordinator alone owned native/build jobs and active integration. Only this project log is published to GitHub; source assets, saves and build payloads remain local.
 
@@ -280,7 +280,7 @@ current batch file inventory: `tools/prepared/barbarian-cape27/CONTACT-CHANGED-F
 ## 2026-10-27 — Barbarian wearable construction, weathered leather and real cape cloth
 
 CharacterLab work only; Main, private Mara and Journey40 remain unchanged. The
-corrected d06 bikini bottom now imports, fits the saved athletic female profile,
+corrected d06 lower garment now imports, fits the saved athletic character profile,
 saves and independently reloads. Its19 source parts retain22,768 triangles and
 both UV channels. The existing exact repair restores ten proved original Outfit
 UV corners after import/resize; no tolerance broadening or new fitter was used.
@@ -299,7 +299,7 @@ Native close-ups exposed a real preview problem: only64/128px texture levels
 were resident. A bounded transient close-view/residency request loads all15 maps
 at original1024/2048px resolution; measured mip0 readback and root-reviewed
 images show the leather grain. No persistent texture settings or Content assets
-were changed for that correction. Actual front/back/cup views are distinct and
+were changed for that correction. Actual front/back/garment detail views are distinct and
 root-reviewed; an equal-file-size duplicate suspicion was disproved without
 another native run. Final native art and equipment approval
 remain distinct from numeric import/save checks.
@@ -333,7 +333,7 @@ created/modified outputs, retained diagnostics and copied preimages:
 CharacterLab work only. Journey40, Main and private Mara remain unchanged.
 No new playable package or complete Barbarian outfit is claimed.
 
-An actual athletic female MetaHuman body is saved. Its proportions were
+An actual athletic character MetaHuman body is saved. Its proportions were
 verified against the intended fit profile. This is one validated profile,
 not a complete creator range.
 The existing Epic Outfit path resizes the actual saved leather top to that body.
@@ -359,7 +359,7 @@ was needed. Actual successful Author a04, combined Fit a02 and Reload a01 are
 retained locally with the failed evidence.
 
 The supporting Blender lane built a continuous fur-cape backing with shoulder
-supports, and a separate thin leather bikini bottom with narrow hip straps and
+supports, and a separate thin leather lower garment with narrow hip straps and
 rawhide ties. Matched front/back/side bottom art preceded modeling. Source models,
 static FBX/GLB readbacks, usable UV coordinates and paired layout images remain
 local. Root reviewed cardinal source views. The bottom's rear cut is still
@@ -381,7 +381,7 @@ builds and private saves remain local.
 Lab character work only. Journey40, Main and private Mara remain unchanged;
 no new playable package or complete class outfit is claimed.
 
-The actual male Fighter chest completed Epic's temporary-body outfit resize,
+The actual Fighter torso completed Epic's temporary-body outfit resize,
 garment-only save and fresh reload. The source retains all 123,636 triangles and
 its approved corner UV/material routes. A fresh three-view NVIDIA capture shows
 the actual saved garment in rest and Walk. Root reviewed those views; torso
@@ -407,14 +407,14 @@ Ten corresponding 2048px UV-layout images accompany each export pair. Original
 characters and shared groom assets remain unchanged; owned previous stages are
 preserved under the project's Archive.
 
-The selected Barbarian leather top now has an actual female-baseline source:
-cup shapes retained, independent cup placement, shortened skin-routed bands,
+The selected Barbarian leather top now has an actual reference-baseline source:
+garment detail shapes retained, independent garment detail placement, shortened skin-routed bands,
 lowered halter ties and corrected stitching. All 50 original UV0 maps remain
 exact. Five source/body overlays and static FBX/GLB readback exist. This is a
 baseline diagnostic, with athletic/hulking targets, fur cape and complete set
 still open. Native top import/save and fresh front/back/Walk capture now pass
 through the existing connected Inpaint/bake path: eight primary components,
-12,372 source control points and 42 parented soft-detail groups. Dense cup
+12,372 source control points and 42 parented soft-detail groups. Dense garment detail
 geometry initially exposed a mapping ambiguity. Exact native float32 source
 positions resolve all 3,256 coarse-position ambiguities, retaining UV/material
 and polygon coverage. No source triangle is silently removed. A generated-cache
@@ -422,9 +422,9 @@ input-list error and capture module-search-path omission were corrected in
 preserved Python successors, without rebuilding the native operators.
 
 An actual combined Sonja head/body and saved-top portrait also rendered. Root
-identified the visible gray underlayer as native body-material top underwear,
+identified the visible gray underlayer as native body-material top base layer,
 despite successful empty Outfits selection and no-op body hide-mask. The
-installed skin property's supported underwear toggle now removes that gray
+installed skin property's supported base layer toggle now removes that gray
 layer in the actual combined image, reviewed by root. Native after-apply
 material/geometry preservation passes. The final wrapper's live-material check
 was mistakenly scheduled after actor cleanup, so the complete wrapper remains
@@ -458,7 +458,7 @@ Root compared fresh NVIDIA oblique/Walk views: the specific sleeve dot is absent
 This narrow result does not approve the complete outfit, material finish or all
 animations.
 
-The male fitting donor now uses Epic's exported merge factory instead of
+The character fitting donor now uses Epic's exported merge factory instead of
 duplicating an incomplete renderless mesh. The previous duplication crash is
 preserved. Actual NVIDIA readback matches all 60,816 saved body triangles,
 full-body inclusion, the 342-bone reference and 27 DNA measurements. Saving
@@ -466,7 +466,7 @@ correctly stopped on a temporary body material. A new read-only actual inventory
 passes and identifies six transient body textures without source payloads; the
 parent material chain is persistent. Supported exact material/texture persistence
 from the descriptor buffers is the next implementation, not a stock substitute.
-No reusable male target is saved or accepted yet.
+No reusable target character is saved or accepted yet.
 
 The mail/plate shader study now has all 13 diagnostic channels and a source
 blend/UV layouts. Six finished maps were reused; seven remaining maps completed
@@ -506,12 +506,12 @@ ratio11.24 to1.22. Base-shirt distortion/facing counts worsen, however, so full
 field adoption is held for exact triangle/seed diagnosis. Zero seam separation
 is not moving fit, collision or visual approval.
 
-Official male target generation produced actual meshes and27attached matching
-measurements on the observed NVIDIA adapter. A pre-save anatomy signature guard
+Official target character generation produced actual meshes and27attached matching
+measurements on the observed NVIDIA adapter. A pre-save geometry signature guard
 refused the output: its saved comparison references Defaults25 while generation
 uses RuntimeSource25. Both have60,816body triangles but different coordinate
 signatures. Exact lineage diagnosis is pending; no target was saved, no source
-DNA changed and no male fitted-outfit approval is claimed.
+DNA changed and no target-fitted-outfit approval is claimed.
 
 Eight existing armor lanes resumed. Matched human class concepts, Fighter source
 A21/H05/L09 refinements and Ranger hood source preparation remain separate from
@@ -544,7 +544,7 @@ the glove finish; a controlled lower-light comparison restores the authored dark
 leather without recoloring source textures. Grip/combat and mixed-clothing fit
 are not established.
 
-Refined Fighter chest A15 adds a real lower closure support and explicit parent
+Refined Fighter torso A15 adds a real lower closure support and explicit parent
 semantics for140 source meshes. Its native import preserves two source UV channels;
 17 actual shader texture routes verify UV1 wear color/roughness and UV0 grain
 normal with the authored scale applied once. Parent-garment detail weight work
@@ -552,10 +552,10 @@ uses supported Epic APIs rather than another body fitter. Earlier native walking
 evidence still rejects primary skirt clearance; the outfit is not complete or
 promoted. Sleeve/glove and trouser/boot overlaps also require correction.
 
-The owner requested accurate male and female class images. Five existing class
+The owner requested accurate class images for the reference variants. Five existing class
 art chats are producing matched front/back/opposed-side references from retained
 designs and saved human body references, using built-in imagegen and visual
-review. Duplicated profiles, extra rear belt tails and mismatched male silhouettes
+review. Duplicated profiles, extra rear belt tails and mismatched target silhouettes
 are being revised, with prior drafts retained. Generated concepts are not fitted
 models, UV maps, PBR maps or owner-approved final art.
 
@@ -583,9 +583,9 @@ prepared directory and a shared construction, UV, material and native-fitting
 brief. Existing class artwork was audited before additive revisions. Chat
 creation and concept sheets are not finished wearables.
 
-The first Fighter-specific chest source is saved as BLEND and three FBX exports:
-chest, complete base tunic and combined comparison. Its construction pass is
-115,548 triangles on the proven human female source; male fit and other armor
+The first Fighter-specific torso source is saved as BLEND and three FBX exports:
+torso, complete base tunic and combined comparison. Its construction pass is
+115,548 triangles on the proven human character source; character fit and other armor
 slots remain separate work. Root reviewed the first actual render and returned
 it for correction: pale/marbled leather, collar and shoulder shape, strap/belt
 substance and bag construction do not yet reproduce the selected art. It has
@@ -715,8 +715,8 @@ log is published; licensed assets, private saves and build payloads stay local.
 ## 2026-10-26 — Actual Ranger production and universal visual fidelity
 
 The owner rejected default-outfit demonstrations as a substitute for the Ranger
-outfit. Work now targets the selected Ranger torsoR02, glovesR02, female
-trousersR03 and bootsR02 on Mara. The first constructed chest is not accepted
+outfit. Work now targets the selected Ranger torsoR02, glovesR02, character
+trousersR03 and bootsR02 on Mara. The first constructed torso is not accepted
 finished art: the owner requires a serious art pass matching the approved coin
 purse's leather and metal quality. Boots and trousers have approved shapes;
 gloves are being corrected against their original layered reference.
@@ -752,7 +752,7 @@ published; models, textures, licensed inputs, saves and build payloads stay loca
 The owner approved trying Epic's native clothing workflow. The isolated
 CharacterLab now has newly constructed Cloth, Outfit and Wardrobe assets from a
 known-good Epic garment, followed by genuine native fitting to the existing
-female Mara descriptor's exported combined face/body and a baked skeletal mesh.
+Mara descriptor's exported combined face/body and a baked skeletal mesh.
 This is a stock shirt/shorts technical control, not the selected Ranger design.
 Journey40 remains the playable master; current game Mara and campaign saves were
 not replaced.
@@ -807,7 +807,7 @@ Official references: [Outfit asset workflow](https://dev.epicgames.com/documenta
 and [render-mesh construction](https://dev.epicgames.com/documentation/metahuman/building-a-metahuman-parametric-outfit-with-a-render-mesh).
 
 
-## 2026-10-25 — Bounded chest reconstruction completed, repair required
+## 2026-10-25 — Bounded torso reconstruction completed, repair required
 
 Owner approved constraining remeshing and retrying. An isolated process-local
 adapter capped the public cleanup call's requested DC grid at512 while retaining
@@ -839,18 +839,18 @@ acceptance. UV-split raw boundary counts are not literal hole counts. Native
 1254px input remains diagnostic; a4K derived atlas does not create native4K
 source detail or lower production intake requirements.
 
-Leather lane received immutable shape/model and review for chest-only surface
+Leather lane received immutable shape/model and review for upper-armor-only surface
 repair/retopology against exact Mara body, approved back and continuous underarm
 straps. No new garment imported/equipped; stock-clothed Mara and rejected r13
 remain unchanged. Shared native/CUDA window released. Ranger→Mara fit/motion→
 one spoken facial response remains active. Journey40/schema46 remains master.
 
-Delivery: `tools/prepared/mara-orchestration25/chest-bounded-a02/DELIVERY.md`.
+Delivery: `local technical evidence retained`.
 Complete local inventory: `RANGER-BOUNDED25-A02-CHANGED-FILES.md`/`.json`.
 Only this project log is published; generated models and other payloads stay local.
 
 
-## 2026-10-25 — Ranger chest diagnostic measured and stopped during cleanup
+## 2026-10-25 — Ranger torso diagnostic measured and stopped during cleanup
 
 Owner explicitly approved one monitored attempt after the coordinator explained
 that its20GiB RAM/16GiB free-commit reservation was speculative. The one-job
@@ -884,7 +884,7 @@ commit window, rather than lower the emergency reserve or silently repeat this
 same expensive cleanup. Ranger→Mara fit/motion→one spoken facial response remains
 the active order. Journey40/schema46 remains the playable master.
 
-Outcome/evidence: `tools/prepared/mara-orchestration25/monitored-chest-attempt-a01.md`
+Outcome/evidence: `local technical evidence retained`
 and `.json`; complete local inventory: `RANGER-MONITORED25-CHANGED-FILES.md`/`.json`.
 Only PROJECT_LOG.md is published to GitHub by this milestone.
 
@@ -894,7 +894,7 @@ Only PROJECT_LOG.md is published to GitHub by this milestone.
 Consolidated the current feature list into21 stable areas under the existing
 four parent workstreams. Journey40 (`0.21.0-preview12-playtest40`), schema46,
 remains the playable master. Source-only attached-harvestable manual-Save repair,
-female Mara preview and conversation face camera are explicitly separate from
+Mara preview and conversation face camera are explicitly separate from
 the packaged release. Ranger outfit/modern character art and one-response
 lip-sync remain prepared or incomplete; no later release is claimed.
 
@@ -968,19 +968,19 @@ Evidence: `tools/prepared/dialogue-camera25/delivery.json`,
 `DIALOGUE-CAMERA25-CHANGED-FILES.md/.json`.
 
 
-## 2026-10-25 — New female Mara visible in a separate in-game POC
+## 2026-10-25 — New character Mara visible in a separate in-game POC
 
-The owner requested the new female Human model on Mara and explicitly accepted
+The owner requested the new character Human model on Mara and explicitly accepted
 an unclothed model to avoid waiting for wardrobe polish. Root copied the reviewed
-female dependency closure additively:130 new assets and six identical reused
+character dependency closure additively:130 new assets and six identical reused
 assets, with no existing game or Lab payload overwritten. Existing ready clothes
 were included. The real `opening-mara` NPC retains its gameplay actor, quests,
 dialogue, collision and saved authority; a local visual helper uses the assembled
-female Blueprint, native hair/face rig and verified Foundation25 idle/walk bank.
+character Blueprint, native hair/face rig and verified Foundation25 idle/walk bank.
 
 The linked source build a04 passed. A focused rendered NVIDIA witness
 `mara-preview25-ad189e7100` exited normally0 with immutable inputs. It observed
-the actual new female face/hair, female body in gameplay, normal bound F dialogue
+the actual new character face/hair, character body in gameplay, normal bound F dialogue
 and saved opening stage0→1 in a private schema46 campaign. Root inspected the
 actual screenshots. The fullbody diagnostic view is obstructed/poorly framed;
 the available garment has visible torn/spiky coverage and fit defects. These
@@ -1577,12 +1577,12 @@ second-hand grip and remote multiplayer art acceptance remain owner checks.
 `0.21.0-preview12-playtest37`, existing save schema44. No fresh campaign is
 required. This completes the focused equipment presentation batch after36.
 
-- Genuine independent male/female hide gloves and fur-trimmed boots now follow
+- Genuine independent variant-specific hide gloves and fur-trimmed boots now follow
   their native body rigs; first-person gloves use their matching arm rig.
   Saved slot changes restore only the corresponding original hands/footwear.
 - The owner rejected the floating rear-only cape. A new original Blender model
   adds a fitted neck opening, shoulder mantle, front cloth fastening and joined
-  rear drape. Broader male tunic clearance and skirt clearance are included.
+  rear drape. Broader character tunic clearance and skirt clearance are included.
   Inventory turns inherit the body transform once; framing keeps the avatar in
   the checked preview. This uses limited analytic movement, not physics cloth.
 - The supplied wooden branch/cloth torch replaces the held cylinder at56cm,
@@ -1590,7 +1590,7 @@ required. This completes the focused equipment presentation batch after36.
   fire and local glare behavior remain; eligible bandit night torches reuse it.
   Original model credit ships with the package. Anchored fixtures are retained.
 
-Actual linked UE5.8.3, private male/female native25-check runs, real UAT
+Actual linked UE5.8.3, private variant-specific native25-check runs, real UAT
 build/cook/stage/archive, all2592 required cooked roots and precise packaged
 saved-equipment/torch checks pass. Earlier unchanged transaction, rig and torch
 proofs are reused; broad unchanged quest/combat replay is skipped. Failed
@@ -2122,7 +2122,7 @@ Methods/tools: existing UE5.8 C++/SQLite authority, stable identities and existi
 ## 2026-10-23 — Journey29 living wilderness and finite encounters
 
 - **Playable:** Journey29/schema37 is promoted through the existing continuous title/name/creator/game session. Actual final Game UAT build/cook/archive, exact cooked-root closure and packaged startup bind this delivery. Package ledger: 86 files. Promotion: `evidence/unreal/vampire29-integration/promotion.json` SHA256`b5120bb7be13ea76eb27cd359ad0b41116e758566d6fb01a886971f8f5dc3bb3`. Existing characters and saved campaigns require no fresh start.
-- **Included:** finite survivor vampire-wave pacing and sex-aware voice gates; wider wildlife and independent night-patrol admission; bandit aggression; living-only AI census retaining lootable corpses; twelve source-backed WoodShrew nest candidates with three finite waves and persistent completion; title-save schema32–37 recognition; healing food and health potions sharing the existing two-heals/rolling30-second budget. Stable quest/item identities and existing damage, reward, inventory and persistence authorities remain in use.
+- **Included:** finite survivor vampire-wave pacing and voice-profile-aware voice gates; wider wildlife and independent night-patrol admission; bandit aggression; living-only AI census retaining lootable corpses; twelve source-backed WoodShrew nest candidates with three finite waves and persistent completion; title-save schema32–37 recognition; healing food and health potions sharing the existing two-heals/rolling30-second budget. Stable quest/item identities and existing damage, reward, inventory and persistence authorities remain in use.
 - **Bounded evidence:** `ash-march-journey-package-8ca83c6732/verification.json`, `journey-playtest29-cooked-roots/cooked-roots.json` and `journey29-startup-57feec63b1/verification.json` under `evidence/unreal`. The earlier ordinary headless road walk records31 samples,19 with forward line of sight and up to11 living creatures within200m at the preserved clock18.70–18.87. This is not rendered density, all-world coverage or evidence that native nest placement/emergence was tested. The owner will assess visible density and encounter balance. Unchanged broad playthroughs are reused, not counted as fresh passes.
 - **Model deferred:** genuine supplied-thrall idle/run/attack captures lie sideways and intersect the floor. Exact import/animation/fixture cause remains unresolved. All41 native packages and failed evidence remain preserved in Archive; previous28 body art is restored. No supplied-model, gait or animation acceptance is claimed. The last passing Editor build is pre-deferral; final Game UAT compiles the delivered runtime after the exact recorded restoration. Deferral and source-equivalence receipts remain linked in the final freeze.
 - **Not installed:** prepared progression/level1–50 and64 minor-quest candidates, NPC pickpocketing and unrelated voice banks. These remain next-phase preparation. Existing Journey28 useful loot, ownership/economy,122 icons, class gameplay and two approved human injury recordings carry forward. Remote multiplayer, full World Partition coverage, native nest presentation, worn bodies/capes/corpses and other backlog items are not silently marked complete.
@@ -2133,9 +2133,9 @@ Methods/tools: existing Unreal5.8 C++/SQLite server authority, stable source ide
 ## 2026-10-23 — Journey29 source batch; packaged release pending
 
 - **Playable remains Journey28/schema37.** Journey29 is integrated source and imported content; no new cooked package or promotion is claimed.
-- **Integrated:** finite survivor vampire-wave pacing and sex-aware voice routing, title-save schema32–37 recognition, the existing two-heals/rolling30-second budget shared by healing food and health potions, wider living-wilderness admission and bandit aggression, living-only AI census preserving lootable corpses, and twelve deterministic WoodShrew nest candidates with three finite waves and persistent completion. Original quest/item/save identities and existing damage/reward/loot authorities remain in use.
+- **Integrated:** finite survivor vampire-wave pacing and voice-profile-aware voice routing, title-save schema32–37 recognition, the existing two-heals/rolling30-second budget shared by healing food and health potions, wider living-wilderness admission and bandit aggression, living-only AI census preserving lootable corpses, and twelve deterministic WoodShrew nest candidates with three finite waves and persistent completion. Original quest/item/save identities and existing damage/reward/loot authorities remain in use.
 - **Actual road admission:** one ordinary headless walk on a private copied campaign completes with31 samples,19 with forward line of sight and up to11 living creatures within200m. New wildlife, independent night-patrol and outlaw IDs are observed at the preserved saved clock18.70–18.87. No teleport, forced spawn or immunity is used. This is not rendered density or all-world coverage. Native nest placement/emergence and owner gameplay balance remain pending.
-- **Art rejection:**41 supplied-thrall native packages and nine clips imported, but personally reviewed native idle/run/attack poses lie sideways and intersect the floor. Exact import/animation/fixture cause is unresolved. All41 files and failed evidence are preserved in Archive, and the previous body is restored. The missing animated male model remains a gap. This stops the asset repair loop and does not claim finished vampire art. Deferral: `evidence/unreal/vampire29-integration/model-deferral.json`.
+- **Art rejection:**41 supplied-thrall native packages and nine clips imported, but personally reviewed native idle/run/attack poses lie sideways and intersect the floor. Exact import/animation/fixture cause is unresolved. All41 files and failed evidence are preserved in Archive, and the previous body is restored. The missing animated character model remains a gap. This stops the asset repair loop and does not claim finished vampire art. Deferral: `evidence/unreal/vampire29-integration/model-deferral.json`.
 - **Build:** a03 Editor compilation passes after six narrow source fixes and release of the exact owned failed-preview DLL lock. Faileda01/a02 evidence is preserved. Only the recorded model restoration follows that build; all other compiled inputs and road logic retain their bytes. Final game UAT compilation is pending. Source equivalence: `evidence/unreal/vampire29-integration/source-equivalence-after-model-deferral.json`. Unchanged broad playthroughs are reused, not counted as fresh passes. NPC pickpocketing remains deferred.
 - **Next-phase quest request:** the supplied meaningful-progression/64-minor-quest specification is preserved.64 disabled quest definitions and prepared level1–50/quest transaction candidates exist outside active runtime. No new quest, level50 framework, localized standing or cooldown implementation is claimed installed. Original characters retain their current progression. These follow the active wilderness batch.
 
@@ -2147,7 +2147,7 @@ Methods/tools: existing Unreal5.8 C++/SQLite server authorities, bounded paralle
 - **Universal useful loot:**266 canonical ordinary item IDs,818 explicit assignments (732 loose objects plus86 attached harvest sources),266 reverse visuals,17 original readable books and saved timed consumable effects. Identified food, books, tools, weapons, equipment, ingredients and potions reuse existing authoritative collection, ownership/witness, condition, stolen provenance, storage, drop/recovery and finite fence trade. Stolen gear keeps its canonical stats. No meaning is guessed from a bottle or mesh shape.
 - **Actual bounded evidence:**2727 Core checks for70 additional IDs,32 current price transactions and7122 compiled lookups pass. The86-source/six-map harvest conversion and loaded eight-map known-item closure pass, with818 bound objects plus five pilots and zero known unbound/invalid ordinary items. Native collection/equipment/book/effect persistence passes, including natural61-second expiry; exact source comparisons justify reusing this unchanged gameplay proof after four visual-path and three cosmetic audio-hook additions. Sixteen scenery supply crates remain explicit container-policy gaps; complete World Partition all-cell coverage and remote multiplayer/physics are not claimed.
 - **Art:**70 additional ground models, two individual-arrow derivatives and122 reviewed exact-model icon textures are delivered.118 accepted captures are reused by hash; four invalid inherited weapon effect overlays are repaired, re-rendered and reviewed. Seven placed weapon overrides retain original binding meshes and all nonmaterial fields. Ground art is separate from outstanding worn body/cape/corpse work. Original source assets and failed evidence remain preserved.
-- **Approved audio:** the user approves two authentic CC0 recorded human injury performances after rejecting static and unsuitable generated takes. These exact male/female recordings are imported and routed by human ancestry and sex across12 classes, with cooldown, freshness, spatial presentation and server damage authority;593 compiled policy checks and actual source/native identity review pass. Other ancestries, additional takes and runtime ear/network/mix checks remain unfinished. The rejected192-take TTS bank is excluded. The installed VoiceForge near-silent guard still awaits live activation because automatic approval review rejected the owned-service restart as blocked by policy; no bypass was attempted.
+- **Approved audio:** the user approves two authentic CC0 recorded human injury performances after rejecting static and unsuitable generated takes. These exact reference recordings are imported and routed by human ancestry and voice profile across12 classes, with cooldown, freshness, spatial presentation and server damage authority;593 compiled policy checks and actual source/native identity review pass. Other ancestries, additional takes and runtime ear/network/mix checks remain unfinished. The rejected192-take TTS bank is excluded. The installed VoiceForge near-silent guard still awaits live activation because automatic approval review rejected the owned-service restart as blocked by policy; no bypass was attempted.
 - **Preservation:** current playable packages are28/27/26/25. Exactly81 old Journey24 payload files are retired only after verified save/diagnostic/crash-symbol copies. All13 original nonpayload files remain in place, including the unchanged original Tagham campaign. Legacy0.2.0 and unique recovery/source archives are untouched. Vampire wave/model/routing and NPC pickpocket patches remain prepared next-batch work.
 
 Methods/tools: existing Unreal5.8.3 C++/SQLite server authorities, stable item/placement identities, bounded parallel workers with one integrating coordinator, canonical Steam Blender headless asset preparation, serial NullRHI imports and readbacks, native exact-model icon captures, MSVC transaction/lookup/policy checks, UnrealBuildTool and UAT, byte-bound source-proof reuse, actual cooked registry/package ledgers, and explicit preservation before targeted cleanup. D&D artwork and the user's frame reference guide presentation; new book writing remains original. Only PROJECT_LOG.md is published; source, licensed assets, recordings, saves, fixtures and packages remain local. Delivery: docs/journey-playtest28-delivery.md; exact source and artifacts: UNIVERSAL-LOOT28-CHANGED-FILES.md and the actual package ledger.
@@ -2158,7 +2158,7 @@ Methods/tools: existing Unreal5.8.3 C++/SQLite server authorities, stable item/p
 - **Integrated source:**266 ordinary canonical definitions,818 exact world bindings (732 physical props plus86 attached harvest sources), full266 reverse visuals,17 original readable books, saved schema37 consumable effects and seven typed weapon families. Meaning/ownership/quantity comes from explicit identity records and authoring decisions, never inferred from bottle or prop shape. Stolen gear retains its canonical stats, condition and origin through existing inventory/equipment/storage/drop authorities. Guard escalation and NPC pickpocketing are not silently included.
 - **Actual bounded proof:**2727 Core checks cover the70 additional inventory IDs;32 current-source price checks include a real one-copper stolen sale and replay. Exact generated lookups compile for818 placements and266 visuals. Both single-arrow derivatives and70 additional ground models pass native imports with owned collision (181 mesh/material/texture packages for the70). Six-map86-source harvest preflight passes read-only. Rendered art, new map conversion/closure and focused native gameplay are separate pending checks.
 - **Build evidence:** initial Editor a01 passes; combined a02 fails on an absent explicit Fire enum. The append-only repair preserves existing damage-kind ordinals, and a03 passes all246 compile/link actions in880.14 seconds. Failed evidence remains retained. This does not claim a new fire hazard, a cooked build or a Journey28 promotion.
-- **Audio honesty:** sixteen generated injury reference identities were prepared, but the user rejects the moaning delivery and both bounded male/female output takes. Diagnosis finds near-silent raw decoder noise amplified by normalization, with correct WAV encoding. No192-take bank is claimed, bulk synthesis stays stopped and rejected clips must never enter the game. Recorded pain performances and sex-specific routing are being prepared instead. A reviewed opt-in VoiceForge cap preserves existing2048-token/15-second defaults; only the exact owned runaway job/service was cancelled/restarted. Female bandit/thrall shared male/unclassified bank routes are identified, not described as fixed in27.
+- **Audio honesty:** sixteen generated injury reference identities were prepared, but the user rejects the moaning delivery and both bounded reference output takes. Diagnosis finds near-silent raw decoder noise amplified by normalization, with correct WAV encoding. No192-take bank is claimed, bulk synthesis stays stopped and rejected clips must never enter the game. Recorded pain performances and profile-specific routing are being prepared instead. A reviewed opt-in VoiceForge cap preserves existing2048-token/15-second defaults; only the exact owned runaway job/service was cancelled/restarted. Bandit/thrall shared mismatched/unclassified voice bank routes are identified, not described as fixed in27.
 
 Methods/tools: existing Unreal5.8 C++/SQLite server authorities, explicit source identity/ownership audits, bounded parallel preparation with one integrating coordinator, canonical Steam Blender headless ground-art conversion, actual serial NullRHI imports, MSVC transaction/lookup checks, UnrealBuildTool, hash-pinned preimages and retained failure archives, existing local VoiceForge/SoundLibrary with actual waveform/codec diagnosis. Original player campaigns are not reset or opened for these fixtures. Only this project log is published; source, assets, audio payloads, fixtures and builds remain local. Current limits and receipts: docs/universal-loot28-integration.md and CURRENT_WORK.md.
 
@@ -2211,7 +2211,7 @@ Methods/tools: existing Unreal5.8 C++/SQLite server authorities, explicit source
 
 - **Promoted and playable:** `0.21.0-preview12-playtest24`, schema35. The normal Journey launcher selects24. Twelve runtime/config files differ from23; native maps and Content are unchanged. Source identity is the reviewed runtime freeze over baseline `8051561d65be35b18160b1be0d1fe09e007ec8c4`, not a new source commit.
 - **Main-trail changes:** four existing camp–Harrowford wildlife routes now cross the road, retaining species, saved identities and depletion. Earlier loops stayed49–76m off the trail, including a6m deer loop. Ordinary source walking improved forward unobstructed samples from20/316 to86/316; reviewed nighttime captures show animals5–7m away, with lighting still limiting detail. This is regional improvement, not proof of world-wide density.
-- **Four-human road-watch patrol:** two male and two female raiders physically follow native-validated shoulders. Its explicit duty flag keeps rabbit hunts from pulling it off-road; other ecological hunters remain unchanged. Nighttime off-hand wooden torches use existing fire art and a carry pose,140lumens,425cm radius and no dynamic shadows. Existing server combat, saved encounter IDs, finite loot and shared12-actor budget remain.
+- **Four-human road-watch patrol:** four raiders with varied appearances physically follow native-validated shoulders. Its explicit duty flag keeps rabbit hunts from pulling it off-road; other ecological hunters remain unchanged. Nighttime off-hand wooden torches use existing fire art and a carry pose,140lumens,425cm radius and no dynamic shadows. Existing server combat, saved encounter IDs, finite loot and shared12-actor budget remain.
 - **Actual acceptance:** final Editor build-a11 passed. Real UAT `ash-march-journey-package-22ad433c42` passed build/cook/stage/archive; all81 package files were rehashed. Focused packaged ordinary walk `ordinary24-3fc2af73ac` used a read-only backup of the closed Tagham campaign, with no teleport, extra streaming source, forced spawn or altered time/speed/health. All4 bandits were alive and lit,1 acquired the player, nearest407.4cm; the reviewed screenshot shows all4 torch bearers. The check ends at interception, so landed damage/full fight/loot are not claimed. Unchanged campaign, skill, crypt and rescue proof was reused under the user's precise-check testing direction. No fresh remote multiplayer acceptance or crash fix is claimed.
 - **Provenance and failures:** one freeze freshly hashed all Content; subsequent packaging checks explicitly reused retained Content byte hashes behind an exact31,340-file size/mtime fence plus fresh source/external hashes. Preserved earlier attempts show why changing wildlife routes alone did not solve road patrols: two bandits chased hares away. The final duty flag addresses that observed behavior. Failed authoring/probe attempts remain recorded.
 - **Parallel work, not shipped in24:** the explicitly requested survivor fix prepares three finite waves from two existing woodland approaches, durable wave/cue state, ordinary per-death XP/loot and final clue, plus an accessible shrub shelter.325 actual isolated SQLite/Core assertions and36 preparation checks pass. Unreal integration, native planting and visual/balance checks are pending; existing campaigns retain their old generated roster. No additional frightened animation series or full actor-state restore is claimed. Hunting contracts at10/30/70 kills with increasing XP/loot are recorded as backlog. Newly reported shrub and burlap-sack packs are being inventoried; no new placement or loot behavior is claimed.
@@ -2542,7 +2542,7 @@ Exact promotion dates and runtime revisions are not established for these rows u
 | 0.13.0–0.16.0 | Intermediate crafting, gathering, equipment, merchant, character, map, and journal foundations are documented. | The reviewed records do not establish a reliable individual promotion/date/runtime mapping for each version. No invented mapping is assigned here. |
 | 0.17.0 | Original Ash Road vampire opening: Mara, equipment/training, messenger, Harrowford aftermath, survivor/healer/courier, Ash Hound, and saved choices/deadlines. | Story probe passed. Early terrain remained a bounded foundation; exact promotion time unavailable. |
 | 0.18.0 | Lockpicking interface, keys, lockpicks, and saved lock behavior. | 54 core cases plus editor/package interaction checks. |
-| 0.19.0 | Six face presets per sex/ancestry, facial hair and color choices, live preview, saved/replicated appearance. | Six packaged views; not the later requested modern detailed faces or facial sliders. |
+| 0.19.0 | Six face presets per appearance variant/ancestry, facial hair and color choices, live preview, saved/replicated appearance. | Six packaged views; not the later requested modern detailed faces or facial sliders. |
 | 0.20.0 | Title/loading artwork and animated loading status. | Loading presentation foundation. |
 | 0.20.1 | Engraved bronze/diamond loading bar. | Presentation refinement. |
 | 0.20.2 | Fullscreen option and a minimum 15-second loading display, waiting longer when necessary. | Startup presentation behavior. |
@@ -2567,7 +2567,7 @@ These were separate candidates; the stable fallback remained 0.20.11. A runtime 
 | Preview | Acceptance date | Runtime / schema | Main change and remaining boundary |
 |---|---|---|---|
 | 1 | 16 Oct | Runtime not explicitly pinned / 23 | Original dry camp, six-building Harrowford, bridges, Briarwatch courtyard, 25 spruce and 626 groundcover instances. Bounded walking/trader/inn checks; rough terrain and unfinished art remained. |
-| 2 | 16 Oct, 17:21 | `328bf66` / 25 | Two-room crypt/corridor, three chests, saved encounters, defeats/respawn, rescue/XP penalty, potions/mana/armor condition. Seven package gates; full campaign and balance not accepted. |
+| 2 | 16 Oct, 17:21 | `328bf66` / 25 | Two-room crypt/corridor, three containers, saved encounters, defeats/respawn, rescue/XP penalty, potions/mana/armor condition. Seven package gates; full campaign and balance not accepted. |
 | 3 | 16 Oct, 18:39 | `7a3b81b` / 25 | Equipment, pagination, and weapon appearance. No new body-armor library or five-floor dungeon; paired renders exceeded the GPU budget. |
 | 4 | 16 Oct, 19:29 | `ec819e1` / 25 | Coherent six-plot village, 296-metre street, 157 route markers, props, grounds, night lighting, and sanctuary spacing. Separate fresh saves; not full NPC schedules or atlas coverage. |
 | 5 | 16 Oct, 20:55 | `6ec8016` / 25 | Removed large floating interaction labels while retaining focused HUD prompts. Not a wider graphics upgrade; healer-list/physics/equipment work remained. |
@@ -2598,7 +2598,7 @@ Every row below uses the full version prefix **0.21.0-preview12-playtest**. Buil
 | 10 | 19 Oct, 15:13 | `f2cdcb6` / 31; `5b58c11ce6` | Paragraph spacing and scroll anchoring, dangerous nighttime woodland, A Supper Without Names, door safety, and a bounded skin pass. The later reported D3D12 crash remained open; documenting it did not resolve it. |
 | 11 | 19 Oct, 21:02 | `5e5ee1b` / 32; `bde731c60f` | Loose bread/book/copper pilot, loot/drag/drop and saved poses, four town guards, Rattle at the Eaves rat-tooth crafting quest, and shovel scale correction. Scoped physics/co-op checks; not universal movable loot or a finished theft economy. |
 | 12 | 20 Oct, 02:12 | `db5ef6a` / 32; `cade6e18c8` | 732 portable placements across eight maps, 142 owned collision derivatives, gravity/drag/rest poses, 144 blood decals, 29 replacement Mara takes/58 aliases, and corrected bread/book icon alpha. Move-only objects were not all loot; long carry and all-object behavior remained incomplete. |
-| 13 | 20 Oct, 04:56 | `22a1c0c` / 32; `de543cc660` | Three lower crypt floors, eighteen rooms, six stairs, twelve saved undead groups, seven deep chests, 2,857 environment instances, and eight signposts with seventeen arms. Two-client 118-point descent/return, restart within 2 cm, and five cooked views. Earlier sky-open roof candidate rejected; enemy stair traversal not broadly accepted. |
+| 13 | 20 Oct, 04:56 | `22a1c0c` / 32; `de543cc660` | Three lower crypt floors, eighteen rooms, six stairs, twelve saved undead groups, seven deep containers, 2,857 environment instances, and eight signposts with seventeen arms. Two-client 118-point descent/return, restart within 2 cm, and five cooked views. Earlier sky-open roof candidate rejected; enemy stair traversal not broadly accepted. |
 | 14 | 20 Oct, 09:28 | `2add952` / 32; `004344f996` | Names Beneath Stone investigation and Prelate encounter, 48 undead sounds, six Foley sounds, 27 additional Peltsmith takes, spatial mix/ducking, independent message expiry, smaller font, and hidden DM testing warps. Focused quest/boss/warp/restart checks; hearing quality and stair AI still open. |
 | 15 | 20 Oct, 12:32 | `6f3d3a1` / 33; `2c718ba4a7` | Graded skeleton hit dice and damage rolls in chat, ten-second title/menu flow, New/Load/host Save/Options, eighteen Foley/rat/level cues, and seven expressive messenger takes. Actual menus and authority/client/database dice agreement; facial-slider work remained held. |
 | 16 | 20 Oct, 14:15 | `8aaad40` / 33; `6600c33534` | GUI hero name before class creation, spaces/validation/cancel behavior, title/menu lute music, quiet highlight cues, and music fade on Resume. Actual named character arrival/profile/menu checks and four reviewed images. Creator clipping, modern detailed faces, and subjective final mixing remained open. |
@@ -2666,8 +2666,8 @@ This is the complete reachable local source history across all recorded branches
 |---|---|---|
 | 2026-10-16T12:48:29-05:00 | `2b65fc84d597716fb51df96eb2380496b343bd45` | Establish verified 0.20.11 source baseline and coordinated workflow |
 | 2026-10-16T12:49:52-05:00 | `1262521d49da25b9b4e787ac65e76de5f9461ec6` | Record completed preparation and next debug priorities |
-| 2026-10-16T12:59:21-05:00 | `931d8c520d1744ff2d557a4069af5f857c1b4a7f` | Resolve armor appearance from equipped chest identity with focused acceptance probe |
-| 2026-10-16T12:59:21-05:00 | `ab8dad4babe6d958bb17acc7f0f15e2aa1f6e69c` | Resolve armor appearance from equipped chest identity with focused acceptance probe |
+| 2026-10-16T12:59:21-05:00 | `931d8c520d1744ff2d557a4069af5f857c1b4a7f` | Resolve armor appearance from equipped torso identity with focused acceptance probe |
+| 2026-10-16T12:59:21-05:00 | `ab8dad4babe6d958bb17acc7f0f15e2aa1f6e69c` | Resolve armor appearance from equipped torso identity with focused acceptance probe |
 | 2026-10-16T13:00:02-05:00 | `ea26ad7a1207650f67fe31f19d16519bf8c1a025` | Start isolated campaign armor and torch integration batch |
 | 2026-10-16T13:00:55-05:00 | `6e243bb4db8001b0563d94f3460528f00d9f46a7` | Reduce owner torch emissive glare and add paired exposure probe |
 | 2026-10-16T13:00:55-05:00 | `f25b36e6ca1d7e3b4c1991ff95cc972f36a99fec` | Reduce owner torch emissive glare and add paired exposure probe |
@@ -2811,19 +2811,19 @@ This is the complete reachable local source history across all recorded branches
 | 2026-10-16T16:13:55-05:00 | `0d503a3c1996ce6e190a15415af2f2a1f47e5a56` | Add persistent mixed-class encounter and graded dungeon loot policies |
 | 2026-10-16T16:13:55-05:00 | `ecd4e1e19f146e140026dab8df79440185d4892a` | Add persistent mixed-class encounter and graded dungeon loot policies |
 | 2026-10-16T16:14:30-05:00 | `188a993c4d9779488d7c10d17f908a8cc491ddd2` | Preserve argument arrays in source danger runner and detect phase exits |
-| 2026-10-16T16:16:31-05:00 | `677af1dac420695041704c764fba8d4e2ab33a0a` | Place three persistent grounded crypt treasure chests with native art |
-| 2026-10-16T16:16:31-05:00 | `84898604d6e66ba67a364311b873874bc1997c70` | Place three persistent grounded crypt treasure chests with native art |
+| 2026-10-16T16:16:31-05:00 | `677af1dac420695041704c764fba8d4e2ab33a0a` | Place three persistent grounded crypt loot containers with native art |
+| 2026-10-16T16:16:31-05:00 | `84898604d6e66ba67a364311b873874bc1997c70` | Place three persistent grounded crypt loot containers with native art |
 | 2026-10-16T16:19:20-05:00 | `4a5298089a20650931fbf092291c89f1e1eeb239` | Use archetype capsule sizes for small creature spawns and route encounter loot |
 | 2026-10-16T16:21:16-05:00 | `d4c040490296f4962a5af4a473d47908f689169e` | Prepare genuine Troll rig and exact-bind native animation intake |
 | 2026-10-16T16:21:16-05:00 | `fcbe9b75658e5c4041ce46c2ab8c22f1ac7d9297` | Prepare genuine Troll rig and exact-bind native animation intake |
-| 2026-10-16T16:21:37-05:00 | `127eed7f2779439c5cba6d8396dfdf6da1e735ab` | Verify native crypt chests through real loot UI and restart |
-| 2026-10-16T16:21:37-05:00 | `e93ea427382c25a024f86b392d1708344672dae2` | Verify native crypt chests through real loot UI and restart |
+| 2026-10-16T16:21:37-05:00 | `127eed7f2779439c5cba6d8396dfdf6da1e735ab` | Verify native crypt containers through real loot UI and restart |
+| 2026-10-16T16:21:37-05:00 | `e93ea427382c25a024f86b392d1708344672dae2` | Verify native crypt containers through real loot UI and restart |
 | 2026-10-16T16:22:08-05:00 | `7f6c35d56879de972843bf2787d944b02059c30c` | Grade spell mana costs and power by rank and effect type |
 | 2026-10-16T16:22:50-05:00 | `40728982d134f391cf9baa55146a63e44c9651b0` | Randomize all container loot and share scarce percentage consumables |
 | 2026-10-16T16:22:50-05:00 | `dc34fb5ef455af88dc513411bcc35d9cc28a5241` | Randomize all container loot and share scarce percentage consumables |
 | 2026-10-16T16:23:48-05:00 | `4ce816eb45ca15a941c8eddb61fa69d90bc38556` | Respect sparse randomized dungeon rewards in UI restart fixtures |
 | 2026-10-16T16:23:48-05:00 | `fe0257bbf47650503806968185b1544d548e8b6a` | Respect sparse randomized dungeon rewards in UI restart fixtures |
-| 2026-10-16T16:23:59-05:00 | `06fe10c8c08b1e289250de2a090ca5df9bae04b5` | Wire authored dungeon chest preparation and loot acceptance hooks |
+| 2026-10-16T16:23:59-05:00 | `06fe10c8c08b1e289250de2a090ca5df9bae04b5` | Wire authored dungeon container preparation and loot acceptance hooks |
 | 2026-10-16T16:26:39-05:00 | `b2cf3cec87ec3feb07bafb81e7e70a9131b476b4` | Apply shared resource tiers slow mana regeneration and condition based armor |
 | 2026-10-16T16:33:49-05:00 | `aa9a56a66f334d79cf82640017ac541c56f2a110` | Cook owned treasure mesh and document DnD inspired resource balance |
 | 2026-10-16T16:37:17-05:00 | `94ca9b2f682cf8664a8f1addb8defce757a3b98f` | Use creature eye visibility over uneven terrain and label empty containers |
@@ -2837,14 +2837,14 @@ This is the complete reachable local source history across all recorded branches
 | 2026-10-16T16:40:59-05:00 | `14de621d8230fe3f8941e6c9f7126252410dcc3c` | Correct Goblin native mesh facing after actual combat render |
 | 2026-10-16T16:40:59-05:00 | `effaf8c3a32d835f905b26db3ec53b140501d00b` | Correct Goblin native mesh facing after actual combat render |
 | 2026-10-16T16:41:33-05:00 | `c76152d1fde9e868c2481d0555ec5be7d9f865dd` | Bind Nanite compatible owned materials and wire resource acceptance |
-| 2026-10-16T16:49:42-05:00 | `0a9e7f240bbde10e0463334a1b3e00665a78904e` | Record current resource and chest source acceptance |
+| 2026-10-16T16:49:42-05:00 | `0a9e7f240bbde10e0463334a1b3e00665a78904e` | Record current resource and container source acceptance |
 | 2026-10-16T16:50:06-05:00 | `617fc9e1eeb5fad22d370636d82da6c37afebcf1` | docs: record Troll stat table and shoreline encounter limits |
 | 2026-10-16T16:50:06-05:00 | `7c7a3a0e2c52bd8a7161b574f3384072e7a2c0c7` | docs: record Troll stat table and shoreline encounter limits |
 | 2026-10-16T16:50:23-05:00 | `f6939186ae845c5f64220772223d39fb6a6d7437` | Sync coordinator documentation baseline for focused evidence update |
 | 2026-10-16T16:51:00-05:00 | `42fec105b2e76f1f9b31b520d234c0e0e131933e` | fix: face waterbank Troll along its movement direction |
 | 2026-10-16T16:51:00-05:00 | `c6378e049621f41382f149ac93d1a76410406867` | fix: face waterbank Troll along its movement direction |
-| 2026-10-16T16:51:13-05:00 | `865e75e383aad2dc6676576e7d433f47106f2176` | Record passed source resource and dungeon chest acceptance gates |
-| 2026-10-16T16:51:13-05:00 | `8ee65fffa7b1b143a901a631cea358bd5d6a5425` | Record passed source resource and dungeon chest acceptance gates |
+| 2026-10-16T16:51:13-05:00 | `865e75e383aad2dc6676576e7d433f47106f2176` | Record passed source resource and dungeon container acceptance gates |
+| 2026-10-16T16:51:13-05:00 | `8ee65fffa7b1b143a901a631cea358bd5d6a5425` | Record passed source resource and dungeon container acceptance gates |
 | 2026-10-16T16:51:24-05:00 | `37860774bae676f92a55c42d174b917f9b76b6af` | Document preview2 integrated scope and pending release gates |
 | 2026-10-16T16:51:34-05:00 | `1d202fe3e49700c1c341de8c6f2749c20e83ebf0` | Report gated encounter pursuit diagnostics on actual failures |
 | 2026-10-16T16:52:37-05:00 | `60fa17153f4afd641870137fe9aef5ba64b62507` | Consolidate preview2 delivery evidence and changed file inventory |
@@ -3512,8 +3512,8 @@ This is the complete reachable local source history across all recorded branches
 | 2026-10-18T20:29:04-05:00 | `b5070fef4d47ef83434700706169ea5ffe1a6ecd` | Add server landing damage with bounded active Acrobatics mitigation |
 | 2026-10-18T20:38:42-05:00 | `6a7a7a329a197edd8a458a802aeba813ddd26e61` | Move routine gameplay notices into bounded bottom message history |
 | 2026-10-18T20:38:42-05:00 | `b1a2a97f451db965009eb04a80e93382df7d443a` | Move routine gameplay notices into bounded bottom message history |
-| 2026-10-18T20:40:16-05:00 | `3d17474cc829c92d4a9b5ac7a84d15ee969733fe` | Bind lesser hide torso and remove chest-owned iron limb sections |
-| 2026-10-18T20:40:16-05:00 | `960d9bd2047b5e2fb1b92125ceb86f7b6ff2a099` | Bind lesser hide torso and remove chest-owned iron limb sections |
+| 2026-10-18T20:40:16-05:00 | `3d17474cc829c92d4a9b5ac7a84d15ee969733fe` | Bind lesser hide torso and remove torso-owned iron limb sections |
+| 2026-10-18T20:40:16-05:00 | `960d9bd2047b5e2fb1b92125ceb86f7b6ff2a099` | Bind lesser hide torso and remove torso-owned iron limb sections |
 | 2026-10-18T20:41:24-05:00 | `6c39dd538d5e0064061dc04a40471b2b9f4c874f` | Integrate NEXT source and prepare shared ornate interface frame |
 | 2026-10-18T20:41:39-05:00 | `a69719945f3b669954feaaa2a33aedc037aeaa97` | Attach procedural cape to native torso pose for inventory rotation |
 | 2026-10-18T20:41:39-05:00 | `bd588f64eebca41a66c23269edc00377f05910b6` | Attach procedural cape to native torso pose for inventory rotation |
@@ -3521,12 +3521,12 @@ This is the complete reachable local source history across all recorded branches
 | 2026-10-18T20:43:30-05:00 | `5bccc6e196bc1e8956b51547a53dda745f7c089b` | Add saved axe contact harvesting for authored forest trees |
 | 2026-10-18T20:50:28-05:00 | `7e2273b5f40b2531aca627c5d82f593c174c32c8` | Add replicated relaxed combat posture and neutral carried hands |
 | 2026-10-18T20:50:28-05:00 | `ca48638a70c128caa648c4e8b8715b62185aaa44` | Add replicated relaxed combat posture and neutral carried hands |
-| 2026-10-18T20:52:41-05:00 | `5bf5ec0028dbaa4a0f5a82a2364c93464e4d5e7c` | Record house entrapment and female face reports with recovery limits |
-| 2026-10-18T20:52:41-05:00 | `ba92f4b5544fb89ebae081fd8f653a192de88b3f` | Record house entrapment and female face reports with recovery limits |
+| 2026-10-18T20:52:41-05:00 | `5bf5ec0028dbaa4a0f5a82a2364c93464e4d5e7c` | Record house entrapment and character face reports with recovery limits |
+| 2026-10-18T20:52:41-05:00 | `ba92f4b5544fb89ebae081fd8f653a192de88b3f` | Record house entrapment and character face reports with recovery limits |
 | 2026-10-18T20:54:31-05:00 | `c56dfe953d2f4f997b90f750f6359f60671d7fe4` | Prepare36 branch-root icon atlas candidates and exact mapping |
 | 2026-10-18T20:54:31-05:00 | `d5073467cda9da5700250fa8b50c0d43147f81b2` | Prepare36 branch-root icon atlas candidates and exact mapping |
-| 2026-10-18T20:54:55-05:00 | `175a3e339dc9a5aebfd21dcd78c7d57e345f3716` | Audit female face binding and actual head texture fidelity without asset changes |
-| 2026-10-18T20:54:55-05:00 | `508737f16b30fc7789311d1221ddc2a437aba270` | Audit female face binding and actual head texture fidelity without asset changes |
+| 2026-10-18T20:54:55-05:00 | `175a3e339dc9a5aebfd21dcd78c7d57e345f3716` | Audit character face binding and actual head texture fidelity without asset changes |
+| 2026-10-18T20:54:55-05:00 | `508737f16b30fc7789311d1221ddc2a437aba270` | Audit character face binding and actual head texture fidelity without asset changes |
 | 2026-10-18T20:58:01-05:00 | `e859a9c8d52c954f0a6c7bcaa2df29f214406da0` | Select fresh Journey campaign at user request while retaining prior save |
 | 2026-10-18T20:59:22-05:00 | `1136cd0a864c381e52689e97e26e1cafc2c0a0fb` | Fix native talent integration and show precise map position with heading |
 | 2026-10-18T21:01:38-05:00 | `1301e257526af6476fa84cf2e30388e5215a52f4` | Identify trapped field-store plot and local 4K face prototype assets |
@@ -3766,7 +3766,7 @@ Journey19 remains the promoted playable master; this is scoped source progress t
 -17 API/arrival checks and20 follow-policy regressions pass. Seven actual incremental Unreal Editor builds pass. Source preimages and failed native diagnostics remain inside the project Archive/evidence paths.
 - A fresh private native chain earned the Fighter's iron sword through normal Mara/Peltsmith dialogue, five live skeever kills, pickups and trade. Actual six-defender/two-archer combat passed with11 accepted swings, two consumed potions and five archer shots; clue, alarm and captive release used the normal interaction/permit paths.
 - First return attempt failed after46.41m; saved positions established the leading/stopping geometry. A fresh earned-checkpoint retry repeats ordinary combat and walks925.78m before the private straight-line player driver hits a real static mesh58m from home. Failed evidence stays failed. A collision-aware private continuation walks the remaining route from the actual saved pose, without actor placement or authority mutation.
-- Actual chest/eye traces identify Seren's own32cm capsule blocking her30cm speaking proxy. Enlarging only the query-only civilian proxy to34cm preserves solid collision, speaking distance and normal LOS checks. Actual normal F/authorized claim now grants20XP/75copper; native restart restores completed state and one living Seren/Elin each. This is a two-session source proof, not a cooked or multiplayer delivery. The evidence comparison separately inspects a2.169cm normal floor-settling change rather than silently treating pose bytes as quest state. Existing transactional reward authority is reused, not duplicated.
+- Actual torso/eye traces identify Seren's own32cm capsule blocking her30cm speaking proxy. Enlarging only the query-only civilian proxy to34cm preserves solid collision, speaking distance and normal LOS checks. Actual normal F/authorized claim now grants20XP/75copper; native restart restores completed state and one living Seren/Elin each. This is a two-session source proof, not a cooked or multiplayer delivery. The evidence comparison separately inspects a2.169cm normal floor-settling change rather than silently treating pose bytes as quest state. Existing transactional reward authority is reused, not duplicated.
 - The strict source gate now passes38 pinned evidence files. A separate read-only comparison preserves the original failed wrapper; all authoritative reward/XP/wallet/encounter/identity state stays exact while normal physical settling is bounded to5cm. The original source database and retained WAL match all62 checkpoint tables without alteration. Candidate20 mastering, fresh full cooked rescue/restart and rendered camp/home/frontend checks are next; no20package or promotion is claimed.
 - Main-menu Music/Voice/Sound sliders and a25% relative music-default increase are recorded as backlog intake under the user's one-objective rule. No audio default or running package was changed.
 

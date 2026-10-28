@@ -80,10 +80,10 @@ def arrow(points, dashed=False):
 
 text(100, 65, "THE ASH ROAD  /  SYSTEM OVERVIEW", 26, "#57708E", True)
 text(100, 108, "Advanced Custom Game Dev System Design", 64, "#172B48", True)
-text(100, 199, "Expanded Unreal technology stack  /  25 October 2026", 32)
+text(100, 199, "Expanded Unreal technology stack  /  28 October 2026", 32)
 
-panel(100, 300, 530, 210, "NVIDIA RTX 4060 Ti", "8 GB shared VRAM\nCUDA AI + Unreal rendering")
-panel(660, 300, 530, 210, "AMD RADEON GRAPHICS", "Integrated GPU installed\nProject assignment unverified")
+panel(100, 300, 530, 210, "NVIDIA RTX 4060 Ti", "8 GB shared VRAM\nCUDA AI + scheduled rendering")
+panel(660, 300, 530, 210, "AMD RADEON GRAPHICS", "Verified Unreal NPC previews\nNative diagnostics / fallback")
 panel(1220, 300, 530, 210, "CPU PROCESSING", "Authoring, audio, rules,\nsaves, builds and exports")
 panel(1780, 300, 520, 210, "HOSTED AI", "Image generation on\nprovider-managed compute")
 
@@ -95,12 +95,12 @@ arrow([(1200, 1060), (1200, 1160)])
 arrow([(1975, 1060), (1975, 1160)])
 
 panel(100, 790, 700, 270, "IMAGE AI + TRELLIS / LOCALMESH", "Hosted reference images → local 3D candidates.\nTRELLIS.2, DINOv3, PyTorch + CUDA.\nNVIDIA GPU inference.", accent=True)
-panel(850, 790, 700, 270, "BLENDER + PYTHON PIPELINES", "Models, materials, rigs and animation.\nWeapon/loot manifests, icons and validation.\nCPU authoring/export; render route varies.", accent=True)
+panel(850, 790, 700, 270, "BLENDER + PYTHON PIPELINES", "Models, rigs and portable PBR materials.\nPreserved UVs + UV-layout image exports.\nManifests, source readback and validation.", accent=True)
 panel(1600, 790, 700, 270, "QWEN3-TTS / VOICEFORGE", "Voice profiles and dialogue → FFmpeg audio.\n0.6B: GPU when admitted; 1.7B: CPU.\nApproved takes, subtitles and manifests.", accent=True)
 panel(100, 1160, 2200, 170, "SHARED CONTENT LIBRARY & ENGINE INTAKE", "Models, animation, textures, icons and audio with stable IDs and provenance. Visual/audio review, optimization, native import and per-asset acceptance.")
 arrow([(1200, 1330), (1200, 1420)])
 
-# Unreal occupies the dominant area; pilot work is explicitly separated.
+# Unreal occupies the dominant area; source previews and Lab trials are labeled.
 draw.rounded_rectangle((70, 1420, 2330, 3040), radius=26, fill="#EAF0F8", outline="#B8C8DE", width=3)
 text(110, 1450, "UNREAL ENGINE 5.8", 49, "#172B48", True)
 text(110, 1521, "CURRENT GAME SYSTEMS & ENGINE CONFIGURATION", 26, "#57708E", True)
@@ -110,19 +110,19 @@ cards = [
     (850, 1590, "RENDERING & MATERIALS", "Lumen lighting / reflections\nVirtual Shadow Maps\nD3D12 + Shader Model 6\nNanite on selected owned meshes"),
     (1600, 1590, "CHAOS & NETWORKED PHYSICS", "Rigid bodies + CCD collision\nAsync physics at 60 Hz\nPredictive Interpolation\nSaved authoritative resting poses"),
     (100, 1940, "MULTIPLAYER & MOVEMENT", "Server RPCs + property replication\nCharacterMovement prediction\nServer-side interaction validation\nShared authoritative gameplay state"),
-    (850, 1940, "SKELETAL ANIMATION", "Skeletal meshes + AnimSequences\nBlend spaces / native animation proxies\nAnimGraphRuntime evaluation\nEquipment attachments and timing"),
+    (850, 1940, "SKELETAL ANIMATION", "Skeletal meshes + AnimSequences\nBlend spaces / native animation proxies\nAnimGraphRuntime evaluation\nProfile Data Assets + attachments"),
     (1600, 1940, "SLATE UI & ENGINE AUDIO", "Slate / SlateCore interfaces\nMoviePlayer loading presentation\nSpatialized sound + attenuation\nOcclusion and concurrency controls"),
 ]
 for x, y, title, body in cards:
     panel(x, y, 700, 300, title, body, accent=True)
 
 draw.rounded_rectangle((100, 2310, 2300, 2600), radius=22, fill="#F6EFE0", outline="#D7C49D", width=2)
-text(132, 2335, "METAHUMAN CHARACTER FOUNDATION — ISOLATED PILOT", 34, "#69532B", True)
+text(132, 2335, "METAHUMAN + NATIVE CLOTHING — SOURCE PREVIEW / LAB", 34, "#69532B", True)
 pilot = [
-    "MetaHuman Creator / Character tools • DNA + RigLogic • retained plugin Control Rigs",
-    "Saved human/dwarf body studies and exact-skeleton motion fixtures have bounded native checks.",
-    "Gameplay integration, runtime shape sliders, final character art and armor-fit acceptance remain pending.",
-    "IK retargeting remains under investigation; legacy scale-only conversion is held.",
+    "MetaHuman assemblies, DNA/RigLogic and profile Data Assets: three NPCs have functional source previews.",
+    "Epic Outfit resizing preserves source geometry, skin weights, UVs and exportable material routes.",
+    "Chaos Cloth + Dataflow cape trials and native IK-retargeted action candidates remain bounded Lab work.",
+    "Journey40 is the cooked master. Final art, broader combat/crowd acceptance and creator sliders remain open.",
 ]
 y = 2395
 for paragraph in pilot:
@@ -143,8 +143,8 @@ caption_width = draw.textlength(caption, font=font(29))
 caption_x = (2400 - caption_width) / 2
 draw.rectangle((caption_x - 20, 3074, caption_x + caption_width + 20, 3124), fill="#F5F7FB")
 text(caption_x, 3080, caption, 29, "#57708E")
-panel(100, 3160, 2200, 140, "THE ASH ROAD — PLAYABLE COOPERATIVE RPG", "Main runtime and isolated character pilot retain separate acceptance and release states.", True)
-text(100, 3354, "Local GPU workloads share NVIDIA VRAM. AMD project workload remains unverified.", 28)
+panel(100, 3160, 2200, 140, "THE ASH ROAD — PLAYABLE COOPERATIVE RPG", "Cooked release, functional source previews and prepared content retain separate acceptance states.", True)
+text(100, 3354, "NVIDIA and AMD jobs are coordinated; verified use does not imply pooled VRAM or concurrent rendering.", 28)
 
 image.save(OUTPUT, optimize=True, dpi=(180, 180))
 with Image.open(OUTPUT) as check:
