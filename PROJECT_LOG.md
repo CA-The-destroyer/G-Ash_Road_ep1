@@ -11,6 +11,55 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-28 — Copied Broken Leather variants and actual combat retarget
+
+The owner refined the bandit wardrobe into a separate poor-protection Broken
+Leather item family with four distinct damaged variants, also reusable on
+compatible humanoid undead. Ordinary bandits should receive very incomplete
+item-backed combinations, including shirt plus leg armor without a chest item;
+bosses may wear a complete compatible set. Server-selected loadouts must persist.
+Canonical item protection/value/weight/loot and undead body fits remain unbuilt.
+
+Following the owner's simpler production method, four actual copied leather
+source models now exist with different missing whole shoulder/tasset/pouch
+assemblies. Original source models and approved UVs are preserved. Separate
+chest and boot exports, shared complete shirt/trousers exports, source layouts
+and fresh FBX geometry/UV/material-route readbacks are retained. New packed
+grime/scuff/damp masks and a dirt-pigment overlay include the boot Hide material
+coverage missed by the first pass. NVIDIA CUDA rendered the actual source copies.
+Root reviewed the four-view surface-a03 sheet; these remain tailored source WIP,
+not final ruined art or new native fits. Jagged leather tears are not claimed.
+
+Exact original-part/native correspondence now resolves all123,636 actual native
+triangles using positions, both UV channels and material routes. Four extra
+theoretical source triangles are repeated zero-area pouch closures. Prepared
+male subset plans preserve fitted survivor IDs/positions/weights/UVs; their new
+native subset operator has not yet been compiled or executed.
+
+Actual source inspection found a usable nonadditive Whisper four-state bank.
+The Grux alternative's hit is additive and remains excluded. A failed initial
+probe also applied an inappropriate10second action limit to its24.33second idle;
+the retained resume reused every passed Whisper pose without resampling and
+closed only its real12package102.7MB dependencies. These were copied add-only
+into CharacterLab. UE5.8's native IK retargeter, with each operation assigned its
+actual rigs, produced four attack/hit/death/combat-idle sequences plus two rigs
+and one retargeter. RAW/COMPRESSED limb/reference/unit checks pass, root drift
+is zero, and protected assets remain unchanged. No scale hacks or source edits.
+
+A nine-pose AMD native diagnostic captured the actual target body without saving
+Content. Root reviewed five action views. The motion is a claw-like sweep;
+weapon grips/contact timing, actual clothing/Face motion, physical corpse
+contact and in-world combat admission remain open. A prepared same-actor visual
+adapter passes247 host timing assertions but is not installed or Unreal-compiled.
+
+Methods: reused Blender source assemblies and UVs, small portable mask textures,
+CPU geometry/identity checks, CUDA source rendering, existing UE5.8 native
+retarget/pose/capture APIs and AMD rendered diagnostics; bounded parallel
+preparation workers with one coordinated native/build slot. The Barbarian chat's
+focused color probe passed separately and has a bounded follow-up import window.
+Main a06, PlayNewNpcs and Journey40 remain the existing previews/master; no new
+detailed bandit, canonical Broken Leather item rollout or cooked release ships.
+
 ## 2026-10-28 — Scavenged bandit source outfits and native running motion
 
 The owner queued new bandit characters after the Harrowford villager slice:
