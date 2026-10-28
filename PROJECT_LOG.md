@@ -11,6 +11,51 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-28 — Scavenged bandit source outfits and native running motion
+
+The owner queued new bandit characters after the Harrowford villager slice:
+mismatched, poorly maintained armor with some individual pieces missing. Three
+actual modular source outfits are now built: left shoulder only, right shoulder
+only with different missing armor tabs, and a lightly armored raider. Complete
+shirts, trousers and boots remain. Fresh FBX geometry readbacks pass with UV
+error0 and exact material routing;36 UV-layout pages and six CPU clay renders
+are retained. These are female resizable baseline sources, not new male fits or
+finished ragged art. Worn/damaged finish and further equipment remain work.
+
+A prepared deterministic loadout policy reuses saved encounter/generation/slot
+identity and passes2,142 host C++ assertions. It refuses unsupported coverage,
+wrong body fits, extra baked armor or idle-only combat. No stats, weapons, loot,
+faction or spawn authority change. Human-bandit appearance excludes Goblins and
+the separate vampire models. Current game bandits remain on their complete
+working legacy presentation while the new rig is prepared.
+
+Root native inspection and copy saved four unchanged exact-skeleton official
+Run clips in CharacterLab. Sampled raw/compressed local/component/reference
+poses, keys and timing match; protected inputs remain unchanged. An initial
+walking-height test rejected one running heel-recovery frame by0.138cm. Failed
+evidence is retained; the corrected running-specific test uses the actual
+reference pelvis as the recovery ceiling and preserves the other finite/unit/
+reference/ground tests. Source animations were not changed. Rendered gait,
+actual foot contact and garment/Face following are separate unapproved checks.
+
+Actual read-only Main asset-bank inspection checked320 candidate records and10
+native sequence skeletons, finding no exact-target combat bank. Existing UE
+humanoid animation banks are retarget candidates; attack/hit/death/bow coverage
+is still required. Existing male-fitted armor may allow exact native subsets,
+but source/native triangulation differs by4 and repeated UVs make477 removed
+triangles per partial-armor variant ambiguous without actual rest-position/
+corner mapping. No left/right deletion is guessed and no redundant full fits
+are claimed necessary before that mapping is checked.
+
+The delivered villager source preview, Main a06 and all407 readiness dependencies
+were checked unchanged after the native work. No new detailed bandit is active
+and no cooked release is produced. Methods reused: modular Blender sources and
+UV retention, native MetaHuman animation copies/readback, Python/PowerShell,
+existing saved identity hashing, host C++ tests and focused asset inspection.
+Only this log is published; source art, native assets, builds and saves remain
+local. Detailed actual outputs/limits and full changed-file inventory:
+tools/prepared/bandit-cast28/README.md and CHANGED-FILES.md.
+
 ## 2026-10-28 — Two Harrowford characters and shared civilian workwear in a playable source preview
 
 Sabeth Vale (healer) and Elswyth Fen (weaver) now use their distinct native
