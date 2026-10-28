@@ -11,6 +11,37 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-28 — Torn bandit leather and improvised cloth repair
+
+Four copied Broken Leather sources now have substantial missing coverage and
+actual closed-thickness ragged tears, curled grain lips, exposed suede and
+short static fibers. Original primary art UVs and complete base clothing are
+preserved. The waist/leg guard remains a legs-slot item rather than chest armor.
+
+The owner refined the representative repair into a broad mismatched strip of
+dirty faded olive cloth, with physical-scale woven PBR, asymmetric diagonal
+geometry folds, tension at stitched ends, coarse attachment stitches and sparse
+uneven hand mending. Existing linen maps and worn leather/metal materials are
+reused. Added fiber/lip/thread UV defects were repaired on new details without
+rewrapping original art. Layout images and numeric coordinates are retained.
+
+The other three sources pass actual FBX roundtrips with zero measured position
+and UV error and exact material routing. The current representative passes an
+actual Unreal static import: all 51 source parts, source UV channels and 11
+material routes survive native readback. Blender source renders ran on NVIDIA;
+Unreal source checks ran on AMD, with bounded CPU work in parallel and one
+serial native slot. Existing Lab bridge code was reused without a build.
+
+This is source content and native static/PBR evidence, not new playable bandits.
+Official body fitting, dressed hostile motion/weapon handling and canonical
+Broken Leather protection/loot integration remain open. Main a06 NPC preview
+and Journey40 remain unchanged. The new female-Barbarian bandit wardrobe policy
+is a gated intake; unfitted clothing is not activated.
+
+Selected sources: `tools/prepared/bandit-cast28/SOURCE-CATALOG-CURRENT.json`.
+Evidence: `evidence/unreal/class26-bandit-torn-surface28-import-a05`.
+Changed files: `tools/prepared/bandit-cast28/CHANGED-FILES.md`.
+
 ## 2026-10-28 — Copied Broken Leather variants and actual combat retarget
 
 The owner refined the bandit wardrobe into a separate poor-protection Broken
