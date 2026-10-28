@@ -302,9 +302,9 @@ created/modified outputs, retained diagnostics and copied preimages:
 CharacterLab work only. Journey40, Main and private Mara remain unchanged.
 No new playable package or complete Barbarian outfit is claimed.
 
-An actual athletic female MetaHuman body is saved. Shoulder breadth changes
-from32.2317 to34.1592cm and chest from89.6630 to94.0955cm, with height and waist
-essentially retained. This is one measured profile, not a complete creator range.
+An actual athletic female MetaHuman body is saved. Its proportions were
+verified against the intended fit profile. This is one validated profile,
+not a complete creator range.
 The existing Epic Outfit path resizes the actual saved leather top to that body.
 Connected transfer covers12,372 original primary points and33,532 soft-detail
 vertices. Exact source corner UVs/material routing are retained. Only the final
@@ -1603,125 +1603,125 @@ Retention keeps36/35/34/33. Reviewed32 retirement removed89 immutable payload le
 
 Local evidence: `docs/journey-playtest36-delivery.md`, `evidence/unreal/map-discovery36/promotion.json`, `rendered-a03/verification.json`, `cooked-a02/cooked-roots.json`, and `JOURNEY36-CHANGED-FILES.md`.
 
-## 2026-10-24 — Journey35: hunting, Grave Robbers and burial ghouls
-
-**Journey35 is playable through the normal Journey launcher**, schema43.
-The owner can use `PlayAshMarchJourney.cmd -DMWarp`. Existing saves are
-preserved; character/body art remains the previous build's art.
-
-- Fifteen personal hunting contracts offer cumulative10/30/70 milestones,
-  increasing XP/copper and existing-item loot tables with once-only tier claims.
-  Human/Goblin criminals, domestic animals and the unique Bone Prelate are not
-  fabricated as ordinary hunt quarry. Missing bear/snake/wildcat/crow species
-  remain content gaps. Vampire/werewolf renewable70-kill coverage is limited.
-- Five journal chapters organize Main Quests, Side Quests, Bandit Missions,
-  Hunting Contracts and Message History using actual saved/owner-only state.
-- The Grave Robbers now has actual disturbed burials, off-route cart evidence
-  and a low canvas register cache. Sabeth's request leads through real clues,
-  normal physics/collection of the0.8kg original sealed register and atomic
-  return for28XP/90copper per nearby companion plus the configured collector
-  weapon reward. Distant giver unloading no longer blocks the investigation.
-- Three ghouls inhabit the burial copse independently of quest acceptance.
-  Normal prewarm admission preserves spawn protection and the12-living budget;
-  no special spawn bypass or hidden stat replacement was added.
-- Actual UAT build/cook/stage/archive passes:92 immutable leaves, nine map names,
- 2574 required cooked roots,33 owned native site packages/seven collision meshes
-  and42 source/config changes across785 frozen inputs. Original actors, source
-  art and the13 previously clear camp edges remain preserved.
-- Source native quest/physical contact/collection/reward/restart and separate
-  live-ghoul normal movement/damage/labelled Hurt death/restart checks pass.
-  Exact final packaged startup verifies four clue classes/support collision,
-  the unique register anchor and ten ghoul anchors. Broad packaged quest replay
-  was skipped under the user's standing testing instruction.
-- Core64 Grave checks/eight Rusk scenarios match all133 current Core inputs;
-  unchanged hunting bodies/hooks reuse their4,634 earlier checks, with17
-  integrated checks and typed42-to43 migration. Journal172+350 CPU assertions
-  and final linked Editor a19 pass. Failed evidence remains available.
-- The default selector is atomically promoted34→35. N-3 retains35/34/33/32;
-  exact88-file31 payload retirement passes (5,257,194,939 gross bytes). The
-  reviewed31 payload contains no saves/crashes; all original24 state and failed
-  diagnostics remain protected. No directory or unrelated release was removed.
-
-**Acceptance limits:** this is an owner playtest, not whole-game completion.
-Rendered journal/site-art review, new hunting/grave voice performances, listening
-and multiplayer gameplay remain pending. Native checks use explicit player
-approach/tutorial and initial encounter-roll fixtures; ordinary player attacks
-and a full ghoul patrol cycle are not claimed. Three of16 catalogue quest scenes
-are native-bound;13 remain. No unrelated world/body/weapon overhaul is claimed.
-
-Tools/methods: existing Unreal5.8.3 C++/reflected gameplay, server-authoritative
-CampaignService/SQLite transactions, Unreal Editor Python authoring, private
-NullRHI native RPC/physics checks, MSVC/UBT/UAT, cooked AssetRegistry validation,
-hash-fenced source/art/immutable payloads, fresh-process restoration and bounded
-atomic launcher promotion/leaf-only retention. Only this project log is published
-to GitHub; licensed art, saves, credentials and package payloads stay local.
-
-Evidence: `evidence/unreal/quest-content35-integration/acceptance35.json`,
-`promotion.json`, `runtime-freeze35-a01.json`, `native-quest-a10/verification.json`,
-`ghoul-live-a02/verification.json`, packaged startup `packaged-startup-6ce7aae0ea`,
-actual UAT `ash-march-journey-package-f610fe4e38` and cooked roots
-`journey35-cooked-roots-a01`. See `docs/journey-playtest35-delivery.md` for the
-file-by-file summary and `JOURNEY35-WORKING-CHANGED-FILES.md` for generated files,
-packages, archives and exact retirement ledgers.
+## 2026-10-24 — Journey35: hunting, Grave Robbers and burial ghouls
 
-## 2026-10-24 — Journey35 native hunting/grave quest and three-ghoul checks pass; UAT running
-
-Journey34 remains the promoted playable. Journey35 is frozen in development;
-actual Game UAT build/cook/package is running and no accepted35 release is
-claimed. This update records functional integrated content and its limits.
-
-- Fifteen personal hunting contracts use cumulative10/30/70 milestones and
-  once-only increasing rewards. Five journal chapters organize main quests,
-  side quests, bandit missions, hunts and message history. Existing authorities
-  and saves remain in use; missing fauna are not invented.
-- The actual burial copse, off-route cart and low canvas register cache are
-  saved in33 unique owned Content packages. Original actors, six camp defender
-  positions, prisoner/alarm/ledger/extraction reservations and source art remain.
-  Seven owned collision-mesh copies support the new fixtures. Real table/book
-  contact and normal loose-object collection pass.
-- Solo headless native RPCs accept a hunt, accept Sabeth's Grave Robbers request,
-  follow all three clues, collect the actual0.8kg sealed register, record the
-  optional keeper warning, return the actual item and receive28XP/90copper plus
-  the configured sword reward. Fresh process restart preserves completion,
-  hunting acceptance, exact money/XP and the original-book tombstone.
-- Two concrete integration defects were fixed: unloaded distant Sabeth now uses
-  her existing saved role-loss state, while nearby dialogue/reward still needs
-  the actual living actor/token/range/LOS; the register spawn checks actual book
-  bounds instead of rejecting the table against a generic constructor cube.
-- The burial habitat independently spawns three ghouls through the normal
-  director at prewarm distance. Actual movement/contact damages the player;
-  the verifier's labelled server Hurt fixture then records all three deaths.
-  Fresh restart preserves dead mask7. No enemy teleport, stat override or
-  global spawn-protection relaxation was used.
-- Core64 Grave cases/eight Rusk scenarios match all133 final Core inputs.
-  Retained4,634 hunting checks cover unchanged hunting bodies/hooks, with17
-  integrated checks and typed42-to43 migration. Journal172+350 assertions pass.
-  Final linked Editor a19 passes. Failed native/build/author checks remain.
-- Freeze35 pins785 source/config inputs,42 changed source/config paths and33
-  reviewed native packages against actual promoted34. UAT is the next gate;
-  afterward only precise packaged startup/cooked-site checks are planned.
-
-Methods/tools: Unreal5.8.3 C++/reflected classes, existing server-authoritative
-CampaignService and SQLite transactions, Python authoring through Unreal Editor,
-owned collision copies, private headless NullRHI native RPC/physics fixtures,
-MSVC/Unreal Build Tool/UAT, exact hash/input ledgers and fresh-process restoration.
-Official Ravenloft artwork and the existing original Ash Road direction guided
-the burial scenery. No unrelated game system or save authority was rebuilt.
-
-Limits: player approach/tutorial advancement and initial encounter-roll setup
-are explicit fixtures. No rendered UI/site-art approval, sound listening,
-ordinary route travel, full patrol cycle, ordinary player-attack acceptance or
-multiplayer gameplay is claimed. Vampire/werewolf70-kill renewable coverage is
-still limited. The other catalogue quest scenes are not delivered by this batch.
-The newest three reviewed routine rollback copies per burial/cache family are
-retained; only exact hash-verified redundant older copies were retired. Original
-campaigns, failed diagnostics and all release payloads remain protected.
-
-Evidence: `evidence/unreal/quest-content35-integration/native-quest-a10/verification.json`,
-`ghoul-live-a02/verification.json`, `editor-build-a19.json`,
-`composed-core35-a01.json`, `composed-native35-a01.json` and
-`runtime-freeze35-a01.json`. Detailed current source/release limits remain in
-`docs/quest-content35-progress.md` and `CURRENT_WORK.md`.
+**Journey35 is playable through the normal Journey launcher**, schema43.
+The owner can use `PlayAshMarchJourney.cmd -DMWarp`. Existing saves are
+preserved; character/body art remains the previous build's art.
+
+- Fifteen personal hunting contracts offer cumulative10/30/70 milestones,
+  increasing XP/copper and existing-item loot tables with once-only tier claims.
+  Human/Goblin criminals, domestic animals and the unique Bone Prelate are not
+  fabricated as ordinary hunt quarry. Missing bear/snake/wildcat/crow species
+  remain content gaps. Vampire/werewolf renewable70-kill coverage is limited.
+- Five journal chapters organize Main Quests, Side Quests, Bandit Missions,
+  Hunting Contracts and Message History using actual saved/owner-only state.
+- The Grave Robbers now has actual disturbed burials, off-route cart evidence
+  and a low canvas register cache. Sabeth's request leads through real clues,
+  normal physics/collection of the0.8kg original sealed register and atomic
+  return for28XP/90copper per nearby companion plus the configured collector
+  weapon reward. Distant giver unloading no longer blocks the investigation.
+- Three ghouls inhabit the burial copse independently of quest acceptance.
+  Normal prewarm admission preserves spawn protection and the12-living budget;
+  no special spawn bypass or hidden stat replacement was added.
+- Actual UAT build/cook/stage/archive passes:92 immutable leaves, nine map names,
+ 2574 required cooked roots,33 owned native site packages/seven collision meshes
+  and42 source/config changes across785 frozen inputs. Original actors, source
+  art and the13 previously clear camp edges remain preserved.
+- Source native quest/physical contact/collection/reward/restart and separate
+  live-ghoul normal movement/damage/labelled Hurt death/restart checks pass.
+  Exact final packaged startup verifies four clue classes/support collision,
+  the unique register anchor and ten ghoul anchors. Broad packaged quest replay
+  was skipped under the user's standing testing instruction.
+- Core64 Grave checks/eight Rusk scenarios match all133 current Core inputs;
+  unchanged hunting bodies/hooks reuse their4,634 earlier checks, with17
+  integrated checks and typed42-to43 migration. Journal172+350 CPU assertions
+  and final linked Editor a19 pass. Failed evidence remains available.
+- The default selector is atomically promoted34→35. N-3 retains35/34/33/32;
+  exact88-file31 payload retirement passes (5,257,194,939 gross bytes). The
+  reviewed31 payload contains no saves/crashes; all original24 state and failed
+  diagnostics remain protected. No directory or unrelated release was removed.
+
+**Acceptance limits:** this is an owner playtest, not whole-game completion.
+Rendered journal/site-art review, new hunting/grave voice performances, listening
+and multiplayer gameplay remain pending. Native checks use explicit player
+approach/tutorial and initial encounter-roll fixtures; ordinary player attacks
+and a full ghoul patrol cycle are not claimed. Three of16 catalogue quest scenes
+are native-bound;13 remain. No unrelated world/body/weapon overhaul is claimed.
+
+Tools/methods: existing Unreal5.8.3 C++/reflected gameplay, server-authoritative
+CampaignService/SQLite transactions, Unreal Editor Python authoring, private
+NullRHI native RPC/physics checks, MSVC/UBT/UAT, cooked AssetRegistry validation,
+hash-fenced source/art/immutable payloads, fresh-process restoration and bounded
+atomic launcher promotion/leaf-only retention. Only this project log is published
+to GitHub; licensed art, saves, credentials and package payloads stay local.
+
+Evidence: `evidence/unreal/quest-content35-integration/acceptance35.json`,
+`promotion.json`, `runtime-freeze35-a01.json`, `native-quest-a10/verification.json`,
+`ghoul-live-a02/verification.json`, packaged startup `packaged-startup-6ce7aae0ea`,
+actual UAT `ash-march-journey-package-f610fe4e38` and cooked roots
+`journey35-cooked-roots-a01`. See `docs/journey-playtest35-delivery.md` for the
+file-by-file summary and `JOURNEY35-WORKING-CHANGED-FILES.md` for generated files,
+packages, archives and exact retirement ledgers.
+
+## 2026-10-24 — Journey35 native hunting/grave quest and three-ghoul checks pass; UAT running
+
+Journey34 remains the promoted playable. Journey35 is frozen in development;
+actual Game UAT build/cook/package is running and no accepted35 release is
+claimed. This update records functional integrated content and its limits.
+
+- Fifteen personal hunting contracts use cumulative10/30/70 milestones and
+  once-only increasing rewards. Five journal chapters organize main quests,
+  side quests, bandit missions, hunts and message history. Existing authorities
+  and saves remain in use; missing fauna are not invented.
+- The actual burial copse, off-route cart and low canvas register cache are
+  saved in33 unique owned Content packages. Original actors, six camp defender
+  positions, prisoner/alarm/ledger/extraction reservations and source art remain.
+  Seven owned collision-mesh copies support the new fixtures. Real table/book
+  contact and normal loose-object collection pass.
+- Solo headless native RPCs accept a hunt, accept Sabeth's Grave Robbers request,
+  follow all three clues, collect the actual0.8kg sealed register, record the
+  optional keeper warning, return the actual item and receive28XP/90copper plus
+  the configured sword reward. Fresh process restart preserves completion,
+  hunting acceptance, exact money/XP and the original-book tombstone.
+- Two concrete integration defects were fixed: unloaded distant Sabeth now uses
+  her existing saved role-loss state, while nearby dialogue/reward still needs
+  the actual living actor/token/range/LOS; the register spawn checks actual book
+  bounds instead of rejecting the table against a generic constructor cube.
+- The burial habitat independently spawns three ghouls through the normal
+  director at prewarm distance. Actual movement/contact damages the player;
+  the verifier's labelled server Hurt fixture then records all three deaths.
+  Fresh restart preserves dead mask7. No enemy teleport, stat override or
+  global spawn-protection relaxation was used.
+- Core64 Grave cases/eight Rusk scenarios match all133 final Core inputs.
+  Retained4,634 hunting checks cover unchanged hunting bodies/hooks, with17
+  integrated checks and typed42-to43 migration. Journal172+350 assertions pass.
+  Final linked Editor a19 passes. Failed native/build/author checks remain.
+- Freeze35 pins785 source/config inputs,42 changed source/config paths and33
+  reviewed native packages against actual promoted34. UAT is the next gate;
+  afterward only precise packaged startup/cooked-site checks are planned.
+
+Methods/tools: Unreal5.8.3 C++/reflected classes, existing server-authoritative
+CampaignService and SQLite transactions, Python authoring through Unreal Editor,
+owned collision copies, private headless NullRHI native RPC/physics fixtures,
+MSVC/Unreal Build Tool/UAT, exact hash/input ledgers and fresh-process restoration.
+Official Ravenloft artwork and the existing original Ash Road direction guided
+the burial scenery. No unrelated game system or save authority was rebuilt.
+
+Limits: player approach/tutorial advancement and initial encounter-roll setup
+are explicit fixtures. No rendered UI/site-art approval, sound listening,
+ordinary route travel, full patrol cycle, ordinary player-attack acceptance or
+multiplayer gameplay is claimed. Vampire/werewolf70-kill renewable coverage is
+still limited. The other catalogue quest scenes are not delivered by this batch.
+The newest three reviewed routine rollback copies per burial/cache family are
+retained; only exact hash-verified redundant older copies were retired. Original
+campaigns, failed diagnostics and all release payloads remain protected.
+
+Evidence: `evidence/unreal/quest-content35-integration/native-quest-a10/verification.json`,
+`ghoul-live-a02/verification.json`, `editor-build-a19.json`,
+`composed-core35-a01.json`, `composed-native35-a01.json` and
+`runtime-freeze35-a01.json`. Detailed current source/release limits remain in
+`docs/quest-content35-progress.md` and `CURRENT_WORK.md`.
 
 ## 2026-10-24 — Journey35 burial-ghoul site integrated; release pending
 
