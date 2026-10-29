@@ -5,11 +5,21 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey40](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey41](#2026-10-29--journey41-resident-and-scavenged-bandit-cast-delivery). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-25--journey40-targeted-crash-repair-and-living-world-batch) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-29--journey41-resident-and-scavenged-bandit-cast-delivery) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+
+## 2026-10-29 — Journey41 resident and scavenged bandit cast delivery
+
+Journey41 is promoted as the playable master, schema 46. Four new Harrowford replacements preserve their original actors, quests, shops and saved identities: Corin, Sera, the farmhand and herb gatherer. The resident catalog has seven entries including earlier replacements. Supported ordinary human melee bandits now have five deterministic wardrobe profiles: four torn Broken Leather variants and clothing only, bound to their actual canonical equipment and loot.
+
+The original Game target validated with zero compile actions. Actual recovery UAT build, cook, stage and archive passed in about eight minutes. Native registry inspection found all 3,492 required package names, including 782 cast packages. The actual packaged catalogs and an original Director-spawned camp bandit passed on NVIDIA; its gameplay authority and equipment mirror remained intact. Existing resident world/shop observations, detailed source motion/material views and source loot checks were reused. No broad gameplay, audio, creator or multiplayer replay was added.
+
+The package is about 6.37 GiB, distinct from the much larger development workspace. N-1 now retains real Journey41 and Journey40. Journey39 was retired only after 917,011,714 bytes of saved/crash records were preserved with verified hashes; both retained payloads were checked before and after. The main workspace is physically Ash_Road on the larger volume, with compatibility paths retained.
+
+The private packaged checker needed the verified legacy path spelling required by its unchanged native fixture guard; correcting its arguments required no runtime or asset change and no recook. Its failed admission is retained. This delivery is a limited cast rollout, with one shared bandit appearance baseline, remaining art refinement and legacy coverage for unsupported roles. Rougher grooming and broader cast variety remain queued. Cleanup opportunities are backlog; finish bounded batches and reuse proven patterns.
 
 <!-- status-snapshot:start -->
 ## 2026-10-29 — Project status, measured scale and technology overview
