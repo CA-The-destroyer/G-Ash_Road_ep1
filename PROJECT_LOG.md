@@ -7,9 +7,19 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Current playable master:** [Journey41](#2026-10-29--journey41-resident-and-scavenged-bandit-cast-delivery). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-29--resident-wardrobe-repair-integrated-in-source) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-29--bandit-grooming-integrated-in-source) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+
+## 2026-10-29 — Bandit grooming integrated in source
+
+Three saved native grooming assemblies—stubble, uneven beard and messy greying beard—now supply five fresh revision2 enemy profiles in the source project. Sixteen additional payload files were copied additively. The original faces, body fit, wardrobe geometry/UVs/materials, animations, weapon grips, saved appearance IDs, equipment, loot and combat authority remain unchanged. The source catalog retains ten resident profiles and replaces its five bandit entries with these successors.
+
+Nine focused native idle/run/attack images, cold groom-binding readbacks and root image review pass. A rendered normal six-defender camp check also passes, retaining the original enemy actor, canonical equipment and rolled stats while displaying the new facial hair. Lab and Main Editor incremental builds passed with four actions each, in4.75 and12.63seconds. The actual camp process completed successfully in144.32seconds. Prior failed binding/export/capture attempts remain documented rather than relabeled as successes.
+
+Methods/tools: installed Epic UE5.8 GroomLibrary and binding APIs, existing native compilation/preview helpers, NVIDIA Unreal captures, bounded Python, SHA256-verified additive copying and the existing authoritative camp witness. Only exact class/evidence-path admissions and read-only groom observation were added to private validation helpers; no replacement character framework or repeated garment fitting was introduced. Reused source groom coordinates remain intact; standalone layout-image documentation for those optional assets remains incomplete.
+
+This is source integration, not a42 cook/package/promotion. Journey41 remains the playable master. Distinct face casting, additional target profiles and unsupported role coverage remain open; this grooming correction is not full cast completion. Detailed local evidence and required next casting work: docs/bandit42-source-delivery.md.
 
 ## 2026-10-29 — Resident wardrobe repair integrated in source
 
