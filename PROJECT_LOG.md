@@ -11,6 +11,53 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-29 — Resident and bandit cast verified in the source world
+
+Corin, Sera, the farmhand and the herb gatherer now use their new saved character
+profiles on their original world actors. All four source-world observations pass;
+Corin and Sera's existing shops opened without a transaction. Quest, speaker,
+inventory and saved identities remain with their existing authorities. The seven
+resident catalog entries include the three earlier replacements. Four saved shirt
+palettes and corrected garment layers retain the source UVs and material routing.
+
+Five native bandit profiles are saved: four torn Broken Leather appearances and
+clothes only. Supported melee roles retain deterministic incomplete equipment,
+condition, real protection and normal loot. Three exact weapon grips, eight saved
+motion derivatives and the current garment corrections are integrated. A small
+visible-layer coverage variant preserves all surviving geometry attributes and
+the full animation driver; exported UV layouts survive native cold readback.
+
+An actual six-defender camp activates through the normal director. The original
+enemy presents the new profile and moves with its original authority and weapon.
+A clearly labeled private environmental fatal hit verifies death, one stable
+corpse, exact worn-item transfer and no duplicate loot or player reward on a
+second hit. This is a focused integration check, not a repeated combat/rescue
+playthrough. The verifier's old incomplete identity comparison was corrected to
+use the same full saved identity and wardrobe key as the presentation path.
+
+Actual moving-world rendering also isolated a blue hair-lighting result. Uniform
+groom sky-light integration restores the intended brown appearance without
+editing the groom, binding, textures or materials. Native and source-world
+failures remain retained. Final reference-art refinement, broader character
+coverage, multiplayer presentation and production road night-torch handoff remain
+explicitly open; source-preview admission is not finished-art approval.
+
+Journey40 remains the promoted playable master. Journey41 is frozen and undergoing
+its real UAT build/cook/stage/archive, with heavy output on F and canonical source
+on C. No new release or promotion is claimed yet. Existing saves are preserved.
+
+Methods/tools: reused Unreal C++ gameplay, Blueprint/Data Assets, official native
+MetaHuman/Outfit APIs, measured garment corrections, shared UV/material sources,
+read-only geometry checks, native save/reload, bounded NVIDIA/AMD captures and
+parallel CPU preparation under one serialized Unreal/build slot. Only precise
+changed-cast checks follow UAT. Lossless NTFS compression recovered about4.3GB
+from completed registry caches with unchanged hashes; unique sources, evidence,
+saves and old releases were not deleted. Only this progress log is published.
+
+Local evidence: docs/bandit-resident29-progress.md,
+tools/prepared/bandit-cast28/execution29-CHANGED-FILES.md and the current cast
+gallery at tools/prepared/bandit-cast28/cast-gallery29-a03/index.html.
+
 ## 2026-10-28 — Saved character identities, twelve clothing fits and bandit equipment
 
 All four new Harrowford character sources now retain their chosen faces after
