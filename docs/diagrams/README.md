@@ -1,5 +1,7 @@
 # Systems diagrams
 
+For the latest release state, project size and technology summary, see the [project status page](../status/README.md).
+
 ## Advanced Custom Game Dev System Design
 
 The Ash Road's production tools, Unreal technology stack, compute split, and the skills that connect them.
