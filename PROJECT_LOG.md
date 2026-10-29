@@ -11,6 +11,42 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-28 — Saved character identities, twelve clothing fits and bandit equipment
+
+All four new Harrowford character sources now retain their chosen faces after
+an actual fresh-process reload. The native authoring path was missing Epic's
+editable-face commit; committing DNA alone did not save those choices. Corrected
+sources use the official commit before saving, preserve the failed revisions,
+and verify the actual saved face settings, body, UVs and reference data.
+
+Corin, Sera, the farmhand and the herb gatherer now have actual optimized Unreal
+assemblies. All twelve shirt, trousers and footwear fits pass native save and
+cold reload checks. Their original NPC, shop, quest, speaker and saved identities
+remain the integration targets. The updated profile handoff passes72 CPU checks.
+
+All four torn Broken Leather variants pass actual native target fitting. The
+corrected improvised cloth repair retains its source UV/material alignment.
+Canonical persistent equipment, condition, protection and one-time corpse
+transfer pass716 focused assertions; Main source actor/replication/damage and
+equipment-icon hooks compile. Three actual sword clips have in-place derivatives
+preserving non-root animation tracks. Seventeen dressed poses pass actual
+Body/Face following with the original Face rig retained.
+
+These are native/source milestones, not a new playable cast or release. Actual
+images exposed dark clothing and an Editor walking-face issue; material and
+rendered-fit review continues. Grip, final artwork, world replacement and new
+night/ranged appearances remain unapproved. Journey40 stays the cooked master.
+
+Methods: existing C++ gameplay authorities, official MetaHuman/Outfit APIs,
+native IK retargeting and animation readback, preserved source UVs, actual PBR
+materials, bounded NVIDIA/AMD captures, independent CPU agent work and one
+serialized Unreal/build slot. No broad packaged replay was repeated. Completed
+JSON evidence was compressed losslessly with before/after hashes; source assets,
+saves and successful evidence remain preserved. Only this log is published.
+
+Local details: `docs/bandit-resident29-progress.md` and
+`tools/prepared/bandit-cast28/execution29-CHANGED-FILES.md`.
+
 ## 2026-10-28 — Torn bandit leather and improvised cloth repair
 
 Four copied Broken Leather sources now have substantial missing coverage and
