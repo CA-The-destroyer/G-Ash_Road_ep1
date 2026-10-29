@@ -11,6 +11,14 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-29 — Verified workspace migration and retained history
+
+Moved the main development project to the Ash_Road directory on the larger local volume, together with CharacterLab and all92 linked worktrees. Source and destination SHA256 checks cover1,359,112 files, including ignored assets, original art, saved state and unfinished work. Git refs and all93 working-tree identities are unchanged.
+
+Methods: logged Robocopy transfers, resumable native hash manifests, PowerShell path checks and Git registration checks. Three compatibility junctions preserve prior paths; six path-only launcher/maintenance updates retain the existing build and save guards. Reused unchanged gameplay and outfit evidence rather than replaying those suites.
+
+Verified duplicate cleanup recovered about294GiB on the source drive. The previously protected staging cache remains intact. Retention is now the promoted release plus one previous release. Journey40 remains playable; Journey41 still needs completion of packaging and its focused delivery checks. This maintenance milestone does not claim a new release or additional finished content.
+
 ## 2026-10-29 — Resident and bandit cast verified in the source world
 
 Corin, Sera, the farmhand and the herb gatherer now use their new saved character
