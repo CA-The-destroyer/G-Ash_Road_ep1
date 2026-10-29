@@ -11,6 +11,18 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-29 — Three more residents integrated in the source world
+
+Venn, Smith Hand and Inn Hand now have distinct saved character profiles on their original gameplay actors. Actual source-world binding passes for all three, retaining speaker, service and saved identities. The resident catalog now contains ten native profiles. This is source integration; Journey41 remains the promoted playable package.
+
+Existing admitted bodies and workwear were reused rather than fitted again. New skin and blue-grey, faded red and flax materials preserve geometry, UVs, weights and routing. Committed face/eye readbacks, native assemblies, focused dressed idle/walk views and cold physics metadata checks pass. Additive copying created420 payload files without overwriting existing assets. The native binding witness found one cosmetic child per original actor and no head-alignment failures.
+
+The existing moving-face helper was reused with bounded path guards. A material-only profile dependency failure preserved two completed profiles; the remaining profile completed without relaxing native validation. Failed captures and approach diagnostics remain retained. Clearer views exposed shared clothing coverage/edge defects, now isolated for repair before broader reuse. Final art, wider cast coverage, lip sync, multiplayer presentation and a42 package are not claimed.
+
+Methods/tools: official Unreal MetaHuman APIs and retained facial rigs; shared fitted assets and material instances; Python source/readback and additive copy; serial UnrealBuildTool builds; NVIDIA focused renders; CPU Blender geometry isolation; and a bounded headless original-world witness. Existing campaign/service evidence was reused without a broad playthrough. Later lip-sync will batch approved stable clips after one complete dialogue interaction is established. Only this project log is published.
+
+Local details: docs/harrowford42-resident-source-delivery.md and tools/prepared/harrowford-cast42-root-a01/CHANGED-FILES.md.
+
 ## 2026-10-29 — Journey41 resident and scavenged bandit cast delivery
 
 Journey41 is promoted as the playable master, schema 46. Four new Harrowford replacements preserve their original actors, quests, shops and saved identities: Corin, Sera, the farmhand and herb gatherer. The resident catalog has seven entries including earlier replacements. Supported ordinary human melee bandits now have five deterministic wardrobe profiles: four torn Broken Leather variants and clothing only, bound to their actual canonical equipment and loot.
