@@ -7,9 +7,19 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Current playable master:** [Journey41](#2026-10-29--journey41-resident-and-scavenged-bandit-cast-delivery). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-29--journey41-resident-and-scavenged-bandit-cast-delivery) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-29--resident-wardrobe-repair-integrated-in-source) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+
+## 2026-10-29 — Resident wardrobe repair integrated in source
+
+The shared wardrobe deformation and covered-surface clipping are repaired for Venn, Smith Hand and Inn Hand in the source project. Six additional wardrobe asset files were copied additively, and three revision2 profiles replace their earlier paths in the ten-entry source catalog. Earlier assets remain intact. Actual native rest/idle/walk checks and focused image review pass; the original world NPCs load the exact successors with their existing identities, services and authority. The final headless binding check passes in10.14seconds.
+
+Garment geometry, UV placement, materials and references remain preserved; local weight adjustments and source-preserving coverage copies supply the repair. Failed candidates and the diagnostic shutdown crash remain documented. CPU deformation screening is approximate and does not replace the final native checks. The private world witness required an explicit exact successor-path admission; native structure and identity requirements remain.
+
+Methods/tools: Epic's installed GeometryScript and SkinWeightModifier APIs, retained native character rigs, Blender CPU inspection, bounded Python planning, NVIDIA Unreal captures, serial incremental Unreal builds and SHA256-verified additive copies. No stock character demonstration, new fitting framework or broad campaign replay was needed. Detailed evidence: docs/harrowford42-resident-source-delivery.md.
+
+This is source progress. Journey41 remains the playable master; no42 cook, package or promotion is claimed. Shirt-edge finish, the remaining age-presentation review, bearded bandit expansion and corpse presentation remain open.
 
 ## 2026-10-29 — Three more residents integrated in the source world
 
