@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="760" viewBox="0 0 1800 760" role="img" aria-labelledby="title desc">
 <title id="title">The Ash Road project status, 29 October 2026</title>
-<desc id="desc">Main physical workspace 306.41 GB, 1,232,117 files. Current Unreal Content 36.51 GB. Journey40 remains promoted. Journey41 packaging is interrupted.</desc>
+<desc id="desc">Main physical workspace 306.41 GB, 1,232,117 files. Active code: 140,410 code-only lines. Journey40 remains promoted. Journey41 packaging is interrupted.</desc>
 <rect width="1800" height="760" fill="#0C1725"/>
 <line x1="82" y1="58" x2="1718" y2="58" stroke="#CBA96D" stroke-width="3"/>
 <text x="82" y="115" fill="#CBA96D" font-family="Segoe UI,sans-serif" font-size="25" font-weight="600">DEVELOPMENT STATUS   /   29 OCTOBER 2026</text>
@@ -12,9 +12,9 @@
 <text x="700" y="418" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="67" font-weight="600">1,232,117</text>
 <text x="700" y="465" fill="#CBA96D" font-family="Segoe UI,sans-serif" font-size="23" font-weight="600">FILES</text>
 <text x="700" y="508" fill="#B7C6D9" font-family="Segoe UI,sans-serif" font-size="22" font-weight="400">Archives and generated copies included</text>
-<text x="1310" y="418" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="67" font-weight="600">36.51 GB</text>
-<text x="1310" y="465" fill="#CBA96D" font-family="Segoe UI,sans-serif" font-size="23" font-weight="600">UNREAL CONTENT</text>
-<text x="1310" y="508" fill="#B7C6D9" font-family="Segoe UI,sans-serif" font-size="22" font-weight="400">33,547 current Content file entries</text>
+<text x="1310" y="418" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="67" font-weight="600">140,410</text>
+<text x="1310" y="465" fill="#CBA96D" font-family="Segoe UI,sans-serif" font-size="23" font-weight="600">ACTIVE CODE LINES</text>
+<text x="1310" y="508" fill="#B7C6D9" font-family="Segoe UI,sans-serif" font-size="22" font-weight="400">1,657 files; comments and blanks excluded</text>
 <line x1="82" y1="552" x2="1718" y2="552" stroke="#33445A" stroke-width="2"/>
 <text x="82" y="622" fill="#A6D9BC" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600">JOURNEY40</text>
 <text x="82" y="662" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="25" font-weight="400">Promoted playable master</text>

@@ -13,12 +13,53 @@
 | Logical size | **306.41 GB** (285.37 GiB) |
 | Regular file entries | **1,232,117** |
 | Current Unreal Content | **36.51 GB / 33,547 files** |
+| Active code-only lines | **140,410 across 1,657 source files** |
+| Active Markdown documents | **705** |
 | Scan errors | **0** |
 | Reparse points skipped | 4 |
 
 Measurement window: **29 October 2026, 07:58–07:59 Chicago time (UTC−05)**. This is a dated snapshot, not a live monitor.
 
 The main total includes archives, retained packages, evidence and generated output. It does not represent source-code volume, unique authored assets, game download size or the size of this GitHub repository. Archive alone contains **1,090,007 file entries**.
+
+## Source code, documentation and workflows
+
+**140,410 code-only lines across 1,657 active first-party source files**, counted with [cloc 2.10](https://github.com/AlDanial/cloc/releases/tag/v2.10). Comments and blank lines are excluded from this headline. A separate 6,426 comment lines and 4,296 blank lines are recorded in the measurement data.
+
+| Active source area | Counted files | Code-only lines |
+| --- | ---: | ---: |
+| Runtime and campaign core | 880 | 77,283 |
+| Tests | 92 | 7,541 |
+| Tooling and build scripts | 685 | 55,586 |
+| **Total** | **1,657** | **140,410** |
+
+<details>
+<summary><strong>Code by language and counting scope</strong></summary>
+
+| Language | Counted files | Code-only lines |
+| --- | ---: | ---: |
+| C++ | 465 | 66,566 |
+| Python | 497 | 43,772 |
+| C/C++ Header | 491 | 17,691 |
+| PowerShell | 158 | 11,667 |
+| DOS Batch | 37 | 321 |
+| CMake | 1 | 234 |
+| Rust | 2 | 98 |
+| C# | 4 | 50 |
+| C | 2 | 11 |
+
+The source audit includes runtime/core code, tests, active tooling/build scripts, root launchers and documentation code helpers, including uncommitted source. It excludes prepared experiments, archives, retained copies, vendor/reference dependencies, Unreal-generated build output, companion repositories, assets and configuration/data files. Project-generated source inputs can count; this is not a handwritten-code estimate. cloc's default duplicate-content handling applies. Selected source hashes were unchanged across the count.
+
+</details>
+
+| Documentation or reusable workflow | File count | Scope |
+| --- | ---: | --- |
+| **Active project Markdown** | **705** | Project documents after archive/build/vendor/prepared exclusions. |
+| All main-workspace Markdown | **2,744** | `.md` and `.markdown` entries, including retained and prepared copies. |
+| **Project `SKILL.md` workflows** | **0** | Reusable workflow definition files inside the game workspace. |
+| Local workstation `SKILL.md` workflows | **12** | Separate local skill directory: 7 personal and 5 system definitions. Bundled/plugin libraries are excluded. |
+
+Workflow counts describe actual definition files. They do not represent capability areas, all installed plugin skills, or proof that every definition is used by the game. The code/workflow audit is a separate **29 October, 08:15 Chicago** snapshot; the earlier storage totals retain their original measurement window. [Exact counts and methodology](project-scale.json) are available for inspection.
 
 ## Delivery status
 

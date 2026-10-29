@@ -1609,5 +1609,135 @@
     "new_residents_world_checked": 4,
     "new_bandit_profiles": 5,
     "focused_camp_defenders": 6
+  },
+  "source_inventory": {
+    "measured_at_utc": "2026-10-29T13:15:49.081362+00:00",
+    "started_at_utc": "2026-10-29T13:15:45.050219+00:00",
+    "tool": {
+      "name": "cloc",
+      "version": "2.10",
+      "upstream": "https://github.com/AlDanial/cloc/releases/tag/v2.10",
+      "script_sha256": "bf59272455172108072a0a106379f7509fd4349bdcfd85203bac038ccd286d83"
+    },
+    "scope": "Curated active first-party runtime, campaign core, tests, tools/build scripts, root launchers and documentation code helpers, including uncommitted files",
+    "source_roots": [
+      "src",
+      "include",
+      "apps",
+      "unreal/ClawCoop/Source",
+      "tests",
+      "tools (excluding prepared/build/vendor)",
+      "deploy",
+      "docs",
+      "root source/build/launcher files"
+    ],
+    "excluded": [
+      "Archive and retained copies",
+      "evidence and releases",
+      "prepared/experimental work",
+      "third-party dependencies and reference checkouts",
+      "build/generated engine output",
+      "linked worktrees and companion repositories",
+      "configuration/data/Markdown/assets"
+    ],
+    "line_definition": "cloc code-only lines; comments and blank lines excluded. Project-generated source inputs can be counted; this is not a handwritten-code estimate.",
+    "duplicate_policy": "cloc default duplicate-content suppression within the selected source scope",
+    "input_files": 1657,
+    "counted": {
+      "files": 1657,
+      "code": 140410,
+      "comment": 6426,
+      "blank": 4296
+    },
+    "groups": {
+      "Runtime and campaign core": {
+        "files": 880,
+        "code": 77283,
+        "comment": 3218,
+        "blank": 1134
+      },
+      "Tests": {
+        "files": 92,
+        "code": 7541,
+        "comment": 103,
+        "blank": 99
+      },
+      "Tooling and build scripts": {
+        "files": 685,
+        "code": 55586,
+        "comment": 3105,
+        "blank": 3063
+      }
+    },
+    "languages": {
+      "C++": {
+        "files": 465,
+        "code": 66566,
+        "comment": 2218,
+        "blank": 758
+      },
+      "Python": {
+        "files": 497,
+        "code": 43772,
+        "comment": 2816,
+        "blank": 2902
+      },
+      "C/C++ Header": {
+        "files": 491,
+        "code": 17691,
+        "comment": 1085,
+        "blank": 431
+      },
+      "PowerShell": {
+        "files": 158,
+        "code": 11667,
+        "comment": 300,
+        "blank": 194
+      },
+      "DOS Batch": {
+        "files": 37,
+        "code": 321,
+        "comment": 0,
+        "blank": 0
+      },
+      "CMake": {
+        "files": 1,
+        "code": 234,
+        "comment": 0,
+        "blank": 8
+      },
+      "Rust": {
+        "files": 2,
+        "code": 98,
+        "comment": 0,
+        "blank": 3
+      },
+      "C#": {
+        "files": 4,
+        "code": 50,
+        "comment": 1,
+        "blank": 0
+      },
+      "C": {
+        "files": 2,
+        "code": 11,
+        "comment": 6,
+        "blank": 0
+      }
+    },
+    "markdown": {
+      "main_workspace_files": 2744,
+      "active_project_documents": 705,
+      "definition": "Files ending in .md or .markdown across the physical main workspace; active count applies documented archive/build/vendor/prepared exclusions"
+    },
+    "workflows": {
+      "project_skill_md_files": 0,
+      "local_workstation_skill_md_files": 12,
+      "local_personal_definitions": 7,
+      "local_system_definitions": 5,
+      "local_library_scope": "Local .codex/skills directory, excluding dependency folders; bundled/plugin workflow libraries are not included",
+      "usage_limit": "Definition counts do not imply every workflow is loaded or used by this project"
+    },
+    "source_changes_during_count": 0
   }
 }
