@@ -7,8 +7,23 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Current playable master:** [Journey42](#2026-10-29--journey42-cast-playtest-released). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-29--journey42-cast-playtest-released) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-30--character-replacement-source-checkpoint) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
+
+
+## 2026-10-30 — Character replacement source checkpoint
+
+Journey42 remains the current playable release. No new package, launcher promotion or campaign-save change is included in this checkpoint.
+
+Two distinct bearded character identities now have optimized native assemblies with matching skin, selected eyes and fresh hair bindings. One passed a fresh read-only saved-runtime audit; the other passed its completed native finish and separate cold readback. The seven-state motion bank for the additional target profile also passed its native author and cold checks. These are source milestones; dressed appearance, weapon contact, original-world assignment and release admission remain separate requirements. A third identity remains held after a real saved-reference mismatch.
+
+The sparse equipment-enrollment correction is installed in game source and its Editor build passed. It preserves existing deterministic appearance rolls and saved equipment authority; unsupported visual combinations retain the existing presentation. No new appearance catalog has been activated.
+
+The prior sword choreography has been converted and retargeted without rewriting target animation keys. All authored keys pass the motion-preservation checks; a separate compression-error comparison, fresh saved-source readback and full-cycle target pose checks pass. Normal-speed blade, grip and contact review remains pending; the rejected attack has not been relabeled fixed.
+
+A native dependency collection found 180 required source files for the two identities. Compare-only migration reports 178 missing files totaling 604,930,577 bytes and two already identical shared files. No asset copying is implied. A separate source audit records concrete resident, hostile, rescue and scenery-body adapters so recipe counts are not confused with unique characters or universal replacement.
+
+Methods/tools: installed Unreal Engine 5.8 native character assembly, UnrealBuildTool, existing IKRig and animation-data APIs, read-only asset-registry collection, Python and PowerShell evidence and exclusive-add migration tools. Existing animation and wardrobe proof is reused where dependencies remain unchanged. Failed trials and actual UV layouts stay local and retained. Independent agents cover motion-review preparation, migration/activation and assignment auditing; the coordinator owns serialized native integration. NVIDIA is reserved for the owner from 06:30 America/Chicago, with AMD or CPU used afterwards.
 
 
 ## 2026-10-29 — Journey42 cast playtest released
