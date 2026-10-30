@@ -5,11 +5,56 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey43](#2026-10-30--journey43-cast-playtest-released). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey44](#2026-10-30--journey44-self-hosted-co-op-released). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-30--journey43-cast-playtest-released) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-30--journey44-self-hosted-co-op-released) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+
+
+## 2026-10-30 — Journey44 self-hosted co-op released
+
+Journey44 (`0.21.0-preview12-playtest44`, schema46) is the promoted playable
+master. Host Co-op offers normal New/Load and character creation in the same
+game process. Join Co-op accepts a hero name, IPv4 address and UDP port. The
+session panel displays the actual bound port and copyable LAN endpoints.
+Failed joins return to the neutral title for retry without creating a local
+campaign database. The host remains the campaign authority.
+
+Actual source GUI/name/creator/arrival, failed-Join/retry and remote creator
+checks passed. One existing uncooked World Partition alias guard was corrected
+to admit listen hosts while retaining exact-cell checks and normal validation.
+Actual UAT built, cooked, staged and archived44 successfully. Registry closure
+found all4,581 required packages with none missing. The
+package-local supervisor selected Host, and one real cooked-map client joined:
+both peers reported two online players/two pawns, with no client Core/local
+campaign save. Seven actual menu/creator/arrival/session views were reviewed.
+
+The previous release's ten resident/six bandit selectors are retained unchanged;
+this increment makes no new character-art or universal-replacement claim. Their
+existing motion/death/loot evidence was reused. After UAT, only the changed menu,
+supervisor and concrete cooked-map join risk were checked; no broad battle,
+quest, inventory or restart replay. Internet reachability, router/firewall setup,
+accounts, relays and join codes remain unverified or future scope. After a
+successful client disconnect, reopening the launcher is required before hosting;
+same-process Join reconnect is supported.
+
+Work was reprioritized by player benefit and reuse: delivered direct-IP co-op,
+then distinct weapon-family motion, shared interruptible NPC activities,
+reference-led villager wardrobe and remaining character families. Existing
+two-handed motion sources and NPC schedules were identified for reuse; those
+next-batch candidates are prepared, not shipped.
+
+Methods/tools: native Unreal C++/Slate with existing listen server, NetDriver,
+campaign/save and ClientTravel paths; UnrealBuildTool/MSVC and one clean UAT;
+process-scoped filesystem DDC with prior cache read-only; focused Python and
+PowerShell checks, a rendered host plus NullRHI client, PID/start-time ownership,
+SHA256 input/package ledgers and preserved failure/preimage evidence. Main assets
+and schema remained unchanged. NVIDIA is preferred when available, with AMD/CPU
+fallback and actual device verification. Reports: `docs/coop44-delivery.md`,
+`docs/priority-roi44.md`, and the local linked44 changed-file inventory.
+
+Post-promotion retention kept44+43 and retired only the exact42 Windows payload, after hash-copying60 campaign/config/crash/symbol files (924,116,282bytes). Net6,414,591,507bytes reclaimed; both retained payloads were rehashed unchanged. The reconciled backlog contains125 outstanding owner records:47 feature families,61 debug/triage records and17 change requests. Counts describe tracking records, not completion percentages.
 
 ## 2026-10-30 — Journey43 cast playtest released
 
