@@ -8,9 +8,9 @@
 <text x="85" y="252" font-family="Segoe UI,sans-serif" font-size="29" font-weight="400" fill="#B7C6D9">Source development, playable releases and public documentation retain separate histories.</text>
 <text x="85" y="368" font-family="Segoe UI,sans-serif" font-size="72" font-weight="600" fill="#EAF0F7">1,060</text>
 <text x="85" y="412" font-family="Segoe UI,sans-serif" font-size="23" font-weight="600" fill="#CBA96D">LOCAL SOURCE COMMITS</text>
-<text x="790" y="368" font-family="Segoe UI,sans-serif" font-size="72" font-weight="600" fill="#EAF0F7">97</text>
+<text x="790" y="368" font-family="Segoe UI,sans-serif" font-size="72" font-weight="600" fill="#EAF0F7">102</text>
 <text x="790" y="412" font-family="Segoe UI,sans-serif" font-size="23" font-weight="600" fill="#CBA96D">GITHUB DOC COMMITS</text>
-<text x="1495" y="368" font-family="Segoe UI,sans-serif" font-size="72" font-weight="600" fill="#EAF0F7">1,157</text>
+<text x="1495" y="368" font-family="Segoe UI,sans-serif" font-size="72" font-weight="600" fill="#EAF0F7">1,162</text>
 <text x="1495" y="412" font-family="Segoe UI,sans-serif" font-size="23" font-weight="600" fill="#CBA96D">COMBINED UNIQUE COMMITS</text>
 <rect x="85" y="485" width="590" height="245" rx="18" fill="#14263A" stroke="#AFC8E8" stroke-width="2"/>
 <text x="113" y="541" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600" fill="#AFC8E8">LOCAL AUTHORING</text>
@@ -24,9 +24,9 @@
 <text x="813" y="681" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Acceptance controls promotion</text>
 <rect x="1485" y="485" width="590" height="245" rx="18" fill="#14263A" stroke="#A6D9BC" stroke-width="2"/>
 <text x="1513" y="541" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600" fill="#A6D9BC">PLAYABLE RELEASE</text>
-<text x="1513" y="597" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Journey42 promoted / schema46</text>
-<text x="1513" y="639" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Journey41 retained as previous</text>
-<text x="1513" y="681" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Journey43 remains source work</text>
+<text x="1513" y="597" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Journey44 promoted / schema46</text>
+<text x="1513" y="639" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Journey43 retained as previous</text>
+<text x="1513" y="681" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Weapon-family motion is next</text>
 <rect x="85" y="940" width="590" height="245" rx="18" fill="#14263A" stroke="#8CCBCC" stroke-width="2"/>
 <text x="113" y="996" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600" fill="#8CCBCC">LOCAL SOURCE GIT</text>
 <text x="113" y="1052" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">1,060 distinct commits across local refs</text>
@@ -39,7 +39,7 @@
 <text x="813" y="1136" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Source ledger exported as documentation</text>
 <rect x="1485" y="940" width="590" height="245" rx="18" fill="#14263A" stroke="#AFC8E8" stroke-width="2"/>
 <text x="1513" y="996" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600" fill="#AFC8E8">GITHUB DOCUMENTATION</text>
-<text x="1513" y="1052" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">97 commits / 0 pull requests</text>
+<text x="1513" y="1052" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">102 commits / 0 pull requests</text>
 <text x="1513" y="1094" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Status / ledger / diagrams / JSON</text>
 <text x="1513" y="1136" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Direct selected-file commits to main</text>
 <polyline points="680,607 777,607" fill="none" stroke="#88A3C0" stroke-width="3"/>

@@ -2,7 +2,7 @@
 
 [History and combined statistics](README.md) · [Machine-readable metadata](source-commits.json) · [History flow](../diagrams/development-history-flow.md)
 
-**1,060 distinct reachable local source commits**, including **612** in current HEAD ancestry and **448** outside that ancestry. Snapshot: **2026-10-30T13:28:43.245590+00:00**.
+**1,060 distinct reachable local source commits**, including **612** in current HEAD ancestry and **448** outside that ancestry. Snapshot: **2026-10-30T18:42:39.331977+00:00**.
 
 Subjects are public wording summaries; 16 were normalized. Full original source hashes, author dates, committer dates and parent links are preserved in JSON. Source hashes are identifiers for the local source repository, so they are shown as text rather than misleading links to commits in this documentation repository.
 

@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "observed_at_utc": "2026-10-30T13:28:43.245590+00:00",
+  "observed_at_utc": "2026-10-30T18:42:39.331977+00:00",
   "local_source_HEAD": "8051561d65be35b18160b1be0d1fe09e007ec8c4",
   "github_documentation_repository": "CA-The-destroyer/G-Ash_Road_ep1",
-  "github_documentation_base_HEAD": "37cbb2fb45c28421d37f375340925b6572a5d5d4",
+  "github_documentation_base_HEAD": "a73d1219acbe8c4df6b1086219e15a138caf2bbe",
   "publication_count_policy": "Published totals include the one documentation commit that publishes this snapshot; the publisher verifies the pinned resulting history count.",
   "counts": {
     "local_source_HEAD": 612,
@@ -11,17 +11,23 @@
     "local_source_outside_HEAD": 448,
     "local_branches": 123,
     "all_local_refs": 130,
-    "github_docs_observed_base": 96,
-    "github_docs_published": 97,
+    "github_docs_observed_base": 101,
+    "github_docs_published": 102,
     "shared_commit_SHAs_at_base": 0,
-    "combined_unique_at_base": 1156,
-    "combined_unique_published": 1157
+    "combined_unique_at_base": 1161,
+    "combined_unique_published": 1162
   },
   "pull_requests": {
     "total": 0,
     "open": 0,
     "merged": 0,
     "closed_unmerged": 0
+  },
+  "release": {
+    "promoted": "Journey44",
+    "rollback": "Journey43",
+    "save_schema": 46,
+    "next_label": "Weapon-family motion is next"
   },
   "source_author_dates": {
     "earliest": "2026-10-16T12:48:29-05:00",

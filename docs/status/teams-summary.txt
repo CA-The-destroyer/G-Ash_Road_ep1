@@ -1,0 +1,28 @@
+THE ASH ROAD — DEVELOPMENT STATUS
+30 October 2026
+
+Journey44 is built, verified and promoted; Journey43 is rollback. Native Host/Join and session details passed one actual local packaged host/client pair: 2 players, 2 pawns, no client campaign database. Internet reachability and broader group/join-code coverage remain unverified or future work.
+
+PROJECT SCALE
+Main workspace: 320.46 GB (298.45 GiB), 1,240,107 files.
+Unreal Content: 38.95 GB across 34,201 files.
+Active source: 142,021 code-only lines across 1,673 files.
+Markdown: 721 active documents; 2,977 including retained/prepared copies.
+Reusable SKILL.md workflows: 12 local definitions (7 personal, 5 system); 0 inside the game project.
+
+DELIVERY AND WORK
+10 resident profiles and 6 bandit selectors are retained; selectors are not unique faces or universal replacement.
+All 9,959 cooked packages completed; 4,581 required packages present. Successful UAT retry: 164s, after an earlier 710.7s compile and retained command-budget failure.
+125 outstanding tracking records: 47 feature families, 61 debug/triage records, 17 changes/gates.
+18 scoped closures; 8 optional/long-term records; 3 monitoring cases. Numbered sub-items remain within their owner totals.
+Next: distinct weapon-family motion, shared NPC activities, then representative villager wardrobe and remaining families.
+
+HISTORY
+1,060 local source commits, including the 612 current-HEAD subset.
+102 GitHub documentation commits including this publication; 1,162 combined distinct SHAs; 0 pull requests.
+
+TECHNOLOGY
+Unreal 5.8/C++20/SQLite; MetaHuman/Outfit; Blender/Python/PowerShell; TRELLIS.2/PyTorch and Qwen3-TTS/VoiceForge. NVIDIA supports CUDA/rendering; AMD has verified Unreal previews/packaged views and HIP authoring. Reserve NVIDIA during owner playtests; VRAM is not pooled.
+
+Measured storage/Markdown: 30 October 2026, 13:42–13:44 Chicago (UTC-05). Code/workflows: 30 October 2026, 13:45 Chicago (UTC-05).
+Workspace figures include archives/evidence/generated copies and are not the game download size. Counts are dated snapshots, not completion percentages.

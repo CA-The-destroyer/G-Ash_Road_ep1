@@ -1,10 +1,10 @@
 flowchart LR
     authorWork["UNREAL / BLENDER / AI authoring"] --> freezeUat["Reviewed freeze and Unreal build / cook / archive"]
-    freezeUat --> playableRelease["Journey42 promoted; Journey43 source work"]
+    freezeUat --> playableRelease["Journey44 promoted; Journey43 rollback"]
     authorWork -->|"Record commits"| sourceHistory["Local source Git: 1060 all-ref commits; 612 in HEAD ancestry"]
     sourceHistory -->|"Export ledger"| publicMetadata["Reviewed commit metadata and aggregate statistics"]
     freezeUat -->|"Publish evidence"| publicMetadata
-    publicMetadata --> docsHistory["GitHub documentation: 97 commits; 0 pull requests"]
+    publicMetadata --> docsHistory["GitHub documentation: 102 commits; 0 pull requests"]
     playableRelease -->|"Record status"| docsHistory
     classDef source fill:#DDEFEF,stroke:#478F91,color:#102B32;
     classDef delivery fill:#FFF0D2,stroke:#B98E49,color:#443315;

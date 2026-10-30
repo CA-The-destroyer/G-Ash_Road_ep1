@@ -5,29 +5,27 @@ System design and development notes for an original cooperative RPG built with U
 <!-- project-status:start -->
 ## Project status and scale
 
-![The Ash Road project status](docs/status/project-status.png)
+![The Ash Road current status](docs/status/project-status.png)
 
-**[317.46 GB and 1,238,599 files](docs/status/README.md)** in the measured main physical workspace. Archives and generated copies are included; this is not the game's download size.
+**Journey44 is promoted; Journey43 is rollback.** Native direct-IP Host/Join passed one actual local packaged host/client pair with2 players/2 pawns and no client campaign database. Internet reachability remains unverified.
 
-**141,114 code-only lines** across 1,662 active source files. The [source and documentation inventory](docs/status/README.md#source-code-documentation-and-workflows) also records 713 active Markdown documents and distinguishes project workflows from the separate local skill library.
+**320.46GB · 1,240,107 files · 142,021 code-only lines across 1,673 active source files.** The fresh inventory records 721 active Markdown documents and 12 separate local SKILL.md definitions. Workspace figures include archived/generated copies.
 
-**Journey42 is promoted; Journey43 remains source work.** Ten resident and five bandit profiles ship in42. Two new identities have saved assembly and seven posed-state checks each; their activation and final equipment/art gates remain open. The [full status report](docs/status/README.md) separates release readiness, source integration, measured storage and key technologies.
-
-[Read the status report](docs/status/README.md) · [View measurement data](docs/status/project-scale.json) · [Open the PNG summary](docs/status/project-status.png)
+[Full status and scale](docs/status/README.md) · [Copy-ready summary](docs/status/teams-summary.txt) · [Exact measurement data](docs/status/project-scale.json)
 <!-- project-status:end -->
 
 <!-- outstanding-register:start -->
 ## Outstanding work
 
-**127 outstanding tracking records**: 47 feature remainders, 62 debug records and 18 change requests. Optional ideas and completed/excluded records are separate.
+**125 outstanding owner records:** 47 feature families, 61 debug/triage records and 17 changes/gates. Optional ideas and scoped closures are separate. Current priorities: weapon-family motion, shared NPC activities, villager wardrobe and remaining families.
 
-[Open the numbered work register](docs/backlog/README.md). It groups work by workstream, preserves historical IDs and links duplicates to one owner record. The current character-replacement batch remains first.
+[Open the numbered work register](docs/backlog/README.md).
 <!-- outstanding-register:end -->
 
 <!-- source-history:start -->
 ## Development history
 
-**1,060 local source commits + 97 documentation commits = 1,157 distinct recorded commits across both histories.** The 612 current-HEAD source commits are included within the 1,060.
+**1,060 local source commits + 102 documentation commits = 1,162 distinct recorded commits across both histories.** The 612 current-HEAD source commits are included within the 1,060.
 
 [Source ledger and combined statistics](docs/history/README.md) · [Development flow diagram](docs/diagrams/development-history-flow.md). Pull requests: **0**; documentation uses direct selected-file publication to main.
 <!-- source-history:end -->

@@ -12,6 +12,18 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-30 — Fresh measured stats and Journey44 summary
+
+Refreshed the status page, PNG/SVG summary, copy-ready text and history flow against the actual Journey44 promotion. Journey43 is rollback. Native Host/Join, session details and one actual local packaged pair pass with2 players/2 pawns and no client campaign database; internet reachability and broader group policy remain open. The16 inherited cast profile selectors remain bounded coverage, not16 unique faces or universal replacement.
+
+The new physical metadata scan measures **320.46GB /1,240,107 files** in the main workspace, including archives/evidence/generated copies. Current Unreal Content is **38.95GB /34,201 files**. The source audit records **142,021 code-only lines /1,673 active files**, **721 active Markdown documents** and **2,977 including retained/prepared copies**. Reusable workflows remain **12 local SKILL.md definitions /0 inside the project**, excluding bundled/plugin libraries. All storage roots report zero errors.
+
+The current register contains **125 outstanding owner records** (47 feature families /61 debug/triage /17 changes), with18 scoped closures separate. Priority is distinct weapon-family motion, shared NPC activities, representative villager wardrobe and remaining families. Source history remains **1,060 commits**, including the612 HEAD subset. With this publication, the documentation graph has **102 commits**, the combined full-SHA union is **1,162**, and PRs remain **0**.
+
+Storage/Markdown:30 October 2026, 13:42–13:44 Chicago (UTC-05); code/workflows:30 October 2026, 13:45 Chicago (UTC-05). Dated snapshots distinguish logical workspace size from download size and source commits from feature/release completion. No game/source/asset/save/build/cleanup work was performed for this report.
+
+[Status report](docs/status/README.md) · [Copy-ready text](docs/status/teams-summary.txt) · [Source history](docs/history/README.md) · [Flow diagram](docs/diagrams/development-history-flow.md).
+
 ## 2026-10-30 — Journey44 self-hosted co-op released
 
 Journey44 (`0.21.0-preview12-playtest44`, schema46) is the promoted playable

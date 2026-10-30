@@ -8,6 +8,7 @@ from PIL import Image, ImageDraw, ImageFont
 HERE = Path(__file__).resolve().parent
 DATA = json.loads((HERE.parent / "history/source-commits.json").read_text(encoding="utf-8"))
 counts = DATA["counts"]
+release = DATA.get("release", {"promoted": "Journey42", "rollback": "Journey41", "save_schema": 46})
 W, H = 2160, 1450
 im = Image.new("RGB", (W, H), "#0C1725")
 d = ImageDraw.Draw(im)
@@ -68,7 +69,9 @@ xs = [85, 785, 1485]
 top, bottom = 485, 940
 box(xs[0], top, "LOCAL AUTHORING", ["UNREAL / BLENDER / AI", "Source, assets and working changes", "Existing actors and save authority"], "#AFC8E8")
 box(xs[1], top, "REVIEWED FREEZE + UAT", ["Committed base + reviewed changes", "Focused checks; build / cook / archive", "Acceptance controls promotion"], "#DDB976")
-box(xs[2], top, "PLAYABLE RELEASE", ["Journey42 promoted / schema46", "Journey41 retained as previous", "Journey43 remains source work"], "#A6D9BC")
+box(xs[2], top, "PLAYABLE RELEASE", [f'{release["promoted"]} promoted / schema{release["save_schema"]}',
+                                    f'{release["rollback"]} retained as previous',
+                                    release.get("next_label", "Next increment follows source review")], "#A6D9BC")
 box(xs[0], bottom, "LOCAL SOURCE GIT", [f'{counts["local_source_all_refs"]:,} distinct commits across local refs',
                                    f'{counts["local_source_HEAD"]:,} in current HEAD ancestry',
                                    f'{counts["local_source_outside_HEAD"]:,} additional commits outside HEAD'], "#8CCBCC")
@@ -94,7 +97,7 @@ im.save(HERE / "development-history-flow.png", optimize=True)
 (HERE / "development-history-flow.svg").write_text("\n".join(svg) + "\n", encoding="utf-8", newline="\n")
 mmd = f'''flowchart LR
     authorWork["UNREAL / BLENDER / AI authoring"] --> freezeUat["Reviewed freeze and Unreal build / cook / archive"]
-    freezeUat --> playableRelease["Journey42 promoted; Journey43 source work"]
+    freezeUat --> playableRelease["{release['promoted']} promoted; {release['rollback']} rollback"]
     authorWork -->|"Record commits"| sourceHistory["Local source Git: {counts['local_source_all_refs']} all-ref commits; {counts['local_source_HEAD']} in HEAD ancestry"]
     sourceHistory -->|"Export ledger"| publicMetadata["Reviewed commit metadata and aggregate statistics"]
     freezeUat -->|"Publish evidence"| publicMetadata
