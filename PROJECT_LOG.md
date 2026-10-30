@@ -5,11 +5,23 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey42](#2026-10-29--journey42-cast-playtest-released). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey43](#2026-10-30--journey43-cast-playtest-released). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-30--character-replacement-source-checkpoint) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-30--journey43-cast-playtest-released) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+
+## 2026-10-30 — Journey43 cast playtest released
+
+Journey43 is built, verified and promoted as the default playable. Five supported outlaw equipment recipes now use two distinct bearded identities, alongside the first additional knife-fighter profile. The ten existing resident profiles are retained. Restored sword choreography uses the corrected source-facing basis and practical dressed weapon review; small cosmetic refinements remain deferred.
+
+The actual Win64 build, clean cook, stage and archive completed successfully in 20 minutes 9 seconds, cooking all 9,959 packages. The cooked registry contains all 4,581 required packages, including 1,758 cast dependencies. A focused headless packaged startup passed with the exact catalog, current face/hair bindings and original authoritative camp actor. Completed rendered source, motion, death and once-only loot proofs were reused; no full packaged battle, escort or campaign replay was added.
+
+The release adds 194 actual game asset files. Unsupported equipment, body fits and ranged/caster/torch combinations retain complete legacy presentation. This is partial character replacement; remaining costumes, player characters and other creature families are still queued.
+
+Retention now keeps Journey43 and Journey42. The exact obsolete Journey41 archived package was removed only after preserving 12 metadata/symbol files with verified hashes: 465,518,826 bytes preserved and 6,372,759,420 bytes net reclaimed. Historical evidence and caches remain in place. Existing player saves were not modified.
+
+The owner requested a return-on-effort review after delivery. Player-hosted co-op is the next active audit because Host/Join and listen-server authority already exist. Distinct two-handed/blunt weapon motion and shared NPC cooking, fire-tending, sitting and household activities are recorded for later batches. Minor cosmetic perfection must not delay useful delivery.
 
 ## 2026-10-30 — Cast43 integrated; playable package underway
 
