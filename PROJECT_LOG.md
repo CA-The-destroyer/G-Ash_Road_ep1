@@ -12,6 +12,14 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 <!-- status-snapshot:start -->
+## 2026-10-30 — Numbered outstanding-work register
+
+**127 outstanding tracking records**: 47 feature remainders, 62 debug records and 18 change requests. Optional ideas and completed/excluded records are separate.
+
+The register retains original F/DBG identifiers, assigns IDs to previously unnumbered work, and gives each record a remaining outcome, acceptance boundary, workstream and source pointer. Duplicate requests link to an existing record; shipped exact scopes and excluded items are kept in a separate ledger. Journey42 remains promoted. The current character batch keeps its existing sequence; no runtime, asset, save, build or release change is made by this organization pass.
+
+[Numbered register](docs/backlog/README.md) · [Structured records](docs/backlog/items.json).
+
 ## 2026-10-30 — Refreshed playable status, project scale and workflow inventory
 
 The main physical workspace contains **317.46 GB (295.66 GiB) across

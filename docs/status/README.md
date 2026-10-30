@@ -61,6 +61,14 @@ The source audit includes runtime/core code, tests, active tooling/build scripts
 
 Workflow counts describe actual definition files. They do not represent capability areas, all installed plugin skills, or proof that every definition is used by the game. The code/workflow audit is a separate **30 October 2026, 07:42 Chicago time (UTC-05)** snapshot; storage totals retain the separate measurement window above. [Exact counts and methodology](project-scale.json) are available for inspection.
 
+<!-- outstanding-navigation:start -->
+## Numbered outstanding work
+
+**127 outstanding tracking records**: 47 feature remainders, 62 debug records and 18 change requests. Optional ideas and completed/excluded records are separate.
+
+[Browse the full register](../backlog/README.md) or [inspect its JSON](../backlog/items.json). Historical feature IDs and debug cases are reconciled against newer release records. This tracking update does not change the active implementation order.
+<!-- outstanding-navigation:end -->
+
 ## Delivery status
 
 | Workstream | Current state | Evidence and remaining gate |

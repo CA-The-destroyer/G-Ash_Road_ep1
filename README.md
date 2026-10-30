@@ -16,6 +16,14 @@ System design and development notes for an original cooperative RPG built with U
 [Read the status report](docs/status/README.md) · [View measurement data](docs/status/project-scale.json) · [Open the PNG summary](docs/status/project-status.png)
 <!-- project-status:end -->
 
+<!-- outstanding-register:start -->
+## Outstanding work
+
+**127 outstanding tracking records**: 47 feature remainders, 62 debug records and 18 change requests. Optional ideas and completed/excluded records are separate.
+
+[Open the numbered work register](docs/backlog/README.md). It groups work by workstream, preserves historical IDs and links duplicates to one owner record. The current character-replacement batch remains first.
+<!-- outstanding-register:end -->
+
 ## Systems diagrams
 
 The [dedicated systems-diagrams section](docs/diagrams/README.md) contains the architecture and skills graphs, full-size PNGs, text explanations and editable Mermaid graphs.
