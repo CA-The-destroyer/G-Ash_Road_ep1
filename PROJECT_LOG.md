@@ -7,10 +7,46 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Current playable master:** [Journey44](#2026-10-30--journey44-self-hosted-co-op-released). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-30--journey44-self-hosted-co-op-released) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-30--internet-co-op-target-and-eos-setup-prepared) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
 
+
+
+## 2026-10-30 — Internet co-op target and EOS setup prepared
+
+The owner clarified that internet play must be modern and optimized, and selected
+preparation of Epic Online Services setup. This explicitly moves F19 online
+connectivity ahead of weapon motion. Journey44 remains the released direct-IP
+foundation; its local packaged pair does not establish internet readiness.
+
+Inspected the installed UE5.8.3 plugins and Epic's current UE5.8 OSS EOS sample.
+Prepared a gated lobby/invite coordinator, private configuration template and
+product/application/deployment setup guide. A root MSVC syntax check against
+the installed headers passes; the coordinator is not linked or installed, and
+no real EOS login/lobby/internet connection has been run. The private inactive
+configuration is ignored by Git and contains no real credentials.
+
+The existing join path uses a supplied character name. A typed server-owned
+provider-to-character binding candidate now has62 passing real SQLite checks:
+saved-state-preserving migration, ownership conflicts, atomic create/bind,
+reconnect/restart, concurrent claims, rollback and default-deny administration.
+The server adapter must verify the actual identity before Core enrollment.
+The proposed schema47 remains uninstalled; live44 schema46 and owner saves are
+unchanged. Earlier candidate/fixture failures are retained separately.
+
+A source replication audit identified whole-inventory replication with public
+equipment dependencies, interaction relevance and dormancy/cosmetic traffic
+as concrete optimization candidates. It did not measure a bandwidth reduction.
+Next implementation needs verified admission and frontend wiring, then actual
+login/invitation/NAT-or-relay/reconnect on two internet connections and focused
+latency/loss/bandwidth measurements. No blind global replication-system rewrite
+or repeat campaign/art suite is proposed. Current saved capacity stays five.
+
+Methods/tools: installed Unreal C++/OSS EOS and SocketSubsystemEOS APIs, pinned
+official Epic sample inspection, MSVC syntax-only checking, real SQLite tests,
+read-only replication/source audit and private profile validation. No portal,
+account or service was created or modified. Local report: docs/internet-coop45.md.
 
 ## 2026-10-30 — Fresh measured stats and Journey44 summary
 
