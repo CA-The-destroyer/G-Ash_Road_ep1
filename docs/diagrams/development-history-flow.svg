@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2160" height="1450" viewBox="0 0 2160 1450" role="img" aria-labelledby="title desc">
+<title id="title">The Ash Road development history and publication flow</title>
+<desc id="desc">Local authoring feeds the source commit history and reviewed Unreal release freezes. Neutral commit metadata and release evidence feed the separate GitHub documentation repository. The current HEAD count is a subset of all local source commits.</desc>
+<rect width="2160" height="1450" fill="#0C1725"/>
+<polyline points="85,52 2075,52" fill="none" stroke="#CBA96D" stroke-width="3"/>
+<text x="85" y="109" font-family="Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#CBA96D">THE ASH ROAD  /  30 OCTOBER 2026</text>
+<text x="80" y="198" font-family="Segoe UI,sans-serif" font-size="58" font-weight="600" fill="#EAF0F7">Development history &amp; publication flow</text>
+<text x="85" y="252" font-family="Segoe UI,sans-serif" font-size="29" font-weight="400" fill="#B7C6D9">Source development, playable releases and public documentation retain separate histories.</text>
+<text x="85" y="368" font-family="Segoe UI,sans-serif" font-size="72" font-weight="600" fill="#EAF0F7">1,060</text>
+<text x="85" y="412" font-family="Segoe UI,sans-serif" font-size="23" font-weight="600" fill="#CBA96D">LOCAL SOURCE COMMITS</text>
+<text x="790" y="368" font-family="Segoe UI,sans-serif" font-size="72" font-weight="600" fill="#EAF0F7">97</text>
+<text x="790" y="412" font-family="Segoe UI,sans-serif" font-size="23" font-weight="600" fill="#CBA96D">GITHUB DOC COMMITS</text>
+<text x="1495" y="368" font-family="Segoe UI,sans-serif" font-size="72" font-weight="600" fill="#EAF0F7">1,157</text>
+<text x="1495" y="412" font-family="Segoe UI,sans-serif" font-size="23" font-weight="600" fill="#CBA96D">COMBINED UNIQUE COMMITS</text>
+<rect x="85" y="485" width="590" height="245" rx="18" fill="#14263A" stroke="#AFC8E8" stroke-width="2"/>
+<text x="113" y="541" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600" fill="#AFC8E8">LOCAL AUTHORING</text>
+<text x="113" y="597" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">UNREAL / BLENDER / AI</text>
+<text x="113" y="639" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Source, assets and working changes</text>
+<text x="113" y="681" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Existing actors and save authority</text>
+<rect x="785" y="485" width="590" height="245" rx="18" fill="#14263A" stroke="#DDB976" stroke-width="2"/>
+<text x="813" y="541" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600" fill="#DDB976">REVIEWED FREEZE + UAT</text>
+<text x="813" y="597" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Committed base + reviewed changes</text>
+<text x="813" y="639" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Focused checks; build / cook / archive</text>
+<text x="813" y="681" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Acceptance controls promotion</text>
+<rect x="1485" y="485" width="590" height="245" rx="18" fill="#14263A" stroke="#A6D9BC" stroke-width="2"/>
+<text x="1513" y="541" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600" fill="#A6D9BC">PLAYABLE RELEASE</text>
+<text x="1513" y="597" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Journey42 promoted / schema46</text>
+<text x="1513" y="639" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Journey41 retained as previous</text>
+<text x="1513" y="681" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Journey43 remains source work</text>
+<rect x="85" y="940" width="590" height="245" rx="18" fill="#14263A" stroke="#8CCBCC" stroke-width="2"/>
+<text x="113" y="996" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600" fill="#8CCBCC">LOCAL SOURCE GIT</text>
+<text x="113" y="1052" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">1,060 distinct commits across local refs</text>
+<text x="113" y="1094" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">612 in current HEAD ancestry</text>
+<text x="113" y="1136" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">448 additional commits outside HEAD</text>
+<rect x="785" y="940" width="590" height="245" rx="18" fill="#14263A" stroke="#DDB976" stroke-width="2"/>
+<text x="813" y="996" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600" fill="#DDB976">REVIEWED METADATA</text>
+<text x="813" y="1052" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Commit hashes, dates and public subjects</text>
+<text x="813" y="1094" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Aggregate statistics + release evidence</text>
+<text x="813" y="1136" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Source ledger exported as documentation</text>
+<rect x="1485" y="940" width="590" height="245" rx="18" fill="#14263A" stroke="#AFC8E8" stroke-width="2"/>
+<text x="1513" y="996" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600" fill="#AFC8E8">GITHUB DOCUMENTATION</text>
+<text x="1513" y="1052" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">97 commits / 0 pull requests</text>
+<text x="1513" y="1094" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Status / ledger / diagrams / JSON</text>
+<text x="1513" y="1136" font-family="Segoe UI,sans-serif" font-size="27" font-weight="400" fill="#EAF0F7">Direct selected-file commits to main</text>
+<polyline points="680,607 777,607" fill="none" stroke="#88A3C0" stroke-width="3"/>
+<polygon points="777.00,607.00 762.81,614.39 762.81,599.61" fill="#88A3C0"/>
+<polyline points="1380,607 1477,607" fill="none" stroke="#88A3C0" stroke-width="3"/>
+<polygon points="1477.00,607.00 1462.81,614.39 1462.81,599.61" fill="#88A3C0"/>
+<polyline points="680,1062 777,1062" fill="none" stroke="#88A3C0" stroke-width="3"/>
+<polygon points="777.00,1062.00 762.81,1069.39 762.81,1054.61" fill="#88A3C0"/>
+<polyline points="1380,1062 1477,1062" fill="none" stroke="#88A3C0" stroke-width="3"/>
+<polygon points="1477.00,1062.00 1462.81,1069.39 1462.81,1054.61" fill="#88A3C0"/>
+<polyline points="380,734 380,926" fill="none" stroke="#88A3C0" stroke-width="3"/>
+<polygon points="380.00,926.00 372.61,911.81 387.39,911.81" fill="#88A3C0"/>
+<rect x="282.0078125" y="804" width="195.984375" height="43" fill="#0C1725"/>
+<text x="294.0078125" y="835" font-family="Segoe UI,sans-serif" font-size="24" font-weight="400" fill="#B7C6D9">Record commits</text>
+<polyline points="1080,734 1080,926" fill="none" stroke="#88A3C0" stroke-width="3"/>
+<polygon points="1080.00,926.00 1072.61,911.81 1087.39,911.81" fill="#88A3C0"/>
+<rect x="978.0" y="804" width="204.0" height="43" fill="#0C1725"/>
+<text x="990.0" y="835" font-family="Segoe UI,sans-serif" font-size="24" font-weight="400" fill="#B7C6D9">Publish evidence</text>
+<polyline points="1780,734 1780,926" fill="none" stroke="#88A3C0" stroke-width="3"/>
+<polygon points="1780.00,926.00 1772.61,911.81 1787.39,911.81" fill="#88A3C0"/>
+<rect x="1655.5078125" y="804" width="248.984375" height="43" fill="#0C1725"/>
+<text x="1667.5078125" y="835" font-family="Segoe UI,sans-serif" font-size="24" font-weight="400" fill="#B7C6D9">Record release status</text>
+<polyline points="85,1250 2075,1250" fill="none" stroke="#33445A" stroke-width="2"/>
+<text x="85" y="1312" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600" fill="#DDB976">612 is already within 1,060. It is not added again to the combined total.</text>
+<text x="85" y="1362" font-family="Segoe UI,sans-serif" font-size="26" font-weight="400" fill="#B7C6D9">Unique commit objects are counted by SHA. Cherry-picked commits can represent related work.</text>
+<text x="85" y="1404" font-family="Segoe UI,sans-serif" font-size="25" font-weight="400" fill="#8EA3BE">The ledger records source history as metadata; it does not merge source trees into the documentation repository.</text>
+</svg>

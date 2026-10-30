@@ -24,6 +24,14 @@ System design and development notes for an original cooperative RPG built with U
 [Open the numbered work register](docs/backlog/README.md). It groups work by workstream, preserves historical IDs and links duplicates to one owner record. The current character-replacement batch remains first.
 <!-- outstanding-register:end -->
 
+<!-- source-history:start -->
+## Development history
+
+**1,060 local source commits + 97 documentation commits = 1,157 distinct recorded commits across both histories.** The 612 current-HEAD source commits are included within the 1,060.
+
+[Source ledger and combined statistics](docs/history/README.md) · [Development flow diagram](docs/diagrams/development-history-flow.md). Pull requests: **0**; documentation uses direct selected-file publication to main.
+<!-- source-history:end -->
+
 ## Systems diagrams
 
 The [dedicated systems-diagrams section](docs/diagrams/README.md) contains the architecture and skills graphs, full-size PNGs, text explanations and editable Mermaid graphs.

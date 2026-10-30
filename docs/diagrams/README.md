@@ -2,6 +2,14 @@
 
 For the latest release state, project size and technology summary, see the [project status page](../status/README.md).
 
+<!-- history-flow:start -->
+## Development history and publication flow
+
+![Development history and publication flow](development-history-flow.png)
+
+[Flow explanation and editable graph](development-history-flow.md) · [PNG](development-history-flow.png) · [SVG](development-history-flow.svg) · [Source ledger and combined statistics](../history/README.md)
+<!-- history-flow:end -->
+
 ## Advanced Custom Game Dev System Design
 
 The Ash Road's production tools, Unreal technology stack, compute split, and the skills that connect them.

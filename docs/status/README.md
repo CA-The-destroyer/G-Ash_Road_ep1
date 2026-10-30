@@ -69,6 +69,21 @@ Workflow counts describe actual definition files. They do not represent capabili
 [Browse the full register](../backlog/README.md) or [inspect its JSON](../backlog/items.json). Historical feature IDs and debug cases are reconciled against newer release records. This tracking update does not change the active implementation order.
 <!-- outstanding-navigation:end -->
 
+<!-- source-history:start -->
+## Source and publication history
+
+| Commit scope | Count |
+| --- | ---: |
+| All reachable local source commits | **1,060** |
+| Current HEAD ancestry, included above | **612** |
+| Additional source commits outside HEAD | **448** |
+| GitHub documentation commits, including this publication | **97** |
+| **Combined unique source + documentation SHAs** | **1,157** |
+| Pull requests | **0** |
+
+[History, scope and full source ledger](../history/README.md) · [Flow diagram](../diagrams/development-history-flow.md). These distinguish the source Git graph from the public documentation graph; exported ledger rows do not change GitHub's native commit counter.
+<!-- source-history:end -->
+
 ## Delivery status
 
 | Workstream | Current state | Evidence and remaining gate |

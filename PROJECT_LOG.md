@@ -11,6 +11,16 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-30 — Expanded source-history ledger and publication flow
+
+Published the separate local game-source history as a source commit ledger and machine-readable metadata. There are **1,060 distinct source commits across local refs**, including **612 reachable from current HEAD** and **448 outside that ancestry**. The older 1,036-entry appendix remains a historical snapshot; the refreshed ledger adds 24 entries.
+
+The documentation repository has **97 commits including this publication**. Full-SHA comparison found 0 overlap at the audited base, yielding **1,157 combined distinct source/documentation commits**. HEAD ancestry is a subset, not an extra total. Pull requests remain **0**, because selected documentation changes are committed directly to main.
+
+The flow diagram connects local authoring, reviewed release freezes, playable promotion, metadata export and public GitHub reports. It is available as PNG, SVG and editable Mermaid. Source hashes/dates/parent links are retained; public subjects follow the neutral wording policy. Commit metadata is published as documentation, without importing source Git objects or source/asset payloads. Journey42 remains promoted; current game/source/save/release work is unchanged by this reporting publication.
+
+[Source ledger and combined statistics](docs/history/README.md) · [Development flow](docs/diagrams/development-history-flow.md).
+
 <!-- status-snapshot:start -->
 ## 2026-10-30 — Numbered outstanding-work register
 

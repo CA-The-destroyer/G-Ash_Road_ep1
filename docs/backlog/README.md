@@ -1537,6 +1537,10 @@ Every audited newer intake has one owner/sub-item mapping in `intake_to_owner` i
 
 The detailed evidence pointers name local working documents and prepared reports. Their payloads are not uploaded to this documentation repository. Missing historical pointers remain labeled, rather than presented as newly checked receipts. Existing `CURRENT_WORK.md` remains the live execution authority; this register controls numbered intake/navigation and its audit date is not a live gameplay monitor.
 
+<!-- expanded-history:start -->
+**Expanded history:** the [source ledger and combined statistics](../history/README.md) now cover **1,060 source commits across local branches**, including the **612 HEAD subset**, and the separate documentation history. The older table below retains its original audited baseline.
+<!-- expanded-history:end -->
+
 ## Commits and pull requests
 
 At the audited baseline **2026-10-30T13:03:27.343368+00:00**:
