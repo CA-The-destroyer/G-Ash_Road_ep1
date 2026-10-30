@@ -7,10 +7,46 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Current playable master:** [Journey44](#2026-10-30--journey44-self-hosted-co-op-released). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-30--internet45-source-integration-built-and-focused-gates-passed) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-30--actual-player-model-source-baseline-built-and-checked) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
 
+
+
+## 2026-10-30 — Actual player model source baseline built and checked
+
+Connected the new Human presentation to the actual player, creator and inventory
+instead of an NPC showcase. Kept the original pawn, controller, camera, movement,
+equipment statistics and saved identities. Two complete native28-state motion
+banks and two dedicated11-state first-person banks now cover the existing player
+actions. The approved reinforced-leather Fighter kit remains equipped after
+creator confirmation; its canonical item statistics are unchanged.
+
+Final source build a08 passes. Separate fresh private player runs verified normal
+creator confirmation, real starting equipment, inventory views, directional
+movement, jump/landing and sword or bow input on the same pawn. A focused bow
+correction then checked the actual hand mount and visible animated representation.
+Source numeric reload checks were retained separately from actual image review.
+A too-small imported rest bounding box caused intermittent culling; a local
+conservative bound corrected it. The first contaminated fixture failure and
+intermediate visual failures remain recorded instead of being promoted.
+
+Migrated80 missing runtime files add-only and reused405 identical dependencies;
+no conflicting shared asset was overwritten. Retained actual UV coordinates,
+source models, correspondence records and two new technical UV layout diagrams.
+Methods: bounded parallel preparation, serialized Unreal native transfer/cold
+readback, UnrealBuildTool/MSVC, original input and authoritative starter equipment,
+focused rendered captures, CPU Blender UV inspection, exact hashes and private
+QA databases. Checks for unchanged content were reused.
+
+This is source opt-in, not a new packaged release. Journey44 remains playable.
+Face-library parity and in-game identity sliders, broad outfit/slot coverage,
+other ancestries, remote-player admission and a full45 package remain open.
+The source QA scene also showed texture-pool pressure requiring performance
+follow-up. No owner saves or released packages were edited.
+
+Local delivery: docs/player-models45.md. Actual assessment and complete changed-file
+inventory: tools/prepared/player45-execution-a01/assessment.json and CHANGED-FILES.md.
 
 
 ## 2026-10-30 — Internet45 source integration built and focused gates passed
