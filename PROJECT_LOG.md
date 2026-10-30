@@ -11,6 +11,14 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-30 — Status and backlog synchronized to corrected motion source
+
+The source-frame correction now has saved/cold proof; fresh two-target retargeting passes signed RAW/COMPRESSED motion checks at all40 phases. Both corrected attacks also have fresh right15-only grasp derivatives with author/cold passes. Public status and DBG-061 now show source-verified progress and the remaining focused dressed Rusty/Iron grip/contact/world gate. Earlier backward-lean clips stay held; no final weapon/world approval is invented.
+
+The owner's current direction prioritizes useful in-world characters and a playable build, accepting reasonable playtest-quality grip/surface results while recording cosmetic gaps. Keep checks for obvious broken motion, missing bodies, crashes and actual integration; avoid broad repeat testing for minor refinements. The active cast order and127 outstanding owner records are unchanged. Journey42 stays promoted and43 remains source-only.
+
+The source ledger and flow retain their explicitly dated publication snapshots. Storage/code/document counts retain their original measurement windows. This synchronization changes documentation only.
+
 ## 2026-10-30 — Expanded source-history ledger and publication flow
 
 Published the separate local game-source history as a source commit ledger and machine-readable metadata. There are **1,060 distinct source commits across local refs**, including **612 reachable from current HEAD** and **448 outside that ancestry**. The older 1,036-entry appendix remains a historical snapshot; the refreshed ledger adds 24 entries.

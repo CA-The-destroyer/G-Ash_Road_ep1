@@ -23,11 +23,16 @@ The existing character-replacement batch remains first. This organization pass d
 
 | Step | Record | Required outcome |
 | --- | --- | --- |
-| 1 | [DBG-061](#dbg-061) | Correct retarget motion, then admit actual-material Rusty/Iron grip and contact. |
+| 1 | [DBG-061](#dbg-061) | Finish focused dressed Rusty/Iron motion, grip/contact review using the corrected cold-verified derivatives; record minor cosmetic gaps and proceed to useful integration. |
 | 2 | [F24.01](#f24) | Activate the two checked identities on original actors. |
 | 3 | [F24.02](#f24) | Admit the additional fitted melee profile on its real selected slot. |
 | 4 | [F24.03](#f24) | Finish the reference-led villager wardrobe through the existing Outfit path. |
 | 5 | [CHG-016](#chg-016) | Package the coherent increment and check only changed cooked risks before promotion. |
+
+
+<!-- execution-guidance:start -->
+Owner direction30 October: prioritize useful characters in normal gameplay and a playable build. Accept reasonable playtest-quality grip/surface results, record cosmetic gaps and move on. Retain checks for obvious broken motion, missing bodies, crashes and actual integration; avoid broad repeat verification for minor refinements.
+<!-- execution-guidance:end -->
 
 ## Workstream index
 
@@ -747,7 +752,7 @@ Each record states the remaining outcome and its closure boundary. `needs-triage
 | [DBG-036](#dbg-036) | Hatchet orientation and poor first-person grip | backlog | Current hand/haft geometry, wrist, clearance, ready/strike/TP/FP art; screenshot does not itself prove head upside-down. |
 | [DBG-053](#dbg-053) | Deer slow-motion / non-fluid gait | backlog | Preserve shipped genuine fox/deer walks, proportion updates and bounded displacement proof. Natural rendered foot contact, speed/clip phase and owner acceptance remain open; no universal gait closure. |
 | [DBG-057](#dbg-057) | Sparse or unseen procedural wildlife/ambushes | backlog | Preserve Journey40 ecology/residency/population work and owner feedback that spawns improved. Remaining region/night visibility, hunt supply for unsupported species and strict failed/deferred grazer/webhunter conditions remain explicit gaps. Definitions alone are not population acceptance. |
-| [DBG-061](#dbg-061) | New bandit sword motion regresses from legacy choreography | active-blocked | Correct actual source/target facing-basis conversion and reversed forward lean; then actual-material right-hand closure, Rusty/Iron mapping, normal-speed blade/contact timing and original actor admission. Numeric/cold checks and clay views alone do not accept motion. Both new attacks remain held. |
+| [DBG-061](#dbg-061) | New bandit sword motion regresses from legacy choreography | active-review | Source-frame correction and fresh two-target retargeting pass saved/cold and all40-phase signed RAW/COMPRESSED motion checks. Both corrected attacks also have cold-verified right15-only grasp derivatives. Finish focused dressed Rusty/Iron motion, grip/contact and original-actor admission using those candidates. Earlier backward-lean clips remain held; cosmetic refinements must not delay useful playtest delivery. |
 | [F03](#f03) | Unique NPC Conversations | backlog | Extend contextual/branching reactions beyond the bounded existing speaker subset and preserve each exact voice/text binding. |
 | [F21](#f21) | Bandit Camps and Party Scaling | backlog | Finish unbound camp scenes, ordinary Rusk completion/payment, ranged role/tactic and faction/reoccupation coverage. The numbered encounter-size sub-item owns new party-count tuning; actor art remains F24. |
 | [F25](#f25) | Advanced Enemy AI and Boss Attacks | backlog | Extend perception/stalking/flanking/coordinated tactics and complete readable boss attack sets; preserve existing pursuit/contact, archers, alarms and finite Human support/caster foundations. |
@@ -928,13 +933,13 @@ Each record states the remaining outcome and its closure boundary. `needs-triage
 
 #### DBG-061 · New bandit sword motion regresses from legacy choreography
 
-**Close when:** Correct actual source/target facing-basis conversion and reversed forward lean; then actual-material right-hand closure, Rusty/Iron mapping, normal-speed blade/contact timing and original actor admission. Numeric/cold checks and clay views alone do not accept motion. Both new attacks remain held.
+**Close when:** Actual dressed motion, usable Rusty/Iron grasp/contact and original-world admission pass at reasonable playtest quality; record cosmetic gaps and retain checks for broken motion, missing bodies, crashes and real integration.
 
 **Related owners:** [F59](#f59).
 
 | Sub-ID | Scope | State | Close when |
 | --- | --- | --- | --- |
-| DBG-061.01 | Correct retarget forward-lean fidelity — Correct actual source/target facing-basis mismatch before either new attack is admitted. Preserve original motion and failed derivatives. | active | Normal-speed source/target motion agrees, followed by actual-material Rusty/Iron grip/contact admission. |
+| DBG-061.01 | Reuse corrected source frame and verified grasp derivatives — Source correction, two-target signed motion checks and right15 grasp author/cold checks pass. Reuse these results for the remaining dressed/weapon review. | source-verified | Saved/cold source-frame and all40-phase signed motion agreement; actual dressed weapon/contact acceptance remains the parent record's open gate. |
 
 **Local source pointers:** `docs/debug-triage.md`; `CURRENT_WORK.md`; `tools/prepared/legacy-sword43-grip-a01/HANDOFF.md`; `CURRENT_WORK.md`.
 

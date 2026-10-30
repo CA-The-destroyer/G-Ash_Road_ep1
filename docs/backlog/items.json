@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at_utc": "2026-10-30T13:10:25.345186+00:00",
+  "updated_at_utc": "2026-10-30T14:29:15.439001+00:00",
   "title": "The Ash Road numbered outstanding-work register",
   "release": {
     "promoted": "Journey42",
@@ -31,16 +31,16 @@
       "F20": 16
     },
     "by_status": {
-      "closed": 16,
       "backlog": 118,
+      "active-gate": 1,
+      "closed": 16,
+      "monitoring": 3,
+      "needs-triage": 6,
+      "active-review": 1,
       "active-partial": 1,
       "optional-long-term": 6,
       "excluded": 1,
       "rollup": 1,
-      "monitoring": 3,
-      "needs-triage": 6,
-      "active-blocked": 1,
-      "active-gate": 1,
       "optional": 2
     },
     "optional": 8,
@@ -55,7 +55,7 @@
     {
       "step": 1,
       "id": "DBG-061",
-      "outcome": "Correct retarget motion, then admit actual-material Rusty/Iron grip and contact."
+      "outcome": "Finish focused dressed Rusty/Iron motion, grip/contact review using the corrected cold-verified derivatives; record minor cosmetic gaps and proceed to useful integration."
     },
     {
       "step": 2,
@@ -2243,10 +2243,10 @@
       "id": "DBG-061",
       "type": "debug",
       "title": "New bandit sword motion regresses from legacy choreography",
-      "status": "active-blocked",
+      "status": "active-review",
       "workstream": "F25",
-      "remaining": "Correct actual source/target facing-basis conversion and reversed forward lean; then actual-material right-hand closure, Rusty/Iron mapping, normal-speed blade/contact timing and original actor admission. Numeric/cold checks and clay views alone do not accept motion. Both new attacks remain held.",
-      "acceptance": "Correct actual source/target facing-basis conversion and reversed forward lean; then actual-material right-hand closure, Rusty/Iron mapping, normal-speed blade/contact timing and original actor admission. Numeric/cold checks and clay views alone do not accept motion. Both new attacks remain held.",
+      "remaining": "Source-frame correction and fresh two-target retargeting pass saved/cold and all40-phase signed RAW/COMPRESSED motion checks. Both corrected attacks also have cold-verified right15-only grasp derivatives. Finish focused dressed Rusty/Iron motion, grip/contact and original-actor admission using those candidates. Earlier backward-lean clips remain held; cosmetic refinements must not delay useful playtest delivery.",
+      "acceptance": "Actual dressed motion, usable Rusty/Iron grasp/contact and original-world admission pass at reasonable playtest quality; record cosmetic gaps and retain checks for broken motion, missing bodies, crashes and real integration.",
       "related": [
         "F59"
       ],
@@ -2272,10 +2272,10 @@
       "subtasks": [
         {
           "id": "DBG-061.01",
-          "title": "Correct retarget forward-lean fidelity",
-          "status": "active",
-          "remaining": "Correct actual source/target facing-basis mismatch before either new attack is admitted. Preserve original motion and failed derivatives.",
-          "acceptance": "Normal-speed source/target motion agrees, followed by actual-material Rusty/Iron grip/contact admission.",
+          "title": "Reuse corrected source frame and verified grasp derivatives",
+          "status": "source-verified",
+          "remaining": "Source correction, two-target signed motion checks and right15 grasp author/cold checks pass. Reuse these results for the remaining dressed/weapon review.",
+          "acceptance": "Saved/cold source-frame and all40-phase signed motion agreement; actual dressed weapon/contact acceptance remains the parent record's open gate.",
           "sources": [
             {
               "path": "CURRENT_WORK.md",
@@ -2288,7 +2288,8 @@
       ],
       "dependencies": [],
       "is_new_id": true,
-      "counted_outstanding": true
+      "counted_outstanding": true,
+      "progress_updated_at_utc": "2026-10-30T14:29:15.439001+00:00"
     },
     {
       "id": "DBG-062",
@@ -5712,5 +5713,6 @@
       "reason": "Superseded by owner's explicit release after06:30 window; reserve again during actual owner playtests."
     }
   ],
-  "closure_rule": "Record the actual changed outcome and source/art/native/cooked/released stage with focused evidence. Reuse valid checks. A configured asset, prepared patch, count or numerical pass alone cannot close appearance, motion or normal-world acceptance. Historical reports without a demonstrated current recurrence remain triage/monitoring, not invented new regressions."
+  "closure_rule": "Record the actual changed outcome and source/art/native/cooked/released stage with focused evidence. Reuse valid checks. A configured asset, prepared patch, count or numerical pass alone cannot close appearance, motion or normal-world acceptance. Historical reports without a demonstrated current recurrence remain triage/monitoring, not invented new regressions.",
+  "execution_guidance": "Owner direction30 October: prioritize useful characters in normal gameplay and a playable build. Accept reasonable playtest-quality grip/surface results, record cosmetic gaps and move on. Retain checks for obvious broken motion, missing bodies, crashes and actual integration; avoid broad repeat verification for minor refinements."
 }

@@ -1430,8 +1430,9 @@
     "poses_per_identity": 7,
     "add_only_native_files": 178,
     "add_only_native_bytes": 604930577,
-    "additional_melee_profile_state": "Saved numerical motion checks pass; actual retarget forward-lean mismatch holds both new attacks",
-    "motion_blocker": "Source/target forward lean reverses across inspected phases; correct the retarget coordinate frame before weapon contact admission"
+    "additional_melee_profile_state": "Corrected motion/grasp author/cold checks pass; actual dressed/grip/world admission remains open",
+    "motion_status": "Source-frame correction, two-target all40-phase signed RAW/COMPRESSED checks and both right15 grasp author/cold passes complete",
+    "remaining_motion_gate": "Focused dressed Rusty/Iron motion/grip/contact and original-world admission at reasonable playtest quality"
   },
   "compute_status": {
     "nvidia": "Owner explicitly released NVIDIA after the 06:30 reservation; both GPUs and CPU available under coordinator scheduling",
@@ -1566,5 +1567,7 @@
       "usage_limit": "Definition counts do not imply every workflow is loaded or used by this project"
     },
     "source_changes_during_count": 0
-  }
+  },
+  "source_status_updated_at_utc": "2026-10-30T14:29:15.439001+00:00",
+  "execution_guidance": "Owner direction30 October: prioritize useful characters in normal gameplay and a playable build. Accept reasonable playtest-quality grip/surface results, record cosmetic gaps and move on. Retain checks for obvious broken motion, missing bodies, crashes and actual integration; avoid broad repeat verification for minor refinements."
 }
