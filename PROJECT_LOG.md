@@ -66,6 +66,14 @@ roles. A visual summary and aggregate measurement JSON accompany the report.
 This status publication performs no build, cleanup, asset or saved-state changes.
 <!-- status-snapshot:end -->
 
+## 2026-10-30 — Shared character motion basis corrected
+
+Actual motion review found reversed forward lean in a retarget that had passed numeric range checks. Independent workers traced it to opposite anatomical coordinate directions using the installed Epic pelvis and FK implementations. A fresh rigid source-basis conversion now passes saved recovery and separate cold readback: all99 child tracks remain exact, with source UVs, skin weights, topology and material routing preserved. Failed attempts remain retained; a documented arithmetic-roundoff bound does not replace the existing motion or surface checks.
+
+Two fresh target Attacks pass signed anatomical lean and pelvis-direction checks at all40 phases in both native encodings. Their right-hand finger derivatives also pass author and independent cold checks, preserving body motion, the other hand and timing. Actual dressed weapon, contact and world admission remain open.
+
+The two optimized bearded source identities have been copied additively into Main as disabled assets; the catalog and launcher are unchanged. Journey42 remains promoted. Methods: bounded parallel agents, installed Unreal C++ APIs and source, Python and PowerShell, shared headless checks, and focused rendered review. NVIDIA was reserved for the owner from06:30 Chicago time and explicitly released later; AMD evidence remains identified as AMD.
+
 ## 2026-10-30 — Character replacement source checkpoint
 
 Journey42 remains the current playable release. No new package, launcher promotion or campaign-save change is included in this checkpoint.
