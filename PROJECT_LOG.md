@@ -11,6 +11,16 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+## 2026-10-30 — Cast43 integrated; playable package underway
+
+Two distinct bearded outlaw identities now cover the five existing supported equipment recipes. A first additional knife-fighter profile is also integrated, while the ten admitted resident profiles remain unchanged. The original authoritative enemies retain their encounter, generation, slot, equipment and loot identities; unsupported appearances and roles retain their complete legacy presentation.
+
+The restored sword choreography now uses the corrected source-facing basis. Both target rigs pass motion and independent saved-asset checks, with the grasp adjustment confined to finger rotations. Actual dressed weapon and armor samples passed practical playtest review. Minor grip comfort, dark cloth and small surface imperfections are deferred in accordance with the owner's instruction to prioritize useful delivery.
+
+Actual original-world checks passed for the selected sword and knife fighters, including death, retained identity and once-only equipment loot. The final read-only native registry check resolved 1,758 game packages and 365 external packages without changing content. Journey43 is frozen and the actual build/cook/stage/archive job is running. Journey42 remains the promoted playable until the focused package startup, cast binding and cooked-asset checks pass. Completed source battles and campaign tests will not be repeated in the package.
+
+Methods: installed Unreal C++ and Python asset APIs, native animation retargeting, narrowly scoped animation derivatives, deterministic existing equipment assignments, private fixed-seed fixtures, hash-bound dependency export, serialized UAT and parallel CPU documentation/coverage work. Source UV layouts and material routing remain preserved. This is bounded cast coverage, not universal character replacement.
+
 ## 2026-10-30 — Status and backlog synchronized to corrected motion source
 
 The source-frame correction now has saved/cold proof; fresh two-target retargeting passes signed RAW/COMPRESSED motion checks at all40 phases. Both corrected attacks also have fresh right15-only grasp derivatives with author/cold passes. Public status and DBG-061 now show source-verified progress and the remaining focused dressed Rusty/Iron grip/contact/world gate. Earlier backward-lean clips stay held; no final weapon/world approval is invented.
