@@ -5,11 +5,23 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey41](#2026-10-29--journey41-resident-and-scavenged-bandit-cast-delivery). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey42](#2026-10-29--journey42-cast-playtest-released). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-29--bandit-grooming-integrated-in-source) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-29--journey42-cast-playtest-released) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+
+## 2026-10-29 — Journey42 cast playtest released
+
+Journey42, build0.21.0-preview12-playtest42/schema46, is promoted. The canonical launcher now selects the actual F-drive42 archive. It delivers Venn, Smith Hand and Inn Hand's saved character successors and trouser repairs, plus five supported bandit outfit profiles with three beard styles. The shipped catalog contains ten resident and five bandit profiles. Original quests, services, equipment, combat, loot and persistent identities remain authoritative; this is bounded cast coverage rather than universal replacement.
+
+Actual Unreal build/cook/stage/archive passed in20m37s. All4,262 required cooked packages are present. The packaged executable loads the exact10/5 catalogs and passes the original six-defender camp check, with canonical equipment/stats unchanged and the new beard visible in a reviewed frame. Valid resident source/world proof was reused; no broad campaign, rescue, town-tour or audio replay was added. Seven missing authored hair material files found during pre-cook dependency validation were copied additively and verified in a fresh native closure check. Earlier failed evidence remains retained.
+
+Methods/tools: existing UE5.8 AutomationTool/UnrealBuildTool, installed asset-registry dependency and dump APIs, hash-bound source/catalog freeze, native camp observation, NVIDIA packaged rendering, and normal PowerShell/Python launch and preservation tools. The already proven startup contract was reused because the narrow camp hook precedes the ordinary session log; no false extra gameplay test was invented. Native-source/model/UV/material evidence remains local, with the public project log published separately.
+
+N/N-1 retention now keeps42 and41. Before retiring40,59 saved/crash files totaling918,825,968bytes were preserved with verified hashes. Gross retired5,354,876,237bytes; logical net4,436,050,269bytes and measured F-drive recovery4,435,820,544bytes. Both retained packages were rehashed unchanged. No C staging cache, unique source archive or unrelated release family was deleted.
+
+The next cast packet now has ordinary clothing, scavenged leather and existing Barbarian outfit choices prepared on AMD HIP, with modular sources, matching reference checks and retained UV layouts. Those are source candidates outside42: native moving fit, faces/grooms, equipment selection and in-world admission remain pending. Distinct bandit facial shapes, unsupported-role/night coverage, resident corpse presentation and new multiplayer visual acceptance remain open. Local release notes: docs/journey42-playtest.md.
 
 ## 2026-10-29 — Bandit grooming integrated in source
 
