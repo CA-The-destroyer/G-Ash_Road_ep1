@@ -7,10 +7,49 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Current playable master:** [Journey44](#2026-10-30--journey44-self-hosted-co-op-released). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-30--internet-co-op-target-and-eos-setup-prepared) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-30--internet45-source-integration-built-and-focused-gates-passed) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
 
+
+
+## 2026-10-30 — Internet45 source integration built and focused gates passed
+
+Installed the GI-lived EOS sign-in/lobby/invitation coordinator, internet menu
+and typed provider-resolved P2P Join bridge into the existing game. Preserved
+normal same-process hosting/character creation and the neutral-title/no-client
+campaign database boundary. Initial online capacity stays five private members;
+lobby host migration is disabled because campaign authority remains on the host.
+
+Added actual SDK token/peer/environment verification before character enrollment
+or spawning. Pending connections receive only their controller; the custom EOS
+driver blocks ordinary controller and owned-component gameplay RPCs. Replaced
+the locally mutable registered-member cache with actual SDK lobby member
+enumeration. Bound verified identities transactionally to schema47 characters.
+Selected local-host legacy assignment is guarded by actual local identity and
+the explicit selected campaign; remote legacy assignment UI remains unfinished.
+Corrected deferred-login saved-start restoration and bound-character readiness.
+
+The final native Editor build passes (internet45-editor-a05). Its actual module
+SHA256 is691863077e225f9346bb71406ab214f6fe3a5e42dfdb9ea16ec5fbdca5103229.
+The actual headless Unreal automation test passes for unconfigured session
+refusal and native RPC/actor gates, exit0, without opening Core or a campaign.
+Reused62 real-SQLite ownership checks after verifying normalized source identity
+for all three installed Core files. Kept failed/aborted evidence and ran no
+unrelated campaign/art replay. Root coordinated native work with bounded
+implementation/review agents; used installed engine/SDK primary references,
+MSVC, UnrealBuildTool and Unreal Automation with NullRHI.
+
+The private EOS configuration remains blank/inactive. Actual accounts,
+invitations, separate-network NAT/relay, late-join/reconnect and measured
+bandwidth/latency/loss acceptance remain required. No live internet readiness or
+optimization percentage is claimed. No owner database was opened or migrated.
+Journey44 remains the promoted playable master,43 the rollback; no45 package
+or asset payload was published. Prepared a separately guarded45 supervisor and
+private default-config composition rather than modifying the44 launcher.
+
+Local detail: docs/internet-coop45-integration.md and
+tools/prepared/internet45-integration-a01/INVENTORY.md.
 
 
 ## 2026-10-30 — Internet co-op target and EOS setup prepared
