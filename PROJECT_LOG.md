@@ -11,6 +11,53 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 
 
+<!-- status-snapshot:start -->
+## 2026-10-30 — Refreshed playable status, project scale and workflow inventory
+
+The main physical workspace contains **317.46 GB (295.66 GiB) across
+1,238,599 regular file entries**, measured during 30 October 2026, 07:39–07:41 Chicago time (UTC−05). This includes archives, evidence, generated output and retained packages;
+it is not a source-code, unique-asset or game-download measurement. Current Unreal
+Content accounts for 38.93GB and 34,185 file entries. The metadata-only scan
+reports zero errors and skips 4 reparse points. Companion roots and the full
+directory breakdown appear in the [status and scale report](docs/status/README.md).
+
+A separate cloc2.10 audit records **141,114 code-only lines across
+1,662 active first-party source files**, excluding comments, blank lines,
+archives, prepared experiments, vendor dependencies and generated build output.
+There are 713 active project Markdown documents and 2,866 Markdown files including
+retained/prepared copies. The project contains 0 reusable SKILL.md workflow files;
+the separate local workstation library contains 12 definitions, excluding bundled/plugin
+libraries. These are definition-file counts, not capability-area counts.
+
+Journey42 is the promoted playable release, version0.21.0-preview12-playtest42/
+schema46; Journey41 is the retained previous release. The shipped catalog has
+ten resident and five bandit profiles. Journey43 remains source work, with no
+package, catalog promotion or owner-save edit recorded at this checkpoint.
+
+Two new distinct bearded identities have saved optimized assembly and all seven
+posed-state views checked on AMD. The add-only native copy brings178 new source
+files/604,930,577bytes into Main as disabled assets. Sparse canonical equipment
+enrollment compiles; legitimate newly enrolled equipment can affect protection.
+Existing saved assignments and Core rolls remain preserved. Actual motion review
+now exposes reversed source/target forward lean; both new target attacks remain
+held until the retarget coordinate frame is corrected. Numeric passes alone do
+not establish motion fidelity. Actual-material
+sword grip/contact, supported runtime mappings, additional melee-profile world
+admission and final reference wardrobe are still open. Source proof does not
+establish cooked acceptance or universal cast replacement.
+
+The owner explicitly released NVIDIA after the30October reservation; both GPUs
+and CPU are available under coordinator scheduling. Recent native previews
+actually used AMD D3D12 adapter1/vendor1002. Reserve NVIDIA during owner playtests;
+use AMD/CPU without automatic fallback. VRAM is not pooled.
+
+The published overview highlights Unreal rendering/streaming, networked Chaos
+physics, MetaHuman/Outfit production, the transactional C++20/SQLite core,
+Blender/UV/PBR pipelines, local 3D/voice AI and the verified NVIDIA/AMD compute
+roles. A visual summary and aggregate measurement JSON accompany the report.
+This status publication performs no build, cleanup, asset or saved-state changes.
+<!-- status-snapshot:end -->
+
 ## 2026-10-30 — Character replacement source checkpoint
 
 Journey42 remains the current playable release. No new package, launcher promotion or campaign-save change is included in this checkpoint.
@@ -80,7 +127,7 @@ The package is about 6.37 GiB, distinct from the much larger development workspa
 
 The private packaged checker needed the verified legacy path spelling required by its unchanged native fixture guard; correcting its arguments required no runtime or asset change and no recook. Its failed admission is retained. This delivery is a limited cast rollout, with one shared bandit appearance baseline, remaining art refinement and legacy coverage for unsupported roles. Rougher grooming and broader cast variety remain queued. Cleanup opportunities are backlog; finish bounded batches and reuse proven patterns.
 
-<!-- status-snapshot:start -->
+
 ## 2026-10-29 — Project status, measured scale and technology overview
 
 The main physical workspace contains **306.41 GB (285.37 GiB) across
@@ -117,7 +164,7 @@ physics, MetaHuman/Outfit production, the transactional C++20/SQLite core,
 Blender/UV/PBR pipelines, local 3D/voice AI and the verified NVIDIA/AMD compute
 roles. A visual summary and aggregate measurement JSON accompany the report.
 This status publication performs no build, cleanup, asset or saved-state changes.
-<!-- status-snapshot:end -->
+
 
 ## 2026-10-29 — Verified workspace migration and retained history
 

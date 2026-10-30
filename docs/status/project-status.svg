@@ -1,26 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="760" viewBox="0 0 1800 760" role="img" aria-labelledby="title desc">
-<title id="title">The Ash Road project status, 29 October 2026</title>
-<desc id="desc">Main physical workspace 306.41 GB, 1,232,117 files. Active code: 140,410 code-only lines. Journey40 remains promoted. Journey41 packaging is interrupted.</desc>
+<title id="title">The Ash Road project status, 30 October 2026</title>
+<desc id="desc">Main physical workspace 317.46 GB, 1,238,599 files. Active code: 141,114 code-only lines. Journey42 is promoted. Journey43 remains source work.</desc>
 <rect width="1800" height="760" fill="#0C1725"/>
 <line x1="82" y1="58" x2="1718" y2="58" stroke="#CBA96D" stroke-width="3"/>
-<text x="82" y="115" fill="#CBA96D" font-family="Segoe UI,sans-serif" font-size="25" font-weight="600">DEVELOPMENT STATUS   /   29 OCTOBER 2026</text>
+<text x="82" y="115" fill="#CBA96D" font-family="Segoe UI,sans-serif" font-size="25" font-weight="600">DEVELOPMENT STATUS   /   30 OCTOBER 2026</text>
 <text x="78" y="208" fill="#EDF2F7" font-family="Georgia,sans-serif" font-size="84" font-weight="600">THE ASH ROAD</text>
 <text x="82" y="279" fill="#B7C6D9" font-family="Segoe UI,sans-serif" font-size="31" font-weight="400">An original cooperative RPG built with Unreal Engine</text>
-<text x="82" y="418" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="67" font-weight="600">306.41 GB</text>
+<text x="82" y="418" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="67" font-weight="600">317.46 GB</text>
 <text x="82" y="465" fill="#CBA96D" font-family="Segoe UI,sans-serif" font-size="23" font-weight="600">MAIN WORKSPACE</text>
-<text x="82" y="508" fill="#B7C6D9" font-family="Segoe UI,sans-serif" font-size="22" font-weight="400">285.37 GiB of logical file data</text>
-<text x="700" y="418" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="67" font-weight="600">1,232,117</text>
+<text x="82" y="508" fill="#B7C6D9" font-family="Segoe UI,sans-serif" font-size="22" font-weight="400">295.66 GiB of logical file data</text>
+<text x="700" y="418" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="67" font-weight="600">1,238,599</text>
 <text x="700" y="465" fill="#CBA96D" font-family="Segoe UI,sans-serif" font-size="23" font-weight="600">FILES</text>
 <text x="700" y="508" fill="#B7C6D9" font-family="Segoe UI,sans-serif" font-size="22" font-weight="400">Archives and generated copies included</text>
-<text x="1310" y="418" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="67" font-weight="600">140,410</text>
+<text x="1310" y="418" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="67" font-weight="600">141,114</text>
 <text x="1310" y="465" fill="#CBA96D" font-family="Segoe UI,sans-serif" font-size="23" font-weight="600">ACTIVE CODE LINES</text>
-<text x="1310" y="508" fill="#B7C6D9" font-family="Segoe UI,sans-serif" font-size="22" font-weight="400">1,657 files; comments and blanks excluded</text>
+<text x="1310" y="508" fill="#B7C6D9" font-family="Segoe UI,sans-serif" font-size="22" font-weight="400">1,662 files; comments and blanks excluded</text>
 <line x1="82" y1="552" x2="1718" y2="552" stroke="#33445A" stroke-width="2"/>
-<text x="82" y="622" fill="#A6D9BC" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600">JOURNEY40</text>
+<text x="82" y="622" fill="#A6D9BC" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600">JOURNEY42</text>
 <text x="82" y="662" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="25" font-weight="400">Promoted playable master</text>
-<text x="700" y="622" fill="#E4BD79" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600">JOURNEY41</text>
-<text x="700" y="662" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="25" font-weight="400">Compiled; packaging interrupted</text>
+<text x="700" y="622" fill="#E4BD79" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600">JOURNEY43</text>
+<text x="700" y="662" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="25" font-weight="400">Source integration; no package</text>
 <text x="1310" y="622" fill="#B2CAE8" font-family="Segoe UI,sans-serif" font-size="29" font-weight="600">SOURCE CAST</text>
-<text x="1310" y="662" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="25" font-weight="400">4 residents and 5 bandit profiles</text>
+<text x="1310" y="662" fill="#EDF2F7" font-family="Segoe UI,sans-serif" font-size="25" font-weight="400">2 new identities; 7 poses each</text>
 <text x="82" y="732" fill="#8EA3BE" font-family="Segoe UI,sans-serif" font-size="22" font-weight="400">Measured physical roots. Logical sizes differ from installed game size and allocated disk usage.</text>
 </svg>

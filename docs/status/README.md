@@ -1,47 +1,47 @@
 # Project status and scale
 
-![The Ash Road status: 306.41 GB, 1,232,117 files, Journey40 promoted](project-status.png)
+![The Ash Road status: 317.46 GB, 1,238,599 files, Journey42 promoted](project-status.png)
 
 <p align="center"><a href="../../PROJECT_LOG.md">Development log</a> · <a href="../diagrams/README.md">Systems diagrams</a> · <a href="project-scale.json">Measurement data</a> · <a href="project-status.png">PNG summary</a></p>
 
 ## At a glance
 
-**Journey40 remains the promoted playable master.** Journey41 code compiled, but packaging was interrupted. New character work has actual source-world evidence; it still awaits an accepted packaged candidate.
+**Journey42 is the promoted playable release**, version **0.21.0-preview12-playtest42**, save schema **46**. It ships ten resident and five bandit profiles. Journey43 is ongoing source work with explicit art, equipment and in-world admission gates; no Journey43 package or promotion is claimed.
 
 | Main physical workspace | Measured result |
 | --- | ---: |
-| Logical size | **306.41 GB** (285.37 GiB) |
-| Regular file entries | **1,232,117** |
-| Current Unreal Content | **36.51 GB / 33,547 files** |
-| Active code-only lines | **140,410 across 1,657 source files** |
-| Active Markdown documents | **705** |
+| Logical size | **317.46 GB** (295.66 GiB) |
+| Regular file entries | **1,238,599** |
+| Current Unreal Content | **38.93 GB / 34,185 files** |
+| Active code-only lines | **141,114 across 1,662 source files** |
+| Active Markdown documents | **713** |
 | Scan errors | **0** |
 | Reparse points skipped | 4 |
 
-Measurement window: **29 October 2026, 07:58–07:59 Chicago time (UTC−05)**. This is a dated snapshot, not a live monitor.
+Measurement window: **30 October 2026, 07:39–07:41 Chicago time (UTC−05)**. This is a dated snapshot, not a live monitor.
 
-The main total includes archives, retained packages, evidence and generated output. It does not represent source-code volume, unique authored assets, game download size or the size of this GitHub repository. Archive alone contains **1,090,007 file entries**.
+The main total includes archives, retained packages, evidence and generated output. It does not represent source-code volume, unique authored assets, game download size or the size of this GitHub repository. Archive alone contains **1,090,141 file entries**.
 
 ## Source code, documentation and workflows
 
-**140,410 code-only lines across 1,657 active first-party source files**, counted with [cloc 2.10](https://github.com/AlDanial/cloc/releases/tag/v2.10). Comments and blank lines are excluded from this headline. A separate 6,426 comment lines and 4,296 blank lines are recorded in the measurement data.
+**141,114 code-only lines across 1,662 active first-party source files**, counted with [cloc 2.10](https://github.com/AlDanial/cloc/releases/tag/v2.10). Comments and blank lines are excluded from this headline. A separate 6,466 comment lines and 4,301 blank lines are recorded in the measurement data.
 
 | Active source area | Counted files | Code-only lines |
 | --- | ---: | ---: |
-| Runtime and campaign core | 880 | 77,283 |
+| Runtime and campaign core | 883 | 77,841 |
 | Tests | 92 | 7,541 |
-| Tooling and build scripts | 685 | 55,586 |
-| **Total** | **1,657** | **140,410** |
+| Tooling and build scripts | 687 | 55,732 |
+| **Total** | **1,662** | **141,114** |
 
 <details>
 <summary><strong>Code by language and counting scope</strong></summary>
 
 | Language | Counted files | Code-only lines |
 | --- | ---: | ---: |
-| C++ | 465 | 66,566 |
+| C++ | 466 | 67,051 |
 | Python | 497 | 43,772 |
-| C/C++ Header | 491 | 17,691 |
-| PowerShell | 158 | 11,667 |
+| C/C++ Header | 493 | 17,764 |
+| PowerShell | 160 | 11,813 |
 | DOS Batch | 37 | 321 |
 | CMake | 1 | 234 |
 | Rust | 2 | 98 |
@@ -54,25 +54,29 @@ The source audit includes runtime/core code, tests, active tooling/build scripts
 
 | Documentation or reusable workflow | File count | Scope |
 | --- | ---: | --- |
-| **Active project Markdown** | **705** | Project documents after archive/build/vendor/prepared exclusions. |
-| All main-workspace Markdown | **2,744** | `.md` and `.markdown` entries, including retained and prepared copies. |
+| **Active project Markdown** | **713** | Project documents after archive/build/vendor/prepared exclusions. |
+| Main-workspace Markdown snapshot | **2,866** | `.md` and `.markdown` entries, including retained/prepared copies; own report folder excluded. Collected during the storage scan. |
 | **Project `SKILL.md` workflows** | **0** | Reusable workflow definition files inside the game workspace. |
 | Local workstation `SKILL.md` workflows | **12** | Separate local skill directory: 7 personal and 5 system definitions. Bundled/plugin libraries are excluded. |
 
-Workflow counts describe actual definition files. They do not represent capability areas, all installed plugin skills, or proof that every definition is used by the game. The code/workflow audit is a separate **29 October, 08:15 Chicago** snapshot; the earlier storage totals retain their original measurement window. [Exact counts and methodology](project-scale.json) are available for inspection.
+Workflow counts describe actual definition files. They do not represent capability areas, all installed plugin skills, or proof that every definition is used by the game. The code/workflow audit is a separate **30 October 2026, 07:42 Chicago time (UTC-05)** snapshot; storage totals retain the separate measurement window above. [Exact counts and methodology](project-scale.json) are available for inspection.
 
 ## Delivery status
 
 | Workstream | Current state | Evidence and remaining gate |
 | --- | --- | --- |
-| Playable release | **Journey40 promoted** | Journey39 is the retained previous release under the current N / N−1 policy. |
-| Journey41 candidate | **Compiled; packaging interrupted** | Last recorded cook checkpoint: **8,532 of 9,207 packages**. No successful archive, candidate verification or promotion receipt exists. This count is not an overall completion percentage. |
-| Resident cast | **4 new residents checked in the source world** | Seven saved resident profiles include the earlier three. Twelve new clothing fits pass fresh-process readback. Original actors, shops, quests and saved identities remain authoritative. |
-| Melee bandit cast | **5 native profiles checked in the source world** | Four damaged-armor variants and one clothing-only appearance. A focused six-defender camp witness covers saved equipment, defeat/corpse transfer and duplicate prevention. |
-| Art and broader coverage | **Further work remains** | Final reference fidelity, unsupported roles, broader multiplayer presentation, crowd cost and road torch transitions retain explicit limits. |
-| Physical storage migration | **Cutover complete** | The canonical main workspace, character authoring and 92 linked working copies moved to F:. The migration audit verified 1,359,112 transferred files across its original scope. That historical audit count differs from today's main-root count. |
+| Playable release | **Journey42 promoted** | Version 0.21.0-preview12-playtest42 / schema46. Ten resident and five bandit profiles ship; Journey41 is retained under the N / N−1 policy. |
+| Journey43 candidate | **Source work; no package** | Source changes compile, but no Journey43 package, catalog promotion or owner-save edit is recorded. |
+| Two new bandit identities | **Saved assembly and 7 posed states per identity checked** | Native AMD previews verify posed head follow. An add-only copy brings 178 new source files / 604,930,577 bytes into Main as disabled assets; two existing shared files are byte-identical. Activation and final wardrobe admission remain open. |
+| Equipment enrollment | **Source integration compiled** | Canonical sparse-equipment enrollment preserves existing saved assignments and rolls. Previously unenrolled eligible actors can gain legitimate equipment/protection; this transition can affect equipment stats. Unsupported visuals keep complete legacy appearances. |
+| Sword motion and grip | **Blocked on actual retarget fidelity** | Saved numeric/cold checks and clay grasp views pass, but visual motion review exposes reversed forward lean between source and target. Both new target attacks remain held. Correct the coordinate frame before Rusty/Iron contact, mapping or runtime admission. |
+| Additional melee profile | **Saved numeric checks pass; attack held** | Seven-state and cold checks pass, but the actual attack shares the forward-lean fidelity blocker. Dressed/grip/world admission remains open; prepared slot-specific evidence is not an installed witness. |
+| Villager wardrobe | **Bounded prototype fitting accepted** | The source vest retains weights, UVs and export. Reference costume art and native Outfit admission remain unfinished. |
+| Broader coverage | **Partial** | Guards, named/rescue actors, other ancestries, creatures, player profiles and fallback adapters retain separate work. Two new identities do not establish universal cast replacement. |
 
-The current work queue supersedes older statements that Journey41 UAT was still running or that C: remained the physical source location. Recovery must retain the interrupted cook and create the path-correct successor freeze before packaging resumes. Existing valid checks remain reusable.
+Journey42's build/cook/stage/archive completed in **20m37s**, and all **4,262 required cooked packages** were present. The packaged catalog and focused original-camp check passed. These checks establish the bounded release; broader visual/multiplayer coverage remains open.
+
+Current-source results and shipped Journey42 coverage are distinct. Historical Journey40/Journey41 interruption notes remain in the development log; they no longer describe the current promoted release.
 
 ## Key technology features
 
@@ -89,8 +93,8 @@ The current work queue supersedes older statements that Journey41 UAT was still 
 
 ### Compute split
 
-- **NVIDIA RTX 4060 Ti, 8 GB:** CUDA inference and scheduled Unreal rendering share its VRAM budget.
-- **AMD Radeon Graphics:** verified Unreal NPC previews and native diagnostics provide a separate graphics route.
+- **NVIDIA RTX 4060 Ti, 8 GB:** CUDA inference and scheduled Unreal rendering share its VRAM budget. The owner explicitly released it after the 30 October reservation; both GPUs and CPU are available under coordinator scheduling. Reserve NVIDIA again during owner playtests.
+- **AMD Radeon Graphics:** current native cast previews actually use **D3D12 adapter 1 / vendor 1002**. Use independent compatible jobs on both GPUs when available. During owner playtests, use AMD or CPU and never fall back automatically to NVIDIA. AMD HIP was also used for prepared clothing-source renders documented with Journey42; those renders establish source candidates, with native fit and runtime admission tracked separately. The shared Unreal/build slot remains coordinator-owned.
 - **CPU:** source preparation, exports, audio processing, persistence, verification and builds. Larger configured speech models use the recorded CPU route.
 - **Hosted image generation:** provider-managed compute. GPU resource assignments remain explicit; memory is not pooled across adapters.
 
@@ -99,49 +103,49 @@ The current work queue supersedes older statements that Journey41 UAT was still 
 ```mermaid
 pie showData
     title Main workspace logical size in GB
-    "evidence" : 102.563279
-    "Archive" : 76.151342
-    "unreal" : 54.302986
-    "tools" : 43.601494
+    "evidence" : 117.421052
+    "Archive" : 77.997524
+    "unreal" : 56.838935
+    "tools" : 46.116143
     "assets" : 16.905343
-    "Other" : 12.888797
+    "Other" : 2.180741
 ```
 
 | Directory group | Logical GB | Files | Share of bytes |
 | --- | ---: | ---: | ---: |
-| `evidence` | 102.56 | 38,344 | 33.5% |
-| `Archive` | 76.15 | 1,090,007 | 24.9% |
-| `unreal` | 54.30 | 38,299 | 17.7% |
-| `tools` | 43.60 | 44,208 | 14.2% |
-| `assets` | 16.91 | 10,655 | 5.5% |
-| `releases` | 10.74 | 312 | 3.5% |
-| `(root files)` | 0.56 | 331 | 0.2% |
+| `evidence` | 117.42 | 41,348 | 37.0% |
+| `Archive` | 78.00 | 1,090,141 | 24.6% |
+| `unreal` | 56.84 | 39,649 | 17.9% |
+| `tools` | 46.12 | 46,416 | 14.5% |
+| `assets` | 16.91 | 10,655 | 5.3% |
+| `(root files)` | 0.56 | 333 | 0.2% |
 | `build-crafting` | 0.43 | 1,704 | 0.1% |
-| Other directories and root files | 1.16 | 8,257 | 0.4% |
-| **Total** | **306.41** | **1,232,117** | **100%** |
+| `build-economy` | 0.35 | 1,161 | 0.1% |
+| Other directories and root files | 0.84 | 7,192 | 0.3% |
+| **Total** | **317.46** | **1,238,599** | **100%** |
 
 ### Related roots, measured separately
 
 | Scope | Logical GB | Files |
 | --- | ---: | ---: |
-| Main physical workspace | 306.41 | 1,232,117 |
-| Character authoring workspace | 29.29 | 3,810 |
+| Main physical workspace | 317.46 | 1,238,599 |
+| Character authoring workspace | 32.98 | 4,763 |
 | Linked working copies | 8.26 | 123,197 |
-| External Journey41 build output | 11.06 | 44,600 |
+| External build workspace, including Journey41 and Journey42 | 51.62 | 95,076 |
 
-These roots are reported separately to avoid presenting companion work, shared dependencies or build copies as unique content. Other asset libraries and AI model caches outside these roots are excluded.
+These roots are reported separately to avoid presenting companion work, shared dependencies or build copies as unique content. Other asset libraries and AI model caches outside these roots are excluded. The external-build scope now covers the parent builds directory, including both retained releases and intermediate output; the prior snapshot measured Journey41 only.
 
 <details>
 <summary><strong>File-type inventory and measurement method</strong></summary>
 
 | Extension | Entries across the full main workspace |
 | --- | ---: |
-| `.cpp` | 2,343 |
-| `.h` | 1,247 |
-| `.hpp` | 2,823 |
-| `.py` | 6,116 |
-| `.ps1` | 1,076 |
-| `.uasset` | 1,120,920 |
+| `.cpp` | 2,392 |
+| `.h` | 1,259 |
+| `.hpp` | 2,824 |
+| `.py` | 6,401 |
+| `.ps1` | 1,091 |
+| `.uasset` | 1,121,564 |
 | `.umap` | 294 |
 
 Extension totals include archives, generated files, copied sources and retained revisions. They do not measure unique authored assets or original code.
@@ -154,10 +158,10 @@ GB uses 1,000,000,000 bytes; GiB uses 1,073,741,824 bytes. Exact bytes and the s
 
 ## Next release gate
 
-Recover the interrupted Journey41 packaging process, preserve its evidence and establish the successor freeze after migration. A completed build/cook/stage/archive and the focused packaged startup/cast checks must precede promotion. No packaging or gameplay work was performed to produce this status report.
+Correct the observed source/target forward-lean mismatch through the existing retarget settings, then finish actual-material sword grip/contact admission and activate the two checked identities through the existing catalog operators, admit the additional fitted melee profile and continue the reference-led vest through the existing Outfit path. Batch coherent source results into Journey43; after UAT, run only precise checks for changed cooked behavior. Journey42 remains playable until a successor is accepted. No build, gameplay or saved-state operation was performed for this report.
 
 ## Sources and publication scope
 
-This update derives from the current development queue, the resident/bandit integration report, retention records, engine project/module configuration and the dated filesystem measurement. Local source records include `CURRENT_WORK.md`, `docs/bandit-resident29-progress.md` and `docs/backup-retention.md`; their payloads are not uploaded here. The current queue takes precedence over stale intermediate notes.
+This update derives from the current development queue, the latest release log, cast43 handoffs, retention records, engine project/module configuration and the dated filesystem measurement. Local source records include `CURRENT_WORK.md`, `PROJECT_LOG.md` and `docs/backup-retention.md`; their payloads are not uploaded here. The current queue takes precedence over stale intermediate notes.
 
 This repository publishes status documentation, diagrams and aggregate metadata. Licensed game assets, private campaigns, credentials, model weights and build payloads remain outside the publication.
