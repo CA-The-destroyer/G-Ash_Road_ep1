@@ -1,5 +1,37 @@
 # The Ash Road — project log
 
+## 2026-10-31 — Shared plate wear and distinct equipment finishes
+
+Corrected the starter breastplate's lower clearance on both checked Human
+profiles and completed the shared portable iron/leather binding. The canonical
+chest item remains separate from trousers, gloves, boots and headgear. Main
+source build a22 and the focused two-view surface/icon check pass; unchanged
+moving-fit evidence was reused rather than replayed.
+
+The owner requested deeper weapon-style damage and a different pattern on each
+version. Four actual model finishes now show a broad impact bowl, a long oblique
+gouge, battered pitting and a buckled/scuffed edge. One native batch saved the
+four shared PBR atlases, two parents and eight instances; all fourteen packages
+are hash-verified and staged. The bank is about1.5MB and reuses existing leather
+inputs. These are normal/shading dents, with unchanged geometry, weights and
+UVs. Retained UV layouts and distinct height/normal fields accompany the source.
+
+Additional glove and boot appearance sources reuse existing construction and
+material workflows; their presentation corrections and native coverage remain
+documented separately. No additional class ensemble, item stats or random NPC
+assignment is inferred. NVIDIA and AMD rendered independent batches. The
+secondary CPU worker produced two lighter mesh candidates, with native LOD
+admission and measured runtime gains still open. Work scheduling prioritizes
+NVIDIA, then AMD, then the secondary worker, with useful jobs concurrent.
+
+The work uses the existing native material importer, equipment authority,
+official editor APIs and shared weapon-wear method. A precise unary material-pin
+mismatch was corrected without changing protected inputs. No per-color Cold,
+pose suite, campaign replay, save-schema change or new playable release was
+added. Journey46 remains current, Journey45 rollback; ordinary plate vendor/loot
+rollout is still separate. Local details: docs/independent-plate47.md and
+docs/equipment-variation-batch47.md.
+
 Record a short entry at each meaningful integration, blocker resolution and playable release. State what actually shipped separately from source work. Keep detailed implementation notes in the linked reports.
 
 ## 2026-10-31 — Optional CPU worker portable Blender admitted
