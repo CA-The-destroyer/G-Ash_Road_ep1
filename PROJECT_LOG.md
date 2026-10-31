@@ -2,6 +2,23 @@
 
 Record a short entry at each meaningful integration, blocker resolution and playable release. State what actually shipped separately from source work. Keep detailed implementation notes in the linked reports.
 
+## 2026-10-31 — Remote compute interface integrated
+
+Added a reusable PowerShell SSH worker interface with isolated job directories,
+persisted status, logs, bounded process-tree termination and hash-checked artifact
+retrieval into review staging. Lightweight identity, input/output transfer,
+scratch permissions, deliberate failure, timeout and exact test cleanup passed.
+Existing authentication and standard-account privileges were preserved.
+
+Prepared an adapter for the existing AI-asset Blender processor, preserving
+source provenance and UVs while adding layout diagrams and staged handoff paths.
+Remote Blender startup currently fails; inference and asset-processing runtime
+acceptance remain open. No render, model generation, Unreal import, build or
+playtest was performed. Journey46 and the active equipment milestone remain
+unchanged. Local instructions/evidence: docs/remote-compute-worker.md and
+docs/remote-compute-worker-validation.md. Only this status entry is published;
+credentials, connection details, assets and job payloads remain local.
+
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
