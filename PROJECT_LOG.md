@@ -2,6 +2,35 @@
 
 Record a short entry at each meaningful integration, blocker resolution and playable release. State what actually shipped separately from source work. Keep detailed implementation notes in the linked reports.
 
+## 2026-10-31 — Head equipment checked; reusable plate sources built
+
+The independent equipment source work now includes an actual skinned leather
+hood, normal head-slot invalidation, scalp-hair concealment and exact restoration
+on the checked Human profile. Collection, equip/remove and same-private-save
+restore pass. A combined hood-and-Ranger check exposed a neck-layer overlap;
+the worn hood now hides the covered linen cowl, and removal restores both the
+cowl and original hair. The hood remains a bounded prototype with silhouette
+polish and additional target coverage open.
+
+Four padded inventory icons use the actual separate hood, glove, trouser and
+boot models. NVIDIA and AMD rendered independent useful jobs, with verified
+device receipts. The native textures and source bindings are retained.
+
+Built a reusable plain iron breastplate construction family with 52 separate
+parts, original art UVs, metric material UVs and retained layout images. Both
+current Human target sources pass export readback. The first native moving
+check exposed soft metal deformation; rigid-panel correction fixes the back,
+while lower-waist clearance still requires construction work. Rust/iron maps,
+dark leather inputs and a matching prototype icon are prepared, not released.
+The canonical starter item and existing equipment/ownership/loot invariants
+pass focused core tests; drop and vendor rollout remain disabled.
+
+Work reuses the existing native Outfit transfer, UV repair, tangent generation,
+material importer and equipment authority. A small isolated Linux CPU Blender
+worker also completed a real export verification. No new class ensemble,
+save schema, playable package or promotion is claimed: Journey46 remains
+current and Journey45 remains rollback.
+
 ## 2026-10-31 — Remote compute interface integrated
 
 Added a reusable PowerShell SSH worker interface with isolated job directories,
