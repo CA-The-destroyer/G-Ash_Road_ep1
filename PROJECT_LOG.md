@@ -7,11 +7,25 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Current playable master:** [Journey46](#2026-10-31--journey46-loot-and-comparison-release). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-31--journey46-loot-and-comparison-release) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current source milestone](#2026-10-31--independent-equipment-source-slice-checked) · [Playable release](#2026-10-31--journey46-loot-and-comparison-release) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
 
 
+
+## 2026-10-31 — Independent equipment source slice checked
+
+Built and checked independent torso, hand, trouser and boot presentation on two supported Human profiles using the existing canonical equipment records. Changing or removing torso armor preserves the other equipped pieces and restores complete base clothing. The original fitted sources, UV layouts, weights, materials, face and motion-bank identities remain in use; no new item, inventory or save authority was introduced.
+
+The actual source Editor build passes. Normal collection/equipment checks pass20 states on one target and11 on the other. Final checks were reduced to the four changed front/back/armor-restoration states per target, followed by a same-private-database restore on the newly integrated route. Existing passing loot, condition, claim, stat and unchanged restore evidence was reused. Actual images were reviewed; no broad campaign or default-outfit replay was added.
+
+Native review exposed black surfaces caused by missing raw shading frames. The installed Unreal MikkTSpace operation now fills those missing frames while retaining geometry, UVs and authored surface data. A separate bounded correction reuses the existing shirt-clearance tool to remove the large visible waist breakthrough when torso armor is absent. Original underlayers remain under outer armor. Small numerical ray intersections and minor cosmetic limits remain documented; this is practical source acceptance, not all-pose or final-material approval.
+
+Release boundary: Journey46 remains the playable master and Journey45 the rollback. This batch is source-checked and has not been cooked or promoted. The admitted class-ensemble count remains2/24. AR-P02 stays active: an existing original H05 leather head-covering source is ready for native integration planning, while actual head-follow, grooming/preset coverage and true metal armor families remain open. Existing reinforced leather and unfitted plate studies are not relabelled as an iron breastplate.
+
+Recorded owner intake under the existing backlog: stronger bonuses for complete named equipment sets, smaller bonuses for ordinary complete sets, and the S006/S009 progression/trainer/book reference gaps. These are not implemented or included in Journey46. NVIDIA was reserved during the earlier work and explicitly released again; compatible AMD and CPU work continued, with actual selected adapters checked.
+
+Local evidence: docs/modular-equipment47.md; docs/progression-and-set-intake47.md; tools/prepared/modular47-root-a01/source-slice-acceptance.json. Licensed assets, private test databases, builds and credentials stay local.
 
 ## 2026-10-31 — Journey46 loot and comparison release
 
