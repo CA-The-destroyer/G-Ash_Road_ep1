@@ -2,6 +2,23 @@
 
 Record a short entry at each meaningful integration, blocker resolution and playable release. State what actually shipped separately from source work. Keep detailed implementation notes in the linked reports.
 
+## 2026-10-31 — Optional CPU worker portable Blender admitted
+
+Pinned the secondary, noncritical compute worker to owner-approved portable
+Blender4.1.1. Isolated headless Python under its standard account passed the
+exact binary/version, background mode, arithmetic and CPU checks before dispatch
+was enabled. The normal Blender submission route then passed a bounded smoke,
+with exit0 and hash-verified output retrieval. Both test jobs were cleaned and
+local evidence retained.
+
+The main workstation stays primary; no required stage depends on the overflow
+worker. Only lightweight CPU-compatible jobs with at most two threads are
+admitted. Owner-confirmed Blender5.2.3 is incompatible with that worker CPU;
+the Steam copy and newer installations are excluded. Asset-specific processing,
+UV/material/export and Unreal acceptance remain separate. No render, inference,
+asset generation, Unreal change or release was performed. Local details:
+docs/remote-compute-worker.md and docs/remote-compute-worker-validation.md.
+
 ## 2026-10-31 — Head equipment checked; reusable plate sources built
 
 The independent equipment source work now includes an actual skinned leather
