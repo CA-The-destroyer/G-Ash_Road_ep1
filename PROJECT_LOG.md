@@ -25,6 +25,8 @@ The package also includes the checked creator refinement, original Mara presenta
 
 The owner reaffirmed the comparison chat as ongoing guidance: borrow strong functional patterns and check relevant deltas as milestones progress; Skyrim parity is not the target. The next active milestone is independent real equipment. One existing fitted lower garment now has complete unambiguous prepared subset membership and UV layouts, avoiding a redundant refit; native save/readback, masks and slot consumers still require integration. No prepared subset is claimed released.
 
+After promotion, retired only Journey44's old package, cooked output and derived cache under the current-plus-one retention policy. Fresh no-reparse/protected-state/process checks passed,46 small metadata files were copied and byte-verified in the project Archive, and all Journey44 evidence/temp plus Journey45 state were retained. Actual free space increased by about14.31GiB to64.75GiB. No owner/foreign process was stopped.
+
 Local evidence: docs/loot46-delivery.md; docs/orchestrator-priority-plan.md; Journey46 Evidence/promotion46-a01.json. This entry publishes status only; assets, builds, credentials and saves remain local.
 
 ## 2026-10-31 — Independent armor loot and same-slot comparison built
