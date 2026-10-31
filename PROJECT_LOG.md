@@ -7,11 +7,23 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Current playable master:** [Journey45](#30-october-2026--journey45-released-and-storage-consolidation-completed). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-30--creator46-refinement-and-normal-play-mara-assignment-checked) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-30--modern-human-cape-and-shirt-rendering-corrected-in-source) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
 
 
+
+## 2026-10-30 — Modern Human cape and shirt rendering corrected in source
+
+Reproduced the reported inventory defect using normal class confirmation and real equipped gear. Corrected the oversized legacy cape fit with two actual modern Human profiles, preserving its original UVs, fabric material and topology. Reference clearance alone still clipped during animation; the final correction transfers weights from the actual garment rig and deforms the cape with the current pose. Both focused source inventory checks passed, including normal close/restoration, unchanged item/stat/save authority and reviewed front/side/back views. Earlier failed candidates remain recorded.
+
+The black shirt came from missing imported shading frames. Native frame repair and independent cold readback preserved geometry, skin weights, UVs and materials. The exact repaired garment now uses a shared alias across player, resident and bandit loaders; no material brightening workaround was added. Its directory is explicitly included in the next cook.
+
+Final source build a11 passes. This is practical baseline correction, not completed Bard clothing, bulky-equipment coverage or cloth simulation. The Human class wardrobe remains two of twenty-four admitted ensembles. Journey45 remains the current playable release; no46 package was created.
+
+Methods: existing Unreal C++ procedural garment support, actual native reference/animation transforms, Blender CPU weight transfer with retained UV layouts, native mesh-frame repair, targeted inventory captures and reuse of unchanged test evidence. Parallel workers prepared actual Bard/Monk/Rogue sources; those remain unadmitted.
+
+Evidence: local `docs/cape46-correction.md` and `tools/prepared/human46-cape-execution-a01/source-completion.json`.
 
 ## 2026-10-30 — Creator46 refinement and normal-play Mara assignment checked
 
