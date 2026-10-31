@@ -7,11 +7,23 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Current playable master:** [Journey45](#30-october-2026--journey45-released-and-storage-consolidation-completed). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-30--source-weapon-grips-corrected-and-playtest-feedback-consolidated) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-31--targeted-outfit-candidates-saved-and-discovery-rules-recorded) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
 
 
+
+## 2026-10-31 — Targeted outfit candidates saved and discovery rules recorded
+
+Saved fitted Fighter accessories through the existing native Outfit workflow and verified them in a separate cold process. The original failure was a full-source versus coverage-trimmed geometry comparison; exact position/reference lineage resolved that contract without substituting a stock character or weakening it to a shared Skeleton. Source geometry, UVs and materials remain preserved. A separate inner-rim weight correction is saved; a broader proposal with no measured contact benefit was rejected.
+
+Saved a targeted Ranger arm/detail correction and verified all891,534 final weight rows, including789,688 unchanged unrelated rows. Independent cold readback preserves the exact saved weight hash and surface/reference identity. Focused native images show improved long stretching but retain visible garment-layer gaps, so this candidate is held from game assignment. Accessory views were reviewed; the separate shell view remains too dark for finish/contact acceptance. Existing inspection data does not establish its tangent-frame health, and no speculative material repair was applied.
+
+Recorded the accepted class/ancestry population direction and the Perception design: successful discoveries shared with the party, an audible warning by the finder, and Rogue specialization while other classes can succeed. These remain backlog, not installed gameplay. An NPC magic audit distinguishes existing managed-camp caster support from ordinary travel encounters that still lack observed spellcasting.
+
+Methods: independent CPU analysis, existing Unreal5.8 native Outfit and weight tools, exact saved-asset readback, and a minimal offscreen NVIDIA capture batch. Failed evidence is retained; unchanged campaign tests and refits were not repeated. [Local milestone](docs/human-outfits46-fit-progress.md).
+
+**Release boundary:** Journey45 remains the playable master. No46 package, Main outfit assignment or added class completion; admitted wardrobe coverage remains2/24.
 
 ## 2026-10-30 — Source weapon grips corrected and playtest feedback consolidated
 
