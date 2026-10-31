@@ -7,11 +7,23 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Current playable master:** [Journey45](#30-october-2026--journey45-released-and-storage-consolidation-completed). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-31--targeted-outfit-candidates-saved-and-discovery-rules-recorded) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-31--independent-armor-loot-and-same-slot-comparison-built) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
 
 
+
+## 2026-10-31 — Independent armor loot and same-slot comparison built
+
+Repaired eligible armor pools using the existing canonical head, hand, leg and foot items. New containers use the explicit v3 stream; existing saved contents never reroll. Armor-category selection keeps half of its choices in the prior torso family and splits the other half across independent pieces, without adding loot or potion opportunities. Wildlife remains gear-free. Bandit carried finds survive projection while actual worn pieces, condition, roster and protection remain authoritative.
+
+Built and checked the existing transfer/equipment path for all four pieces, mixed slots, values, condition, restart, rollback and concurrent single-copy claims. The complete affected Encounter suite passes17 cases; bandit authority, resource balance and starter-preservation checks also pass. Stale test assumptions about schema, consumable windows and food weight were corrected without changing those runtime rules.
+
+Added read-only same-slot comparisons to inventory and storage details using current item/stat/value authorities. The actual source Editor builds. A fresh ordinary-input inventory check shows a selected5% chest against a worn6% chest, an empty hand slot and equipped-item details; the images were reviewed. Storage's exact selected-armor footer view remains open. Damage/effect comparisons, use-level bands and complete independent appearance are separate unfinished outcomes.
+
+Adopted the owner-approved audit-driven delivery order. Existing item, inventory, economy and persistence systems stay in use. AR-P01 delivers this coherent checked slice; AR-P02 separates actual modular equipment and item families; AR-P03 closes remaining loot contracts. The existing register retains156 records and125 outstanding owners. Online-service provisioning is an explicit external dependency, and the larger wardrobe remains2/24 admitted ensembles.
+
+**Release boundary:** Journey45 remains playable. Journey46 freeze/cook preparation is underway, carrying only compatible checked creator, original-character, cape/shirt and grip source fixes. Held Lab candidates remain excluded; no package or promotion is claimed here. [Repair plan and evidence](docs/loot-equipment46-plan.md), [approved priorities](docs/orchestrator-priority-plan.md).
 
 ## 2026-10-31 — Targeted outfit candidates saved and discovery rules recorded
 
