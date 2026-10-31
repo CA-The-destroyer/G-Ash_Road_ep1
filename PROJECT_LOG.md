@@ -5,13 +5,27 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey45](#30-october-2026--journey45-released-and-storage-consolidation-completed). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey46](#2026-10-31--journey46-loot-and-comparison-release). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-31--independent-armor-loot-and-same-slot-comparison-built) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
-
-
+**Contents:** [Current milestone](#2026-10-31--journey46-loot-and-comparison-release) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+
+
+
+## 2026-10-31 — Journey46 loot and comparison release
+
+Promoted Journey46, 0.21.0-preview12-playtest46, save schema47. Journey45 is the retained rollback. The normal project launcher now selects46. The checked source batch includes independent eligible armor drops, actual worn-versus-carried preservation and read-only same-slot armor, condition, weight and value comparison. Existing finite loot and saved contents do not refill or reroll.
+
+Clean Unreal build, cook, stage and archive passed. All4800 required cooked resources are present. The actual packaged process passed continuous title, Host selection, name entry, creator and arrival checks; all seven images were reviewed. The changed shirt resource and cape also passed a precise packaged check with actual component readback and reviewed images. Passing source authority and UI checks were reused; no broad campaign or motion replay was added.
+
+A release review caught a delivery-wrapper condition that rejected a valid existing direct-save location when its menu directory had never been created. Removed only that condition and refreshed delivery hashes through an explicit post-UAT amendment. Compiled code, cooked assets and config stayed identical; original UAT and freeze evidence were retained. No recook, owner-save opening, migration, reset or fresh-campaign requirement was introduced.
+
+The package also includes the checked creator refinement, original Mara presentation assignment, cape/shirt correction and bounded ready-grip/inventory-bow work. These reuse their documented source checks, not new all-outfit or complete-motion claims. Only2of24 class ensembles remain admitted. Storage armor-footer visual breadth, weapon damage/effects comparison, effective-use bands, storage right-click, independent visual equipment and real internet acceptance remain open. Existing creator base-clothing coverage artifacts remain recorded.
+
+The owner reaffirmed the comparison chat as ongoing guidance: borrow strong functional patterns and check relevant deltas as milestones progress; Skyrim parity is not the target. The next active milestone is independent real equipment. One existing fitted lower garment now has complete unambiguous prepared subset membership and UV layouts, avoiding a redundant refit; native save/readback, masks and slot consumers still require integration. No prepared subset is claimed released.
+
+Local evidence: docs/loot46-delivery.md; docs/orchestrator-priority-plan.md; Journey46 Evidence/promotion46-a01.json. This entry publishes status only; assets, builds, credentials and saves remain local.
 
 ## 2026-10-31 — Independent armor loot and same-slot comparison built
 
