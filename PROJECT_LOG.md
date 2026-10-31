@@ -7,11 +7,21 @@ Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-
 
 **Current playable master:** [Journey45](#30-october-2026--journey45-released-and-storage-consolidation-completed). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-30--modern-human-cape-and-shirt-rendering-corrected-in-source) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
+**Contents:** [Current milestone](#2026-10-30--source-weapon-grips-corrected-and-playtest-feedback-consolidated) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
 
 
+
+## 2026-10-30 — Source weapon grips corrected and playtest feedback consolidated
+
+Corrected modern Human ready-view axe invisibility through the shared right-hand catalogue mount. Actual native reference and retarget-pose calculations restore the missing weapon-helper frame while preserving each item's authored orientation, mesh, UVs and materials. Focused private Journey checks on both target profiles passed real collection/equipping and ordinary attack input; the axe and sword ready views were reviewed. Sampled attack phases still leave the camera, so full swing framing remains unfinished.
+
+Corrected the inventory bow's attachment from the hidden legacy rig to the actual animated hand, using independent full-character reference data. The modern rig now uses its existing bow idle instead of the generic relaxed pose. Source build a18 passed; both target profiles passed normal inventory front/side, close and world-idle checks with unchanged equipment, rewards and animation banks. These images were reviewed for practical grip, not full wardrobe, finger-contact, draw/release or network acceptance. Unchanged first-person evidence from a16 was reused.
+
+Recorded town hunt/bandit contract boards, fewer introductory Peltsmith offers, recipe discovery, a starting-camp guard, story-led quest prose and the reported remaining character appearances. These are queued requests, not delivered features or a completed character rollout.
+
+Journey45 remains the playable release; no new package or art payload was published. Local evidence: `docs/weapon-grips46.md`, `docs/playtest46-intake.md` and `tools/prepared/weapon-grips46-execution-a01/source-completion.json`.
 
 ## 2026-10-30 — Modern Human cape and shirt rendering corrected in source
 
