@@ -5,13 +5,25 @@ Record a short entry at each meaningful integration, blocker resolution and play
 Publish this log to [CA-The-destroyer/G-Ash_Road_ep1](https://github.com/CA-The-destroyer/G-Ash_Road_ep1) at meaningful build milestones. The repository currently hosts progress records. Licensed assets, saved campaigns, credentials and large build payloads remain local.
 
 
-**Current playable master:** [Journey44](#2026-10-30--journey44-self-hosted-co-op-released). Earlier failure/promotion records remain historical.
+**Current playable master:** [Journey45](#30-october-2026--journey45-released-and-storage-consolidation-completed). Earlier failure/promotion records remain historical.
 
-**Contents:** [Current milestone](#2026-10-30--actual-player-model-source-baseline-built-and-checked) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
-
-
+**Contents:** [Current milestone](#2026-10-30--creator46-refinement-and-normal-play-mara-assignment-checked) · [Methods and tools](#methods-and-tools) · [Recorded history](#recorded-project-history) · [Source commit ledger](#complete-recorded-source-commit-ledger)
 
 
+
+
+
+## 2026-10-30 — Creator46 refinement and normal-play Mara assignment checked
+
+Refined the existing character creator with clearer hero and step headings, dark layered controls, fine brass selection and hover cues, readable ability controls and a balanced preview area. Actual three-page interaction, ability minus/plus restoration and confirmation passed in current source checks on AMD and NVIDIA. Preview lighting now stays inside its attenuation range. Character, item, stat and save authority remain unchanged.
+
+Corrected Mara's normal-play routing to the existing modern Human Ranger presentation. The exact source build passed, followed by a fresh actual Journey ListenHost check: original actor and stable identity, visible fitted outfit and linen material, advancing Body/Face pose, head alignment, ordinary bound interaction and durable opening progression. Root reviewed the three captured views. The ordinary texture pool showed close-view pressure, which remains a performance limitation; no larger portrait budget or performance acceptance is claimed.
+
+Journey45 remains the playable release; these are next-build source changes, not a new packaged release. Two of the twenty-four Human class ensembles are currently admitted. Existing base clothes do not count as finished class outfits. Parallel workers are preparing the missing fitted garment inputs while root owns native integration. The male Ranger source probe passed without asset changes; resize and appearance/motion admission remain separate.
+
+Methods/tools: installed Unreal5.8.3, modular native C++ HUD/presentation adapters, shared layout geometry, bounded UnrealBuildTool compilation, private ListenHost campaign, normal-input checks, actual saved-state readback, rendered review, and retained UV/material provenance. Prior unchanged campaign and movement checks were reused; no broad campaign replay was added.
+
+Local evidence: docs/creator46-presentation.md; tools/prepared/human46-integration-a01; evidence/unreal/creator46-editor-a04; evidence/unreal/mara-host46-ae0d533625. Source/garment coverage and remaining risks stay explicit.
 
 ## 2026-10-30 — Actual player model source baseline built and checked
 
