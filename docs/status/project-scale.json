@@ -1645,11 +1645,11 @@
   "measurement_scope_note": "Storage, code, Markdown, workflows, release and history fields retain the 30 October measured snapshot; current_delivery and compute_resources are separately dated. Worker storage/source is not counted.",
   "compute_resources": {
     "as_of": "2026-10-31",
-    "owner_recruited_second_pc": "ADAMS-TH",
+    "owner_recruited_second_pc": "secondary worker PC",
     "priority": [
       "local NVIDIA",
       "local AMD",
-      "ADAMS-TH"
+      "secondary worker PC"
     ],
     "independent_jobs_may_run_concurrently": true,
     "reserve_nvidia_during_owner_playtests": true,

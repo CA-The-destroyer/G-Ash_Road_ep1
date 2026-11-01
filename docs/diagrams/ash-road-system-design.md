@@ -1,6 +1,6 @@
 # Advanced Custom Game Dev System Design
 
-Updated 31 October 2026. Journey46/schema47 is promoted; Journey45 is rollback. AR-P02 independent equipment visuals is active. The owner recruited ADAMS-TH as an optional second PC; source candidates and Lab trials retain their separate acceptance states.
+Updated 31 October 2026. Journey46/schema47 is promoted; Journey45 is rollback. AR-P02 independent equipment visuals is active. The owner recruited secondary worker PC as an optional second PC; source candidates and Lab trials retain their separate acceptance states.
 
 ```mermaid
 flowchart TB
@@ -8,7 +8,7 @@ flowchart TB
     D --> V["Qwen3-TTS / VoiceForge"]
     A --> B["Blender + Python asset pipelines"]
     B --> workerPacket["Reviewed lightweight job packet"]
-    workerPacket --> remoteWorker["Second PC ADAMS-TH: Blender 4.1.1, two CPU threads"]
+    workerPacket --> remoteWorker["Second PC secondary worker PC: Blender 4.1.1, two CPU threads"]
     remoteWorker --> candidateReview["Hash-checked LOD / UV / export candidates"]
     candidateReview --> L
     B --> L["Reviewed content library + engine intake"]
@@ -62,7 +62,7 @@ Chaos Cloth/Dataflow cape trials retain separate Lab acceptance. Native retarget
 - CPU: authoring, exports, audio processing, custom gameplay/persistence, builds and selected render jobs. Qwen 1.7B uses the documented CPU route; 0.6B can use GPU when admitted.
 - Hosted image generation: provider-managed compute.
 
-The owner recruited a second PC, **ADAMS-TH**, to help production. The main workstation remains primary: NVIDIA first, local AMD second, then ADAMS-TH for compatible jobs. Independent useful jobs can run concurrently; owner playtesting reserves NVIDIA. ADAMS-TH uses approved portable **Blender 4.1.1**, lightweight CPU work and at most **two threads**. Two hash-verified plate LOD source candidates have returned; native LOD admission and measured runtime savings remain open. Its Radeon HD 7800 Series is separate from the main PC's AMD adapter and has no admitted GPU/inference workload. The existing Linux CPU worker remains an adjunct. The second PC is optional; one controller owns Unreal imports, builds and promotion.
+The owner recruited a **secondary worker PC** to help production. The main workstation remains primary: NVIDIA first, local AMD second, then secondary worker PC for compatible jobs. Independent useful jobs can run concurrently; owner playtesting reserves NVIDIA. secondary worker PC uses approved portable **Blender 4.1.1**, lightweight CPU work and at most **two threads**. Two hash-verified plate LOD source candidates have returned; native LOD admission and measured runtime savings remain open. Its Radeon HD 7800 Series is separate from the main PC's AMD adapter and has no admitted GPU/inference workload. The existing Linux CPU worker remains an adjunct. The second PC is optional; one controller owns Unreal imports, builds and promotion.
 
 [Compute roles and worker handoff](../compute-resources.md).
 

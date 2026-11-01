@@ -84,7 +84,7 @@ text(100, 199, "Unreal + Blender + AI  /  owner-recruited second PC  /  31 Octob
 
 panel(100, 300, 530, 210, "NVIDIA RTX 4060 Ti", "8 GB shared VRAM\nCUDA AI + scheduled rendering")
 panel(660, 300, 530, 210, "LOCAL AMD RADEON", "Unreal source / packaged views\nHIP asset rendering")
-panel(1220, 300, 530, 210, "SECOND PC: ADAMS-TH", "Blender 4.1.1 / two CPU threads\nOwner-recruited LOD helper")
+panel(1220, 300, 530, 210, "SECONDARY WORKER PC", "Blender 4.1.1 / two CPU threads\nOwner-recruited LOD helper")
 panel(1780, 300, 520, 210, "CPU + HOSTED AI", "Local / Linux CPU work\nProvider image generation")
 
 panel(100, 570, 2200, 130, "YOUR CREATIVE DIRECTION", "World, characters, equipment, art references, quests and game rules", True)
@@ -95,7 +95,7 @@ arrow([(1200, 1060), (1200, 1160)])
 arrow([(1975, 1060), (1975, 1160)])
 
 panel(100, 790, 700, 270, "IMAGE AI + TRELLIS / LOCALMESH", "Hosted reference images → local 3D candidates.\nTRELLIS.2, DINOv3, PyTorch + CUDA.\nNVIDIA GPU inference.", accent=True)
-panel(850, 790, 700, 270, "BLENDER + PYTHON PIPELINES", "Models, rigs, portable PBR and retained UVs.\nADAMS-TH: optional LOD / UV / export jobs.\nHash review before controller-owned intake.", accent=True)
+panel(850, 790, 700, 270, "BLENDER + PYTHON PIPELINES", "Models, rigs, portable PBR and retained UVs.\nWorker PC: optional LOD / UV / export jobs.\nHash review before controller-owned intake.", accent=True)
 panel(1600, 790, 700, 270, "QWEN3-TTS / VOICEFORGE", "Voice profiles and dialogue → FFmpeg audio.\n0.6B: GPU when admitted; 1.7B: CPU.\nApproved takes, subtitles and manifests.", accent=True)
 panel(100, 1160, 2200, 170, "SHARED CONTENT LIBRARY & ENGINE INTAKE", "Models, animation, textures, icons and audio with stable IDs and provenance. Visual/audio review, optimization, native import and per-asset acceptance.")
 arrow([(1200, 1330), (1200, 1420)])
@@ -144,7 +144,7 @@ caption_x = (2400 - caption_width) / 2
 draw.rectangle((caption_x - 20, 3074, caption_x + caption_width + 20, 3124), fill="#F5F7FB")
 text(caption_x, 3080, caption, 29, "#57708E")
 panel(100, 3160, 2200, 140, "THE ASH ROAD — PLAYABLE COOPERATIVE RPG", "Cooked release, functional source previews and prepared content retain separate acceptance states.", True)
-text(100, 3340, "Priority: NVIDIA → local AMD → ADAMS-TH. Independent compatible jobs may run concurrently.", 28)
+text(100, 3340, "Priority: NVIDIA → local AMD → worker PC. Independent compatible jobs may run concurrently.", 28)
 text(100, 3382, "Two worker LOD candidates returned; native admission open. Owner playtests reserve NVIDIA; no pooled VRAM.", 28)
 
 image.save(OUTPUT, optimize=True, dpi=(180, 180))
@@ -168,7 +168,7 @@ panel(100, 795, 700, 370, "BLENDER & CONTENT", "Topology, UV maps, portable PBR,
 panel(850, 795, 700, 370, "UNREAL & GAMEPLAY", "Actors, Slate UI, physics and motion.\nReplication and server validation.\nSQLite transactions and persistence.\nReconnect and duplicate prevention.\nPreserve quest/item/save authority.", accent=True)
 panel(1600, 795, 700, 370, "AI & PRODUCTION TOOLS", "TRELLIS / PyTorch / CUDA, Qwen TTS.\nPython / PowerShell automation.\nGPU memory and device scheduling.\nProvenance, logs and recovery.\nReview generated candidates.", accent=True)
 arrow([(1950, 1165), (1950, 1250)])
-panel(100, 1250, 2200, 260, "SECOND-PC ORCHESTRATION — OWNER-RECRUITED ADAMS-TH", "SSH / PowerShell job packets, compatible Blender 4.1.1 and a two-thread CPU limit.\nPersisted status, deadlines and SHA256/size-checked retrieval; preserve UVs and source identity.\nTwo LOD candidates returned. Geometry/material review and native acceptance remain separate.\nSchedule NVIDIA → local AMD → ADAMS-TH; protect owner playtests and the shared Unreal/build slot.", accent=True)
+panel(100, 1250, 2200, 260, "SECOND-PC ORCHESTRATION — OWNER-RECRUITED WORKER", "SSH / PowerShell job packets, compatible Blender 4.1.1 and a two-thread CPU limit.\nPersisted status, deadlines and SHA256/size-checked retrieval; preserve UVs and source identity.\nTwo LOD candidates returned. Geometry/material review and native acceptance remain separate.\nSchedule NVIDIA → local AMD → worker PC; protect owner playtests and the shared Unreal/build slot.", accent=True)
 arrow([(450, 1165), (450, 1205), (65, 1205), (65, 1570), (450, 1570), (450, 1640)])
 arrow([(1200, 1165), (1200, 1210), (2340, 1210), (2340, 1570), (1950, 1570), (1950, 1640)])
 arrow([(1200, 1510), (1200, 1640)])
