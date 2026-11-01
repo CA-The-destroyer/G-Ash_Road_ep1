@@ -1,5 +1,44 @@
 # The Ash Road — project log
 
+## 2026-10-31 — Slimmer bracers and parallel equipment-source production
+
+The owner's additional bracer art pass reduced maximum plate width from121.8
+to107.4mm, with individual reductions of11.8–17.0%, preserving the long design,
+original glove, artwork UVs and material maps. A measured local envelope
+replaced excess global allowance. Actual matched NVIDIA front views and an AMD
+rear view were reviewed. Source export/UV checks pass; sampled clearance is
+reported honestly, with native moving fit and final-art likeness still separate.
+
+The three glove appearance looks now have a native-saved counterpart for the
+second checked Human profile. Twenty small material packages were saved and
+hash-staged, reusing the existing counterpart bank, textures, meshes and fitted
+geometry. Different actual material-slot layouts were preserved rather than
+assumed compatible. Ordinary item/appearance assignment remains unfinished.
+
+New original open-face iron-helmet art preceded construction. One corrected
+helmet source now has practical reviewed shape/material progress and retained
+UV/export/rest-clearance proof. The separate profile counterpart remains held
+after actual contact/projection failures; it is not admitted as a usable fit.
+Its exact assembled-head readback is retained for future work. The existing
+read-only Lab observer was extended only to that exact runtime asset; no head,
+body or descriptor was edited. An optional secondary-worker boot LOD job was
+also held after a protected UV seam changed. Original sources remain unchanged;
+neither failed experiment was promoted or repeatedly tuned.
+
+Three workers handled independent asset lanes, with one coordinator serializing
+native operations. Methods/tools: canonical Blender, NVIDIA CUDA and AMD HIP,
+the existing lightweight two-thread CPU worker, typed shared weapon-style
+materials, measured source geometry, retained UV-layout images, guarded FBX
+readback, installed Unreal5.8.3 editor APIs and one isolated Lab build. Existing
+fit/pose/gameplay proofs were reused; no broad campaign or UAT replay was added.
+
+Journey47/schema47 remains current. No new release package, game-stat change,
+owner-save migration or class ensemble is claimed; wardrobe remains2/24.
+Detailed outcomes and source/native/runtime gaps: docs/equipment48-source-batch.md.
+Actual created/modified files and retained attempts:
+tools/prepared/modular48-root-a01/CHANGED-FILES.md. Only this narrative log is
+published; art, native assets, build payloads, saves and credentials stay local.
+
 ## 2026-10-31 — Journey47 released: independent equipment and four worn-iron plates
 
 Journey47 (`0.21.0-preview12-playtest47`, schema47) is built, focused-checked and
