@@ -1,5 +1,50 @@
 # The Ash Road — project log
 
+## 2026-11-01 — Independent forearm-guard gameplay slice checked in source
+
+The next source candidate49 adds a real single left iron forearm guard in the
+existing hands slot. It has explicit authored condition-scaled protection,
+weight, prices, finite vendor stock and a seeded substitution on an existing
+eligible carried-armor opportunity. Existing saved rolls, stock depletion,
+ownership, comparison, equipment and collection authorities remain. No save
+schema, new RPC or separate inventory system is introduced.
+
+The two current Human profiles have independent fitted guard routes that retain
+the bare hand. Approved artwork UVs,37 source parts and shared worn metal/leather
+materials are preserved. The additional target uses its own verified reference
+frame. Its native Save and sampled movement views passed. The inventory
+icon isolates the actual guard, and the dropped model uses the same centered
+geometry with separately owned simple collision and explicit mass.
+
+The combined Unreal source build passed. Both actual normal collect/equip,
+glove-swap, drop/settle and recollection checks passed in fresh private sessions,
+with the actual inventory images reviewed. All26 encounter-loot cases also
+passed: the existing compiled Core library was reused, compiling only the test
+driver. A test quantity accumulator was widened without changing assertions or
+runtime behavior. Unchanged frontend/campaign proof was not repeated.
+
+Early imports/preflights caught automatic triangle removal and receipt metadata
+formatting differences. Source geometry was preserved and the existing exact
+native checks were retained. Failed attempts remain in local evidence. Sampled
+views and gameplay resource checks are practical acceptance, not exhaustive
+motion coverage or finished close-detail art. Class-wardrobe coverage stays2/24.
+
+Journey48 remains the promoted playable release with Journey47 rollback and
+existing owner state preserved. Candidate49 is source-checked, not packaged or
+released. A common-footwear native caller is prepared separately; it does not
+establish new footwear or additional target compatibility.
+
+The hosted art collection was also renamed Ash Road Compendium, with supporting
+copy updated and nine equipment previews added. It now has244 entries and49
+unchanged interactive models, with released items and production studies labeled
+separately. Its existing address and access settings are retained.
+
+Methods continue to reuse modular C++, the existing Unreal5.8 native Outfit and
+equipment paths, Blender/Python source construction and retained UV diagrams.
+CPU produced the actual guard icon; AMD handled independent source views while
+NVIDIA handled the serialized native and gameplay checks. Bounded agents split
+item authority, counterpart fitting and integration/check preparation.
+
 ## 2026-11-01 — Journey48 playable equipment delivery and reusable source batch
 
 Journey48 (`0.21.0-preview12-playtest48`) is promoted as the normal playable
