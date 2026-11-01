@@ -1,5 +1,23 @@
 # The Ash Road — project log
 
+## 2026-11-01 — Common footwear prototype saves and reloads
+
+The common-workwear footwear prototype now passes actual native Save and fresh
+Cold readback on AMD. All 20,916 source triangles, three UV channels and material
+routes remain exact. Thirty-two authored corner UVs are restored; fourteen had
+real float32 changes below the editor helper's earlier tolerance. A narrow
+exact-comparison correction, including a stricter preimage check, passed one
+CPU-only Lab helper build. Existing safety and post-commit checks remain.
+
+Fourteen new Lab packages are isolated in the prototype namespace. Protected
+original content and Main game assets are unchanged. The retained failed attempt
+saved nothing. Actual ankle/toe motion, connected details, body coverage, sole
+contact and native material appearance remain separate acceptance work; this is
+not a playable footwear rollout. Existing class armor boots remain distinct.
+Parallel source production reuses the separately fitted counterpart rather than
+scaling another body family. The owner playtest retains NVIDIA; work uses AMD
+and CPU. Journey48 remains current and class-wardrobe coverage stays 2/24.
+
 ## 2026-11-01 — Current playtest launcher repaired
 
 An owner launch exposed a release-script dependency mismatch: the current title
