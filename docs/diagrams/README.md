@@ -14,7 +14,7 @@ For the latest release state, project size and technology summary, see the [proj
 
 The Ash Road's production tools, Unreal technology stack, compute split, and the skills that connect them.
 
-The systems overview is updated through **28 October 2026**. The skills graph remains the 25 October capability map. Cooked releases, functional source previews and Lab experiments have separate acceptance states. See the [project log](../../PROJECT_LOG.md) for development milestones.
+The architecture and skills graphs are updated through **31 October 2026**, including the owner-recruited ADAMS-TH PC. The development-history flow retains its **30 October snapshot**. [Compute roles and limits](../compute-resources.md). Cooked, source and candidate states remain separate.
 
 | Page | View full-size PNG | Text and editable Mermaid graph |
 | --- | --- | --- |
@@ -31,6 +31,13 @@ The systems overview is updated through **28 October 2026**. The skills graph re
 
 ## Source and scope
 
-[render_system_design.py](render_system_design.py) recreates page 1 with Python, Pillow and the existing Windows Segoe UI fonts. Page 2 is supplied as a PNG and an editable Mermaid graph in its text document. The repository does not redistribute fonts.
+[render_system_design.py](render_system_design.py) recreates page 1 with Python, Pillow and the existing Windows Segoe UI fonts. The same renderer also recreates page 2; both have editable Mermaid in their explanations. The repository does not redistribute fonts.
 
-The local evidence paths in the architecture explanation identify the development workspace. Those source/evidence files are not included in this documentation-only publication. AMD now has verified Unreal NPC-preview and native-diagnostic use. Three modern NPC profiles have a functional source preview; clothing simulation, retargeted action candidates, unfinished art and broader validation retain their stated limits.
+The local evidence paths in the architecture explanation identify the development workspace. Those source/evidence files are not included in this documentation-only publication. The main AMD adapter has verified Unreal source/packaged views and Blender HIP authoring. NVIDIA, local AMD and the owner-recruited ADAMS-TH have distinct roles. Clothing simulation trials, source equipment/LOD candidates and broader validation retain separate limits.
+
+
+## Owner-recruited second PC
+
+The owner recruited a second PC, **ADAMS-TH**, to help production. The main workstation remains primary: NVIDIA first, local AMD second, then ADAMS-TH for compatible jobs. Independent useful jobs can run concurrently; owner playtesting reserves NVIDIA. ADAMS-TH uses approved portable **Blender 4.1.1**, lightweight CPU work and at most **two threads**. Two hash-verified plate LOD source candidates have returned; native LOD admission and measured runtime savings remain open. Its Radeon HD 7800 Series is separate from the main PC's AMD adapter and has no admitted GPU/inference workload. The existing Linux CPU worker remains an adjunct. The second PC is optional; one controller owns Unreal imports, builds and promotion.
+
+[Compute resources and responsibilities](../compute-resources.md).

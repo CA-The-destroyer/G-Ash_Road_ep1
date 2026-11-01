@@ -80,12 +80,12 @@ def arrow(points, dashed=False):
 
 text(100, 65, "THE ASH ROAD  /  SYSTEM OVERVIEW", 26, "#57708E", True)
 text(100, 108, "Advanced Custom Game Dev System Design", 64, "#172B48", True)
-text(100, 199, "Expanded Unreal technology stack  /  28 October 2026", 32)
+text(100, 199, "Unreal + Blender + AI  /  owner-recruited second PC  /  31 October 2026", 32)
 
 panel(100, 300, 530, 210, "NVIDIA RTX 4060 Ti", "8 GB shared VRAM\nCUDA AI + scheduled rendering")
-panel(660, 300, 530, 210, "AMD RADEON GRAPHICS", "Verified Unreal NPC previews\nNative diagnostics / fallback")
-panel(1220, 300, 530, 210, "CPU PROCESSING", "Authoring, audio, rules,\nsaves, builds and exports")
-panel(1780, 300, 520, 210, "HOSTED AI", "Image generation on\nprovider-managed compute")
+panel(660, 300, 530, 210, "LOCAL AMD RADEON", "Unreal source / packaged views\nHIP asset rendering")
+panel(1220, 300, 530, 210, "SECOND PC: ADAMS-TH", "Blender 4.1.1 / two CPU threads\nOwner-recruited LOD helper")
+panel(1780, 300, 520, 210, "CPU + HOSTED AI", "Local / Linux CPU work\nProvider image generation")
 
 panel(100, 570, 2200, 130, "YOUR CREATIVE DIRECTION", "World, characters, equipment, art references, quests and game rules", True)
 arrow([(425, 700), (425, 790)])
@@ -95,7 +95,7 @@ arrow([(1200, 1060), (1200, 1160)])
 arrow([(1975, 1060), (1975, 1160)])
 
 panel(100, 790, 700, 270, "IMAGE AI + TRELLIS / LOCALMESH", "Hosted reference images → local 3D candidates.\nTRELLIS.2, DINOv3, PyTorch + CUDA.\nNVIDIA GPU inference.", accent=True)
-panel(850, 790, 700, 270, "BLENDER + PYTHON PIPELINES", "Models, rigs and portable PBR materials.\nPreserved UVs + UV-layout image exports.\nManifests, source readback and validation.", accent=True)
+panel(850, 790, 700, 270, "BLENDER + PYTHON PIPELINES", "Models, rigs, portable PBR and retained UVs.\nADAMS-TH: optional LOD / UV / export jobs.\nHash review before controller-owned intake.", accent=True)
 panel(1600, 790, 700, 270, "QWEN3-TTS / VOICEFORGE", "Voice profiles and dialogue → FFmpeg audio.\n0.6B: GPU when admitted; 1.7B: CPU.\nApproved takes, subtitles and manifests.", accent=True)
 panel(100, 1160, 2200, 170, "SHARED CONTENT LIBRARY & ENGINE INTAKE", "Models, animation, textures, icons and audio with stable IDs and provenance. Visual/audio review, optimization, native import and per-asset acceptance.")
 arrow([(1200, 1330), (1200, 1420)])
@@ -117,12 +117,12 @@ for x, y, title, body in cards:
     panel(x, y, 700, 300, title, body, accent=True)
 
 draw.rounded_rectangle((100, 2310, 2300, 2600), radius=22, fill="#F6EFE0", outline="#D7C49D", width=2)
-text(132, 2335, "METAHUMAN + NATIVE CLOTHING — SOURCE PREVIEW / LAB", 34, "#69532B", True)
+text(132, 2335, "METAHUMAN + NATIVE CLOTHING — RELEASE / SOURCE / LAB", 34, "#69532B", True)
 pilot = [
-    "MetaHuman assemblies, DNA/RigLogic and profile Data Assets: three NPCs have functional source previews.",
-    "Epic Outfit resizing preserves source geometry, skin weights, UVs and exportable material routes.",
-    "Chaos Cloth + Dataflow cape trials and native IK-retargeted action candidates remain bounded Lab work.",
-    "Journey40 is the cooked master. Final art, broader combat/crowd acceptance and creator sliders remain open.",
+    "MetaHuman / DNA / RigLogic, groom bindings, profile Data Assets and native animation banks.",
+    "Epic Outfit and fitted modular garments preserve skin weights, UVs and portable PBR material routes.",
+    "Journey46/schema47 promoted; Journey45 rollback. Independent equipment visuals are active AR-P02 work.",
+    "Source-only equipment/LOD candidates, Cloth/Dataflow trials and real EOS/WAN retain separate gates.",
 ]
 y = 2395
 for paragraph in pilot:
@@ -144,10 +144,41 @@ caption_x = (2400 - caption_width) / 2
 draw.rectangle((caption_x - 20, 3074, caption_x + caption_width + 20, 3124), fill="#F5F7FB")
 text(caption_x, 3080, caption, 29, "#57708E")
 panel(100, 3160, 2200, 140, "THE ASH ROAD — PLAYABLE COOPERATIVE RPG", "Cooked release, functional source previews and prepared content retain separate acceptance states.", True)
-text(100, 3354, "NVIDIA and AMD jobs are coordinated; verified use does not imply pooled VRAM or concurrent rendering.", 28)
+text(100, 3340, "Priority: NVIDIA → local AMD → ADAMS-TH. Independent compatible jobs may run concurrently.", 28)
+text(100, 3382, "Two worker LOD candidates returned; native admission open. Owner playtests reserve NVIDIA; no pooled VRAM.", 28)
 
 image.save(OUTPUT, optimize=True, dpi=(180, 180))
 with Image.open(OUTPUT) as check:
     check.verify()
 print(OUTPUT)
 print("2400 x 3440 PNG; all panel text bounds checked")
+
+# Recreate page 2 from drawing primitives rather than editing a prior bitmap.
+image = Image.new("RGB", (2400, 2400), "#F5F7FB")
+draw = ImageDraw.Draw(image)
+text(100, 70, "THE ASH ROAD  /  SKILLS & EXPERIENCE", 28, "#57708E", True)
+text(100, 125, "Advanced Custom Game Dev System Design", 64, "#172B48", True)
+text(100, 222, "Page 2  /  capabilities supporting the system  /  31 October 2026", 32)
+panel(100, 315, 2200, 150, "GAME DESIGN & CREATIVE DIRECTION", "Worldbuilding, art references, quests, combat, progression, economy and usable interfaces.", True)
+arrow([(1200, 465), (1200, 535)])
+panel(100, 535, 2200, 170, "SYSTEMS ARCHITECTURE & PROGRAMMING", "C++20 / Python, authority boundaries, stable identities, data contracts, debugging and dependency control.", accent=True)
+for x in [450, 1200, 1950]:
+    arrow([(x, 705), (x, 795)])
+panel(100, 795, 700, 370, "BLENDER & CONTENT", "Topology, UV maps, portable PBR,\nrigs, weights and retargeting.\nAnimation, equipment attachments,\nvoice direction and audio mastering.\nReview actual exports and engine fit.", accent=True)
+panel(850, 795, 700, 370, "UNREAL & GAMEPLAY", "Actors, Slate UI, physics and motion.\nReplication and server validation.\nSQLite transactions and persistence.\nReconnect and duplicate prevention.\nPreserve quest/item/save authority.", accent=True)
+panel(1600, 795, 700, 370, "AI & PRODUCTION TOOLS", "TRELLIS / PyTorch / CUDA, Qwen TTS.\nPython / PowerShell automation.\nGPU memory and device scheduling.\nProvenance, logs and recovery.\nReview generated candidates.", accent=True)
+arrow([(1950, 1165), (1950, 1250)])
+panel(100, 1250, 2200, 260, "SECOND-PC ORCHESTRATION — OWNER-RECRUITED ADAMS-TH", "SSH / PowerShell job packets, compatible Blender 4.1.1 and a two-thread CPU limit.\nPersisted status, deadlines and SHA256/size-checked retrieval; preserve UVs and source identity.\nTwo LOD candidates returned. Geometry/material review and native acceptance remain separate.\nSchedule NVIDIA → local AMD → ADAMS-TH; protect owner playtests and the shared Unreal/build slot.", accent=True)
+arrow([(450, 1165), (450, 1205), (65, 1205), (65, 1570), (450, 1570), (450, 1640)])
+arrow([(1200, 1165), (1200, 1210), (2340, 1210), (2340, 1570), (1950, 1570), (1950, 1640)])
+arrow([(1200, 1510), (1200, 1640)])
+panel(100, 1640, 2200, 210, "QA, PROFILING & INTEGRATION ACCEPTANCE", "Select focused Core / native / rendered / packaged checks. Reuse evidence for unchanged dependencies.\nInspect actual output and resource use; preserve failures and distinguish candidate, integrated and released work.", True)
+arrow([(1200, 1850), (1200, 1940)])
+panel(100, 1940, 2200, 220, "INFRASTRUCTURE, BUILDS, RELEASES & RECOVERY", "Windows / Linux, Docker / SSH, Git, isolated environments, CMake and Unreal UBT / UHT / UAT.\nReproducible delivery, source history, reviewed publication, backups and rollback.\nOne controller owns Unreal imports/builds; optional workers do not become mandatory dependencies.", accent=True)
+text(100, 2230, "Practical depth can be shared across people and tools. This graph maps responsibilities, not personal credentials.", 28)
+OUTPUT = OUTPUT.with_name("ash-road-system-design-page-2-skills.png")
+image.save(OUTPUT, optimize=True, dpi=(180, 180))
+with Image.open(OUTPUT) as check:
+    check.verify()
+print(OUTPUT)
+print("2400 x 2400 PNG; all panel text bounds checked")

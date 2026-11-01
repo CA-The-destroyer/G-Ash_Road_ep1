@@ -7,9 +7,9 @@ System design and development notes for an original cooperative RPG built with U
 
 ![The Ash Road current status](docs/status/project-status.png)
 
-**Journey44 is promoted; Journey43 is rollback.** Native direct-IP Host/Join passed one actual local packaged host/client pair with2 players/2 pawns and no client campaign database. Internet reachability remains unverified.
+**Journey46/schema47 is promoted; Journey45 is rollback.** AR-P02 independent equipment visuals is active. Real EOS/WAN acceptance remains open. The status image and scale figures retain their dated 30 October measurement snapshot.
 
-**320.46GB · 1,240,107 files · 142,021 code-only lines across 1,673 active source files.** The fresh inventory records 721 active Markdown documents and 12 separate local SKILL.md definitions. Workspace figures include archived/generated copies.
+**320.46GB · 1,240,107 files · 142,021 code-only lines across 1,673 active source files.** The 30 October inventory records 721 active Markdown documents and 12 separate local SKILL.md definitions. Workspace figures include archived/generated copies.
 
 [Full status and scale](docs/status/README.md) · [Copy-ready summary](docs/status/teams-summary.txt) · [Exact measurement data](docs/status/project-scale.json)
 <!-- project-status:end -->
@@ -17,7 +17,7 @@ System design and development notes for an original cooperative RPG built with U
 <!-- outstanding-register:start -->
 ## Outstanding work
 
-**125 outstanding owner records:** 47 feature families, 61 debug/triage records and 17 changes/gates. Optional ideas and scoped closures are separate. Current priorities: weapon-family motion, shared NPC activities, villager wardrobe and remaining families.
+**125 outstanding owner records:** 47 feature families, 61 debug/triage records and 17 changes/gates. Optional ideas and scoped closures are separate. Current priority: AR-P02 independent equipment visuals, following delivered AR-P01 loot/comparison and the approved milestone order.
 
 [Open the numbered work register](docs/backlog/README.md).
 <!-- outstanding-register:end -->
@@ -25,7 +25,7 @@ System design and development notes for an original cooperative RPG built with U
 <!-- source-history:start -->
 ## Development history
 
-**1,060 local source commits + 102 documentation commits = 1,162 distinct recorded commits across both histories.** The 612 current-HEAD source commits are included within the 1,060.
+**At the 30 October audited snapshot: 1,060 local source commits + 102 documentation commits = 1,162 distinct recorded commits across both histories.** The 612 current-HEAD source commits are included within the 1,060.
 
 [Source ledger and combined statistics](docs/history/README.md) · [Development flow diagram](docs/diagrams/development-history-flow.md). Pull requests: **0**; documentation uses direct selected-file publication to main.
 <!-- source-history:end -->
@@ -42,3 +42,9 @@ The [dedicated systems-diagrams section](docs/diagrams/README.md) contains the a
 ## Development log
 
 Read the [project log](PROJECT_LOG.md) for development milestones, release status and validation limits. Diagrams are dated snapshots; prepared or isolated work is not automatically part of a playable release.
+
+## Owner-recruited second PC
+
+The owner recruited a second PC, **ADAMS-TH**, to help production. The main workstation remains primary: NVIDIA first, local AMD second, then ADAMS-TH for compatible jobs. Independent useful jobs can run concurrently; owner playtesting reserves NVIDIA. ADAMS-TH uses approved portable **Blender 4.1.1**, lightweight CPU work and at most **two threads**. Two hash-verified plate LOD source candidates have returned; native LOD admission and measured runtime savings remain open. Its Radeon HD 7800 Series is separate from the main PC's AMD adapter and has no admitted GPU/inference workload. The existing Linux CPU worker remains an adjunct. The second PC is optional; one controller owns Unreal imports, builds and promotion.
+
+[Compute resources and handoff](docs/compute-resources.md).

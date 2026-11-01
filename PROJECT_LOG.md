@@ -1,10 +1,16 @@
 # The Ash Road — project log
 
+## 2026-10-31 — Owner-recruited second PC joins production
+
+The owner recruited a second PC, **ADAMS-TH**, to help production. The main workstation remains primary: NVIDIA first, local AMD second, then ADAMS-TH for compatible jobs. Independent useful jobs can run concurrently; owner playtesting reserves NVIDIA. ADAMS-TH uses approved portable **Blender 4.1.1**, lightweight CPU work and at most **two threads**. Two hash-verified plate LOD source candidates have returned; native LOD admission and measured runtime savings remain open. Its Radeon HD 7800 Series is separate from the main PC's AMD adapter and has no admitted GPU/inference workload. The existing Linux CPU worker remains an adjunct. The second PC is optional; one controller owns Unreal imports, builds and promotion.
+
+Updated the current summaries, framework/compute architecture and skills diagrams. Retained the 30 October storage/code/history snapshots with explicit dates; the current release is Journey46 with Journey45 rollback and AR-P02 active. [Compute resources](docs/compute-resources.md). No game build, release, import or worker job was performed by this documentation update.
+
 ## 2026-10-31 — Shared plate wear and distinct equipment finishes
 
 Corrected the starter breastplate's lower clearance on both checked Human
 profiles and completed the shared portable iron/leather binding. The canonical
-chest item remains separate from trousers, gloves, boots and headgear. Main
+torso item remains separate from trousers, gloves, boots and headgear. Main
 source build a22 and the focused two-view surface/icon check pass; unchanged
 moving-fit evidence was reused rather than replayed.
 
@@ -144,7 +150,7 @@ Repaired eligible armor pools using the existing canonical head, hand, leg and f
 
 Built and checked the existing transfer/equipment path for all four pieces, mixed slots, values, condition, restart, rollback and concurrent single-copy claims. The complete affected Encounter suite passes17 cases; bandit authority, resource balance and starter-preservation checks also pass. Stale test assumptions about schema, consumable windows and food weight were corrected without changing those runtime rules.
 
-Added read-only same-slot comparisons to inventory and storage details using current item/stat/value authorities. The actual source Editor builds. A fresh ordinary-input inventory check shows a selected5% chest against a worn6% chest, an empty hand slot and equipped-item details; the images were reviewed. Storage's exact selected-armor footer view remains open. Damage/effect comparisons, use-level bands and complete independent appearance are separate unfinished outcomes.
+Added read-only same-slot comparisons to inventory and storage details using current item/stat/value authorities. The actual source Editor builds. A fresh ordinary-input inventory check shows a selected5% torso against a worn6% torso, an empty hand slot and equipped-item details; the images were reviewed. Storage's exact selected-armor footer view remains open. Damage/effect comparisons, use-level bands and complete independent appearance are separate unfinished outcomes.
 
 Adopted the owner-approved audit-driven delivery order. Existing item, inventory, economy and persistence systems stay in use. AR-P01 delivers this coherent checked slice; AR-P02 separates actual modular equipment and item families; AR-P03 closes remaining loot contracts. The existing register retains156 records and125 outstanding owners. Online-service provisioning is an explicit external dependency, and the larger wardrobe remains2/24 admitted ensembles.
 
@@ -190,7 +196,7 @@ Refined the existing character creator with clearer hero and step headings, dark
 
 Corrected Mara's normal-play routing to the existing modern Human Ranger presentation. The exact source build passed, followed by a fresh actual Journey ListenHost check: original actor and stable identity, visible fitted outfit and linen material, advancing Body/Face pose, head alignment, ordinary bound interaction and durable opening progression. Root reviewed the three captured views. The ordinary texture pool showed close-view pressure, which remains a performance limitation; no larger portrait budget or performance acceptance is claimed.
 
-Journey45 remains the playable release; these are next-build source changes, not a new packaged release. Two of the twenty-four Human class ensembles are currently admitted. Existing base clothes do not count as finished class outfits. Parallel workers are preparing the missing fitted garment inputs while root owns native integration. The male Ranger source probe passed without asset changes; resize and appearance/motion admission remain separate.
+Journey45 remains the playable release; these are next-build source changes, not a new packaged release. Two of the twenty-four Human class ensembles are currently admitted. Existing base clothes do not count as finished class outfits. Parallel workers are preparing the missing fitted garment inputs while root owns native integration. The character Ranger source probe passed without asset changes; resize and appearance/motion admission remain separate.
 
 Methods/tools: installed Unreal5.8.3, modular native C++ HUD/presentation adapters, shared layout geometry, bounded UnrealBuildTool compilation, private ListenHost campaign, normal-input checks, actual saved-state readback, rendered review, and retained UV/material provenance. Prior unchanged campaign and movement checks were reused; no broad campaign replay was added.
 

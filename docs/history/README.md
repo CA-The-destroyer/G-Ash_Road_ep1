@@ -1,5 +1,7 @@
 # Development history and combined statistics
 
+**Historical 30 October snapshot:** graph release labels and commit totals below are retained audit values. Current delivery is Journey46/45; the owner-recruited second PC is described in [current compute notes](../compute-resources.md).
+
 **30 October 2026 · Local source Git and GitHub publication history**
 
 ![Development history and publication flow](../diagrams/development-history-flow.png)

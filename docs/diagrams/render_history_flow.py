@@ -115,6 +115,8 @@ mmd = f'''flowchart LR
 (HERE / "development-history-flow.mmd").write_text(mmd, encoding="utf-8", newline="\n")
 (HERE / "development-history-flow.md").write_text('''# Development history and publication flow
 
+**Historical 30 October snapshot:** graph release labels and commit totals below are retained audit values. Current delivery is Journey46/45; the owner-recruited second PC is described in [current compute notes](../compute-resources.md).
+
 ![The Ash Road development history and publication flow](development-history-flow.png)
 
 [History and combined statistics](../history/README.md) · [PNG](development-history-flow.png) · [SVG](development-history-flow.svg) · [Mermaid source](development-history-flow.mmd)

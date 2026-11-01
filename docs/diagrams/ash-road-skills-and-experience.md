@@ -2,7 +2,7 @@
 
 ## Page 2 — Skills and experience as a relationship graph
 
-Updated 25 October 2026. This describes the capabilities involved in the production system. Practical depth can be shared across people and tools.
+Updated 31 October 2026. This describes the capabilities involved in the production system. Practical depth can be shared across people and tools.
 
 ```mermaid
 flowchart TB
@@ -12,6 +12,8 @@ flowchart TB
     A --> TOOLS["Production tooling: AI compute, automation and reverse engineering"]
     ART --> Q["QA, performance profiling and integration acceptance"]
     GAME --> Q
+    TOOLS --> remoteJobs["Second-PC orchestration: SSH, bounded CPU jobs and hash-checked retrieval"]
+    remoteJobs --> Q
     TOOLS --> Q
     Q --> R["Infrastructure, builds, releases and recovery"]
 ```
@@ -32,6 +34,7 @@ The arrows show how responsibilities combine toward delivery. They are not a str
 | Voice and audio production | Voice identity, acting direction, critical listening, FFmpeg editing/mastering, formats, subtitles and spatial sound. | Prepare consistent performances and verify timing, intelligibility and game-event routing. |
 | Automation and studio applications | Python, PowerShell, JSON manifests, React/TypeScript, FastAPI, queues, validation, logs and recovery. | Make repeated production jobs traceable, resumable and usable by their operator. |
 | Reverse engineering and content data | Archive/plugin/binary formats, Papyrus recovery, behavior reconstruction, conversion, hashes and provenance. | Distinguish recovered evidence from inference, then verify the new implementation. |
+| Remote worker orchestration | PowerShell/SSH, isolated job packets, CPU/version compatibility, two-thread limits, persisted status and SHA256 retrieval. | Use the owner-recruited ADAMS-TH for lightweight Blender 4.1.1 jobs; distinguish returned candidates from native admission. |
 | Infrastructure and releases | Windows/Linux, Docker, SSH, Git, isolated environments, CMake, Unreal build/cook/package tools, backups and rollback. | Deliver reproducible builds while protecting working assets, credentials and saved campaigns. |
 | QA, profiling and integration | Core tests, fixtures, native/rendered/packaged checks, restart/reconnect coverage and CPU/GPU measurement. | Select meaningful checks, preserve failures and distinguish prepared, integrated, verified and released work. |
 
@@ -40,3 +43,10 @@ The connecting capability is technical and creative judgment: define the intende
 ## Image
 
 Matching PNG: `ash-road-system-design-page-2-skills.png`.
+
+
+## Owner-recruited second PC
+
+The owner recruited a second PC, **ADAMS-TH**, to help production. The main workstation remains primary: NVIDIA first, local AMD second, then ADAMS-TH for compatible jobs. Independent useful jobs can run concurrently; owner playtesting reserves NVIDIA. ADAMS-TH uses approved portable **Blender 4.1.1**, lightweight CPU work and at most **two threads**. Two hash-verified plate LOD source candidates have returned; native LOD admission and measured runtime savings remain open. Its Radeon HD 7800 Series is separate from the main PC's AMD adapter and has no admitted GPU/inference workload. The existing Linux CPU worker remains an adjunct. The second PC is optional; one controller owns Unreal imports, builds and promotion.
+
+[Compute resources and responsibilities](../compute-resources.md).

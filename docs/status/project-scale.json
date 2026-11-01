@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-10-30",
-  "summary_updated_utc": "2026-10-30T18:49:43.399710+00:00",
+  "summary_updated_utc": "2026-11-01T00:35:09.566448+00:00",
   "started_utc": "2026-10-30T18:42:16.149717+00:00",
   "ended_utc": "2026-10-30T18:44:36.577489+00:00",
   "started_chicago": "2026-10-30T13:42:16.149717-05:00",
@@ -1632,5 +1632,36 @@
     "files": 1508,
     "code_lines": 907,
     "active_markdown": 8
+  },
+  "current_delivery": {
+    "as_of": "2026-10-31",
+    "promoted": "Journey46",
+    "rollback": "Journey45",
+    "save_schema": 47,
+    "active_objective": "AR-P02 independent equipment visuals/item families",
+    "required_cooked_packages": 4800,
+    "wan_verified": false
+  },
+  "measurement_scope_note": "Storage, code, Markdown, workflows, release and history fields retain the 30 October measured snapshot; current_delivery and compute_resources are separately dated. Worker storage/source is not counted.",
+  "compute_resources": {
+    "as_of": "2026-10-31",
+    "owner_recruited_second_pc": "ADAMS-TH",
+    "priority": [
+      "local NVIDIA",
+      "local AMD",
+      "ADAMS-TH"
+    ],
+    "independent_jobs_may_run_concurrently": true,
+    "reserve_nvidia_during_owner_playtests": true,
+    "worker_role": "Optional lightweight CPU geometry/LOD/UV/export jobs",
+    "worker_blender": "4.1.1",
+    "worker_max_cpu_threads": 2,
+    "hash_verified_lod_candidates": 2,
+    "native_lod_admission": "open",
+    "measured_runtime_savings": "unverified",
+    "worker_gpu_inference_admitted": false,
+    "required_pipeline_dependency": false,
+    "existing_linux_cpu_worker": "adjunct",
+    "details": "docs/compute-resources.md"
   }
 }

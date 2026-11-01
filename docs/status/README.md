@@ -22,7 +22,7 @@ Storage/Markdown window: **30 October 2026, 13:42–13:44 Chicago (UTC-05)**. Co
 
 Since the previous measured snapshot: **+3.00 GB**, **+1,508 file entries**, **+907 code lines** and **+8 active Markdown documents**. Scope and exclusions remain documented in the data.
 
-## Delivery status
+## Journey44 delivery snapshot — 30 October
 
 | Workstream | Current state | Evidence and limit |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ Since the previous measured snapshot: **+3.00 GB**, **+1,508 file entries**, **+
 | Direct-IP co-op | **Released local Host/Join slice** | Hero name, IPv4/UDP endpoint, failed-Join/retry and session/LAN-endpoint presentation. Both packaged peers report **2 players /2 pawns**; no client campaign database. WAN/router reachability, accounts, relays, join codes and broader group policy remain open. |
 | Inherited cast | **10 resident /6 bandit profile selectors shipped** | Five wardrobe recipes share two distinct bearded identities, plus the first additional cloth-only knife profile. Journey43's194 actual game asset additions and practical motion/death/loot proof carry forward unchanged. Profiles are not unique people/body fits or universal replacement. |
 | Motion regression | **Practical Journey43 scope closed** | Corrected source frame, target motion and grasp derivatives plus practical dressed Rusty/Iron and original-world checks accepted. Earlier failures stay held. Broader families, physical blade collision and remote feel remain separate work. |
-| Next active implementation | **Distinct weapon-family motion** | Reuse existing two-handed sword, heavy axe and blunt sources for actual ready/attack/recovery. Follow with shared interruptible NPC activities, representative villager wardrobe and remaining families. |
+| Next implementation at the snapshot | **Distinct weapon-family motion** | Reuse existing two-handed sword, heavy axe and blunt sources for actual ready/attack/recovery. Follow with shared interruptible NPC activities, representative villager wardrobe and remaining families. |
 | Retention | **44+43 retained** | Exact42 Windows payload retired after preserving60 campaign/config/crash/symbol files,924,116,282bytes. Net6,414,591,507bytes reclaimed; retained payloads rehashed unchanged. |
 
 Journey44 completed all **9,959 cooked packages**, with **4,581 required packages present**. The successful UAT retry took **164s**, including **114.42s cook**. An earlier317-action compile took710.7s before a retained command-budget failure;164s is the successful retry time, not the full cost of every attempt. Seven actual menu/creator/arrival/session views were reviewed. Unchanged cast/source proofs were reused rather than repeating broad battles or campaigns. After a successful client disconnect, reopening the launcher is required before hosting; same-process Join retry is supported.
@@ -80,14 +80,14 @@ Definition counts do not imply every workflow is loaded or used by the game.
 
 Separate: **18 scoped closures**, **8 optional/long-term records**, **3 monitoring cases**, **1 exclusion**, and **1 acceptance rollup**. Counts are tracking records at different levels, not unique finished features or a completion percentage. [Full register](../backlog/README.md) · [Structured records](../backlog/items.json).
 
-## Source and publication history
+## Source and publication history — 30 October snapshot
 
 | History | Distinct commits |
 | --- | ---: |
 | All reachable local source refs | **1,060** |
 | Current HEAD ancestry, included above | **612** |
 | Other source commits outside HEAD | **448** |
-| GitHub documentation, including this update | **102** |
+| GitHub documentation at the recorded snapshot | **102** |
 | **Combined source/documentation SHA union** | **1,162** |
 | Pull requests | **0** |
 
@@ -107,11 +107,15 @@ Full-SHA overlap was checked before combining. The source ledger is exported met
 | UI, audio and delivery | **Slate, MoviePlayer, engine spatial audio, Unreal Python, UBT/UHT/UAT, CMake, Git, Docker/SSH** | Native interfaces, loading presentation, sound routing, editor automation, builds and focused verification. |
 
 
-### Compute split
+### Current compute split — 31 October
 
 - **NVIDIA RTX4060Ti,8GB:** CUDA inference and scheduled Unreal rendering share its budget. Reserve it during owner playtests.
 - **AMD Radeon Graphics:** actual Unreal D3D12/vendor1002 source and packaged co-op views are verified. Prepared authoring also has AMD HIP render evidence; preparation is separate from native/runtime admission.
 - **CPU:** source preparation, exports, builds, persistence, audio work and verification. Hosted image generation uses provider compute. Memory is not pooled across adapters; one coordinator owns native/build work.
+
+The owner recruited a second PC, **ADAMS-TH**, to help production. The main workstation remains primary: NVIDIA first, local AMD second, then ADAMS-TH for compatible jobs. Independent useful jobs can run concurrently; owner playtesting reserves NVIDIA. ADAMS-TH uses approved portable **Blender 4.1.1**, lightweight CPU work and at most **two threads**. Two hash-verified plate LOD source candidates have returned; native LOD admission and measured runtime savings remain open. Its Radeon HD 7800 Series is separate from the main PC's AMD adapter and has no admitted GPU/inference workload. The existing Linux CPU worker remains an adjunct. The second PC is optional; one controller owns Unreal imports, builds and promotion.
+
+[Full compute responsibilities](../compute-resources.md).
 
 ## Where workspace size comes from
 
@@ -150,14 +154,6 @@ pie showData
 
 Roots are separate scopes and can include copies/hardlinks of shared content; do not sum them as unique authored assets. Other asset libraries and model caches outside these roots are excluded. Logical lengths can differ from allocated storage under compression, sparse files and hardlinks. Live file activity can change later counts. All scan roots had zero errors and reparse points were skipped.
 
-## Next delivery priorities
+## Current delivery priority
 
-1. Actual two-handed sword, heavy axe and blunt ready/attack/recovery using the corrected existing animation path.
-2. Shared interruptible cooking/fire/bench/household activities through existing schedules.
-3. Representative reference-led villager wardrobe, then remaining character families in useful bounded batches.
-
-Favor visible player benefit and reuse. Record small cosmetic gaps; keep checks for crashes, missing bodies, broken motion and real integration. This reporting update performs no game build, runtime, asset, save or cleanup operation.
-
-## Sources and snapshot scope
-
-Current release/priority comes from `CURRENT_WORK.md`, `docs/coop44-delivery.md`, `docs/cast43-delivery.md`, `docs/priority-roi44.md`, the actual44 promotion receipt and the current numbered register. Storage and source metrics come from the new separate scans. Their private evidence payloads remain local. [Exact public aggregates](project-scale.json) and the [copy-ready summary](teams-summary.txt) accompany this page.
+AR-P01 loot/comparison is delivered in Journey46. AR-P02 independent equipment visuals/item families is active; AR-P03 follows the approved milestone order. Source equipment variants and remote LOD candidates are not a new release. All-class wardrobe and real EOS/WAN acceptance remain separate work.
