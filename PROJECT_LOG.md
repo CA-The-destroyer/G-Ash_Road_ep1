@@ -1,5 +1,97 @@
 # The Ash Road — project log
 
+## 2026-11-01 — Journey49 promoted; current-plus-one retention restored
+
+Journey49 (`0.21.0-preview12-playtest49`, schema47) is promoted as the ordinary
+playable build;48 is rollback. Existing campaigns continue from their established
+45 state directory without copying, migration or rerolling rewards. The released
+slice adds the independent left forearm guard and delivers the checked Human
+Broken/Hide chest routes, Peltsmith recovery starter correction, measured Male
+underarm aliases and named combat labels described in the source milestone below.
+
+Clean UAT completes build/cook/stage/archive. Native registry readback finds all
+4,956 required cooked packages. One actual archived Human equipment job passes
+the changed bracer/Broken/Hide resource checks, with three inventory endpoints
+reviewed. Both final source target checks and unchanged frontend acceptance are
+reused. Male alias packages are verified in the actual cooked registry and frozen
+source; that archive job does not claim to instantiate the Male Waist route.
+No full campaign, second unchanged target, motion or GUI replay was added.
+
+The final launcher test initially stopped before the default switch because its
+isolated Windows PowerShell session could not resolve the hash command. A fresh
+caller explicitly initializes the installed Utility module and verifies the real
+function's provenance. All12 actual root/package Title/direct argument cases
+then pass with zero game or database creation. A strict delivery continuation
+checks every partial-copy byte, original root preimages and unchanged frozen
+source/config/assets before switching only the remaining default supervisor.
+The failed caller and partial attempt remain historical evidence; no recook or
+fictional gameplay outcome was used to close this test setup failure.
+
+Current-plus-one retention is restored after promotion and all12 argument cases.
+Old47 reproducible archive/cooked/staged/cache payloads are retired. Its original
+diagnostics and evidence remain;52 repaired loose metadata files and matching
+executables/symbols are copied and hash-verified in the project Archive. The
+second staged symbols match. Current49/rollback48 executable and marker hashes,
+and all owner45 file metadata, remain unchanged. No owner database is opened or
+copied. F has99.43GiB free afterward; logical payload totals are not presented
+as a guaranteed net disk-space gain.
+
+Class-wardrobe coverage remains2/24. Collar, first-person grips, unadmitted
+footwear/pouch/helmet prototypes, other ancestries/faces, cast expansion and
+real EOS/WAN acceptance remain explicit gaps. Source and archived views provide
+practical equipment-route proof, not finished close-detail art or every pose.
+
+Methods/tools: existing Unreal5.8.3 AutomationTool/UnrealBuildTool and native
+AssetRegistry, modular C++/Core/SQLite authorities, readonly warm filesystem
+cache with a separate writable candidate cache, private normal-input equipment
+checks, PowerShell argument interception, exact file/UV/weight preimages and
+focused rendered review. Independent agents and secondary CPU offload remain
+available while one coordinator owns local native execution and release binding.
+
+## 2026-11-01 — Combined equipment source checked for Journey49
+
+The current combined game source build passes. Both supported Human equipment
+checks pass normal collection, bracer/glove swaps, physical drop and recollection,
+then Broken Leather/Hide/Broken chest swaps. All six inventory endpoints were
+reviewed. Original pawn, other equipped slots, item condition/provenance and
+private-save authority remain intact. These are practical resource and behavior
+checks, not exhaustive motion or final close-detail art acceptance.
+
+Peltsmith's initial recovery conversation now uses canonical Broken Leather for
+its existing chest outcomes. The separate earned five-pelt weapon reward is
+unchanged. Five rebuilt-Core cases cover seed outcomes, occupied-slot stowing,
+legacy flow, replay and restart. Existing Hide armor now selects the admitted
+leather torso route for each current Human family. A separately fitted female
+Broken Leather chest retains its original geometry, weights, UVs and materials;
+only demonstrated missing tangent frames were repaired. Existing armor values,
+save schema47 and saved reward claims are preserved.
+
+The pictured common Male shirt was not intended as torn clothing. A measured
+underarm correction moves94 existing vertices on fresh default and waist
+successors, preserving every other source position and all UVs, weights,
+topology and material routes. Actual native Save and fresh Cold readback pass,
+including all94 current-source preimages and populated active tangent fields.
+The separate small collar defect remains open. Named enemies also retain their
+actual display names in combat messages.
+
+Common-boot geometry and a narrow UV1 normal-basis material successor pass native
+structural checks, but the reviewed surface still does not match the approved
+source. They remain outside the gameplay candidate. CPU comparison rules out
+the tested source/FBX UV-order and texture-payload hypotheses; measured capture
+texture residency is a specific next diagnostic, not a proven cause. Secondary
+CPU offloads ran a bracer LOD preflight and boot-weight correspondence audit.
+Both retained explicit input holds; no completed LOD, full weight mapping or
+runtime performance benefit is claimed.
+
+Methods/tools: existing modular Unreal5.8.3 C++, Core/SQLite item and reward
+authority, native fitted-mesh helpers, retained source UV layouts, bounded
+Blender/Python geometry audits, local NVIDIA/AMD work according to availability,
+and isolated two-thread portable-Blender CPU offload. One coordinator owns native
+and build execution. Source proofs are reused during package preparation;
+unchanged campaign/frontend checks are not repeated. Journey48 remains the
+promoted release with47 rollback until actual49 delivery gates pass; owner state
+stays in its established45 location. Class-wardrobe coverage remains2/24.
+
 ## 2026-11-01 — Common footwear prototype saves and reloads
 
 The common-workwear footwear prototype now passes actual native Save and fresh
