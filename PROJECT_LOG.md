@@ -1,5 +1,47 @@
 # The Ash Road — project log
 
+## 2026-11-01 — Journey48 playable equipment delivery and reusable source batch
+
+Journey48 (`0.21.0-preview12-playtest48`) is promoted as the normal playable
+build, with Journey47 retained for rollback. Existing schema47 owner state stays
+in its established Journey45 location. The release updates the canonical wooden
+and iron shields with battered/dented models, matching round inventory icons and
+matching loose-object visuals. The held meshes remain separate from the owned
+physics-collision copies. Existing item identities, protection, weight, value,
+loot authority and save semantics are preserved.
+
+The reported odd shield hold exposed an attachment to a hidden legacy animation
+driver and a palm lookup that did not recognize the current rig's finger names.
+The shield now uses the actual visible character's left-hand driver and measured
+palm frame on the two admitted Human targets. The existing arm animation remains;
+this is not a claim of a newly authored shield stance. Worn glove appearances
+also use the existing fitted component and canonical equipment paths.
+
+Five bounded game source builds, focused checks on both admitted targets, clean
+Unreal BuildCookRun, all4,937 required cooked roots and a focused archived-game
+resource/image check passed. Unchanged frontend and movement evidence was reused;
+no broad campaign replay was added. One earlier source startup GPU fault in
+virtual-shadow-map culling is retained. The unchanged build subsequently passed
+both source checks and the packaged check; its underlying GPU fault is not
+claimed fixed. Class-wardrobe coverage remains2/24.
+
+Parallel production produced three reusable boot sources, three shield sources,
+additional pouch finishes, a native bracer prototype and a separate native
+leather-grain material bank. Approved UV layouts, layout images, export evidence
+and material routing remain with the sources. Only the admitted shield/glove
+changes are in Journey48. Boots, pouches and the bracer remain source or authoring
+Lab work; the separate helmet counterpart remains held for unresolved contact.
+The newly available animal, death-pose and light-foliage packs are recorded for
+intake, not represented as imported or included in this release.
+
+Methods: modular C++ equipment bindings, Unreal5.8's existing native asset and
+Outfit workflows, Blender/Python source construction and exports, reusable PBR
+material banks, actual-model icons and retained UV diagrams. Independent NVIDIA,
+AMD and CPU workloads were coordinated alongside one serialized Unreal/build
+owner. Work chats track equipment production and delivery separately. Practical
+visual review and focused changed-resource checks are retained alongside the
+build receipts; passing a compile is not treated as finished art or full coverage.
+
 ## 2026-10-31 — Slimmer bracers and parallel equipment-source production
 
 The owner's additional bracer art pass reduced maximum plate width from121.8
