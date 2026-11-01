@@ -1,5 +1,25 @@
 # The Ash Road — project log
 
+## 2026-11-01 — Current playtest launcher repaired
+
+An owner launch exposed a release-script dependency mismatch: the current title
+launcher loaded an older cast helper but called the current function. The
+correct helper was already packaged. Exact helper/call pairs are corrected in
+the root, current package and retained rollback routes. The promotion generator
+now checks this dependency before writing or copying delivery candidates.
+
+Eight focused argument-construction cases passed in fresh PowerShell runspaces,
+including the same Windows PowerShell executable used by the ordinary CMD
+launcher. They used the actual shipped catalogs and stopped before game spawn,
+with private test paths and no owner-save access. Original UAT/promotion evidence
+is retained; supplemental delivery ledgers record the changed launcher bytes.
+No binary recook, gameplay-stat, catalog or save-schema change was needed.
+
+Independent footwear source work continues separately. The first new common
+footwear import held at its exact authored-UV guard without saving new assets.
+That candidate remains unadmitted while the bounded restoration issue is
+resolved. Actual fitted source reuse is preferred over a fresh generic fit.
+
 ## 2026-11-01 — Independent forearm-guard gameplay slice checked in source
 
 The next source candidate49 adds a real single left iron forearm guard in the
