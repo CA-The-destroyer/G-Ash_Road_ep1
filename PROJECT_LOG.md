@@ -1,5 +1,53 @@
 # The Ash Road — project log
 
+## 2026-10-31 — Journey47 released: independent equipment and four worn-iron plates
+
+Journey47 (`0.21.0-preview12-playtest47`, schema47) is built, focused-checked and
+promoted. The ordinary project launcher selects47, with46 as binary rollback.
+The established owner-state directory is preserved in its existing location;
+no owner campaign or profile was opened, copied, reset or migrated.
+
+Independent fitted equipment and the narrower admitted headgear route now join
+the retained player presentation. Four canonical torso-armor items carry
+different impact, gouge, pitting and buckled-edge surfaces with matching model
+icons. One fitted mesh per checked target is reused through component material
+instances; the shared fourteen-package damage bank is about1.5MB. UVs, weights
+and existing protection/weight/value rules are retained. Dents are normal/shading
+detail rather than silhouette or collision deformation.
+
+The town traders have finite, persistent stock. Eligible hostile/treasure loot
+can use an independently seeded conditional1-in-8 substitution at an existing
+torso-armor opportunity. It adds no guaranteed drop, does not refill saved
+containers or sold-out stock, and preserves wildlife, starter and upper-dungeon
+exclusions. Worn enemy equipment stays separate from carried finds.
+
+Main source build a24 and the23-case focused Core target pass. Clean UAT cooked
+10,235 packages; all4,864 required roots are present. One actual archived-game
+process collected and equipped all four items from mounted cooked containers,
+with reviewed normal inventory endpoints. Existing motion/fit proofs and
+unchanged frontend/title/Host/creator evidence were reused; no broad campaign,
+additional pose suite, remote-peer or new GUI replay is claimed. A post-UAT
+equivalent-path comparison was corrected against unchanged hashes without
+recooking. Stale preparation prose about disabled availability is explicitly
+corrected in a separate bound note, preserving the original evidence.
+
+The full-body views establish practical equipment/resource presentation, not
+close-detail final-art fidelity. Extra glove looks, cleaned boot sources and
+remote-produced lighter mesh candidates retain separate admission limits. The
+owner's bracer feedback exposed short/wide coverage and painted-looking wear;
+those sources remain held for a substantive selected-art correction and are
+excluded from47. All-class wardrobe remains2/24 admitted ensembles; AR-P02
+continues, with other ancestry fits and real online-service acceptance open.
+
+Methods/tools: modular Unreal5.8.3 C++, existing Core/SQLite transactions and
+loot authority, shared PBR atlases/material instances, retained UV-layout images,
+Blender source work, NVIDIA/AMD rendering, lightweight remote CPU geometry
+work, bounded UnrealBuildTool/AutomationTool, private archived-game resource
+checks, native AssetRegistry inspection and reversible hash-bound launcher
+promotion. Local evidence and file-by-file outputs: docs/equipment47-delivery.md
+and tools/prepared/modular47-root-a01/CHANGED-FILES.md. Only this log is published;
+licensed assets, saves, credentials and build payloads remain local.
+
 ## 2026-10-31 — Owner-recruited second PC joins production
 
 The owner recruited a second PC, **ADAMS-TH**, to help production. The main workstation remains primary: NVIDIA first, local AMD second, then ADAMS-TH for compatible jobs. Independent useful jobs can run concurrently; owner playtesting reserves NVIDIA. ADAMS-TH uses approved portable **Blender 4.1.1**, lightweight CPU work and at most **two threads**. Two hash-verified plate LOD source candidates have returned; native LOD admission and measured runtime savings remain open. Its Radeon HD 7800 Series is separate from the main PC's AMD adapter and has no admitted GPU/inference workload. The existing Linux CPU worker remains an adjunct. The second PC is optional; one controller owns Unreal imports, builds and promotion.
