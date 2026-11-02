@@ -1,5 +1,31 @@
 # The Ash Road — project log
 
+## 2026-11-01 — Independent Broken Leather leg guard source delivery
+
+The existing slot103 leg guard gains a checked visual route on another current
+character profile. Actual fitted geometry is reused:10parts,7,416triangles,four
+UV channels,six material routes and retained weights/reference. Only observed
+missing tangent data is populated in one new native mesh; the original source
+and art alignment remain. One moving-fit view retains the worn,torn fragment
+over complete common trousers. All12 used textures are measured at original
+resolution before capture.
+
+Main staging copies one mesh and reuses18 identical dependencies. Existing item,
+condition-scaled protection,loot,inventory and save authority stay intact. The
+Main source build passes, and a real private ordinary collect/equip/remove check
+passes with unchanged lower clothing,body and other item records. Two equipment
+images were reviewed. A runner screenshot-count mistake was corrected from the
+already completed game evidence; no broad playthrough or repeated game run was
+needed. The normal creator's two unchanged captures explain the extra count.
+
+Journey49 remains current,48 rollback and existing owner45 state is preserved.
+This is integrated,source-built and focused-checked work for the next coherent
+package; no new release,global wardrobe closure or all-target fit is claimed.
+Boots remain parked. Parallel preparation records the event/ambient music
+structure and menu mix controls from the owner's Music directory, plus the
+opening-camp pursuit by three or four vampires. Those are queued requirements,
+not gameplay delivered by this equipment increment.
+
 ## 2026-11-01 — Equipment prototype progress and bounded work policy
 
 Journey49 remains the promoted playable build, with48 rollback and existing
