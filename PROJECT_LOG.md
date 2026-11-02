@@ -1,5 +1,43 @@
 # The Ash Road — project log
 
+## 2026-11-01 — Camp pursuit, audio controls and same-process title return
+
+Content54 integrates a finite opening-camp pursuit through existing encounter,
+combat, loot and persistence authorities. Three pursuers are admitted together
+for solo play; the party composition uses four. Eight focused Core cases pass,
+including stage gates, locked composition, restart, completed legacy openings,
+concurrent death and reward idempotency. The corrected rendered source check
+observed the running messenger, three simultaneous enemies, a resident reaction
+and eleven real guard impacts. Its bounded deadline expired before terminal
+completion, so the scene remains partially verified. The one captured frame is
+obstructed and is not visual approval. Supplied-model rollout and multiplayer
+scene acceptance remain separate.
+
+Local Master, Music, Voice and Sound effects controls are source-built. Actual
+GUI mute/isolation, Cancel, Apply with disk readback and a fresh-process reload
+pass. The four-slider screen was reviewed. Existing component routes preserve
+source sound classes and spatial properties; music receives one relative1.25
+authored-gain adjustment. A concrete Unreal5.8 config-key versus destination-file
+issue was fixed using the installed engine API. New event/exploration music
+direction, track imports and listening/headroom approval remain unfinished.
+
+Return to Title passes the actual solo name/creator/arrival and cancel/confirm
+route in the same process. Neutral title has no active campaign Core or network
+driver, keeps the hero name and safely retires its exact launcher handoff. It
+does not delete campaigns or create a manual snapshot. Host/guest departure and
+configured internet-service acceptance are still pending.
+
+Methods: modular Unreal C++, existing authoritative Core transactions, focused
+private-database tests, actual keyboard-driven GUI checks, process ownership and
+GPU-vendor receipts, source-module hashes and incremental compiler reuse. Earlier
+failures are retained. The cumulative one-hour review rule was observed; the
+owner approved ten extra audio minutes and one corrected camp launch. No broad
+packaged playthrough was repeated. The final combined source build passes;
+no new package was promoted. Journey49 remains current,48 rollback, established
+owner state45 untouched. The170-system coverage classification is unchanged.
+An additional optional CUDA worker is reserved for one bounded updated Steel
+Maul candidate, not a completed asset or game integration.
+
 ## 2026-11-01 — Independent Broken Leather leg guard source delivery
 
 The existing slot103 leg guard gains a checked visual route on another current
