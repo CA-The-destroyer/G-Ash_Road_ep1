@@ -1,20 +1,50 @@
 # The Ash Road — project log
 
+## 2026-11-01 — Equipment prototype progress and bounded work policy
+
+Journey49 remains the promoted playable build, with48 rollback and existing
+campaign state preserved. No new game package or ordinary-world binding is
+delivered by this source checkpoint.
+
+The open-face worn iron helmet now passes actual native Save and one fresh
+reference view in the isolated character lab. The existing official import and
+outfit path retains116parts/39,856triangles, source UVs, material routes and the
+actual reference. Nine new packages reuse five existing texture resources;
+existing content is unchanged. The measured capture loads all nine used textures
+at their original resolution and mip0. The detail image retains visible worn
+iron, trim and open-face placement; it crops the crown. Full silhouette, movement,
+hair handling, remaining target fit and canonical item/game integration are open.
+
+An inherited import scale was corrected after the actual source-corner check
+proved a double unit conversion. The source artwork and geometry were not
+rescaled or refitted. Failed attempts remain retained. A Lab-only capture-helper
+build adds the exact isolated materials/textures and changes no saved settings.
+
+At the owner's direction, boots are parked after excessive investigation.
+Their replacement appearance remains unresolved and no corrected boot was saved
+or admitted. New work must track cumulative active time per item across agents,
+revisions and continuations; at one hour, discuss the actual result, blocker and
+recommendation before further attempts. Parallel work should favor ready usable
+parts over more diagnostic scaffolding. Return to Title is recorded as menu
+backlog, with safe unsaved-progress/session departure behavior; it is not yet
+implemented. The pictured alpine waterfront town has no exact established
+assignment; the atlas's lakeside/riverside destinations remain future plans.
+
 ## 2026-11-01 — Journey49 promoted; current-plus-one retention restored
 
 Journey49 (`0.21.0-preview12-playtest49`, schema47) is promoted as the ordinary
 playable build;48 is rollback. Existing campaigns continue from their established
 45 state directory without copying, migration or rerolling rewards. The released
 slice adds the independent left forearm guard and delivers the checked Human
-Broken/Hide chest routes, Peltsmith recovery starter correction, measured Male
+Broken/Hide chest routes, Peltsmith recovery starter correction, measured common-shirt
 underarm aliases and named combat labels described in the source milestone below.
 
 Clean UAT completes build/cook/stage/archive. Native registry readback finds all
 4,956 required cooked packages. One actual archived Human equipment job passes
 the changed bracer/Broken/Hide resource checks, with three inventory endpoints
 reviewed. Both final source target checks and unchanged frontend acceptance are
-reused. Male alias packages are verified in the actual cooked registry and frozen
-source; that archive job does not claim to instantiate the Male Waist route.
+reused. The other profile’s alias packages are verified in the actual cooked registry and frozen
+source; that archive job does not claim to instantiate that profile’s waist route.
 No full campaign, second unchanged target, motion or GUI replay was added.
 
 The final launcher test initially stopped before the default switch because its
@@ -61,12 +91,12 @@ Peltsmith's initial recovery conversation now uses canonical Broken Leather for
 its existing chest outcomes. The separate earned five-pelt weapon reward is
 unchanged. Five rebuilt-Core cases cover seed outcomes, occupied-slot stowing,
 legacy flow, replay and restart. Existing Hide armor now selects the admitted
-leather torso route for each current Human family. A separately fitted female
-Broken Leather chest retains its original geometry, weights, UVs and materials;
+leather torso route for each current Human family. A separately fitted counterpart
+Broken Leather torso piece retains its original geometry, weights, UVs and materials;
 only demonstrated missing tangent frames were repaired. Existing armor values,
 save schema47 and saved reward claims are preserved.
 
-The pictured common Male shirt was not intended as torn clothing. A measured
+The pictured common shirt was not intended as torn clothing. A measured
 underarm correction moves94 existing vertices on fresh default and waist
 successors, preserving every other source position and all UVs, weights,
 topology and material routes. Actual native Save and fresh Cold readback pass,
