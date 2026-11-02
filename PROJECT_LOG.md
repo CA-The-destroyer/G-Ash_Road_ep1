@@ -1,5 +1,115 @@
 # The Ash Road — project log
 
+### 2 November 2026 — Architecture, resources and delivery status
+
+Snapshot: 2 November 2026. Resource labels below are generic; no computer names, network addresses, account names or connection details are included.
+
+#### Current delivery
+
+**Journey50 is the playable preview; Journey49 is rollback.** Save schema47 and the existing campaign state were preserved.
+
+The actual build/cook/stage/archive passed in18m36s. The cooked registry contains all4,987 required packages. Four selected archived-game appearance views and12 launcher argument cases pass. Existing source proofs were reused for unchanged boundaries; the entire campaign was not replayed after packaging.
+
+This release includes the accepted independent leg/chest routes, two cosmetic glove identities and their icons/find rules, class-based common-clothing colors, corrected outfit descriptions, saved audio controls/music adjustment and solo Return to Title. Camp-pursuit completion and ordinary camp-caster behavior remain explicitly held/experimental.
+
+#### Runtime architecture
+
+- **Unreal Engine5.8.3 and C++:** the existing game remains the authoritative integration target. Shared Core rules provide item/equipment, inventory/economy, progression, quest and persistence behavior; Unreal supplies world actors, presentation, AI/navigation, collision, physics, audio and replication integration.
+- **Server authority:** combat results, inventory changes, loot/rewards and persistent quest/world decisions belong to the server. Clients supply input and receive replicated results. A cosmetic model or material does not create item stats or rewards.
+- **Persistent state:** SQLite-backed campaign state and stable identities connect saves, loot, quest progress and encounters. Schema changes are separate from cosmetic asset additions.
+- **World simulation:** World Partition and the existing danger/camp directors separate logical encounter records from nearby actors and active combat. Admission gates, AI budgets and saved population identities remain important delivery boundaries.
+- **Presentation:** modern character profiles, modular armor slots and material bindings sit over existing gameplay identities. Source geometry, rig compatibility, moving fit and actual runtime equipment visibility are separate checks.
+
+```mermaid
+flowchart LR
+    C[Client input and UI] --> S[Authoritative Unreal server]
+    S --> R[Shared C++ rules]
+    R <--> P[Persistent campaign state]
+    S <--> W[World Partition and encounter actors]
+    S --> V[Replicated presentation and results]
+```
+
+#### Compute resources added to production
+
+| Generic resource | Verified capability | Production role |
+|---|---|---|
+| Primary GPU | RTX4060Ti,8GB; actual CUDA and Unreal D3D12 execution | Native character checks and compatible Blender work when available |
+| Secondary GPU | Local AMD Radeon; actual HIP and D3D12 execution | Independent class-part previews and compatible fallback work |
+| Remote GPU worker | RTX4060Laptop,8GB; CUDA, Blender5.2.1;16GB system RAM | Isolated source builds/renders with bounded memory and verified return artifacts |
+| Main CPU pool |8physical cores/16threads, approximately48GB RAM | C++ compilation, geometry construction, export/readback, UV layouts, packaging and coordination |
+| Remote CPU capacity | Actual bounded CPU export ran alongside remote CUDA | Lightweight geometry/UV/metadata work, rather than leaving the worker CPU unused |
+| Optional older CPU worker | Compatible legacy Blender/CPU workflow | Small compatible jobs only; its older GPU is not admitted for the current GPU pipeline |
+
+The recorded remote integrated Radeon is not a separately admitted HIP resource. A backend appearing in settings does not prove that a device ran a job. Older or unverified GPUs are not counted as working render capacity.
+
+Owner reservations take priority. The current fallback order for compatible source work is remote RTX, then local AMD, then CPU when the primary GPU is occupied. Native Unreal operations use only an actually supported, available local adapter. Jobs record the selected device, process identity, deadline and output hashes; no silent CPU render is reported as a GPU result.
+
+#### Production and coordination method
+
+There is one persistent owner for each of the12 offered classes. Owners work in isolated class folders with bounded active concurrency; twelve owners do not mean twelve simultaneous processes. Shared parts, proven fitted donors and material methods are reused instead of making every piece bespoke.
+
+Independent source construction, exports and GPU previews can run in parallel. One coordinator serializes native Unreal imports, shared asset writes, builds and release promotion. This prevents two workers from mutating the same project or consuming the same device unexpectedly.
+
+```mermaid
+flowchart LR
+    A[Selected art and approved donors] --> B[Parallel class and part workers]
+    B --> D[Editable models, PBR maps and UV layouts]
+    D --> E[Export readback and actual art review]
+    E --> L[Isolated native Unreal validation]
+    L --> G[Gameplay integration]
+    G --> F[Frozen build and cook]
+    F --> T[Asset registry and changed-resource checks]
+    T --> J[Promote playable preview with rollback]
+```
+
+Methods currently in use:
+
+- Headless Blender scripts with explicit CPU/CUDA/HIP selection, bounded threads/RAM, owned-process deadlines and hash-verified remote transfers.
+- Actual UV coordinates retained with models, with layout images beside source art. Geometry, material slots, surface roles and export transforms are checked on the real output.
+- Typed PBR treatment for cloth, worn leather and metal: physical texture scale, correct color spaces, normals, roughness and metallic routing. Existing approved finishes are reused.
+- Real garment construction rather than copying anatomy as clothing. A failed trouser shell was replaced with loose sewn panels. A bounded physical hood-drape experiment exposed an assembly-seam problem; it was retained as a failure rather than accepted as finished art.
+- Epic's MetaHuman/Outfit and cloth tooling where the actual source and body fit support it. Matching a skeleton alone is not fit proof.
+- Official native skeletal export to recover an exact editable donor instead of reconstructing a model numerically. The first actual export passed; independent rig/UV/material readback is still required before editing/admission.
+- Fresh source namespaces and protected-input fingerprints. Failed source, solver, import and rendered evidence is retained rather than relabeled as a pass.
+
+#### Current status by boundary
+
+| Boundary | Actual status |
+|---|---|
+| Playable package | Journey50 promoted;49rollback |
+| Dedicated modern class ensembles |2/24admitted across two Human target profiles; other ancestry fits remain open |
+| Class ownership/source work | All12classes have owners and actual source increments; this is not12finished outfits |
+| Cheap appearance variety |12common-clothing class palettes shipped; they do not count as new dedicated ensembles |
+| Distributed item batch | Three distinct cuirass surface-damage variants produced across localCUDA, localHIP and remoteCUDA, plus remoteCPU export; source-only, not new gameplay items |
+| Barbarian trousers | Genuine loose-panel A02 source and changed HIP view; fine art/current-body fit and game admission remain open |
+| Paladin gloves | HF25 outer-seam contact verified in an actual HIP view; the other target's official editable-donor export exists, with independent readback pending |
+| Ranger hood | Art requirement not closed. The sewn-panel version remains too boxy. The physical solve ended with a34.25mm open seam; coincident seam counterparts identify a concrete assembly correction for a future attempt. No new hood/export/view was accepted |
+| Rogue native source | Strict static identity held. A private stronger corner-correspondence candidate resolves235,254/237,227 retained Chest triangles;1,973remain ambiguous. It is not installed or accepted; BaseTunic native coverage is unavailable |
+| Internet co-op | Server-authoritative foundations and setup work exist; configured EOS internet hosting/joining and end-to-end acceptance remain open |
+| New content candidates | Camp quest and ordinary armor-set code are prepared separately; incomplete scene bindings/tests are not reported as shipped features |
+
+#### Efficient validation and remaining priorities
+
+Validation follows the changed boundary. Core checks cover real state transitions, duplicate claims, persistence and negative cases. Source/export checks verify the actual geometry, UVs, rig and material data. Actual images establish appearance; numeric parity alone never approves art. Native fit and movement are not inferred from a successful import.
+
+After UAT, the project checks the cooked asset closure and only the precise changed loading/resource paths. Valid unchanged proofs are reused. Promotion binds real receipts, fixes launcher construction before switching the default, preserves campaign state and keeps a rollback.
+
+The next priorities are to close the hood's art/construction requirement, establish trustworthy native correspondence and fitted modular parts, assemble more complete class looks, and admit those looks through real equipment/NPC routes. Source quantity, render count and file count do not substitute for those milestones.
+
+The current bottleneck is source readiness, art/fit correctness and native integration as well as compute. More GPUs help independent ready jobs; they do not make an unapproved source or unresolved rig mapping production-ready. Per-item time limits and explicit extensions prevent indefinite small-part iteration. A daily06:00America/Chicago readout separates new source artifacts, shipped features, held work and next actions.
+
+#### Local evidence
+
+- [Journey50 delivery and complete release inventory](F:/temp/Codex/Ash_Road/docs/equipment50-delivery.md)
+- [All12 class owners and per-class source inventories](F:/temp/Codex/Ash_Road/tools/prepared/class-armors61-a01/README.md)
+- [Distributed source batch and its three inventories](F:/temp/Codex/Ash_Road/tools/prepared/armor60-root-a01/README.md)
+- [Class-source checkpoint and explicit holds](F:/temp/Codex/Ash_Road/docs/class61-source-checkpoint.md)
+- [Current work queue](F:/temp/Codex/Ash_Road/CURRENT_WORK.md)
+
+This snapshot adds documentation only. It does not introduce a new game build, release, class admission or acceptance claim. Connection details and private worker identities are deliberately kept out of the update.
+
+
+
 ### 2 November 2026 — Journey50 promoted and distributed armor production
 
 Journey50 is the normal playable preview;49is rollback and existing45owner state/schema47 are preserved. Accepted independent armor routes, two cosmetic glove identities/icons/finds,12basic common-clothing palettes and corrected creator outfit descriptions are packaged with the saved audio controls/music adjustment and solo Return to Title. Complete dedicated class ensembles remain2/24. Camp pursuit completion and ordinary caster behavior remain held/experimental; the aggregate admission diagnostic does not prove a terrain defect.
