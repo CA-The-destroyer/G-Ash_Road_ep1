@@ -1,5 +1,14 @@
 # The Ash Road — project log
 
+### 2 November 2026 — Two existing glove looks connected to real items
+
+Added faded-oxblood and scavenged-umber glove identities using the existing fitted meshes and saved material banks. Original geometry, UV coordinates/layouts, weights, grain, stitching and metal treatment were reused without rework. Both identities retain the base glove protection, weight and value; saved IDs select the appearance. Existing eligible glove-find opportunities may choose a color after the forearm-guard policy, without extra loot or saved-container rerolls.
+
+The29 focused Core cases pass, including actual ownership, equip, stolen provenance, drop/recovery, restart and seeded finds. Two retained source images were imported as UI textures, with no rerender. One Main attempt exposed the omitted visual-array count update; the precise268-to270 correction reused compiled objects and a02 passed in28.29seconds. Both supported targets then passed four changed inventory views, all reviewed by Root within the owner's approved ten-minute extension after the one-hour discussion. This is source integration, not a new playable release or class outfit. Unique dropped dye art was not authored: the shared base-glove loose representation remains explicit. Journey49 stays current,48 rollback, owner45 state untouched.
+
+The owner also requested a daily06:00America/Chicago production readout; the reporting automation is active. It separates shipped features, unreleased source work, reused assets and held work. Evidence: [delivery](F:/temp/Codex/Ash_Road/docs/armor57-delivery.md), [four-view review](F:/temp/Codex/Ash_Road/tools/prepared/armor57-root-a01/runtime-review.json), [24hour readout](F:/temp/Codex/Ash_Road/tools/prepared/readout-20261102-a01/README.md), [changed files](F:/temp/Codex/Ash_Road/tools/prepared/armor57-root-a01/CHANGED-FILES.md).
+
+
 ### 2 November 2026 UTC — Armor56 existing independent armor coverage
 
 Following the owner-directed shift from weapons to armor, reused two existing Broken Leather chest pieces. Their original fitted geometry, weights, four saved UV channels and seven ordered materials per piece remain intact. Actual raw-data observation found missing tangent frames; the existing narrow operation populated those frames in two fresh mesh namespaces, leaving the old packages unchanged. The38 material/texture dependencies were already byte-identical in Main; only two meshes needed staging.
