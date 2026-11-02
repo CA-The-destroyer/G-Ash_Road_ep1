@@ -1,5 +1,23 @@
 # The Ash Road — project log
 
+### 2 November 2026 UTC — Armor56 existing independent armor coverage
+
+Following the owner-directed shift from weapons to armor, reused two existing Broken Leather chest pieces. Their original fitted geometry, weights, four saved UV channels and seven ordered materials per piece remain intact. Actual raw-data observation found missing tangent frames; the existing narrow operation populated those frames in two fresh mesh namespaces, leaving the old packages unchanged. The38 material/texture dependencies were already byte-identical in Main; only two meshes needed staging.
+
+Two current-body walking samples, the incremental Main source build and one private ordinary collect/equip/remove run pass. Root reviewed both native samples and all four equipment boundaries. The worn piece disappears on removal while complete ordinary clothing, other equipment and saved item records remain unchanged. No new items, stats, loot grants, economy or save authority were introduced. Original fine tear/fray and fabric presentation are not newly completed, and broader body/class, full-motion and final-art acceptance remain separate.
+
+This is unreleased source integration. Journey49 remains current,48 rollback; established owner state45 is untouched. Evidence: [delivery and limits](F:/temp/Codex/Ash_Road/docs/armor56-delivery.md), [native review](F:/temp/Codex/Ash_Road/tools/prepared/armor56-root-a01/native-review.json), [actual equipment review](F:/temp/Codex/Ash_Road/tools/prepared/armor56-root-a01/runtime-review.json), [changed files](F:/temp/Codex/Ash_Road/tools/prepared/armor56-root-a01/CHANGED-FILES.md).
+
+### 2 November 2026 UTC — Parts55 existing weapon-source batch
+
+Processed five existing weapon candidates with **zero geometry models remade**. Reinforced Club002, Spiked Club003, Steel Mace007 and Iron Maul009 received current Style48 material/normal transfers over previously reviewed low meshes. Their lower triangle counts are reused geometry, not new reductions. Steel Maul010 reused its existing exports without another bake.
+
+Actual work used local RTX4060Ti CUDA, remote RTX4060 Laptop CUDA with hash-checked retrieval, local AMD HIP for the Maul comparison, and CPU retained-coordinate UV generation/audits. All five exported candidates have finite UV coordinates, no missing channel and zero collapsed-UV triangles on nondegenerate geometry; overlap and texel-density coverage are not inferred. Original sources and approved UV layouts remain unchanged.
+
+Root reviewed source/candidate comparisons and original four-view art. Inherited grip-lacing, hardware, wood-wear and head-construction differences remain recorded: source-transfer fidelity is not whole-model art approval. This is source-only work; no Main/Lab assets, gameplay code, stats, loot, saves, launcher or release changed. Journey49 remains current,48 rollback, owner state45 retained. Owner directed the next production batch to armor.
+
+Evidence: [delivery and limits](F:/temp/Codex/Ash_Road/docs/parts55-delivery.md), [Root review](F:/temp/Codex/Ash_Road/tools/prepared/parts55-batch-a01/root-review.json), [five-export UV audit](F:/temp/Codex/Ash_Road/tools/prepared/parts55-batch-a01/uv-audit.json), [full changed-file inventory](F:/temp/Codex/Ash_Road/tools/prepared/parts55-batch-a01/CHANGED-FILES.md).
+
 ## 2026-11-01 — Camp pursuit, audio controls and same-process title return
 
 Content54 integrates a finite opening-camp pursuit through existing encounter,
