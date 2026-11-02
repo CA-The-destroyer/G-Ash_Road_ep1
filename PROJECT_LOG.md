@@ -1,5 +1,14 @@
 # The Ash Road — project log
 
+### 2 November 2026 — Journey50 promoted and distributed armor production
+
+Journey50 is the normal playable preview;49is rollback and existing45owner state/schema47 are preserved. Accepted independent armor routes, two cosmetic glove identities/icons/finds,12basic common-clothing palettes and corrected creator outfit descriptions are packaged with the saved audio controls/music adjustment and solo Return to Title. Complete dedicated class ensembles remain2/24. Camp pursuit completion and ordinary caster behavior remain held/experimental; the aggregate admission diagnostic does not prove a terrain defect.
+
+Actual UAT completed in18m36s, all4,987required cooked packages are present, and Root reviewed four changed archived-game images. Twelve root/package title/direct launcher construction cases pass. Preflight caught helper filename mismatches before the default switch; two delivery-only copies were corrected without changing frozen native inputs or recooking. Existing source proofs were reused rather than replaying the campaign. The owner's10minute and5minute extensions were recorded; no more release attempts remain.
+
+Item production also used local CUDA, local HIP, remote CUDA and a separate bounded remote CPU export. Three distinguishable damage treatments reuse the approved cuirass geometry, typed materials and UVs; they are source artifacts, not three new gameplay items. The next class-specific source queues have the freed compute slots; native integration remains serialized. [Playable delivery](F:/temp/Codex/Ash_Road/docs/equipment50-delivery.md), [release changed files](F:/temp/Codex/Ash_Road/tools/prepared/release50-inventory-a01/CHANGED-FILES.md).
+
+
 ### 2 November 2026 — Starter clothing variety and an explicit camp verification hold
 
 Connected12class palette choices to existing Human common shirts and trousers using24small material instances and two retained cloth parents. Geometry, UV layouts, grain, material roles and fitting were reused; zero new meshes or textures. Normal creator selections and saved class identity drive colors without extra items, stats or save fields. Four actual class-button images passed and were reviewed. Complete dedicated class ensembles remain2/24. Corrected the old common-clothing descriptions so they no longer promise absent robes or armor.
