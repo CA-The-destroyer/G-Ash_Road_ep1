@@ -1,5 +1,14 @@
 # The Ash Road — project log
 
+### 2 November 2026 — Starter clothing variety and an explicit camp verification hold
+
+Connected12class palette choices to existing Human common shirts and trousers using24small material instances and two retained cloth parents. Geometry, UV layouts, grain, material roles and fitting were reused; zero new meshes or textures. Normal creator selections and saved class identity drive colors without extra items, stats or save fields. Four actual class-button images passed and were reviewed. Complete dedicated class ensembles remain2/24. Corrected the old common-clothing descriptions so they no longer promise absent robes or armor.
+
+An isolated shared scheduling helper prioritizes existing offensive-caster/healer roster slots under the same active-AI budget and physical gates.223existing catalogue checks pass. The ordinary-world observer reached its210second deadline after the actual selected site repeatedly emitted its DANGER_FLOOR_REJECTED admission diagnostic. Static follow-up shows that label also covers visibility, distance and other admission predicates, so the exact cause is not established. Live admission, magic damage and healing remain held; no fixtures, health edits, floor bypass or repeated unchanged attempts were used. This scheduling remains experimental in any preview.
+
+The paired source build passed in27seconds, with a16second label followup. No new playable package was promoted: Journey49current,48rollback, owner45state preserved. [Delivery](F:/temp/Codex/Ash_Road/docs/batch58-delivery.md), [actual review and hold](F:/temp/Codex/Ash_Road/tools/prepared/batch58-root-a01/runtime-review.json), [changed files](F:/temp/Codex/Ash_Road/tools/prepared/batch58-closeout-a01/CHANGED-FILES.md).
+
+
 ### 2 November 2026 — Two existing glove looks connected to real items
 
 Added faded-oxblood and scavenged-umber glove identities using the existing fitted meshes and saved material banks. Original geometry, UV coordinates/layouts, weights, grain, stitching and metal treatment were reused without rework. Both identities retain the base glove protection, weight and value; saved IDs select the appearance. Existing eligible glove-find opportunities may choose a color after the forearm-guard policy, without extra loot or saved-container rerolls.
