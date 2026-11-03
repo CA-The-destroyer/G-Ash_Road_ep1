@@ -1,5 +1,17 @@
 # The Ash Road — project log
 
+## 3 November 2026 — Journey52 class-appearance release
+
+Journey52 (`0.21.0-preview12-playtest52`, save schema47) is built, resource-checked and promoted. The normal Ash March launcher selects52; Journey51 is the rollback. Existing campaigns remain at their established location without migration.
+
+The release adds68 already-accepted native packages for the supported default Human class appearances: Wizard, Paladin and Sorcerer cosmetic headwear and layered ivory/brocade Cleric clothing. Existing models and materials were reused; this release did not remake them. Equipped items retain precedence. These are limited starting-class appearance routes, not new owned armor, stat grants or complete class equipment sets. Complete ensemble coverage remains2/24.
+
+Actual build/cook/stage/archive succeeded in approximately six minutes. All5104 required packages are present in the native cooked registry. The archived executable and IoStore container bytes match the actual UAT ledger. Three real staged launcher routes passed their intercepted PowerShell checks with zero game processes, campaign reads or campaign writes. Defaults were changed last, with verified preimages retained. Previously accepted source creator, normal-commit, movement and appearance evidence was reused; unchanged packaged gameplay suites were not replayed.
+
+Separate Sorcerer source work now has an additive placement chart, reference-bound embroidery artwork and a calibrated source-landmark rear ornament. Actual AMD HIP and local CUDA previews exposed and then corrected the earlier skew/clipping. Original texture coordinates, geometry and existing fabric inputs remain preserved. This source work is not included in52; further material-port, art and moving-fit boundaries remain open. The stopped Monk experiment and other held garments were also excluded.
+
+Methods/tools: installed Unreal Engine5.8.3 build/cook/IoStore tools, existing C++ appearance and equipment authorities, read-only cooked-registry inspection, exact resource/source hashes, frozen delivery inputs, intercepted launcher checks and coordinator-controlled promotion. Independent source work used Blender, explicit placement UVs, existing material controls and measured CUDA/HIP rendering. Only this project log is published; licensed assets, campaigns and build payloads remain local.
+
 ## 3 November 2026 — textile source production and movement experiment closeout
 
 Journey51 remains the promoted playable release. No new complete outfit or packaged release is claimed in this update.
