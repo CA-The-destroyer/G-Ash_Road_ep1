@@ -1,5 +1,19 @@
 # The Ash Road — project log
 
+## 3 November 2026 — textile source production and movement experiment closeout
+
+Journey51 remains the promoted playable release. No new complete outfit or packaged release is claimed in this update.
+
+Two original angular textile image candidates and a darker burgundy material variation now exist for the Sorcerer source garment. Changed source previews ran on local CUDA and AMD HIP in 23.5 and 29.8 seconds. Existing garment geometry, approved UV alignment and numeric fabric normal/roughness inputs were reused. The color improvement is accepted as source work; selected-art embroidery placement, final appearance and game admission remain open.
+
+A primary-only simulation carrier removes disconnected decorative islands from one fitting experiment while retaining the complete artistic render source. Actual native collection readback and exact installed seam-arithmetic replay establish the derived geometry without loosening artistic UV checks. One official simulation-only weight transfer produced a normalized, non-root field. Exact comparison to its actual weighting reference resolved a separate reference-serialization mismatch without a tolerance exception or rerun.
+
+The retained-pose movement comparison substantially reduced the original folds and reversed surface area, but introduced other reversed faces. The candidate remains rejected for movement; no render transfer, garment save or game integration followed. This experimental family is stopped rather than extended through another parameter sweep.
+
+The next material intake identified overlapping front/rear placement coordinates that prevent faithful rear-only embroidery. An additive placement-chart source correction is now being constructed while preserving existing artwork alignment; this is ongoing work, not a delivered asset. An independent release intake is checking which already-accepted game changes can form the next coherent package.
+
+Methods/tools: existing Unreal Engine 5.8.3 C++ and official Dataflow operations; read-only native collection observers; exact source/corner/UV correspondence; retained actual animation poses for CPU comparisons; Steam Blender source authoring; reference-bound image generation; genuine CUDA/HIP source rendering; bounded parallel workers, one native coordinator, explicit resource reservations and cumulative effort records. Saves and frozen playable packages remain unchanged. Only this project log is published.
+
 ## 3 November 2026 — class clothing, movement checks and reusable fitting corrections
 
 **Playable release:** Journey51 remains the promoted build. This batch adds authoring and native-asset progress; it does not introduce a new packaged release or another complete class ensemble.
