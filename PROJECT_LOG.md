@@ -1,5 +1,44 @@
 # The Ash Road — project log
 
+### 3 November 2026 — Additional class garments saved; release unchanged
+
+Journey51 remains the promoted playable release. The accepted Cleric clothing
+and supported class headpieces are built in game source; no Journey52 package or
+new complete class ensemble is claimed.
+
+The Sorcerer outer coat now saves a valid 67-bone skin field with no root-only
+vertices, preserving source geometry, UVs, reference and tangent frames. The
+retained exact-geometry witness established that no UV repair was necessary.
+An installed official closest-point transfer resolved the failed auxiliary
+weight transfer. Rest and focused walking views are retained, with lower-layer
+and selected-art finish gaps still open.
+
+The Druid's coupled lower-layer source correction is exported with 103 retained
+UV layouts. Its inner and outer garments passed native geometry, UV, reference,
+frame and weight checks. A new botanical base-color tile and three baked color
+atlases now have material-only native successors: 30 packages were saved in the
+isolated character Lab, with garment geometry, UVs and skin weights unchanged.
+The native material operation took 74.49 seconds. Focused front and rear walking
+views verify the applied pattern and retain actual bone-pose evidence, but expose
+front-opening and waist-layer artifacts. Game integration remains held.
+
+Independent AMD and remote NVIDIA batches produced material-source successors
+for the paired Rogue hoods and the Sorcerer coat. Existing meshes and UVs were
+reused without remaking them. Leather grain and cloth response improved; missing
+reference cracking, embroidery and observed construction gaps remain unfinished.
+A Monk lower-layer feasibility pass now clears the sampled trouser breaches;
+the actual source view exposed an intersecting sash, so a coupled correction is
+required before native fitting. The existing target for a further Cleric garment
+counterpart was verified, allowing reuse of a compatible shirt donor rather than
+scaling an incompatible outfit.
+
+Production uses bounded independent workers, CPU source preparation, CUDA and
+HIP previews, and one coordinator for native imports and builds. Exact source
+and UV identities, physical texture scale, portable material routes and actual
+appearance checks remain separate gates. Successful operations and failed
+evidence are retained. No campaign saves, frozen releases, item statistics or
+equipment ownership were changed by these asset batches.
+
 ### 3 November 2026 — Cleric class clothing integrated in game source
 
 The supported Human preset now shows the Cleric robe in the actual character creator and retains it through normal character creation. Root reviewed the actual game image. The C++ build passes; 28 exact native packages and one cook root are integrated. Canonical item statistics, equipment ownership, saved state and independent-slot authority remain unchanged. Other presets, arbitrary armor mixes and a full class ensemble are not admitted. Journey51 remains the promoted playable release; this increment is built source work awaiting a coherent package.
