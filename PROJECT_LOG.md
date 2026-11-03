@@ -1,6 +1,6 @@
 # The Ash Road — project log
 
-## 3 November 2026 â€” class clothing, movement checks and reusable fitting corrections
+## 3 November 2026 — class clothing, movement checks and reusable fitting corrections
 
 **Playable release:** Journey51 remains the promoted build. This batch adds authoring and native-asset progress; it does not introduce a new packaged release or another complete class ensemble.
 
