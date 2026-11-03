@@ -1,5 +1,22 @@
 # The Ash Road — project log
 
+## 3 November 2026 â€” class clothing, movement checks and reusable fitting corrections
+
+**Playable release:** Journey51 remains the promoted build. This batch adds authoring and native-asset progress; it does not introduce a new packaged release or another complete class ensemble.
+
+Reused Monk sources now produce saved native tunic and sash assets with their original geometry, UV layouts, reference skeletons and material routing. The tunic and sash passed their technical field checks in 238 and 126 seconds respectively. A reused counterpart Cleric tunic also passed native intake in 231 seconds. These are fitted assets, with movement and final appearance tracked separately.
+
+Actual walking checks exposed a localized Monk vent deformation and broad counterpart tunic/trouser overlap. CPU diagnosis separated inherited thigh-weight discontinuities from existing garment clearance problems. The attempted generic smoother was rejected because it introduced new seam disagreements. Dense clearance checks also rejected two source candidates before export or rendering. Their evidence remains retained; these issues are not marked complete.
+
+The fitting workflow now follows Epic's documented painted skin-weight correction method. A small read-only editor adapter exposes actual collection indices without changing established fitting operations. Its build, native collection readback, exact source correspondence and full painted-map readback pass. The selected official correction and subsequent movement acceptance remain pending. This avoids guessed vertex ordering and preserves geometry, UV and reference checks.
+
+An actual AMD material preview reuses the existing floral tile and cloth microtextures for the Monk garment. The source appearance is accepted as a candidate. A direct periodic material route preserves physical texture scale without duplicating geometry or creating unnecessary atlas copies; game admission remains conditional on corrected movement.
+
+Work is divided between bounded source, CPU analysis and serialized Unreal integration tasks. GPU jobs use checked device capacity and owner reservations. Build and weight-transfer operations remain CPU work even when an editor uses a graphics adapter. A launcher monitor integer-width failure was recorded and corrected in its successor without repeating the successful native job. Saves, frozen releases and existing equipment statistics remain preserved.
+
+Next: evaluate the one official correction, complete its focused movement check, then bind the accepted material source and integrate a coherent class increment into the game.
+
+
 ### 3 November 2026 — Additional class garments saved; release unchanged
 
 Journey51 remains the promoted playable release. The accepted Cleric clothing
