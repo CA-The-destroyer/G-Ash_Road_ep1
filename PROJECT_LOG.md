@@ -1,5 +1,13 @@
 # The Ash Road — project log
 
+### 3 November 2026 — Cleric class clothing integrated in game source
+
+The supported Human preset now shows the Cleric robe in the actual character creator and retains it through normal character creation. Root reviewed the actual game image. The C++ build passes; 28 exact native packages and one cook root are integrated. Canonical item statistics, equipment ownership, saved state and independent-slot authority remain unchanged. Other presets, arbitrary armor mixes and a full class ensemble are not admitted. Journey51 remains the promoted playable release; this increment is built source work awaiting a coherent package.
+
+The material-only native successors preserve mesh positions, UVs, weights and tangent frames. Two actual front/back appearance views verify the patterned cloth, worn hem and darker leather. The first native attempt stopped before mesh saving on a material-folder ownership mismatch; the corrected path passed. The first appearance script stopped before capture on a missing descriptor variable; the corrected caller passed without changing garment assets. Both failures and their narrow corrections remain recorded.
+
+A separate Druid source correction closes the rear join and covers the demonstrated shoulder breakthrough. Exact exports preserve 103 UV layouts and six existing material roles; native movement and lower-garment compatibility remain open. A Sorcerer outer import is held on ambiguous static polygon identity. A bounded read-only native snapshot is selected to capture the missing corner/UV evidence before the unchanged audit; no identity guard is relaxed. Production continues with serialized native integration alongside independent source and CPU preparation.
+
 ### 3 November 2026 — Garment compatibility and game integration
 
 The measured hood counterpart is now integrated into the game source, built and checked through the actual creator and normal character commit. Existing equipped headwear retains priority. This adds supported cosmetic base-clothing coverage without new item statistics, rewards or save-schema changes; it is not a full class ensemble or packaged release.
