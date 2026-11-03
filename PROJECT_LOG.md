@@ -1,5 +1,13 @@
 # The Ash Road — project log
 
+### 3 November 2026 — Garment compatibility and game integration
+
+The measured hood counterpart is now integrated into the game source, built and checked through the actual creator and normal character commit. Existing equipped headwear retains priority. This adds supported cosmetic base-clothing coverage without new item statistics, rewards or save-schema changes; it is not a full class ensemble or packaged release.
+
+The Cleric shoulder construction defect is repaired in the source. Exact native geometry, UVs, reference and frame checks pass, and two focused rear walking views pass practical review with the existing inner garment. A generated floral albedo and three role-specific color atlases add patterned cloth and worn hem treatment while reusing the approved weave relief and worn-leather maps. Its source material preview is accepted; native material binding and game integration remain pending. The generated motif is color detail, not newly measured embroidery relief.
+
+A failed Sorcerer transfer was diagnosed as Root-only weights after an official solver error. One supported closest-point alternative now saves a tunic with 67 active bones and zero Root-bound vertices, with the actual donor and transfer-error gates checked before saving. Moving fit and outer-layer compatibility remain open. Methods used existing Unreal 5.8.3 clothing operators, exact-source UV preservation, Blender material baking, a bounded CUDA preview, CPU field inspection and serialized native integration. Journey51 remains promoted; no new package, campaign changes or complete ensemble is claimed.
+
 ### 3 November 2026 — Shared garment-layer correction
 
 The installed Unreal clothing tools now transfer outer-garment render weights from a stable saved inner-garment simulation donor. Exact geometry, UV layouts, materials and references are preserved. Focused opposite walking views remove the demonstrated lower-front intersections; matching CPU samples fall from 213 and 148 to one per pose. Remaining rear-layer indications, shoulder construction, material finish and game integration stay open. This is a scoped compatibility improvement, not a completed outfit or new release.
