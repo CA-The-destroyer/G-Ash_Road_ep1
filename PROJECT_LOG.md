@@ -1,5 +1,19 @@
 # The Ash Road — project log
 
+### 2 November 2026 — Journey51 playable instrument and equipment batch
+
+Journey51 is the promoted playable preview; Journey50 is rollback. Save schema47 and established campaign state were preserved without migration. Build output moved to a fresh C: artifact directory to preserve F: headroom; project sources remain on F:. Actual build/cook/stage/archive passed at01:45:45 UTC3November (19:45:45 Central2November). All5,036 required cooked packages, including49 new instrument packages, pass the native registry check. Exact executable/container bytes and three actual package-local Windows PowerShell5.1 launch routes pass. The source-passed gameplay loops were reused; no packaged campaign replay or new archived images are claimed.
+
+Five ordinary instruments are integrated: three lute finishes sharing one model/UV family, a travel flute and a hand drum. They use canonical inventory weight/value/condition, two-hand equip and offhand stow, finite merchant stock, the Bard starter grant and existing drop/ownership/persistence authority. Press O while stationary to play a short server-validated performance. Six synthesized sounds are playtest candidates.253 catalogue and269 inventory/equipment authority checks pass; actual male Human Road Lute equip/audio/finite-end/unequip and basic first-person framing pass.
+
+The batch also includes a complete ordinary usable Hide-set bonus of2percentage points of protection before the unchanged cap. Removing a piece or using an unusable piece removes the bonus. Actual server-damage and read-only comparison checks pass. Existing individual item stats are unchanged; stronger named-set effects remain future work.
+
+Methods: inspect and reuse shared Core/SQLite equipment and economy rules; bounded parallel Blender source production on local NVIDIA, local AMD and an additional NVIDIA resource; retained UV layouts and portable material maps; shared metal and worn leather treatments; one serialized Unreal integration/build lane; finite replicated performance state; focused authority/native checks; immutable source/content freeze; clean UAT with isolated writable cache and read-only warm cache; changed cooked-resource checks and no-game launcher interception; protected preimages and rollback. Resource labels are generic; no hostnames, addresses or accounts are included.
+
+Final instrument art/audio, authored playing animation, female/other-instrument live performance, full Bard spell coverage and WAN acceptance remain open. The class wardrobe remains2of24; experimental camp pursuit and ordinary caster-world acceptance remain held. New Wizard pendant and Warlock wrist-binding source candidates are being produced separately after the owner's request for more parts; they are not in51. The additional NVIDIA resource is owner-reserved for two hours; local production continues.
+
+Local delivery: docs/instruments51-delivery.md. Existing architecture and historical log entries below are retained.
+
 ### 2 November 2026 — Architecture, resources and delivery status
 
 Snapshot: 2 November 2026. Resource labels below are generic; no computer names, network addresses, account names or connection details are included.
