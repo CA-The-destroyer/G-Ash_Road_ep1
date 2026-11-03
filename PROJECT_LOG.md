@@ -1,5 +1,11 @@
 # The Ash Road — project log
 
+### 3 November 2026 — Shared garment-layer correction
+
+The installed Unreal clothing tools now transfer outer-garment render weights from a stable saved inner-garment simulation donor. Exact geometry, UV layouts, materials and references are preserved. Focused opposite walking views remove the demonstrated lower-front intersections; matching CPU samples fall from 213 and 148 to one per pose. Remaining rear-layer indications, shoulder construction, material finish and game integration stay open. This is a scoped compatibility improvement, not a completed outfit or new release.
+
+A measured character-profile hood counterpart also reached exact native geometry/UV preservation and frame readiness through the existing missing-only tangent operation. Its actual game appearance is pending. Journey51 remains current. Production used one serialized native lane alongside bounded CPU diagnosis and integration preparation; the primary GPU was released before the owner's scheduled reservation. No campaign or promoted package changed.
+
 ### 3 November 2026 — Overnight equipment sources and first game integration
 
 Journey51 remains current with Journey50 rollback; no owner campaign or promoted package changed. The owner lifted the hour approval caps while retaining cumulative work accounting and real art, UV, fit and runtime gates. Independent production uses local NVIDIA native work, local AMD HIP views, additional NVIDIA CUDA jobs with hash-checked retrieval, and CPU preparation. Useful shared sources and completed evidence are reused; unchanged renders and duplicate models are excluded.
