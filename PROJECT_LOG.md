@@ -5164,3 +5164,14 @@ A continuous Sorcerer underlayer and open-front coat now replace the disconnecte
 One new isolated Lab underlayer was saved through the existing official native garment path in 171.81 seconds. Its 85,096 source triangles and all 255,288 oriented position/UV/material corners passed exact export readback. The final field has 67 active bones and zero Root influence; original strict source, reference, frame and dependency gates passed. This is technical native progress, not Main integration or a shipped outfit.
 
 Production used bounded parallel CPU source/UV work, coordinator-owned native operations and actual CUDA source views. A retained export-reader performance defect was removed in a scoped successor by caching immutable vertex bytes once; the same complete strict checks now take 3.14 seconds rather than repeating whole-array conversions per vertex. Earlier failed attempts remain recorded. Original artwork, source files, saves and frozen releases were preserved.
+
+
+## 4 November 2026 - native coat materials and exact UV restoration
+
+Journey52 remains the playable release. No new complete class ensemble, gameplay integration or release package is claimed.
+
+The continuous Sorcerer coat now has three verified native material roles. Three isolated Lab resources were saved: the first native import of an existing angular-cloth bitmap and two material successors. Existing embroidery, normal and roughness resources were reused. Fresh readback verifies material graphs, numeric controls, UV routing, sampler settings, source-image provenance and package bytes. This is native integration of retained art, not a new texture bank or three newly modeled objects.
+
+The first actual coat skin-weight field was generated through the established official garment workflow. Exact geometry ownership resolves a close-corner ambiguity without changing source topology or the original resolver assertions. Conversion changed 88 corners across the two existing UV channels; the established bounded UV-only restoration recovers their exact authored coordinates. The actual restored geometry, UV and source-identity readback passes. Saving is still held while automatic rebuild metadata is distinguished from semantic material and section changes; failed evidence remains preserved. Combined moving fit and selected-art finishing are not yet accepted.
+
+Methods: bounded parallel CPU diagnosis and source preparation, coordinator-owned Unreal native operations, exact whole-triangle correspondence and existing source-corner restoration. No new fitter, shader framework, source UV layout, weapon remake or broad gameplay replay was introduced. Original artwork, prior sources, campaign saves and frozen releases remain protected.
