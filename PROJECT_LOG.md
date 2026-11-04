@@ -5175,3 +5175,12 @@ The continuous Sorcerer coat now has three verified native material roles. Three
 The first actual coat skin-weight field was generated through the established official garment workflow. Exact geometry ownership resolves a close-corner ambiguity without changing source topology or the original resolver assertions. Conversion changed 88 corners across the two existing UV channels; the established bounded UV-only restoration recovers their exact authored coordinates. The actual restored geometry, UV and source-identity readback passes. Saving is still held while automatic rebuild metadata is distinguished from semantic material and section changes; failed evidence remains preserved. Combined moving fit and selected-art finishing are not yet accepted.
 
 Methods: bounded parallel CPU diagnosis and source preparation, coordinator-owned Unreal native operations, exact whole-triangle correspondence and existing source-corner restoration. No new fitter, shader framework, source UV layout, weapon remake or broad gameplay replay was introduced. Original artwork, prior sources, campaign saves and frozen releases remain protected.
+
+
+### 4 November 2026 - continuous coat saved; moving-fit review remains open
+
+One isolated native Sorcerer coat is now saved. Its 88,572 source triangles, both UV channels, three retained material routes, reference pose, complete tangent frames and persistent dependencies pass the established checks. The final field has 75 active bones and zero Root influence. The already-saved underlayer was reused unchanged; no new original texture bank or repeated garment modeling was needed.
+
+Two focused walking views now show the coat and underlayer together with the visible body, trousers and boots. Technical pose/follower and unchanged-content checks pass. The upper construction improves, but the lower rear coat follows the separated bent legs too closely, and selected-art closures, shirt details and complete outfit finishing remain open. The saved mesh is a technical Lab milestone, not an accepted gameplay outfit or a new release.
+
+A duplicate snapshot-allocation path was replaced by an equivalent streaming comparison. The remaining native operation briefly exceeded its old 10 GiB process budget; a fresh-capacity-checked 14 GiB lease completed in 220.45 seconds at about 10.17 GiB peak. Source, UV, reference, weight and admission checks were retained. Journey52, saved campaigns and the complete-outfit count remain unchanged. Failed attempts and the qualified moving review remain recorded.
