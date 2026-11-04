@@ -5184,3 +5184,14 @@ One isolated native Sorcerer coat is now saved. Its 88,572 source triangles, bot
 Two focused walking views now show the coat and underlayer together with the visible body, trousers and boots. Technical pose/follower and unchanged-content checks pass. The upper construction improves, but the lower rear coat follows the separated bent legs too closely, and selected-art closures, shirt details and complete outfit finishing remain open. The saved mesh is a technical Lab milestone, not an accepted gameplay outfit or a new release.
 
 A duplicate snapshot-allocation path was replaced by an equivalent streaming comparison. The remaining native operation briefly exceeded its old 10 GiB process budget; a fresh-capacity-checked 14 GiB lease completed in 220.45 seconds at about 10.17 GiB peak. Source, UV, reference, weight and admission checks were retained. Journey52, saved campaigns and the complete-outfit count remain unchanged. Failed attempts and the qualified moving review remain recorded.
+
+
+## 4 November 2026 — Rogue hood integrated and checked; release unchanged
+
+A retained four-part leather hood source now reaches the supported Human Rogue character preview and ordinary class confirmation. The source keeps its 26,656 triangles, both UV channels and eight retained layout images. Native intake saved one skeletal mesh, three materials and five texture packages from existing images; nine exact package copies were added to the game project. These are reused source assets, not nine new models or a new texture bank.
+
+The native intake completed in 73.314 seconds, the saved hood and grooming view in 27.970 seconds, the game editor build in 24.009 seconds, and the private creator-to-normal-confirmation check in 81.797 seconds. Existing missing-only tangent generation preserves authored normals, source geometry, UVs, reference data and skin weights. The practical appearance is accepted for this supported preset; stronger weathering, stitching, head-turn coverage and the full selected-art finish remain open. Equipped head items keep precedence in the selector, with no equipment or stat grants. An occupied-helmet interaction and other body, face and race combinations are not claimed.
+
+This is integrated, built and checked source work, not a packaged release. Journey52 remains the current playable release, and complete class ensembles remain two of twenty-four. Existing saves and frozen release packages were preserved.
+
+A separate read-only review identified the existing official cloth runtime route for long garments. The saved coat still needs actual simulation topology, authored anchors, collision data and render-to-simulation binding before any physics or deformation improvement can be claimed. No new solver trial, garment remake or physics fix was delivered by that review.
