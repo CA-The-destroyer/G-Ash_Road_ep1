@@ -5146,3 +5146,10 @@ Source milestone, unreleased: the existing Sorcerer garment now retains a separa
 A fresh process verified the saved mesh, material graphs, texture settings and package bytes. One focused NVIDIA front/back view confirms the placed embroidery reaches the native model. Visible rear-waist layer interruptions, cloth-surface departures and construction differences from the selected art remain open; the outfit is not approved for gameplay. Existing compatible underlayers are the next reuse candidate. No repeated garment fitting or broad gameplay tests ran.
 
 Journey52 remains the playable release, with rollback51. No campaign, equipment statistics, released package or completed-class count changed. Failed fixture evidence was retained separately from the successful native results.
+
+
+### 3 November 2026 — Continuous garment construction and native intake (unreleased)
+
+Replaced disconnected underlayer extensions with one continuous sewn garment using the existing construction method and original donor. Retained healthy upper UVs and created matching lower UV layouts. The exact 85,096-triangle export passed geometry, material and UV readback. One isolated native garment is now saved with 67 active bones, zero root influence and complete tangent frames. The established restoration step recovered 33 UV corners changed during conversion; source geometry and UV layouts were preserved.
+
+Two actual walking views show the continuous garment moving without the earlier broad waist patches and separate hem join. Local fold indications, selected-art finishing and outer-layer compatibility remain open. This is character-lab progress only: Journey52, complete outfit coverage, game saves and packaged gameplay are unchanged. No existing weapon, texture bank or released outfit was remade.
