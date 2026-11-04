@@ -5206,3 +5206,14 @@ The official separate simulation/render collection conversion passes complete re
 One fixed simulation-only remesh completed with the renderer preserved, but its output was rejected: three nonmanifold edges, extreme triangle aspect ratios and 22,578 triangles instead of the intended smaller proxy. No failed candidate was saved or admitted. A source-bound lower-cloth proxy is the next construction step; skinning, anchors, physical configuration, collision clearance, simulation and final outfit appearance remain open.
 
 Journey52 remains the playable release and complete class ensembles remain two of twenty-four. No new physics behavior, movement improvement, gameplay outfit or release package is claimed. Original artwork, prior sources, campaigns and frozen releases were preserved.
+
+
+## 4 November 2026 — Lightweight cloth surface and animation binding (unreleased)
+
+The long-coat work now has a regular, lightweight auxiliary simulation surface: 525 vertices and 948 triangles. It retains the authored front opening and rear vent without copying the tiny clipped triangles from the artistic mesh. One editable source, one FBX and a metric UV layout were saved. Exact source/export checks pass. The scoped clearance check passes with its excluded regions explicitly recorded; universal collision clearance remains unproved. No new original texture bank or replacement visible outfit was made.
+
+Actual Unreal conversion preserves all 948 triangles with no nonmanifold edges or zero-area faces. The complete 88,572-triangle visible garment retains its geometry, both UV channels, materials, reference data and skin weights. Exact correspondence also binds the lower render region and attachment row without guessed indices.
+
+One official simulation-only animation-weight transfer passes for all 525 auxiliary vertices, with at most eight influences and no root-only or unweighted vertices. The visible garment was not refitted. This is an unsaved technical collection, not working cloth physics: anchor configuration, collision, render deformation and actual runtime movement remain next.
+
+Production used existing Blender construction controls, cached exact FBX readback and coordinator-owned CPU/NullRHI Unreal operations. The earlier rejected remesh and edge-collapse approaches remain stopped. Journey52, complete outfit coverage, saves and frozen packages are unchanged. No new gameplay release is claimed.
