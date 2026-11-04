@@ -5195,3 +5195,14 @@ The native intake completed in 73.314 seconds, the saved hood and grooming view 
 This is integrated, built and checked source work, not a packaged release. Journey52 remains the current playable release, and complete class ensembles remain two of twenty-four. Existing saves and frozen release packages were preserved.
 
 A separate read-only review identified the existing official cloth runtime route for long garments. The saved coat still needs actual simulation topology, authored anchors, collision data and render-to-simulation binding before any physics or deformation improvement can be claimed. No new solver trial, garment remake or physics fix was delivered by that review.
+
+
+## 4 November 2026 — Cloth authoring input and exact engine conversion (unreleased)
+
+Created one auxiliary simulation-sheet source and one FBX from retained garment geometry: 43,842 triangles, two preserved UV channels and accompanying layout images. Independent geometry, material and UV readback passes. The original 88,572-triangle game mesh remains unchanged. This is an authoring input, not another finished armor model or a new texture bank.
+
+The official separate simulation/render collection conversion passes complete render preservation, including frames, colors, UVs, materials, weights and reference data. A retained failed weight comparison was resolved through exhaustive, exact replay of the engine's two uint16 decoding operations; no tolerance or weight adjustment was applied. The complete reference stream and derived simulation positions also match their recorded engine operations exactly. Work used bounded parallel CPU preparation, headless Blender extraction and coordinator-owned Unreal conversion.
+
+One fixed simulation-only remesh completed with the renderer preserved, but its output was rejected: three nonmanifold edges, extreme triangle aspect ratios and 22,578 triangles instead of the intended smaller proxy. No failed candidate was saved or admitted. A source-bound lower-cloth proxy is the next construction step; skinning, anchors, physical configuration, collision clearance, simulation and final outfit appearance remain open.
+
+Journey52 remains the playable release and complete class ensembles remain two of twenty-four. No new physics behavior, movement improvement, gameplay outfit or release package is claimed. Original artwork, prior sources, campaigns and frozen releases were preserved.
