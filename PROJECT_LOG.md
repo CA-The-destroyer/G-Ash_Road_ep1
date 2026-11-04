@@ -5153,3 +5153,14 @@ Journey52 remains the playable release, with rollback51. No campaign, equipment 
 Replaced disconnected underlayer extensions with one continuous sewn garment using the existing construction method and original donor. Retained healthy upper UVs and created matching lower UV layouts. The exact 85,096-triangle export passed geometry, material and UV readback. One isolated native garment is now saved with 67 active bones, zero root influence and complete tangent frames. The established restoration step recovered 33 UV corners changed during conversion; source geometry and UV layouts were preserved.
 
 Two actual walking views show the continuous garment moving without the earlier broad waist patches and separate hem join. Local fold indications, selected-art finishing and outer-layer compatibility remain open. This is character-lab progress only: Journey52, complete outfit coverage, game saves and packaged gameplay are unchanged. No existing weapon, texture bank or released outfit was remade.
+
+
+## 3 November 2026 — continuous class clothing and native garment milestone
+
+Journey52 remains the playable release; no new package or complete class ensemble is claimed. The current supported Human class wardrobe scope and two complete ensembles remain unchanged.
+
+A continuous Sorcerer underlayer and open-front coat now replace the disconnected waist construction. Exact original cuff-band faces reconnect the corrected upper to one closed manifold garment; approved upper UVs and lower embroidery are retained. The final changed source view shows continuous textile across the former placeholder waist band. Existing cloth, normal, roughness and embroidery images were reused; no new original bitmap set was generated. Logical closures, selected-art details, pattern joins and combined moving fit remain open.
+
+One new isolated Lab underlayer was saved through the existing official native garment path in 171.81 seconds. Its 85,096 source triangles and all 255,288 oriented position/UV/material corners passed exact export readback. The final field has 67 active bones and zero Root influence; original strict source, reference, frame and dependency gates passed. This is technical native progress, not Main integration or a shipped outfit.
+
+Production used bounded parallel CPU source/UV work, coordinator-owned native operations and actual CUDA source views. A retained export-reader performance defect was removed in a scoped successor by caching immutable vertex bytes once; the same complete strict checks now take 3.14 seconds rather than repeating whole-array conversions per vertex. Earlier failed attempts remain recorded. Original artwork, source files, saves and frozen releases were preserved.
