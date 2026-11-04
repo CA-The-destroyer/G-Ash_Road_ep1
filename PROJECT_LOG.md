@@ -5137,3 +5137,12 @@ Storage consolidation kept current45 and previous44. Retiring only43's packaged 
 The F: migration directory is353MiB of verification records, not a duplicate project. The old C: project path is a junction to the required active F: project. Migration records, source art, UVs, saved campaigns and the retained playable packages were preserved.
 
 Methods/tools: installed Unreal5.8.3 AutomationTool/UnrealBuildTool, modular C++, process-local filesystem DDC reuse, native AssetRegistry inspection, private normal-input runtime checks, rendered review and hash-bound PowerShell retention. No new gameplay success was inferred from UAT alone. The next requested creator-menu refinement is separate source work; new reports about NPC assignment and remaining outfit coverage stay explicit.
+
+
+## 3 November 2026 — Native garment placement and material persistence
+
+Source milestone, unreleased: the existing Sorcerer garment now retains a separate placement UV channel for its authored embroidery while preserving its original surface UVs, geometry, skin weights, reference pose, tangent frames and equipment slot names. Eighteen isolated Lab packages were saved: one reused garment mesh, five materials and twelve texture packages imported from retained bitmap sources. This is reuse and native integration, not eighteen newly modeled assets.
+
+A fresh process verified the saved mesh, material graphs, texture settings and package bytes. One focused NVIDIA front/back view confirms the placed embroidery reaches the native model. Visible rear-waist layer interruptions, cloth-surface departures and construction differences from the selected art remain open; the outfit is not approved for gameplay. Existing compatible underlayers are the next reuse candidate. No repeated garment fitting or broad gameplay tests ran.
+
+Journey52 remains the playable release, with rollback51. No campaign, equipment statistics, released package or completed-class count changed. Failed fixture evidence was retained separately from the successful native results.
