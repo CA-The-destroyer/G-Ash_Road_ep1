@@ -54,7 +54,7 @@ def box(x, y, title, lines, accent):
 
 
 rule([(85, 52), (2075, 52)], "#CBA96D", 3, False)
-text(85, 82, "THE ASH ROAD  /  30 OCTOBER 2026", 25, "#CBA96D", True)
+text(85, 82, "THE ASH ROAD  /  " + DATA.get("snapshot_label", "DATED SNAPSHOT"), 25, "#CBA96D", True)
 text(80, 135, "Development history & publication flow", 58, heavy=True)
 text(85, 220, "Source development, playable releases and public documentation retain separate histories.", 29, "#B7C6D9")
 for x, value, label in [
@@ -115,7 +115,7 @@ mmd = f'''flowchart LR
 (HERE / "development-history-flow.mmd").write_text(mmd, encoding="utf-8", newline="\n")
 (HERE / "development-history-flow.md").write_text('''# Development history and publication flow
 
-**Historical 30 October snapshot:** graph release labels and commit totals below are retained audit values. Current delivery is Journey46/45; the owner-recruited second PC is described in [current compute notes](../compute-resources.md).
+Updated 4 November 2026. Release labels and counts come from the published history data. [Current compute roles](../compute-resources.md).
 
 ![The Ash Road development history and publication flow](development-history-flow.png)
 

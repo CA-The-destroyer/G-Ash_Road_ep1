@@ -1,43 +1,19 @@
 # Systems diagrams
 
-For the latest release state, project size and technology summary, see the [project status page](../status/README.md).
+Updated **4 November 2026**. Journey52 is promoted,51 rollback. Architecture, skills and history diagrams now share the current release/compute boundaries; detailed acceptance remains in the [project status](../status/README.md).
 
-<!-- history-flow:start -->
-## Development history and publication flow
-
-![Development history and publication flow](development-history-flow.png)
-
-[Flow explanation and editable graph](development-history-flow.md) · [PNG](development-history-flow.png) · [SVG](development-history-flow.svg) · [Source ledger and combined statistics](../history/README.md)
-<!-- history-flow:end -->
-
-## Advanced Custom Game Dev System Design
-
-The Ash Road's production tools, Unreal technology stack, compute split, and the skills that connect them.
-
-The architecture and skills graphs are updated through **31 October 2026**, including the owner-recruited secondary worker PC. The development-history flow retains its **30 October snapshot**. [Compute roles and limits](../compute-resources.md). Cooked, source and candidate states remain separate.
-
-| Page | View full-size PNG | Text and editable Mermaid graph |
+| Diagram | PNG | Text / editable source |
 | --- | --- | --- |
-| 1 — Systems architecture | [Systems graph](ash-road-system-design.png) | [Architecture explanation](ash-road-system-design.md) |
-| 2 — Skills and experience | [Skills graph](ash-road-system-design-page-2-skills.png) | [Skills and practical experience](ash-road-skills-and-experience.md) |
+| Advanced Custom Game Dev System Design | [Systems architecture](ash-road-system-design.png) | [Frameworks and architecture](ash-road-system-design.md) |
+| Skills and experience | [Skills graph](ash-road-system-design-page-2-skills.png) | [Skills and experience](ash-road-skills-and-experience.md) |
+| Local Git and GitHub publication | [History flow](development-history-flow.png) | [Explanation](development-history-flow.md) · [Mermaid](development-history-flow.mmd) · [SVG](development-history-flow.svg) |
 
-## Page 1 — Systems architecture
+![Systems architecture](ash-road-system-design.png)
 
-![Advanced Custom Game Dev System Design — systems architecture](ash-road-system-design.png)
+![Skills and experience](ash-road-system-design-page-2-skills.png)
 
-## Page 2 — Skills and experience
+![History and publication flow](development-history-flow.png)
 
-![Skills and experience relationship graph](ash-road-system-design-page-2-skills.png)
+Main frameworks: **UNREAL / BLENDER / AI**, with separate local NVIDIA/AMD, additional remote CUDA and owner-recruited secondary CPU worker roles. Hostnames are omitted. [Compute responsibilities](../compute-resources.md).
 
-## Source and scope
-
-[render_system_design.py](render_system_design.py) recreates page 1 with Python, Pillow and the existing Windows Segoe UI fonts. The same renderer also recreates page 2; both have editable Mermaid in their explanations. The repository does not redistribute fonts.
-
-The local evidence paths in the architecture explanation identify the development workspace. Those source/evidence files are not included in this documentation-only publication. The main AMD adapter has verified Unreal source/packaged views and Blender HIP authoring. NVIDIA, local AMD and the owner-recruited secondary worker PC have distinct roles. Clothing simulation trials, source equipment/LOD candidates and broader validation retain separate limits.
-
-
-## Owner-recruited second PC
-
-The owner recruited a **secondary worker PC** to help production. The main workstation remains primary: NVIDIA first, local AMD second, then secondary worker PC for compatible jobs. Independent useful jobs can run concurrently; owner playtesting reserves NVIDIA. secondary worker PC uses approved portable **Blender 4.1.1**, lightweight CPU work and at most **two threads**. Two hash-verified plate LOD source candidates have returned; native LOD admission and measured runtime savings remain open. Its Radeon HD 7800 Series is separate from the main PC's AMD adapter and has no admitted GPU/inference workload. The existing Linux CPU worker remains an adjunct. The second PC is optional; one controller owns Unreal imports, builds and promotion.
-
-[Compute resources and responsibilities](../compute-resources.md).
+[render_system_design.py](render_system_design.py) recreates both architecture/skills PNGs. [render_history_flow.py](render_history_flow.py) recreates history PNG/SVG/Mermaid from published metadata. Python/Pillow and installed Windows Segoe UI are used; fonts are not redistributed. Art/source experiments, native integration, packaged proof and final visual acceptance retain their recorded boundaries.

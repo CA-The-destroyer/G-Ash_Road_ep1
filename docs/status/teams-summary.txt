@@ -1,31 +1,24 @@
 THE ASH ROAD — DEVELOPMENT STATUS
-31 October 2026
+4 November 2026
 
-Journey46/schema47 is promoted; Journey45 is rollback. AR-P02 independent equipment visuals/item families is active. Real EOS/WAN acceptance remains open.
+Journey52/schema47 is promoted; Journey51 is rollback. UAT:361.68s. 68 accepted added packages; all5,104 required cooked resources present. Three intercepted launcher checks passed without starting games or opening owner saves. Source evidence was reused.
 
 PROJECT SCALE
-Main workspace: 320.46 GB (298.45 GiB), 1,240,107 files.
-Unreal Content: 38.95 GB across 34,201 files.
-Active source: 142,021 code-only lines across 1,673 files.
-Markdown: 721 active documents; 2,977 including retained/prepared copies.
-Reusable SKILL.md workflows: 12 local definitions (7 personal, 5 system); 0 inside the game project.
+367.47 GB (342.23 GiB) / 1,271,175 main-workspace files.
+Unreal Content: 40.63 GB / 34,918 files.
+Active code: 153,507 code-only lines / 1,797 files.
+Markdown: 798 active / 4,355 including retained/prepared copies.
+Reusable SKILL.md workflows: 12 local (7 personal + 5 system); 0 inside the project.
+Change from 30 October: +47.01 GB · +31,068 files · +11,486 code lines · +77 active Markdown.
 
-DELIVERY AND WORK
-Journey46 build/cook/stage/archive passed; all 4,800 required cooked resources are present. Focused shirt/cape and same-process title/Host/creator/arrival/session checks passed; unchanged source evidence was reused.
-125 outstanding tracking records: 47 feature families, 61 debug/triage records, 17 changes/gates. Counts are owner records, not unique tasks or completion percentages.
-Active: AR-P02 independent equipment visuals. Source equipment variants and worker LOD candidates await their separate admissions.
+CURRENT WORK AND LIMITS
+Complete class ensembles:2/24. Counterpart Rogue hood is source-integrated/built/checked, outside52. Cloth/Dataflow has actual CPU simulation and corrected routing proof; visible underlayer breakthrough still holds fit/art/Main acceptance. No53 release. Real EOS/WAN remains unverified.
+Last numbered register,31 October:125 outstanding owners —47 feature families,61 debug/triage,17 changes/gates. Later intakes are not re-audited here.
 
-HISTORY — RECORDED 30 OCTOBER SNAPSHOT
-1,060 local source commits, including the 612 current-HEAD subset.
-102 GitHub documentation commits at the 30 October snapshot; 1,162 combined distinct SHAs; 0 pull requests.
+HISTORY
+1,060 local source commits, including the 612 HEAD subset; 155 GitHub documentation commits including this publication; 1,215 combined distinct SHAs; 0 pull requests.
 
-TECHNOLOGY
-Unreal 5.8/C++20/SQLite; MetaHuman/Outfit; Blender/Python/PowerShell; TRELLIS.2/PyTorch and Qwen3-TTS/VoiceForge. NVIDIA supports CUDA/rendering; AMD has verified Unreal previews/packaged views and HIP authoring. Reserve NVIDIA during owner playtests; VRAM is not pooled.
+FRAMEWORKS AND COMPUTE
+Unreal5.8.3/C++20/SQLite; MetaHuman/Outfit/Cloth/Dataflow; Blender/Python/PowerShell; TRELLIS.2/PyTorch; Qwen3-TTS/VoiceForge/FFmpeg. Local NVIDIA/CUDA + local AMD/HIP + remote RTX4060/CUDA have actual execution evidence. Owner-recruited secondary worker PC: optional Blender4.1.1, two CPU threads; two LOD candidates await native admission. Separate GPU memory; fresh capacity checks and owner reservations apply.
 
-Measured storage/Markdown: 30 October 2026, 13:42–13:44 Chicago (UTC-05). Code/workflows: 30 October 2026, 13:45 Chicago (UTC-05).
-Workspace figures include archives/evidence/generated copies and are not the game download size. Counts are dated snapshots, not completion percentages.
-
-OWNER-RECRUITED SECOND PC
-The owner recruited a secondary worker PC to help production. The main workstation remains primary: NVIDIA first, local AMD second, then secondary worker PC for compatible jobs. Independent useful jobs can run concurrently; owner playtesting reserves NVIDIA. secondary worker PC uses approved portable Blender 4.1.1, lightweight CPU work and at most two threads. Two hash-verified plate LOD source candidates have returned; native LOD admission and measured runtime savings remain open. Its Radeon HD 7800 Series is separate from the main PC's AMD adapter and has no admitted GPU/inference workload. The existing Linux CPU worker remains an adjunct. The second PC is optional; one controller owns Unreal imports, builds and promotion.
-
-The size, code, Markdown, workflow and history figures above retain their stated 30 October scopes. They do not include an inventory of the second PC.
+Measured main storage/Markdown: 2026-11-04T10:29:16.474596-06:00 to 2026-11-04T10:32:20.100312-06:00 (Chicago UTC-06). Code/workflows: 2026-11-04T16:35:30.633434+00:00. Archive/evidence/generated copies are included; workspace size is not game download size or unique authored content. Counts are dated snapshots.

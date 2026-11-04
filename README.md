@@ -5,29 +5,27 @@ System design and development notes for an original cooperative RPG built with U
 <!-- project-status:start -->
 ## Project status and scale
 
-![The Ash Road current status](docs/status/project-status.png)
+![The Ash Road measured status](docs/status/project-status.png)
 
-**Journey46/schema47 is promoted; Journey45 is rollback.** AR-P02 independent equipment visuals is active. Real EOS/WAN acceptance remains open. The status image and scale figures retain their dated 30 October measurement snapshot.
+**Journey52/schema47 promoted; Journey51 rollback.** Modular class equipment integration is active; complete ensembles remain2/24. Cloth routing/runtime proof passes while visible garment fit remains held.
 
-**320.46GB · 1,240,107 files · 142,021 code-only lines across 1,673 active source files.** The 30 October inventory records 721 active Markdown documents and 12 separate local SKILL.md definitions. Workspace figures include archived/generated copies.
+**367.47 GB · 1,271,175 files · 153,507 code-only lines / 1,797 active source files.** Fresh4November metadata/source audit; archived/generated copies included.
 
-[Full status and scale](docs/status/README.md) · [Copy-ready summary](docs/status/teams-summary.txt) · [Exact measurement data](docs/status/project-scale.json)
+[Full status](docs/status/README.md) · [Copy-ready summary](docs/status/teams-summary.txt) · [Data](docs/status/project-scale.json)
 <!-- project-status:end -->
 
 <!-- outstanding-register:start -->
 ## Outstanding work
 
-**125 outstanding owner records:** 47 feature families, 61 debug/triage records and 17 changes/gates. Optional ideas and scoped closures are separate. Current priority: AR-P02 independent equipment visuals, following delivered AR-P01 loot/comparison and the approved milestone order.
-
-[Open the numbered work register](docs/backlog/README.md).
+Last numbered-register audit31October: **125 owner records —47 feature families,61 debug/triage and17 changes/gates**. Later intakes have not been re-audited here. Modular class equipment is the active objective. [Recorded register](docs/backlog/README.md).
 <!-- outstanding-register:end -->
 
 <!-- source-history:start -->
 ## Development history
 
-**At the 30 October audited snapshot: 1,060 local source commits + 102 documentation commits = 1,162 distinct recorded commits across both histories.** The 612 current-HEAD source commits are included within the 1,060.
+**1,060 local source commits + 155 documentation commits = 1,215 distinct recorded SHAs.** The 612 HEAD subset is included. Pull requests:0.
 
-[Source ledger and combined statistics](docs/history/README.md) · [Development flow diagram](docs/diagrams/development-history-flow.md). Pull requests: **0**; documentation uses direct selected-file publication to main.
+[Ledger and method](docs/history/README.md) · [Development flow](docs/diagrams/development-history-flow.md).
 <!-- source-history:end -->
 
 ## Systems diagrams
@@ -43,8 +41,8 @@ The [dedicated systems-diagrams section](docs/diagrams/README.md) contains the a
 
 Read the [project log](PROJECT_LOG.md) for development milestones, release status and validation limits. Diagrams are dated snapshots; prepared or isolated work is not automatically part of a playable release.
 
-## Owner-recruited second PC
+## Production compute
 
-The owner recruited a **secondary worker PC** to help production. The main workstation remains primary: NVIDIA first, local AMD second, then secondary worker PC for compatible jobs. Independent useful jobs can run concurrently; owner playtesting reserves NVIDIA. secondary worker PC uses approved portable **Blender 4.1.1**, lightweight CPU work and at most **two threads**. Two hash-verified plate LOD source candidates have returned; native LOD admission and measured runtime savings remain open. Its Radeon HD 7800 Series is separate from the main PC's AMD adapter and has no admitted GPU/inference workload. The existing Linux CPU worker remains an adjunct. The second PC is optional; one controller owns Unreal imports, builds and promotion.
+The main workstation uses **NVIDIA RTX4060Ti/CUDA** and **AMD Radeon/HIP** for compatible independent work. An additional **remote RTX4060 Laptop/CUDA** worker has actual production outputs. The owner-recruited **secondary worker PC** remains a separate optional **Blender4.1.1 CPU** lane, limited to **two threads**; its two returned LOD candidates await native admission. Main/Linux CPUs support preparation and build work; hosted image AI uses provider compute. GPU memory is separate. Prefer local NVIDIA when available; owner reservations take priority, with compatible remote NVIDIA, local AMD and CPU fallback. Check actual capacity before dispatch. One coordinator owns Unreal imports, native builds and promotion.
 
-[Compute resources and handoff](docs/compute-resources.md).
+[Compute roles](docs/compute-resources.md).

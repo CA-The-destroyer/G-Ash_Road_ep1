@@ -1,8 +1,6 @@
 # Development history and combined statistics
 
-**Historical 30 October snapshot:** graph release labels and commit totals below are retained audit values. Current delivery is Journey46/45; the owner-recruited second PC is described in [current compute notes](../compute-resources.md).
-
-**30 October 2026 · Local source Git and GitHub publication history**
+**4 November 2026 · Local source Git and GitHub publication history**
 
 ![Development history and publication flow](../diagrams/development-history-flow.png)
 
@@ -15,9 +13,9 @@
 | **All reachable local game-source history** | **1,060** | Distinct full SHAs across all local refs; all are also reachable from local branches. |
 | Current source HEAD ancestry | **612** | A subset of the 1,060; not added again. HEAD `8051561`. |
 | Other source-branch ancestry | **448** | Reachable source commits outside current HEAD ancestry. |
-| **GitHub documentation history** | **102** | Separate public repository, including this snapshot's publication commit. |
+| **GitHub documentation history** | **155** | Separate public repository, including this snapshot's publication commit. |
 | Shared source/documentation SHAs at audited base | **0** | Actual intersection checked by full SHA before combining. |
-| **Combined unique source + documentation commits** | **1,162** | Union of both histories, including this publication. |
+| **Combined unique source + documentation commits** | **1,215** | Union of both histories, including this publication. |
 | Pull requests | **0** | Direct selected-file publication to main; open 0, merged 0, closed without merge 0. |
 
 There are **123 local branches** and **130 total local refs**. The source ledger exposes commit hashes, dates, parent links, normalized subjects and HEAD membership. It records source history as documentation; source trees and their Git objects remain in the local source repository.
@@ -26,7 +24,7 @@ The earlier **612** figure described current HEAD ancestry. The expanded **1,060
 
 ## How work reaches a release and a status update
 
-Local Unreal/Blender/AI authoring produces working source/assets and local commits. A reviewed release freeze identifies its committed base plus relevant working changes. Focused checks and Unreal build/cook/stage/archive acceptance determine promotion. Journey44 is promoted with Journey43 retained as rollback. Distinct weapon-family motion is the next active objective.
+Local Unreal/Blender/AI authoring produces working source/assets and local commits. A reviewed release freeze identifies its committed base plus relevant working changes. Focused checks and Unreal build/cook/stage/archive acceptance determine promotion. Journey52 is promoted with Journey51 retained as rollback. Modular class equipment is active; source clothing physics retains visual acceptance gates.
 
 Neutral source commit metadata and release evidence feed the public documentation repository. Selected documentation files are committed directly to main, explaining the zero pull-request count. The public GitHub commit counter counts that repository's actual history; exported ledger rows do not increase its native commit counter.
 
@@ -47,6 +45,6 @@ The latest recorded committed source date is 22 October 2026. Later integration,
 
 ## Snapshot and method
 
-Source and documentation graphs were audited at **2026-10-30T18:42:39.331977+00:00**. The hosted baseline was [a73d121](https://github.com/CA-The-destroyer/G-Ash_Road_ep1/commit/a73d1219acbe8c4df6b1086219e15a138caf2bbe) with **101 commits**. This publication is its one-parent successor, producing **102 documentation commits** and **1,162 combined distinct commit objects**; post-publication verification is retained locally.
+Source and documentation graphs were audited at **2026-11-04T16:35:08.703950+00:00**. The hosted baseline was [ee0a360](https://github.com/CA-The-destroyer/G-Ash_Road_ep1/commit/ee0a3600f4934ca161e927841cf619808a14a84d) with **154 commits**. This publication is its one-parent successor, producing **155 documentation commits** and **1,215 combined distinct commit objects**; post-publication verification is retained locally.
 
 Counts use full commit SHA sets, without deduplicating cherry-picked patches or repeated subjects. Commits are not counts of unique tasks, accepted features, developers or shipped releases. Uncommitted work is excluded. Personal contact details and source payloads are outside this metadata export; public subject wording is normalized while commit identifiers and dates remain exact.

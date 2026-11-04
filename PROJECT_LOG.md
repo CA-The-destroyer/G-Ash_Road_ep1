@@ -1,5 +1,13 @@
 # The Ash Road — project log
 
+## 2026-11-04 — Fresh measured project status and systems summary
+
+Journey52/schema47 is promoted, with51 rollback;68accepted added packages, all5104required cooked resources, UAT361.68s and three intercepted launcher checks pass. Source checks are reused. Complete class ensembles remain2/24; the counterpart Rogue hood is source-only, and long-garment routing/runtime proof does not close its visible fit/art hold. No53release is claimed.
+
+Fresh physical-root inventory: **367.47 GB / 1,271,175 files**. Active source: **153,507 code-only lines / 1,797 files**. Markdown:798active/4,355total. Reusable SKILL.md:12local/0project. Measured scopes/times and archival/generated-copy limits are documented in [status](docs/status/README.md).
+
+History:1,060source +155documentation =1,215distinct SHAs;0PRs. The source ledger is metadata only. Systems/skills PNGs, text, flow and Teams summary now distinguish local NVIDIA/AMD, additional remote CUDA and the unnamed secondary CPU worker. [Diagrams](docs/diagrams/README.md). This documentation refresh runs no game build, remote/GPU workload, save mutation or cleanup.
+
 ## 3 November 2026 — Journey52 class-appearance release
 
 Journey52 (`0.21.0-preview12-playtest52`, save schema47) is built, resource-checked and promoted. The normal Ash March launcher selects52; Journey51 is the rollback. Existing campaigns remain at their established location without migration.
@@ -120,13 +128,13 @@ Methods: retained art and UV-layout provenance; existing Blender construction/ma
 
 Journey51 is the promoted playable preview; Journey50 is rollback. Save schema47 and established campaign state were preserved without migration. Build output moved to a fresh C: artifact directory to preserve F: headroom; project sources remain on F:. Actual build/cook/stage/archive passed at01:45:45 UTC3November (19:45:45 Central2November). All5,036 required cooked packages, including49 new instrument packages, pass the native registry check. Exact executable/container bytes and three actual package-local Windows PowerShell5.1 launch routes pass. The source-passed gameplay loops were reused; no packaged campaign replay or new archived images are claimed.
 
-Five ordinary instruments are integrated: three lute finishes sharing one model/UV family, a travel flute and a hand drum. They use canonical inventory weight/value/condition, two-hand equip and offhand stow, finite merchant stock, the Bard starter grant and existing drop/ownership/persistence authority. Press O while stationary to play a short server-validated performance. Six synthesized sounds are playtest candidates.253 catalogue and269 inventory/equipment authority checks pass; actual male Human Road Lute equip/audio/finite-end/unequip and basic first-person framing pass.
+Five ordinary instruments are integrated: three lute finishes sharing one model/UV family, a travel flute and a hand drum. They use canonical inventory weight/value/condition, two-hand equip and offhand stow, finite merchant stock, the Bard starter grant and existing drop/ownership/persistence authority. Press O while stationary to play a short server-validated performance. Six synthesized sounds are playtest candidates.253 catalogue and269 inventory/equipment authority checks pass; actual character Human Road Lute equip/audio/finite-end/unequip and basic first-person framing pass.
 
 The batch also includes a complete ordinary usable Hide-set bonus of2percentage points of protection before the unchanged cap. Removing a piece or using an unusable piece removes the bonus. Actual server-damage and read-only comparison checks pass. Existing individual item stats are unchanged; stronger named-set effects remain future work.
 
 Methods: inspect and reuse shared Core/SQLite equipment and economy rules; bounded parallel Blender source production on local NVIDIA, local AMD and an additional NVIDIA resource; retained UV layouts and portable material maps; shared metal and worn leather treatments; one serialized Unreal integration/build lane; finite replicated performance state; focused authority/native checks; immutable source/content freeze; clean UAT with isolated writable cache and read-only warm cache; changed cooked-resource checks and no-game launcher interception; protected preimages and rollback. Resource labels are generic; no hostnames, addresses or accounts are included.
 
-Final instrument art/audio, authored playing animation, female/other-instrument live performance, full Bard spell coverage and WAN acceptance remain open. The class wardrobe remains2of24; experimental camp pursuit and ordinary caster-world acceptance remain held. New Wizard pendant and Warlock wrist-binding source candidates are being produced separately after the owner's request for more parts; they are not in51. The additional NVIDIA resource is owner-reserved for two hours; local production continues.
+Final instrument art/audio, authored playing animation, character/other-instrument live performance, full Bard spell coverage and WAN acceptance remain open. The class wardrobe remains2of24; experimental camp pursuit and ordinary caster-world acceptance remain held. New Wizard pendant and Warlock wrist-binding source candidates are being produced separately after the owner's request for more parts; they are not in51. The additional NVIDIA resource is owner-reserved for two hours; local production continues.
 
 Local delivery: docs/instruments51-delivery.md. Existing architecture and historical log entries below are retained.
 
@@ -140,7 +148,7 @@ Snapshot: 2 November 2026. Resource labels below are generic; no computer names,
 
 The actual build/cook/stage/archive passed in18m36s. The cooked registry contains all4,987 required packages. Four selected archived-game appearance views and12 launcher argument cases pass. Existing source proofs were reused for unchanged boundaries; the entire campaign was not replayed after packaging.
 
-This release includes the accepted independent leg/chest routes, two cosmetic glove identities and their icons/find rules, class-based common-clothing colors, corrected outfit descriptions, saved audio controls/music adjustment and solo Return to Title. Camp-pursuit completion and ordinary camp-caster behavior remain explicitly held/experimental.
+This release includes the accepted independent leg/torso routes, two cosmetic glove identities and their icons/find rules, class-based common-clothing colors, corrected outfit descriptions, saved audio controls/music adjustment and solo Return to Title. Camp-pursuit completion and ordinary camp-caster behavior remain explicitly held/experimental.
 
 #### Runtime architecture
 
@@ -197,7 +205,7 @@ Methods currently in use:
 - Headless Blender scripts with explicit CPU/CUDA/HIP selection, bounded threads/RAM, owned-process deadlines and hash-verified remote transfers.
 - Actual UV coordinates retained with models, with layout images beside source art. Geometry, material slots, surface roles and export transforms are checked on the real output.
 - Typed PBR treatment for cloth, worn leather and metal: physical texture scale, correct color spaces, normals, roughness and metallic routing. Existing approved finishes are reused.
-- Real garment construction rather than copying anatomy as clothing. A failed trouser shell was replaced with loose sewn panels. A bounded physical hood-drape experiment exposed an assembly-seam problem; it was retained as a failure rather than accepted as finished art.
+- Real garment construction rather than copying geometry as clothing. A failed trouser shell was replaced with loose sewn panels. A bounded physical hood-drape experiment exposed an assembly-seam problem; it was retained as a failure rather than accepted as finished art.
 - Epic's MetaHuman/Outfit and cloth tooling where the actual source and body fit support it. Matching a skeleton alone is not fit proof.
 - Official native skeletal export to recover an exact editable donor instead of reconstructing a model numerically. The first actual export passed; independent rig/UV/material readback is still required before editing/admission.
 - Fresh source namespaces and protected-input fingerprints. Failed source, solver, import and rendered evidence is retained rather than relabeled as a pass.
@@ -214,7 +222,7 @@ Methods currently in use:
 | Barbarian trousers | Genuine loose-panel A02 source and changed HIP view; fine art/current-body fit and game admission remain open |
 | Paladin gloves | HF25 outer-seam contact verified in an actual HIP view; the other target's official editable-donor export exists, with independent readback pending |
 | Ranger hood | Art requirement not closed. The sewn-panel version remains too boxy. The physical solve ended with a34.25mm open seam; coincident seam counterparts identify a concrete assembly correction for a future attempt. No new hood/export/view was accepted |
-| Rogue native source | Strict static identity held. A private stronger corner-correspondence candidate resolves235,254/237,227 retained Chest triangles;1,973remain ambiguous. It is not installed or accepted; BaseTunic native coverage is unavailable |
+| Rogue native source | Strict static identity held. A private stronger corner-correspondence candidate resolves235,254/237,227 retained torso triangles;1,973remain ambiguous. It is not installed or accepted; BaseTunic native coverage is unavailable |
 | Internet co-op | Server-authoritative foundations and setup work exist; configured EOS internet hosting/joining and end-to-end acceptance remain open |
 | New content candidates | Camp quest and ordinary armor-set code are prepared separately; incomplete scene bindings/tests are not reported as shipped features |
 
@@ -269,7 +277,7 @@ The owner also requested a daily06:00America/Chicago production readout; the rep
 
 ### 2 November 2026 UTC — Armor56 existing independent armor coverage
 
-Following the owner-directed shift from weapons to armor, reused two existing Broken Leather chest pieces. Their original fitted geometry, weights, four saved UV channels and seven ordered materials per piece remain intact. Actual raw-data observation found missing tangent frames; the existing narrow operation populated those frames in two fresh mesh namespaces, leaving the old packages unchanged. The38 material/texture dependencies were already byte-identical in Main; only two meshes needed staging.
+Following the owner-directed shift from weapons to armor, reused two existing Broken Leather torso pieces. Their original fitted geometry, weights, four saved UV channels and seven ordered materials per piece remain intact. Actual raw-data observation found missing tangent frames; the existing narrow operation populated those frames in two fresh mesh namespaces, leaving the old packages unchanged. The38 material/texture dependencies were already byte-identical in Main; only two meshes needed staging.
 
 Two current-body walking samples, the incremental Main source build and one private ordinary collect/equip/remove run pass. Root reviewed both native samples and all four equipment boundaries. The worn piece disappears on removal while complete ordinary clothing, other equipment and saved item records remain unchanged. No new items, stats, loot grants, economy or save authority were introduced. Original fine tear/fray and fabric presentation are not newly completed, and broader body/class, full-motion and final-art acceptance remain separate.
 
@@ -385,7 +393,7 @@ Journey49 (`0.21.0-preview12-playtest49`, schema47) is promoted as the ordinary
 playable build;48 is rollback. Existing campaigns continue from their established
 45 state directory without copying, migration or rerolling rewards. The released
 slice adds the independent left forearm guard and delivers the checked Human
-Broken/Hide chest routes, Peltsmith recovery starter correction, measured common-shirt
+Broken/Hide torso routes, Peltsmith recovery starter correction, measured common-shirt
 underarm aliases and named combat labels described in the source milestone below.
 
 Clean UAT completes build/cook/stage/archive. Native registry readback finds all
@@ -431,13 +439,13 @@ available while one coordinator owns local native execution and release binding.
 
 The current combined game source build passes. Both supported Human equipment
 checks pass normal collection, bracer/glove swaps, physical drop and recollection,
-then Broken Leather/Hide/Broken chest swaps. All six inventory endpoints were
+then Broken Leather/Hide/Broken torso swaps. All six inventory endpoints were
 reviewed. Original pawn, other equipped slots, item condition/provenance and
 private-save authority remain intact. These are practical resource and behavior
 checks, not exhaustive motion or final close-detail art acceptance.
 
 Peltsmith's initial recovery conversation now uses canonical Broken Leather for
-its existing chest outcomes. The separate earned five-pelt weapon reward is
+its existing torso outcomes. The separate earned five-pelt weapon reward is
 unchanged. Five rebuilt-Core cases cover seed outcomes, occupied-slot stowing,
 legacy flow, replay and restart. Existing Hide armor now selects the admitted
 leather torso route for each current Human family. A separately fitted counterpart

@@ -80,12 +80,12 @@ def arrow(points, dashed=False):
 
 text(100, 65, "THE ASH ROAD  /  SYSTEM OVERVIEW", 26, "#57708E", True)
 text(100, 108, "Advanced Custom Game Dev System Design", 64, "#172B48", True)
-text(100, 199, "Unreal + Blender + AI  /  owner-recruited second PC  /  31 October 2026", 32)
+text(100, 199, "Unreal + Blender + AI  /  coordinated local and remote compute  /  4 November 2026", 32)
 
 panel(100, 300, 530, 210, "NVIDIA RTX 4060 Ti", "8 GB shared VRAM\nCUDA AI + scheduled rendering")
 panel(660, 300, 530, 210, "LOCAL AMD RADEON", "Unreal source / packaged views\nHIP asset rendering")
-panel(1220, 300, 530, 210, "SECONDARY WORKER PC", "Blender 4.1.1 / two CPU threads\nOwner-recruited LOD helper")
-panel(1780, 300, 520, 210, "CPU + HOSTED AI", "Local / Linux CPU work\nProvider image generation")
+panel(1220, 300, 530, 210, "REMOTE RTX 4060", "Blender 5.2.1 / explicit CUDA\nActual production outputs")
+panel(1780, 300, 520, 210, "SECONDARY WORKER PC", "Blender 4.1.1 / two CPU threads\nOptional LOD / UV / export work")
 
 panel(100, 570, 2200, 130, "YOUR CREATIVE DIRECTION", "World, characters, equipment, art references, quests and game rules", True)
 arrow([(425, 700), (425, 790)])
@@ -121,8 +121,8 @@ text(132, 2335, "METAHUMAN + NATIVE CLOTHING — RELEASE / SOURCE / LAB", 34, "#
 pilot = [
     "MetaHuman / DNA / RigLogic, groom bindings, profile Data Assets and native animation banks.",
     "Epic Outfit and fitted modular garments preserve skin weights, UVs and portable PBR material routes.",
-    "Journey46/schema47 promoted; Journey45 rollback. Independent equipment visuals are active AR-P02 work.",
-    "Source-only equipment/LOD candidates, Cloth/Dataflow trials and real EOS/WAN retain separate gates.",
+    "Journey52/schema47 promoted; Journey51 rollback. Complete class ensembles remain 2/24.",
+    "Cloth/Dataflow solver + routing proof passes; visible long-garment fit and real EOS/WAN remain held.",
 ]
 y = 2395
 for paragraph in pilot:
@@ -144,8 +144,8 @@ caption_x = (2400 - caption_width) / 2
 draw.rectangle((caption_x - 20, 3074, caption_x + caption_width + 20, 3124), fill="#F5F7FB")
 text(caption_x, 3080, caption, 29, "#57708E")
 panel(100, 3160, 2200, 140, "THE ASH ROAD — PLAYABLE COOPERATIVE RPG", "Cooked release, functional source previews and prepared content retain separate acceptance states.", True)
-text(100, 3340, "Priority: NVIDIA → local AMD → worker PC. Independent compatible jobs may run concurrently.", 28)
-text(100, 3382, "Two worker LOD candidates returned; native admission open. Owner playtests reserve NVIDIA; no pooled VRAM.", 28)
+text(100, 3340, "Local NVIDIA preferred; remote NVIDIA / local AMD / CPU support compatible independent jobs.", 28)
+text(100, 3382, "Reserve owner GPUs; check capacity. CPU / Linux + hosted AI are separate; GPU memory is not pooled.", 28)
 
 image.save(OUTPUT, optimize=True, dpi=(180, 180))
 with Image.open(OUTPUT) as check:
@@ -158,7 +158,7 @@ image = Image.new("RGB", (2400, 2400), "#F5F7FB")
 draw = ImageDraw.Draw(image)
 text(100, 70, "THE ASH ROAD  /  SKILLS & EXPERIENCE", 28, "#57708E", True)
 text(100, 125, "Advanced Custom Game Dev System Design", 64, "#172B48", True)
-text(100, 222, "Page 2  /  capabilities supporting the system  /  31 October 2026", 32)
+text(100, 222, "Page 2  /  capabilities supporting the system  /  4 November 2026", 32)
 panel(100, 315, 2200, 150, "GAME DESIGN & CREATIVE DIRECTION", "Worldbuilding, art references, quests, combat, progression, economy and usable interfaces.", True)
 arrow([(1200, 465), (1200, 535)])
 panel(100, 535, 2200, 170, "SYSTEMS ARCHITECTURE & PROGRAMMING", "C++20 / Python, authority boundaries, stable identities, data contracts, debugging and dependency control.", accent=True)
@@ -168,7 +168,7 @@ panel(100, 795, 700, 370, "BLENDER & CONTENT", "Topology, UV maps, portable PBR,
 panel(850, 795, 700, 370, "UNREAL & GAMEPLAY", "Actors, Slate UI, physics and motion.\nReplication and server validation.\nSQLite transactions and persistence.\nReconnect and duplicate prevention.\nPreserve quest/item/save authority.", accent=True)
 panel(1600, 795, 700, 370, "AI & PRODUCTION TOOLS", "TRELLIS / PyTorch / CUDA, Qwen TTS.\nPython / PowerShell automation.\nGPU memory and device scheduling.\nProvenance, logs and recovery.\nReview generated candidates.", accent=True)
 arrow([(1950, 1165), (1950, 1250)])
-panel(100, 1250, 2200, 260, "SECOND-PC ORCHESTRATION — OWNER-RECRUITED WORKER", "SSH / PowerShell job packets, compatible Blender 4.1.1 and a two-thread CPU limit.\nPersisted status, deadlines and SHA256/size-checked retrieval; preserve UVs and source identity.\nTwo LOD candidates returned. Geometry/material review and native acceptance remain separate.\nSchedule NVIDIA → local AMD → worker PC; protect owner playtests and the shared Unreal/build slot.", accent=True)
+panel(100, 1250, 2200, 260, "LOCAL + REMOTE WORKER ORCHESTRATION", "SSH / PowerShell packets: remote RTX4060 CUDA; secondary Blender4.1.1 CPU worker limited to two threads.\nPersisted status, deadlines and SHA256/size-checked retrieval; preserve UVs and source identity.\nActual CUDA outputs and two CPU LOD candidates. Source review and native acceptance remain separate.\nPrefer local NVIDIA; use compatible remote NVIDIA / AMD / CPU. Preserve reservations and one Unreal/build owner.", accent=True)
 arrow([(450, 1165), (450, 1205), (65, 1205), (65, 1570), (450, 1570), (450, 1640)])
 arrow([(1200, 1165), (1200, 1210), (2340, 1210), (2340, 1570), (1950, 1570), (1950, 1640)])
 arrow([(1200, 1510), (1200, 1640)])

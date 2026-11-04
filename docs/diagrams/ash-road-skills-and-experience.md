@@ -2,7 +2,7 @@
 
 ## Page 2 — Skills and experience as a relationship graph
 
-Updated 31 October 2026. This describes the capabilities involved in the production system. Practical depth can be shared across people and tools.
+Updated 4 November 2026. This describes the capabilities involved in the production system. Practical depth can be shared across people and tools.
 
 ```mermaid
 flowchart TB
@@ -12,7 +12,7 @@ flowchart TB
     A --> TOOLS["Production tooling: AI compute, automation and reverse engineering"]
     ART --> Q["QA, performance profiling and integration acceptance"]
     GAME --> Q
-    TOOLS --> remoteJobs["Second-PC orchestration: SSH, bounded CPU jobs and hash-checked retrieval"]
+    TOOLS --> remoteJobs["Local/remote orchestration: CUDA/HIP/CPU admission and hash-checked retrieval"]
     remoteJobs --> Q
     TOOLS --> Q
     Q --> R["Infrastructure, builds, releases and recovery"]
@@ -45,8 +45,8 @@ The connecting capability is technical and creative judgment: define the intende
 Matching PNG: `ash-road-system-design-page-2-skills.png`.
 
 
-## Owner-recruited second PC
+## Local and remote compute
 
-The owner recruited a **secondary worker PC** to help production. The main workstation remains primary: NVIDIA first, local AMD second, then secondary worker PC for compatible jobs. Independent useful jobs can run concurrently; owner playtesting reserves NVIDIA. secondary worker PC uses approved portable **Blender 4.1.1**, lightweight CPU work and at most **two threads**. Two hash-verified plate LOD source candidates have returned; native LOD admission and measured runtime savings remain open. Its Radeon HD 7800 Series is separate from the main PC's AMD adapter and has no admitted GPU/inference workload. The existing Linux CPU worker remains an adjunct. The second PC is optional; one controller owns Unreal imports, builds and promotion.
+The main workstation uses **NVIDIA RTX4060Ti/CUDA** and **AMD Radeon/HIP** for compatible independent work. An additional **remote RTX4060 Laptop/CUDA** worker has actual production outputs. The owner-recruited **secondary worker PC** remains a separate optional **Blender4.1.1 CPU** lane, limited to **two threads**; its two returned LOD candidates await native admission. Main/Linux CPUs support preparation and build work; hosted image AI uses provider compute. GPU memory is separate. Prefer local NVIDIA when available; owner reservations take priority, with compatible remote NVIDIA, local AMD and CPU fallback. Check actual capacity before dispatch. One coordinator owns Unreal imports, native builds and promotion.
 
-[Compute resources and responsibilities](../compute-resources.md).
+[Current compute roles](../compute-resources.md).

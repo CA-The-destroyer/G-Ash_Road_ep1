@@ -1,5 +1,7 @@
 # Numbered outstanding work
 
+**4November reporting note:** the numbered owner counts below retain their31October audit. Current release is Journey52/51, with modular class equipment active; later intake has not been re-audited by this metrics refresh. [Current status](../status/README.md).
+
 **30 October 2026 · Journey42 promoted · Journey43 source only**
 
 **127 outstanding primary records**, organized under the existing four workstreams. Existing feature/debug IDs stay stable; newer defects and change requests now have IDs. Numbered sub-items and repeat reports point to one owner record.

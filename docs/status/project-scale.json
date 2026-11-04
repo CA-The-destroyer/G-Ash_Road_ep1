@@ -1,53 +1,49 @@
 {
-  "snapshot_date": "2026-10-30",
-  "summary_updated_utc": "2026-11-01T00:35:09.566448+00:00",
-  "started_utc": "2026-10-30T18:42:16.149717+00:00",
-  "ended_utc": "2026-10-30T18:44:36.577489+00:00",
-  "started_chicago": "2026-10-30T13:42:16.149717-05:00",
-  "ended_chicago": "2026-10-30T13:44:36.577489-05:00",
-  "measurement_started_utc": "2026-10-30T18:42:16.149717+00:00",
-  "measurement_ended_utc": "2026-10-30T18:44:36.577489+00:00",
-  "measurement_started_chicago": "2026-10-30T13:42:16.149717-05:00",
-  "measurement_ended_chicago": "2026-10-30T13:44:36.577489-05:00",
+  "snapshot_date": "2026-11-04",
+  "summary_updated_utc": "2026-11-04T16:35:42.538132+00:00",
+  "measurement_started_utc": "2026-11-04T16:29:16.474596+00:00",
+  "measurement_ended_utc": "2026-11-04T16:32:20.100312+00:00",
+  "measurement_started_chicago": "2026-11-04T10:29:16.474596-06:00",
+  "measurement_ended_chicago": "2026-11-04T10:32:20.100312-06:00",
   "units": "GB=1,000,000,000 bytes; GiB=1,073,741,824 bytes",
-  "definition": "Logical lengths and regular-file entries. Archives/evidence/generated copies included. Not allocated/deduplicated storage or game-download size.",
-  "method": "Metadata-only physical-root scan; skip all reparse points; exclude this report folder; code counted separately with pinned cloc2.10.",
+  "definition": "Logical lengths and regular-file entries; archives/evidence/generated copies included. Not allocated or deduplicated storage, unique content or game download size.",
+  "method": "Metadata-only physical-root scan; skip all reparse points; exclude this report packet. Source counted separately with pinned cloc2.10.",
   "primary": {
-    "files": 1240107,
-    "bytes": 320455046977,
-    "GB": 320.455047,
-    "GiB": 298.447019,
-    "directories": 920425,
+    "files": 1271175,
+    "bytes": 367466625183,
+    "GB": 367.466625,
+    "GiB": 342.229963,
+    "directories": 926324,
     "skipped_reparse_points": 4
   },
   "primary_top_level": [
     {
       "name": "evidence",
-      "files": 41746,
-      "bytes": 117802136072,
-      "GB": 117.802136,
-      "GiB": 109.711789
-    },
-    {
-      "name": "Archive",
-      "files": 1090240,
-      "bytes": 79389297068,
-      "GB": 79.389297,
-      "GiB": 73.937045
-    },
-    {
-      "name": "unreal",
-      "files": 39704,
-      "bytes": 56928307735,
-      "GB": 56.928308,
-      "GiB": 53.018618
+      "files": 45312,
+      "bytes": 123385998383,
+      "GB": 123.385998,
+      "GiB": 114.912166
     },
     {
       "name": "tools",
-      "files": 47354,
-      "bytes": 47247994262,
-      "GB": 47.247994,
-      "GiB": 44.003124
+      "files": 72881,
+      "bytes": 83567927162,
+      "GB": 83.567927,
+      "GiB": 77.828697
+    },
+    {
+      "name": "Archive",
+      "files": 1090583,
+      "bytes": 82102860033,
+      "GB": 82.10286,
+      "GiB": 76.464247
+    },
+    {
+      "name": "unreal",
+      "files": 40721,
+      "bytes": 58966710453,
+      "GB": 58.96671,
+      "GiB": 54.917029
     },
     {
       "name": "assets",
@@ -58,10 +54,10 @@
     },
     {
       "name": "(root files)",
-      "files": 337,
-      "bytes": 563058511,
-      "GB": 0.563059,
-      "GiB": 0.524389
+      "files": 355,
+      "bytes": 563403448,
+      "GB": 0.563403,
+      "GiB": 0.52471
     },
     {
       "name": "build-crafting",
@@ -85,6 +81,13 @@
       "GiB": 0.304555
     },
     {
+      "name": "build-loot46",
+      "files": 482,
+      "bytes": 320982978,
+      "GB": 0.320983,
+      "GiB": 0.298939
+    },
+    {
       "name": "Medieval Village MegaKit[Standard]",
       "files": 936,
       "bytes": 174347235,
@@ -101,9 +104,9 @@
     {
       "name": "saves",
       "files": 498,
-      "bytes": 85395277,
+      "bytes": 85395075,
       "GB": 0.085395,
-      "GiB": 0.079531
+      "GiB": 0.07953
     },
     {
       "name": ".git",
@@ -118,6 +121,13 @@
       "bytes": 39845888,
       "GB": 0.039846,
       "GiB": 0.037109
+    },
+    {
+      "name": "test-output",
+      "files": 37,
+      "bytes": 33320960,
+      "GB": 0.033321,
+      "GiB": 0.031033
     },
     {
       "name": "releases",
@@ -142,10 +152,10 @@
     },
     {
       "name": "docs",
-      "files": 530,
-      "bytes": 6312500,
-      "GB": 0.006313,
-      "GiB": 0.005879
+      "files": 600,
+      "bytes": 7386978,
+      "GB": 0.007387,
+      "GiB": 0.00688
     },
     {
       "name": "data",
@@ -156,24 +166,24 @@
     },
     {
       "name": "tests",
-      "files": 92,
-      "bytes": 842607,
-      "GB": 0.000843,
-      "GiB": 0.000785
+      "files": 95,
+      "bytes": 907576,
+      "GB": 0.000908,
+      "GiB": 0.000845
     },
     {
       "name": "src",
-      "files": 52,
-      "bytes": 482200,
-      "GB": 0.000482,
-      "GiB": 0.000449
+      "files": 53,
+      "bytes": 494324,
+      "GB": 0.000494,
+      "GiB": 0.00046
     },
     {
       "name": "include",
-      "files": 90,
-      "bytes": 437127,
-      "GB": 0.000437,
-      "GiB": 0.000407
+      "files": 94,
+      "bytes": 454195,
+      "GB": 0.000454,
+      "GiB": 0.000423
     },
     {
       "name": "recovered",
@@ -206,28 +216,28 @@
   ],
   "unreal_subtrees": {
     "unreal/ClawCoop/Content": {
-      "files": 34201,
-      "bytes": 38950150160,
-      "GB": 38.95015,
-      "GiB": 36.275154
+      "files": 34918,
+      "bytes": 40628311177,
+      "GB": 40.628311,
+      "GiB": 37.838063
     },
     "unreal/ClawCoop/Saved": {
-      "files": 897,
-      "bytes": 10042938306,
-      "GB": 10.042938,
-      "GiB": 9.353215
+      "files": 922,
+      "bytes": 10253828082,
+      "GB": 10.253828,
+      "GiB": 9.549622
     },
     "unreal/ClawCoop/Intermediate": {
-      "files": 3704,
-      "bytes": 6764720310,
-      "GB": 6.76472,
-      "GiB": 6.300137
+      "files": 3912,
+      "bytes": 6893482721,
+      "GB": 6.893483,
+      "GiB": 6.420056
     },
     "unreal/ClawCoop/Binaries": {
       "files": 28,
-      "bytes": 1108808479,
-      "GB": 1.108808,
-      "GiB": 1.032658
+      "bytes": 1128312438,
+      "GB": 1.128312,
+      "GiB": 1.050823
     },
     "unreal/ClawCoop/DerivedDataCache": {
       "files": 123,
@@ -236,1170 +246,26 @@
       "GiB": 0.038728
     }
   },
-  "file_extensions": {
-    "(no extension)": {
-      "files": 3990,
-      "bytes": 100526220,
-      "GB": 0.100526,
-      "GiB": 0.093622
-    },
-    ".md": {
-      "files": 2977,
-      "bytes": 206613994,
-      "GB": 0.206614,
-      "GiB": 0.192424
-    },
-    ".json": {
-      "files": 23712,
-      "bytes": 46938063451,
-      "GB": 46.938063,
-      "GiB": 43.714478
-    },
-    ".txt": {
-      "files": 4097,
-      "bytes": 1992816575,
-      "GB": 1.992817,
-      "GiB": 1.855955
-    },
-    ".ps1": {
-      "files": 1149,
-      "bytes": 8147999,
-      "GB": 0.008148,
-      "GiB": 0.007588
-    },
-    ".zip": {
-      "files": 8,
-      "bytes": 405506536,
-      "GB": 0.405507,
-      "GiB": 0.377657
-    },
-    ".cmd": {
-      "files": 129,
-      "bytes": 73336,
-      "GB": 7.3e-05,
-      "GiB": 6.8e-05
-    },
-    ".uproject": {
-      "files": 6,
-      "bytes": 3934,
-      "GB": 4e-06,
-      "GiB": 4e-06
-    },
-    ".png": {
-      "files": 15843,
-      "bytes": 19988659536,
-      "GB": 19.98866,
-      "GiB": 18.61589
-    },
-    ".cs": {
-      "files": 44,
-      "bytes": 45196,
-      "GB": 4.5e-05,
-      "GiB": 4.2e-05
-    },
-    ".h": {
-      "files": 1267,
-      "bytes": 4782852,
-      "GB": 0.004783,
-      "GiB": 0.004454
-    },
-    ".inl": {
-      "files": 31,
-      "bytes": 248400,
-      "GB": 0.000248,
-      "GiB": 0.000231
-    },
-    ".hpp": {
-      "files": 2824,
-      "bytes": 19628887,
-      "GB": 0.019629,
-      "GiB": 0.018281
-    },
-    ".cpp": {
-      "files": 2415,
-      "bytes": 86559989,
-      "GB": 0.08656,
-      "GiB": 0.080615
-    },
-    ".inc": {
-      "files": 1148,
-      "bytes": 7765134,
-      "GB": 0.007765,
-      "GiB": 0.007232
-    },
-    ".c": {
-      "files": 2,
-      "bytes": 708,
-      "GB": 1e-06,
-      "GiB": 1e-06
-    },
-    ".tmp": {
-      "files": 3,
-      "bytes": 1099911,
-      "GB": 0.0011,
-      "GiB": 0.001024
-    },
-    ".xml": {
-      "files": 10,
-      "bytes": 104939,
-      "GB": 0.000105,
-      "GiB": 9.8e-05
-    },
-    ".ini": {
-      "files": 4689,
-      "bytes": 58308889,
-      "GB": 0.058309,
-      "GiB": 0.054304
-    },
-    ".exe": {
-      "files": 593,
-      "bytes": 15113348537,
-      "GB": 15.113349,
-      "GiB": 14.075403
-    },
-    ".dll": {
-      "files": 1228,
-      "bytes": 3889570336,
-      "GB": 3.88957,
-      "GiB": 3.622445
-    },
-    ".html": {
-      "files": 79,
-      "bytes": 45640136,
-      "GB": 0.04564,
-      "GiB": 0.042506
-    },
-    ".bat": {
-      "files": 6,
-      "bytes": 5274,
-      "GB": 5e-06,
-      "GiB": 5e-06
-    },
-    ".sh": {
-      "files": 6,
-      "bytes": 12990,
-      "GB": 1.3e-05,
-      "GiB": 1.2e-05
-    },
-    ".tps": {
-      "files": 6,
-      "bytes": 5580,
-      "GB": 6e-06,
-      "GiB": 5e-06
-    },
-    ".ttf": {
-      "files": 14,
-      "bytes": 33227912,
-      "GB": 0.033228,
-      "GiB": 0.030946
-    },
-    ".cur": {
-      "files": 6,
-      "bytes": 1956,
-      "GB": 2e-06,
-      "GiB": 2e-06
-    },
-    ".bin": {
-      "files": 1055,
-      "bytes": 57609862209,
-      "GB": 57.609862,
-      "GiB": 53.653365
-    },
-    ".pak": {
-      "files": 31,
-      "bytes": 69552309,
-      "GB": 0.069552,
-      "GiB": 0.064776
-    },
-    ".ucas": {
-      "files": 14,
-      "bytes": 24950423174,
-      "GB": 24.950423,
-      "GiB": 23.236892
-    },
-    ".utoc": {
-      "files": 14,
-      "bytes": 15878744,
-      "GB": 0.015879,
-      "GiB": 0.014788
-    },
-    ".pdb": {
-      "files": 156,
-      "bytes": 18518650157,
-      "GB": 18.51865,
-      "GiB": 17.246837
-    },
-    ".ushaderbytecode": {
-      "files": 14,
-      "bytes": 673810993,
-      "GB": 0.673811,
-      "GiB": 0.627535
-    },
-    ".stinfo": {
-      "files": 14,
-      "bytes": 924880,
-      "GB": 0.000925,
-      "GiB": 0.000861
-    },
-    ".csv": {
-      "files": 641,
-      "bytes": 327669981,
-      "GB": 0.32767,
-      "GiB": 0.305166
-    },
-    ".sqlite": {
-      "files": 7038,
-      "bytes": 2774230219,
-      "GB": 2.77423,
-      "GiB": 2.583703
-    },
-    ".log": {
-      "files": 8842,
-      "bytes": 10846410172,
-      "GB": 10.84641,
-      "GiB": 10.101507
-    },
-    ".ush": {
-      "files": 1267,
-      "bytes": 22891040,
-      "GB": 0.022891,
-      "GiB": 0.021319
-    },
-    ".in": {
-      "files": 865,
-      "bytes": 0,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".list": {
-      "files": 882,
-      "bytes": 1472,
-      "GB": 1e-06,
-      "GiB": 1e-06
-    },
-    ".pth": {
-      "files": 865,
-      "bytes": 81216,
-      "GB": 8.1e-05,
-      "GiB": 7.6e-05
-    },
-    ".runtime-xml": {
-      "files": 151,
-      "bytes": 8377993,
-      "GB": 0.008378,
-      "GiB": 0.007803
-    },
-    ".dmp": {
-      "files": 151,
-      "bytes": 145478201,
-      "GB": 0.145478,
-      "GiB": 0.135487
-    },
-    ".nv-gpudmp": {
-      "files": 2,
-      "bytes": 458516,
-      "GB": 0.000459,
-      "GiB": 0.000427
-    },
-    ".projectstore": {
-      "files": 1,
-      "bytes": 385,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".ufont": {
-      "files": 6,
-      "bytes": 4758972,
-      "GB": 0.004759,
-      "GiB": 0.004432
-    },
-    ".ucookmeta": {
-      "files": 1,
-      "bytes": 30765,
-      "GB": 3.1e-05,
-      "GiB": 2.9e-05
-    },
-    ".manifest": {
-      "files": 1,
-      "bytes": 462206,
-      "GB": 0.000462,
-      "GiB": 0.00043
-    },
-    ".upluginmanifest": {
-      "files": 1,
-      "bytes": 218283,
-      "GB": 0.000218,
-      "GiB": 0.000203
-    },
-    ".ref": {
-      "files": 413,
-      "bytes": 23954,
-      "GB": 2.4e-05,
-      "GiB": 2.2e-05
-    },
-    ".obj": {
-      "files": 1319,
-      "bytes": 3283656932,
-      "GB": 3.283657,
-      "GiB": 3.058144
-    },
-    ".rsp": {
-      "files": 676,
-      "bytes": 1346237,
-      "GB": 0.001346,
-      "GiB": 0.001254
-    },
-    ".old": {
-      "files": 718,
-      "bytes": 1472938,
-      "GB": 0.001473,
-      "GiB": 0.001372
-    },
-    ".sarif": {
-      "files": 639,
-      "bytes": 441378,
-      "GB": 0.000441,
-      "GiB": 0.000411
-    },
-    ".res": {
-      "files": 3,
-      "bytes": 74972,
-      "GB": 7.5e-05,
-      "GiB": 7e-05
-    },
-    ".exp": {
-      "files": 11,
-      "bytes": 152682,
-      "GB": 0.000153,
-      "GiB": 0.000142
-    },
-    ".lib": {
-      "files": 42,
-      "bytes": 80795252,
-      "GB": 0.080795,
-      "GiB": 0.075246
-    },
-    ".pch": {
-      "files": 2,
-      "bytes": 4559077312,
-      "GB": 4.559077,
-      "GiB": 4.245972
-    },
-    ".rc2": {
-      "files": 1,
-      "bytes": 3172,
-      "GB": 3e-06,
-      "GiB": 3e-06
-    },
-    ".deps": {
-      "files": 2,
-      "bytes": 0,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".uhtmanifest": {
-      "files": 2,
-      "bytes": 3782375,
-      "GB": 0.003782,
-      "GiB": 0.003523
-    },
-    ".uhtpath": {
-      "files": 2,
-      "bytes": 144,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".uhtsettings": {
-      "files": 2,
-      "bytes": 26,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".uhttimestamps": {
-      "files": 2,
-      "bytes": 39855,
-      "GB": 4e-05,
-      "GiB": 3.7e-05
-    },
-    ".uasset": {
-      "files": 1121580,
-      "bytes": 68483103840,
-      "GB": 68.483104,
-      "GiB": 63.779861
-    },
-    ".umap": {
-      "files": 294,
-      "bytes": 494388853,
-      "GB": 0.494389,
-      "GiB": 0.460435
-    },
-    ".example": {
-      "files": 1,
-      "bytes": 1253,
-      "GB": 1e-06,
-      "GiB": 1e-06
-    },
-    ".target": {
-      "files": 2,
-      "bytes": 1173219,
-      "GB": 0.001173,
-      "GiB": 0.001093
-    },
-    ".modules": {
-      "files": 2,
-      "bytes": 316,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".py": {
-      "files": 6514,
-      "bytes": 60083415,
-      "GB": 0.060083,
-      "GiB": 0.055957
-    },
-    ".patch": {
-      "files": 536,
-      "bytes": 6191079,
-      "GB": 0.006191,
-      "GiB": 0.005766
-    },
-    ".papyrus": {
-      "files": 1,
-      "bytes": 1178,
-      "GB": 1e-06,
-      "GiB": 1e-06
-    },
-    ".pyc": {
-      "files": 1571,
-      "bytes": 40910689,
-      "GB": 0.040911,
-      "GiB": 0.038101
-    },
-    ".nif": {
-      "files": 1092,
-      "bytes": 120844638,
-      "GB": 0.120845,
-      "GiB": 0.112545
-    },
-    ".blend": {
-      "files": 641,
-      "bytes": 15991167489,
-      "GB": 15.991167,
-      "GiB": 14.892935
-    },
-    ".candidate": {
-      "files": 16,
-      "bytes": 246468,
-      "GB": 0.000246,
-      "GiB": 0.00023
-    },
-    ".fbx": {
-      "files": 2866,
-      "bytes": 4297288992,
-      "GB": 4.297289,
-      "GiB": 4.002162
-    },
-    ".vcxproj": {
-      "files": 321,
-      "bytes": 16101979,
-      "GB": 0.016102,
-      "GiB": 0.014996
-    },
-    ".filters": {
-      "files": 287,
-      "bytes": 168145,
-      "GB": 0.000168,
-      "GiB": 0.000157
-    },
-    ".sln": {
-      "files": 17,
-      "bytes": 296551,
-      "GB": 0.000297,
-      "GiB": 0.000276
-    },
-    ".cmake": {
-      "files": 82,
-      "bytes": 509210,
-      "GB": 0.000509,
-      "GiB": 0.000474
-    },
-    ".recipe": {
-      "files": 163,
-      "bytes": 74969,
-      "GB": 7.5e-05,
-      "GiB": 7e-05
-    },
-    ".tlog": {
-      "files": 1262,
-      "bytes": 5232195,
-      "GB": 0.005232,
-      "GiB": 0.004873
-    },
-    ".lastbuildstate": {
-      "files": 163,
-      "bytes": 30819,
-      "GB": 3.1e-05,
-      "GiB": 2.9e-05
-    },
-    ".check_cache": {
-      "files": 18,
-      "bytes": 1548,
-      "GB": 2e-06,
-      "GiB": 1e-06
-    },
-    ".yaml": {
-      "files": 18,
-      "bytes": 408283,
-      "GB": 0.000408,
-      "GiB": 0.00038
-    },
-    ".stamp": {
-      "files": 17,
-      "bytes": 935,
-      "GB": 1e-06,
-      "GiB": 1e-06
-    },
-    ".depend": {
-      "files": 17,
-      "bytes": 183574,
-      "GB": 0.000184,
-      "GiB": 0.000171
-    },
-    ".rule": {
-      "files": 58,
-      "bytes": 1392,
-      "GB": 1e-06,
-      "GiB": 1e-06
-    },
-    ".diff": {
-      "files": 18,
-      "bytes": 186580,
-      "GB": 0.000187,
-      "GiB": 0.000174
-    },
-    ".ubulk": {
-      "files": 1,
-      "bytes": 18,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".glb": {
-      "files": 291,
-      "bytes": 5527630356,
-      "GB": 5.52763,
-      "GiB": 5.148007
-    },
-    ".sample": {
-      "files": 70,
-      "bytes": 129135,
-      "GB": 0.000129,
-      "GiB": 0.00012
-    },
-    ".jpg": {
-      "files": 139,
-      "bytes": 133510611,
-      "GB": 0.133511,
-      "GiB": 0.124341
-    },
-    ".sqlite-shm": {
-      "files": 1113,
-      "bytes": 35553623,
-      "GB": 0.035554,
-      "GiB": 0.033112
-    },
-    ".sqlite-wal": {
-      "files": 1113,
-      "bytes": 1663648823,
-      "GB": 1.663649,
-      "GiB": 1.549394
-    },
-    ".tga": {
-      "files": 55,
-      "bytes": 3003123252,
-      "GB": 3.003123,
-      "GiB": 2.796876
-    },
-    ".mat": {
-      "files": 124,
-      "bytes": 104013,
-      "GB": 0.000104,
-      "GiB": 9.7e-05
-    },
-    ".tcl": {
-      "files": 7,
-      "bytes": 20765,
-      "GB": 2.1e-05,
-      "GiB": 1.9e-05
-    },
-    ".tsv": {
-      "files": 3,
-      "bytes": 223634,
-      "GB": 0.000224,
-      "GiB": 0.000208
-    },
-    ".sha256": {
-      "files": 3,
-      "bytes": 214,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".dds": {
-      "files": 1553,
-      "bytes": 1386356584,
-      "GB": 1.386357,
-      "GiB": 1.291145
-    },
-    ".svg": {
-      "files": 528,
-      "bytes": 2607288406,
-      "GB": 2.607288,
-      "GiB": 2.428227
-    },
-    ".wav": {
-      "files": 457,
-      "bytes": 248933614,
-      "GB": 0.248934,
-      "GiB": 0.231837
-    },
-    ".uplugin": {
-      "files": 8,
-      "bytes": 7313,
-      "GB": 7e-06,
-      "GiB": 7e-06
-    },
-    ".blend1": {
-      "files": 29,
-      "bytes": 511220218,
-      "GB": 0.51122,
-      "GiB": 0.476111
-    },
-    ".npz": {
-      "files": 2759,
-      "bytes": 492220473,
-      "GB": 0.49222,
-      "GiB": 0.458416
-    },
-    ".appinstaller": {
-      "files": 1,
-      "bytes": 685,
-      "GB": 1e-06,
-      "GiB": 1e-06
-    },
-    ".msixbundle": {
-      "files": 1,
-      "bytes": 1203512387,
-      "GB": 1.203512,
-      "GiB": 1.120858
-    },
-    ".msix": {
-      "files": 1,
-      "bytes": 404832537,
-      "GB": 0.404833,
-      "GiB": 0.37703
-    },
-    ".npy": {
-      "files": 13,
-      "bytes": 201438540,
-      "GB": 0.201439,
-      "GiB": 0.187604
-    },
-    ".hlsl": {
-      "files": 3,
-      "bytes": 9726,
-      "GB": 1e-05,
-      "GiB": 9e-06
-    },
-    ".jsonl": {
-      "files": 24,
-      "bytes": 11179085,
-      "GB": 0.011179,
-      "GiB": 0.010411
-    },
-    ".ply": {
-      "files": 1,
-      "bytes": 72535815,
-      "GB": 0.072536,
-      "GiB": 0.067554
-    },
-    ".hkx": {
-      "files": 113,
-      "bytes": 2211344,
-      "GB": 0.002211,
-      "GiB": 0.002059
-    },
-    ".mp4": {
-      "files": 3,
-      "bytes": 5878581,
-      "GB": 0.005879,
-      "GiB": 0.005475
-    },
-    ".pl": {
-      "files": 1,
-      "bytes": 811436,
-      "GB": 0.000811,
-      "GiB": 0.000756
-    },
-    ".mtl": {
-      "files": 182,
-      "bytes": 158298,
-      "GB": 0.000158,
-      "GiB": 0.000147
-    },
-    ".gltf": {
-      "files": 195,
-      "bytes": 2835448,
-      "GB": 0.002835,
-      "GiB": 0.002641
-    },
-    ".before": {
-      "files": 1,
-      "bytes": 5389,
-      "GB": 5e-06,
-      "GiB": 5e-06
-    },
-    ".sav": {
-      "files": 48,
-      "bytes": 211909,
-      "GB": 0.000212,
-      "GiB": 0.000197
-    },
-    ".original": {
-      "files": 6,
-      "bytes": 48833,
-      "GB": 4.9e-05,
-      "GiB": 4.5e-05
-    },
-    ".promote20": {
-      "files": 1,
-      "bytes": 12113,
-      "GB": 1.2e-05,
-      "GiB": 1.1e-05
-    },
-    ".support20": {
-      "files": 1,
-      "bytes": 12113,
-      "GB": 1.2e-05,
-      "GiB": 1.1e-05
-    },
-    ".new": {
-      "files": 5,
-      "bytes": 96137,
-      "GB": 9.6e-05,
-      "GiB": 9e-05
-    },
-    ".before-trouser-mask-a10": {
-      "files": 2,
-      "bytes": 12074,
-      "GB": 1.2e-05,
-      "GiB": 1.1e-05
-    },
-    ".pyd": {
-      "files": 110,
-      "bytes": 60272128,
-      "GB": 0.060272,
-      "GiB": 0.056133
-    },
-    ".whl": {
-      "files": 1,
-      "bytes": 0,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".a": {
-      "files": 127,
-      "bytes": 8902072,
-      "GB": 0.008902,
-      "GiB": 0.008291
-    },
-    ".pyi": {
-      "files": 16,
-      "bytes": 46387,
-      "GB": 4.6e-05,
-      "GiB": 4.3e-05
-    },
-    ".pxd": {
-      "files": 13,
-      "bytes": 250472,
-      "GB": 0.00025,
-      "GiB": 0.000233
-    },
-    ".dat": {
-      "files": 28,
-      "bytes": 1843018,
-      "GB": 0.001843,
-      "GiB": 0.001716
-    },
-    ".pyx": {
-      "files": 7,
-      "bytes": 1397451,
-      "GB": 0.001397,
-      "GiB": 0.001301
-    },
-    ".build": {
-      "files": 3,
-      "bytes": 2459,
-      "GB": 2e-06,
-      "GiB": 2e-06
-    },
-    ".nc": {
-      "files": 3,
-      "bytes": 3432,
-      "GB": 3e-06,
-      "GiB": 3e-06
-    },
-    ".ani": {
-      "files": 1,
-      "bytes": 4362,
-      "GB": 4e-06,
-      "GiB": 4e-06
-    },
-    ".arff": {
-      "files": 16,
-      "bytes": 210729,
-      "GB": 0.000211,
-      "GiB": 0.000196
-    },
-    ".jpeg": {
-      "files": 31,
-      "bytes": 56117930,
-      "GB": 0.056118,
-      "GiB": 0.052264
-    },
-    ".tag": {
-      "files": 3,
-      "bytes": 531,
-      "GB": 1e-06,
-      "GiB": 0.0
-    },
-    ".d": {
-      "files": 179,
-      "bytes": 855957,
-      "GB": 0.000856,
-      "GiB": 0.000797
-    },
-    ".rlib": {
-      "files": 130,
-      "bytes": 212427432,
-      "GB": 0.212427,
-      "GiB": 0.197838
-    },
-    ".rmeta": {
-      "files": 130,
-      "bytes": 124230964,
-      "GB": 0.124231,
-      "GiB": 0.115699
-    },
-    ".timestamp": {
-      "files": 211,
-      "bytes": 10128,
-      "GB": 1e-05,
-      "GiB": 9e-06
-    },
-    ".rs": {
-      "files": 5,
-      "bytes": 6686,
-      "GB": 7e-06,
-      "GiB": 6e-06
-    },
-    ".expr": {
-      "files": 1,
-      "bytes": 103,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".o": {
-      "files": 117,
-      "bytes": 7482452,
-      "GB": 0.007482,
-      "GiB": 0.006969
-    },
-    ".pc": {
-      "files": 3,
-      "bytes": 1078,
-      "GB": 1e-06,
-      "GiB": 1e-06
-    },
-    ".lock": {
-      "files": 6,
-      "bytes": 21202,
-      "GB": 2.1e-05,
-      "GiB": 2e-05
-    },
-    ".toml": {
-      "files": 2,
-      "bytes": 294,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".psc": {
-      "files": 34,
-      "bytes": 78286,
-      "GB": 7.8e-05,
-      "GiB": 7.3e-05
-    },
-    ".pex": {
-      "files": 34,
-      "bytes": 42840,
-      "GB": 4.3e-05,
-      "GiB": 4e-05
-    },
-    ".pas": {
-      "files": 34,
-      "bytes": 155483,
-      "GB": 0.000155,
-      "GiB": 0.000145
-    },
-    ".client-ready": {
-      "files": 3,
-      "bytes": 36,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".disconnect": {
-      "files": 90,
-      "bytes": 3133,
-      "GB": 3e-06,
-      "GiB": 3e-06
-    },
-    ".attempt01": {
-      "files": 1,
-      "bytes": 4022,
-      "GB": 4e-06,
-      "GiB": 4e-06
-    },
-    ".signal": {
-      "files": 20,
-      "bytes": 119,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".plan": {
-      "files": 2,
-      "bytes": 136,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".sha1": {
-      "files": 13,
-      "bytes": 520,
-      "GB": 1e-06,
-      "GiB": 0.0
-    },
-    ".preimage": {
-      "files": 17,
-      "bytes": 396948,
-      "GB": 0.000397,
-      "GiB": 0.00037
-    },
-    ".pid": {
-      "files": 6,
-      "bytes": 42,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".history": {
-      "files": 54,
-      "bytes": 148562,
-      "GB": 0.000149,
-      "GiB": 0.000138
-    },
-    ".ready": {
-      "files": 19,
-      "bytes": 1234,
-      "GB": 1e-06,
-      "GiB": 1e-06
-    },
-    ".done": {
-      "files": 3,
-      "bytes": 12,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".ack": {
-      "files": 4,
-      "bytes": 24,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".request": {
-      "files": 2,
-      "bytes": 104,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".r16": {
-      "files": 6,
-      "bytes": 20412012,
-      "GB": 0.020412,
-      "GiB": 0.01901
-    },
-    ".pma": {
-      "files": 4,
-      "bytes": 4194304,
-      "GB": 0.004194,
-      "GiB": 0.003906
-    },
-    ".db": {
-      "files": 7,
-      "bytes": 163840,
-      "GB": 0.000164,
-      "GiB": 0.000153
-    },
-    ".db-wal": {
-      "files": 2,
-      "bytes": 0,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".journal": {
-      "files": 2,
-      "bytes": 0,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".db-journal": {
-      "files": 5,
-      "bytes": 0,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".baj": {
-      "files": 2,
-      "bytes": 8,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".baf": {
-      "files": 2,
-      "bytes": 40,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".binarypb": {
-      "files": 18,
-      "bytes": 126746,
-      "GB": 0.000127,
-      "GiB": 0.000118
-    },
-    ".js": {
-      "files": 5,
-      "bytes": 1082079,
-      "GB": 0.001082,
-      "GiB": 0.001008
-    },
-    ".gif": {
-      "files": 1,
-      "bytes": 70364,
-      "GB": 7e-05,
-      "GiB": 6.6e-05
-    },
-    ".css": {
-      "files": 1,
-      "bytes": 1741,
-      "GB": 2e-06,
-      "GiB": 2e-06
-    },
-    ".mmd": {
-      "files": 1,
-      "bytes": 1031,
-      "GB": 1e-06,
-      "GiB": 1e-06
-    },
-    ".core": {
-      "files": 1,
-      "bytes": 753,
-      "GB": 1e-06,
-      "GiB": 1e-06
-    },
-    ".sqlite-retained": {
-      "files": 1,
-      "bytes": 442368,
-      "GB": 0.000442,
-      "GiB": 0.000412
-    },
-    ".sqlite-retained-shm": {
-      "files": 1,
-      "bytes": 32768,
-      "GB": 3.3e-05,
-      "GiB": 3.1e-05
-    },
-    ".sqlite-retained-wal": {
-      "files": 1,
-      "bytes": 0,
-      "GB": 0.0,
-      "GiB": 0.0
-    },
-    ".ilk": {
-      "files": 11,
-      "bytes": 42544712,
-      "GB": 0.042545,
-      "GiB": 0.039623
-    },
-    ".pdf": {
-      "files": 1,
-      "bytes": 8091462,
-      "GB": 0.008091,
-      "GiB": 0.007536
-    },
-    ".f32": {
-      "files": 6,
-      "bytes": 42390328,
-      "GB": 0.04239,
-      "GiB": 0.039479
-    },
-    ".i32": {
-      "files": 2,
-      "bytes": 1229544,
-      "GB": 0.00123,
-      "GiB": 0.001145
-    },
-    ".ogg": {
-      "files": 2,
-      "bytes": 18625,
-      "GB": 1.9e-05,
-      "GiB": 1.7e-05
-    },
-    ".exr": {
-      "files": 3,
-      "bytes": 13986395,
-      "GB": 0.013986,
-      "GiB": 0.013026
-    },
-    ".idx": {
-      "files": 1,
-      "bytes": 270992,
-      "GB": 0.000271,
-      "GiB": 0.000252
-    },
-    ".pack": {
-      "files": 1,
-      "bytes": 8850051,
-      "GB": 0.00885,
-      "GiB": 0.008242
-    },
-    ".rev": {
-      "files": 1,
-      "bytes": 38612,
-      "GB": 3.9e-05,
-      "GiB": 3.6e-05
-    }
-  },
   "related_roots": [
     {
       "label": "Main physical workspace",
-      "files": 1240107,
-      "bytes": 320455046977,
-      "GB": 320.455047,
-      "GiB": 298.447019,
-      "skipped_reparse_points": 4
+      "files": 1271175,
+      "bytes": 367466625183,
+      "GB": 367.466625,
+      "GiB": 342.229963,
+      "skipped_reparse_points": 4,
+      "started_utc": "2026-11-04T16:29:16.474596+00:00",
+      "ended_utc": "2026-11-04T16:31:46.463469+00:00"
     },
     {
       "label": "CharacterLab authoring workspace",
-      "files": 4777,
-      "bytes": 32982061447,
-      "GB": 32.982061,
-      "GiB": 30.716938,
-      "skipped_reparse_points": 0
+      "files": 5748,
+      "bytes": 36066224634,
+      "GB": 36.066225,
+      "GiB": 33.589289,
+      "skipped_reparse_points": 0,
+      "started_utc": "2026-11-04T16:31:46.465469+00:00",
+      "ended_utc": "2026-11-04T16:31:46.635305+00:00"
     },
     {
       "label": "Linked working copies",
@@ -1407,21 +273,35 @@
       "bytes": 8261127919,
       "GB": 8.261128,
       "GiB": 7.693775,
-      "skipped_reparse_points": 0
+      "skipped_reparse_points": 0,
+      "started_utc": "2026-11-04T16:31:46.638302+00:00",
+      "ended_utc": "2026-11-04T16:31:49.538747+00:00"
     },
     {
-      "label": "External build workspace: retained44/43 plus historical evidence/intermediates/caches",
-      "files": 210075,
-      "bytes": 83554561408,
-      "GB": 83.554561,
-      "GiB": 77.816249,
-      "skipped_reparse_points": 0
+      "label": "Historical external build root on F",
+      "files": 263996,
+      "bytes": 147806255605,
+      "GB": 147.806256,
+      "GiB": 137.655303,
+      "skipped_reparse_points": 0,
+      "started_utc": "2026-11-04T16:31:49.541747+00:00",
+      "ended_utc": "2026-11-04T16:32:20.097309+00:00"
+    },
+    {
+      "label": "Current release build root on C",
+      "files": 133517,
+      "bytes": 75292067487,
+      "GB": 75.292067,
+      "GiB": 70.121202,
+      "skipped_reparse_points": 0,
+      "started_utc": "2026-11-04T16:30:46.708449+00:00",
+      "ended_utc": "2026-11-04T16:31:11.173009+00:00"
     }
   ],
   "scan_errors": 0,
   "source_inventory": {
-    "measured_at_utc": "2026-10-30T18:45:11.291486+00:00",
-    "started_at_utc": "2026-10-30T18:45:03.415224+00:00",
+    "measured_at_utc": "2026-11-04T16:35:30.633434+00:00",
+    "started_at_utc": "2026-11-04T16:35:26.186941+00:00",
     "tool": {
       "name": "cloc",
       "version": "2.10",
@@ -1451,57 +331,57 @@
     ],
     "line_definition": "cloc code-only lines; comments and blank lines excluded. Project-generated source inputs can be counted; this is not a handwritten-code estimate.",
     "duplicate_policy": "cloc default duplicate-content suppression within the selected source scope",
-    "input_files": 1673,
+    "input_files": 1799,
     "counted": {
-      "files": 1673,
-      "code": 142021,
-      "comment": 6518,
-      "blank": 4320
+      "files": 1797,
+      "code": 153507,
+      "comment": 7299,
+      "blank": 4521
     },
     "groups": {
       "Runtime and campaign core": {
-        "files": 889,
-        "code": 78309,
-        "comment": 3264,
-        "blank": 1140
+        "files": 960,
+        "code": 85289,
+        "comment": 3618,
+        "blank": 1218
       },
       "Tests": {
-        "files": 92,
-        "code": 7541,
-        "comment": 103,
-        "blank": 99
+        "files": 95,
+        "code": 8068,
+        "comment": 116,
+        "blank": 104
       },
       "Tooling and build scripts": {
-        "files": 692,
-        "code": 56171,
-        "comment": 3151,
-        "blank": 3081
+        "files": 742,
+        "code": 60150,
+        "comment": 3565,
+        "blank": 3199
       }
     },
     "languages": {
       "C++": {
-        "files": 469,
-        "code": 67475,
-        "comment": 2247,
-        "blank": 763
+        "files": 514,
+        "code": 72692,
+        "comment": 2497,
+        "blank": 812
       },
       "Python": {
-        "files": 498,
-        "code": 43860,
-        "comment": 2840,
-        "blank": 2920
+        "files": 506,
+        "code": 44453,
+        "comment": 3110,
+        "blank": 2965
       },
       "C/C++ Header": {
-        "files": 496,
-        "code": 17808,
-        "comment": 1102,
-        "blank": 432
+        "files": 525,
+        "code": 20098,
+        "comment": 1219,
+        "blank": 466
       },
       "PowerShell": {
-        "files": 164,
-        "code": 12164,
-        "comment": 322,
-        "blank": 194
+        "files": 206,
+        "code": 15541,
+        "comment": 466,
+        "blank": 267
       },
       "DOS Batch": {
         "files": 37,
@@ -1511,7 +391,7 @@
       },
       "CMake": {
         "files": 1,
-        "code": 234,
+        "code": 243,
         "comment": 0,
         "blank": 8
       },
@@ -1535,8 +415,8 @@
       }
     },
     "markdown": {
-      "main_workspace_files": 2977,
-      "active_project_documents": 721,
+      "main_workspace_files": 4355,
+      "active_project_documents": 798,
       "definition": "Files ending in .md or .markdown across the physical main workspace excluding this report directory; collected during the storage scan. Active count applies documented archive/build/vendor/prepared exclusions"
     },
     "workflows": {
@@ -1550,29 +430,34 @@
     "source_changes_during_count": 0
   },
   "release": {
-    "promoted": "Journey44",
-    "retained_previous": "Journey43",
-    "candidate": null,
-    "version": "0.21.0-preview12-playtest44",
-    "save_schema": 46,
-    "uat_cooked_packages": 9959,
-    "required_cooked_packages": 4581,
-    "successful_uat_retry_seconds": 164,
-    "cook_seconds": 114.42,
-    "earlier_compiled_actions": 317,
-    "earlier_compile_seconds": 710.7,
-    "acceptance": "Actual package-local Host GUI/name/creator/arrival and one cooked-map client; each peer reports roster2/pawns2; no client campaign database",
+    "promoted": "Journey52",
+    "retained_previous": "Journey51",
+    "version": "0.21.0-preview12-playtest52",
+    "save_schema": 47,
+    "required_cooked_packages": 5104,
+    "accepted_added_packages": 68,
+    "uat_seconds": 361.68,
+    "launcher_argument_checks": 3,
+    "launcher_checks_spawned_games": 0,
+    "complete_class_ensembles": 2,
+    "class_ensemble_target": 24,
     "wan_verified": false,
-    "retention": "Journey44 + Journey43; exact42 Windows payload retired after verified preservation",
-    "next_objective": "Distinct two-handed sword, heavy axe and blunt ready/attack/recovery using existing animation foundation"
+    "retention": "Journey51 and superseded50 preserved; no cleanup in this release",
+    "active_objective": "Modular Human class equipment integration",
+    "source_not_packaged": "Counterpart Rogue hood; long-garment Cloth/Dataflow work with visual fit holds"
   },
   "source_progress": {
-    "shipped_resident_profiles": 10,
-    "shipped_bandit_profiles": 6,
-    "distinct_bearded_bandit_identities": 2,
-    "added_game_asset_files_in43": 194,
-    "motion_regression": "Practical Journey43 scope released; larger weapon-family motion remains open",
-    "coverage": "16 profile selectors, not16 distinct faces or universal character replacement"
+    "checkpoint": "349",
+    "checkpoint_observed_utc": "2026-11-04T16:35:42.538132+00:00",
+    "complete_ensembles": 2,
+    "target_ensembles": 24,
+    "source_hood_packages": 9,
+    "cpu_cloth_steps": 90,
+    "corrected_upper_cuff_blend_values": 19119,
+    "preserved_lower_blend_values": 9316,
+    "visual_fit_main_admission": "held",
+    "runtime_solver_proof": "passed at bounded scope",
+    "scope": "A counterpart Rogue hood is integrated, built and checked in source through nine packages; it is outside Journey52. The long-garment route has saved Cloth/Dataflow assets and actual 90-step CPU simulation proof. At checkpoint349, the unintended upper/cuff proxy routing is corrected: 19,119 values restored, with 9,316 lower values preserved. Exact cold/two-walk numerical checks pass. Actual image review still holds full fit, art and Main admission because broad underlayer breakthrough remains. Next work addresses garment-derived contact authoring. No Journey53 or additional complete ensemble is claimed."
   },
   "outstanding_work": {
     "outstanding": 125,
@@ -1606,6 +491,8 @@
     "numbered_subitems": 45,
     "all_primary_records": 156
   },
+  "outstanding_work_register_updated_utc": "2026-10-31T18:33:51.966094+00:00",
+  "outstanding_work_limit": "Last numbered-register snapshot; later intakes are not re-audited in this metrics refresh.",
   "history": {
     "counts": {
       "local_source_HEAD": 612,
@@ -1613,11 +500,11 @@
       "local_source_outside_HEAD": 448,
       "local_branches": 123,
       "all_local_refs": 130,
-      "github_docs_observed_base": 101,
-      "github_docs_published": 102,
+      "github_docs_observed_base": 154,
+      "github_docs_published": 155,
       "shared_commit_SHAs_at_base": 0,
-      "combined_unique_at_base": 1161,
-      "combined_unique_published": 1162
+      "combined_unique_at_base": 1214,
+      "combined_unique_published": 1215
     },
     "pull_requests": {
       "total": 0,
@@ -1626,42 +513,23 @@
       "closed_unmerged": 0
     }
   },
-  "change_since_previous_measured_snapshot": {
-    "previous_measurement_ended_utc": "2026-10-30T12:41:50.510101+00:00",
-    "bytes": 2995309627,
-    "files": 1508,
-    "code_lines": 907,
-    "active_markdown": 8
-  },
-  "current_delivery": {
-    "as_of": "2026-10-31",
-    "promoted": "Journey46",
-    "rollback": "Journey45",
-    "save_schema": 47,
-    "active_objective": "AR-P02 independent equipment visuals/item families",
-    "required_cooked_packages": 4800,
-    "wan_verified": false
-  },
-  "measurement_scope_note": "Storage, code, Markdown, workflows, release and history fields retain the 30 October measured snapshot; current_delivery and compute_resources are separately dated. Worker storage/source is not counted.",
   "compute_resources": {
-    "as_of": "2026-10-31",
-    "owner_recruited_second_pc": "secondary worker PC",
-    "priority": [
-      "local NVIDIA",
-      "local AMD",
-      "secondary worker PC"
-    ],
-    "independent_jobs_may_run_concurrently": true,
-    "reserve_nvidia_during_owner_playtests": true,
-    "worker_role": "Optional lightweight CPU geometry/LOD/UV/export jobs",
-    "worker_blender": "4.1.1",
-    "worker_max_cpu_threads": 2,
-    "hash_verified_lod_candidates": 2,
-    "native_lod_admission": "open",
-    "measured_runtime_savings": "unverified",
-    "worker_gpu_inference_admitted": false,
-    "required_pipeline_dependency": false,
-    "existing_linux_cpu_worker": "adjunct",
-    "details": "docs/compute-resources.md"
+    "useful_gpu_execution_lanes": 3,
+    "local_nvidia": "RTX4060Ti/CUDA and Unreal",
+    "local_amd": "Radeon/HIP and Unreal",
+    "remote_nvidia": "RTX4060 Laptop/CUDA, actual production outputs",
+    "secondary_worker_pc": "Blender4.1.1 CPU, maximum two threads, optional",
+    "secondary_worker_lod_candidates": 2,
+    "secondary_worker_native_lods": "not admitted",
+    "remote_amd_and_legacy_amd_gpu_work": "not admitted",
+    "memory_pooled": false,
+    "live_availability": "Not probed by reporting task; verify before dispatch"
+  },
+  "change_since_previous_measured_snapshot": {
+    "previous_measurement_ended_utc": "2026-10-30T18:44:36.577489+00:00",
+    "bytes": 47011578206,
+    "files": 31068,
+    "code_lines": 11486,
+    "active_markdown": 77
   }
 }
