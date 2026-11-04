@@ -5225,3 +5225,15 @@ Actual Unreal conversion preserves all 948 triangles with no nonmanifold edges o
 One official simulation-only animation-weight transfer passes for all 525 auxiliary vertices, with at most eight influences and no root-only or unweighted vertices. The visible garment was not refitted. This is an unsaved technical collection, not working cloth physics: anchor configuration, collision, render deformation and actual runtime movement remain next.
 
 Production used existing Blender construction controls, cached exact FBX readback and coordinator-owned CPU/NullRHI Unreal operations. The earlier rejected remesh and edge-collapse approaches remain stopped. Journey52, complete outfit coverage, saves and frozen packages are unchanged. No new gameplay release is claimed.
+
+## 4 November 2026 — stored garment contact and reusable outfit intake
+
+Journey52 remains the promoted playable release, with Journey51 as rollback. This update records native production work and explicit fit holds; it does not add another complete outfit or packaged release.
+
+One isolated garment collision asset now preserves the existing shirt surface through an exact native weld and stored-data check: 42,550 vertices, 85,096 ordered triangles and 215,672 influences. A fresh process verified the saved data and all original collision settings. A separate owned graph and cloth asset bind that stored collision asset through the official physics-asset node, while preserving the original render and simulation geometry, UVs, materials, reference data and deformation controls. These are three technical native assets derived from retained sources, not three new clothing models.
+
+The changed walking check completed on local NVIDIA in 51.49 seconds. The stored bindings and runtime deformation controls pass, but visible waist, side and rear underlayer breakthroughs remain. The outfit is held from game integration. This collision experiment is stopped rather than extended into another parameter or unchanged-view loop.
+
+The retained Rogue source required removal of six unused vertex records from two bindings. All 189 parts and 287,383 surface triangles, corner UVs, material routes, normals and construction metadata remain unchanged; existing UV-layout images and the unchanged shirt export were reused. One new torso export and a two-scope native capture now pass exact whole-triangle source identity, source-incident and original parent/assembly checks. The earlier ambiguous proximity candidates are resolved by complete oriented-face evidence, with the original predicates and mutation checks retained. This establishes static intake, not a fitted garment or complete kit. The next gate is the actual original-authoring reference before the established official fitting route.
+
+Methods: existing Unreal Engine 5.8.3 Outfit/Dataflow authoring, narrow coordinator-owned native changes, independent stored-data readback, existing Blender export and exact source proof, bounded parallel workers and fresh resource checks. Original sources, approved artwork, saves and frozen playable packages remain protected. Only this project log is published; asset payloads remain local.
