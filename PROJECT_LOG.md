@@ -5249,3 +5249,10 @@ The Bard base has 87,216 source triangles, 65 active bones, zero root-only weigh
 Compendium version 18 is deployed at the existing public site with the Journey53 status. Three public text files changed; all 244 entries, 49 models and 1,064 image/model/UV-bank files are preserved. Separate source work is testing one gathered worn-layer construction against the real current underlayers and selected art; no new complete outfit is claimed. Prior failed movement/contact families remain stopped.
 
 Methods: existing Unreal 5.8.3 outfit and material workflows, exact source/UV preservation, missing-only frame completion, bounded parallel CPU preparation, changed CUDA/HIP appearance checks, native cooked-resource inspection and coordinator-controlled promotion. Failed fixtures and qualified fit holds remain recorded. Only this project log is published; assets, campaigns and build payloads stay local.
+
+
+## 2026-11-05 UTC — Journey54: shared unarmored class bases
+
+Journey54 is now the current playable release, with Journey53 retained as rollback. Druid and Monk supported default unarmored profiles now reuse the accepted continuous linen base. Equipped clothing keeps its existing authority; no items, protection or stats are granted. This adds two compatible consumers of five existing native resources, with zero new models, original textures or native packages. Complete class ensembles remain 2/24; class outerwear and final outfit art remain separate work.
+
+Both actual creator and ordinary class-confirmation checks passed and the practical images were reviewed. The two checks ran concurrently on NVIDIA and Radeon. A real clean build/cook/stage/archive completed successfully in 362.67 seconds, all 5,118 required cooked roots are present, and archived executable/container bytes match the original build ledger. Three staged launcher routes passed before the default changed. Existing saves and frozen releases were preserved. This does not claim a second packaged gameplay, multiplayer or universal profile suite.
