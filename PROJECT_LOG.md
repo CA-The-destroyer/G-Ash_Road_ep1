@@ -5264,3 +5264,10 @@ Journey55 is now the current playable release, with Journey54 retained as rollba
 
 Actual creator and ordinary class-confirmation checks passed, and the practical images were reviewed. A real clean build/cook/stage/archive completed in 402.16 seconds; all 5,118 required roots are present in the native cooked registry, and archive executable/container bytes match the original build ledger. Three staged PowerShell launcher routes passed before the default changed. Existing saves and frozen releases were preserved. Source appearance and motion evidence was reused; no additional packaged gameplay, multiplayer or universal profile coverage is claimed.
 
+
+
+## 7 November 2026 — Starting-camp watch persistence verified in source
+
+Focused native checks verified that both existing starting-camp guards record permanent death through the normal damage path. Ordinary population checks leave them absent after their defeated actors are removed, and a fresh process preserves those deaths without respawning the guards. No new guards, rewards or stats were added.
+
+This is built and checked source work, not a packaged release. Late-join replication, actual streamed unloading and ordinary player-combat acceptance remain open. Journey56 remains the playable release; existing saves and frozen releases are preserved.
