@@ -5271,3 +5271,12 @@ Actual creator and ordinary class-confirmation checks passed, and the practical 
 Focused native checks verified that both existing starting-camp guards record permanent death through the normal damage path. Ordinary population checks leave them absent after their defeated actors are removed, and a fresh process preserves those deaths without respawning the guards. No new guards, rewards or stats were added.
 
 This is built and checked source work, not a packaged release. Late-join replication, actual streamed unloading and ordinary player-combat acceptance remain open. Journey56 remains the playable release; existing saves and frozen releases are preserved.
+
+
+## 7 November 2026 — Journey57 unpromoted Windows playtest
+
+Created a new Journey57 Windows build with durable deaths for both existing starting-camp watch guards, earlier camp danger warnings and a camp-specific greeting, clearer early investigation objectives, transaction-bound item-transfer notices, and the original Steady Tempo icon.
+
+Build, cook, stage and archive succeeded. All 5,118 required cooked packages are present; three actual package launcher routes passed checks without starting a game or opening saved campaigns. Existing character/equipment art, quest progression, rewards, combat stats and schema47 are retained. No new camps, guards, models or texture banks were added.
+
+Journey57 is an unpromoted playtest. Journey56 remains the normal default and55 the rollback. Ordinary gameplay acceptance for the new warning and prose is still pending; held character and weapon experiments are excluded.
