@@ -5300,3 +5300,10 @@ Four focused encounter test groups and 89 crafting checks passed in isolated Cor
 The original warning bell now has verified static source support and a prepared native-material candidate. Its UVs and source images remain preserved. Native appearance, collision and world placement remain unfinished; no new character or outfit is complete.
 
 These source changes are outside packaged Journey59. Its hunting-ledger acceptance remains unverified. Journey56 remains the normal default and55 the rollback; schema47, saves and frozen releases are unchanged.
+
+
+### 2026-11-08 - Journey61 campaign candidate packaged
+
+An unpromoted Journey61 candidate adds a persistent shared-camp household invitation following the existing night-watch and camp-preparation quests. The invitation, arrival guidance and persistent outcome use existing authoritative story systems and reused art.
+
+Focused Core checks, Editor compilation, Game build, cook, archive and launcher installation passed. Gameplay, cooperative arrival, reload behavior and visual acceptance remain manually unverified. The default release and rollback are unchanged. No game source or asset payload is published with this log update.
