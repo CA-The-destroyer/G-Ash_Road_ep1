@@ -5289,3 +5289,14 @@ Created a new unpromoted Windows build with revised hunting progression: three s
 All three focused Core tests passed, including 493 assertions for progression. Build, cook, stage and archive succeeded; all 5,119 required cooked packages are accounted for. Launcher dependencies and the default script route were corrected with focused offline checks. A bounded packaged check confirmed ordinary character creation and entry into the Journey world, followed by a normal exit and complete protection checks. The hunting ledger interaction was not reached during that visit, so in-world contract acceptance remains unverified. A texture-streaming budget warning was observed; broad performance and multiplayer acceptance are not claimed.
 
 The original warning-bell prop has a first source render with retained UV layouts and image materials. It remains a draft outside the game build; export material fidelity and native integration are unfinished. Journey56 remains the normal default and55 the rollback. Existing saves and frozen releases are preserved.
+
+
+## 8 November 2026 - Source encounter and crafting credit (unreleased)
+
+A new optional Venn conversation gives each character a clearly warned, permanent choice to close their own fence account in that campaign. Companions retain their accounts. An existing workbench-quest credit correction recognizes the actual recorded station identities while preserving acceptance, replay, character and payout rules.
+
+Four focused encounter test groups and 89 crafting checks passed in isolated Core builds. The combined production changes are installed and Editor-compiled, with normal process release and complete protection checks. Native gameplay acceptance remains pending. The existing side-quest regression still fails at a historical migration fixture; production migration code was not changed.
+
+The original warning bell now has verified static source support and a prepared native-material candidate. Its UVs and source images remain preserved. Native appearance, collision and world placement remain unfinished; no new character or outfit is complete.
+
+These source changes are outside packaged Journey59. Its hunting-ledger acceptance remains unverified. Journey56 remains the normal default and55 the rollback; schema47, saves and frozen releases are unchanged.
