@@ -5280,3 +5280,12 @@ Created a new Journey57 Windows build with durable deaths for both existing star
 Build, cook, stage and archive succeeded. All 5,118 required cooked packages are present; three actual package launcher routes passed checks without starting a game or opening saved campaigns. Existing character/equipment art, quest progression, rewards, combat stats and schema47 are retained. No new camps, guards, models or texture banks were added.
 
 Journey57 is an unpromoted playtest. Journey56 remains the normal default and55 the rollback. Ordinary gameplay acceptance for the new warning and prose is still pending; held character and weapon experiments are excluded.
+
+
+## 8 November 2026 — Journey59 build and focused world-entry check
+
+Created a new unpromoted Windows build with revised hunting progression: three starter contracts for fresh characters, harder ordinary quarry unlocked by earned payments, stable contract selection, and an existing town contact for the same ledger. Legacy accepted work, rewards and schema47 are preserved. This is a first gameplay slice, not completion of the requested new quests or character replacement.
+
+All three focused Core tests passed, including 493 assertions for progression. Build, cook, stage and archive succeeded; all 5,119 required cooked packages are accounted for. Launcher dependencies and the default script route were corrected with focused offline checks. A bounded packaged check confirmed ordinary character creation and entry into the Journey world, followed by a normal exit and complete protection checks. The hunting ledger interaction was not reached during that visit, so in-world contract acceptance remains unverified. A texture-streaming budget warning was observed; broad performance and multiplayer acceptance are not claimed.
+
+The original warning-bell prop has a first source render with retained UV layouts and image materials. It remains a draft outside the game build; export material fidelity and native integration are unfinished. Journey56 remains the normal default and55 the rollback. Existing saves and frozen releases are preserved.
