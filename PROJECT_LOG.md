@@ -5307,3 +5307,12 @@ These source changes are outside packaged Journey59. Its hunting-ledger acceptan
 An unpromoted Journey61 candidate adds a persistent shared-camp household invitation following the existing night-watch and camp-preparation quests. The invitation, arrival guidance and persistent outcome use existing authoritative story systems and reused art.
 
 Focused Core checks, Editor compilation, Game build, cook, archive and launcher installation passed. Gameplay, cooperative arrival, reload behavior and visual acceptance remain manually unverified. The default release and rollback are unchanged. No game source or asset payload is published with this log update.
+
+
+### 2026-11-12 - Verified generated build-data cleanup
+
+Verified cleanup removed 118,990 generated cache and staging files and 124,378 empty subdirectories. The observed free-space increase during removal was 38.92 GiB; F: retained about 88.08 GiB free after verification.
+
+All six target root directories remain in place. The 29 staged-content files matched their retained package counterparts before removal and those counterparts passed the final checks. Complete protected-data checks passed before and after cleanup. Source, art, saved campaigns, retained releases, the default release, rollback and save schema remain unchanged.
+
+The cleanup process exited successfully and its owned job and recorded process identities were released. No new gameplay feature or packaged build is counted by this maintenance work.
