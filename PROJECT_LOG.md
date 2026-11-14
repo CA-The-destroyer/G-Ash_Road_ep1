@@ -5316,3 +5316,12 @@ Verified cleanup removed 118,990 generated cache and staging files and 124,378 e
 All six target root directories remain in place. The 29 staged-content files matched their retained package counterparts before removal and those counterparts passed the final checks. Complete protected-data checks passed before and after cleanup. Source, art, saved campaigns, retained releases, the default release, rollback and save schema remain unchanged.
 
 The cleanup process exited successfully and its owned job and recorded process identities were released. No new gameplay feature or packaged build is counted by this maintenance work.
+
+
+### 14 November 2026 — Journal navigation and travel-relic quests preview
+
+The current Windows preview now has vertical quest lists, separately scrollable details, Active and Completed sections, and speaker/topic navigation for the retained message history. Existing quest tracking and recorded outcome labels are preserved.
+
+Two new personal NPC quest workflows add a crafted Ring of the Far Road and Boots of Travel. They combine uncommon encounter materials, travel to named grounds, original local lore, and existing forge crafting. The boots include one persistent additional cordage requirement after the first material inspection; that inspection consumes nothing. Intact equipped items grant 10% and 15% on-foot movement respectively, adding to 25%; two identical rings do not stack. Existing supported art is reused.
+
+Focused isolated quest, inventory, replay, reload and confirmed-death drop checks passed. Game compilation, code installation and launcher checks passed using the compatible existing cooked assets. Actual NPC/quest playthroughs, movement appearance and cooperative gameplay remain unverified; this is not a claim of full gameplay acceptance or promotion. No game source, assets, saved campaigns or private operational data are published with this log update.
