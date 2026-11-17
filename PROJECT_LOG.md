@@ -5325,3 +5325,14 @@ The current Windows preview now has vertical quest lists, separately scrollable 
 Two new personal NPC quest workflows add a crafted Ring of the Far Road and Boots of Travel. They combine uncommon encounter materials, travel to named grounds, original local lore, and existing forge crafting. The boots include one persistent additional cordage requirement after the first material inspection; that inspection consumes nothing. Intact equipped items grant 10% and 15% on-foot movement respectively, adding to 25%; two identical rings do not stack. Existing supported art is reused.
 
 Focused isolated quest, inventory, replay, reload and confirmed-death drop checks passed. Game compilation, code installation and launcher checks passed using the compatible existing cooked assets. Actual NPC/quest playthroughs, movement appearance and cooperative gameplay remain unverified; this is not a claim of full gameplay acceptance or promotion. No game source, assets, saved campaigns or private operational data are published with this log update.
+
+
+### 17 November 2026 — Journey100 playable preview and guardian keys
+
+The current Windows preview is Journey100. Its new confirmed guardian corpses at Black Fern Barrows and Forgotten Muster can provide reusable keys for their respective coffers. Existing corpse loot, inventory transfer, shared storage and permanent non-consuming unlock rules are reused. Previously rolled corpses are not refilled, and finding a key does not guarantee that a coffer's physical placement has been admitted.
+
+The preview also retains the integrated hinged-chest presentation, journal and conversation readability changes, chosen-name display corrections, learning through weapon and magic use, weapon heft and stamina rules, revised merchant prices and assortments, and the original felling-axe model. Existing artwork, UVs, textures, icons and sounds were reused; this update makes no new original-art completion claim.
+
+Focused guardian-key collection, sharing, unlocking, replay and restore checks passed. Matching Game and Editor builds and launcher checks passed using compatible existing cooked content. The default legacy test suite still has a vendor-stock expectation failure; it is not reported as passing. Physical coffer placement and interaction, multiplayer, and full gameplay acceptance remain unverified. Reported wildlife inactivity, first-person equipment presentation, resident visibility and night-sky defects remain open. The selected four-feature batch remains three of four complete.
+
+This is an unverified playable preview, not a promotion or a claim that the reported defects are resolved. No game source, assets, saved campaigns, build payloads or private operational data are published with this log entry.
