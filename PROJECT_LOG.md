@@ -5336,3 +5336,15 @@ The preview also retains the integrated hinged-chest presentation, journal and c
 Focused guardian-key collection, sharing, unlocking, replay and restore checks passed. Matching Game and Editor builds and launcher checks passed using compatible existing cooked content. The default legacy test suite still has a vendor-stock expectation failure; it is not reported as passing. Physical coffer placement and interaction, multiplayer, and full gameplay acceptance remain unverified. Reported wildlife inactivity, first-person equipment presentation, resident visibility and night-sky defects remain open. The selected four-feature batch remains three of four complete.
 
 This is an unverified playable preview, not a promotion or a claim that the reported defects are resolved. No game source, assets, saved campaigns, build payloads or private operational data are published with this log entry.
+
+## 2026-11-17 — Daily summary
+
+**Delivered:** Journey103 is the current unverified playable preview. Today's updates added guardian-key rewards, an earned map-location reward for the Peltsmith's existing favour, consistent normal/giant den capsules, and other-faction NPC combat while preserving allied packs and cohorts. Natural introductory creature deaths caused by NPCs now persist their remains without awarding player kill or quest credit. Existing art and compatible cooked content were reused.
+
+**Decisions:** Future batches group eight meaningful player-visible outcomes before a coherent playable update, reducing repeated compilation. Minimum necessary checks and reuse of unchanged evidence remain the delivery policy. Additional equipment diagnostics were stopped to conserve effort and focus on deliverables.
+
+**Unreleased:** Two connected woodland miniquests and four class-specialist vendors across the two implemented villages are implemented and passed focused Core checks. A torch attachment translation correction, one grounded roadside fire for Oren, and a sparser revised sky texture are also working changes outside Journey103. The current Editor matches the working source; the playable Game and cooked content do not yet include this batch. The new eight-outcome batch has shipped none of its outcomes.
+
+**Unresolved and next:** The reported stalled wildlife group, sparse encounter coverage, physical guardian/coffer interaction, Oren's visibility and genuine fire-tending motion, first-person equipment appearance, and sky seams/stretch remain open. The inspected kneeling animation is not a fire-tending action. Actual axe images did not reproduce the reported shoulder clipping. Multiplayer and full gameplay acceptance remain unverified, and an older vendor-stock test expectation remains a recorded failure. Continue the agreed batch, complete its missing behavior and asset dependencies, then integrate the coherent playable update.
+
+Only this neutral project-log text is published; no game source, asset or build payload is included.
