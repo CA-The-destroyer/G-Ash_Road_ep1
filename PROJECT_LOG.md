@@ -5348,3 +5348,11 @@ This is an unverified playable preview, not a promotion or a claim that the repo
 **Unresolved and next:** The reported stalled wildlife group, sparse encounter coverage, physical guardian/coffer interaction, Oren's visibility and genuine fire-tending motion, first-person equipment appearance, and sky seams/stretch remain open. The inspected kneeling animation is not a fire-tending action. Actual axe images did not reproduce the reported shoulder clipping. Multiplayer and full gameplay acceptance remain unverified, and an older vendor-stock test expectation remains a recorded failure. Continue the agreed batch, complete its missing behavior and asset dependencies, then integrate the coherent playable update.
 
 Only this neutral project-log text is published; no game source, asset or build payload is included.
+
+## 2026-11-18 — Daily summary
+
+No new playable build or feature shipped today. Journey103 remains the current preview, with full gameplay and co-op verification pending.
+
+The woodland miniquests and specialist vendors have passed focused Core checks and are awaiting a playable build. The torch attachment adjustment, Oren’s roadside fire placement, and the revised night sky also remain unreleased.
+
+Recent playtest feedback remains in the backlog by request. It covers character preview and axe swing visuals, XP notification placement and animation, Oren’s survivability, and clearer guidance to the marked trees in Room by the Fire.
