@@ -5356,3 +5356,11 @@ No new playable build or feature shipped today. Journey103 remains the current p
 The woodland miniquests and specialist vendors have passed focused Core checks and are awaiting a playable build. The torch attachment adjustment, Oren’s roadside fire placement, and the revised night sky also remain unreleased.
 
 Recent playtest feedback remains in the backlog by request. It covers character preview and axe swing visuals, XP notification placement and animation, Oren’s survivability, and clearer guidance to the marked trees in Room by the Fire.
+
+## 2026-11-19 — Daily summary
+
+Journey104 became the current playable preview after the November 18 log was published. The Load menu now opens on Manual Saves when valid manual saves exist, with separate Quicksaves and Autosaves tabs. It opens the first populated tab when there are no manual saves. The update reused existing cooked content and the same save location. Focused save-list and launcher checks passed. In-game menu verification is pending.
+
+No additional build or feature shipped on November 19. The woodland miniquests, specialist vendors, torch attachment adjustment, Oren’s roadside fire placement, and revised night sky remain unreleased.
+
+A creature or NPC checkpoint failure can block a manual save or quicksave. The backlog calls for a player-confirmed fallback that preserves earlier saves, with a warning about any encounter state that may be lost. The barren stretch along Elin Vale’s escort is also logged for a location and vegetation check.
