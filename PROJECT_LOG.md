@@ -5364,3 +5364,11 @@ Journey104 became the current playable preview after the November 18 log was pub
 No additional build or feature shipped on November 19. The woodland miniquests, specialist vendors, torch attachment adjustment, Oren’s roadside fire placement, and revised night sky remain unreleased.
 
 A creature or NPC checkpoint failure can block a manual save or quicksave. The backlog calls for a player-confirmed fallback that preserves earlier saves, with a warning about any encounter state that may be lost. The barren stretch along Elin Vale’s escort is also logged for a location and vegetation check.
+
+## 2026-11-20 — Daily summary
+
+Journey107 shipped as the current playable preview. Solo manual saves and F5 quicksaves now continue automatically when a creature or NPC checkpoint fails, with a diagnostic log entry for the affected checkpoint. The update replaces the earlier conditional prompt because it could still leave the player unable to save. The save file still has to validate, and skipped actor state may reload from an earlier checkpoint or normal spawn state. The Windows build, launcher checks and focused simulated-failure checks passed. In-game save and reload in the reported scenario remain unverified.
+
+The update reused the existing cooked content. The woodland miniquests and class-specialist shops remain unreleased after focused Core checks. The roadside fire placement, torch attachment adjustment and revised night sky also remain outside the playable release. The eight-outcome batch remains open.
+
+The playtest list now puts solo save and reload and Room by the Fire wayfinding and hand-in among the next retests. The character preview, XP notification placement, Oren’s survivability and Elin Vale escort terrain remain open. The two-handed axe clipping report stays with equipment handling.
