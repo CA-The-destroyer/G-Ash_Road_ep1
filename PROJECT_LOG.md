@@ -5372,3 +5372,11 @@ Journey107 shipped as the current playable preview. Solo manual saves and F5 qui
 The update reused the existing cooked content. The woodland miniquests and class-specialist shops remain unreleased after focused Core checks. The roadside fire placement, torch attachment adjustment and revised night sky also remain outside the playable release. The eight-outcome batch remains open.
 
 The playtest list now puts solo save and reload and Room by the Fire wayfinding and hand-in among the next retests. The character preview, XP notification placement, Oren’s survivability and Elin Vale escort terrain remain open. The two-handed axe clipping report stays with equipment handling.
+
+## 2026-11-21 — Daily summary
+
+The Ash Road gained a standalone Windows playtest with the current humanoid encounter content and Knight combat. Local playtest 2464 also updated Oren's appearance, loose copper and silver coin finishes, and the level 3 reed-arrow crafting unlock.
+
+Local Windows playtest 2466 adds independent stamina refills, three saved color-coded map pins, a committed Ash Hound lunge, broader targeting for native archers against visible monsters, a grounded Sealed Scrap chest, and tougher Black Fern ghoul encounters. The larger Black Fern roster applies to new or normally recovered encounters. The build reuses existing cooked assets. Compilation, launcher checks, and a private D3D12 start and normal quit passed. The altered encounters and ordinary in-game pin save and restore still need playtest.
+
+The first stamina build was interrupted by system memory pressure. The combined build succeeded after the active playtest closed. The next world update includes a fitted Stone Rill crossing and swim channel, a correction to the south tributary surface orientation, and a selected pencil recording for map actions. Those assets are awaiting native placement and cook. Wildlife footage shows whole-frame repeats, which leaves game frame pacing and recording cadence to distinguish.
