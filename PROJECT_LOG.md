@@ -5412,3 +5412,9 @@ Windows build 2499 adds Torren’s grounded workfire, restores the visible size 
 Windows build 2500 restores weapon and spell practice at level 21 and above. Practice uses the current threat cap, so difficult enemies remain eligible and easy enemies give no credit. Authority tests covered levels 20, 21 and 50 and reopening earned progress. The staged game started a private Journey campaign. Sneak progression and live high-level combat playtesting remain open. Torren’s replacement face is in the Character Lab. Two bake attempts reached the workstation’s memory reserve before producing a finished assembly.
 
 Torren’s 2K character assembly completed in the Character Lab after the earlier bake failures. The facial rig, groom bindings and body UV correspondence passed. Fitting his clothing and connecting the new model to his in-game role are still pending. The skill audit also verified that all 216 class talent nodes could be purchased and restored across all 12 classes. A legacy save migration check still needs an authentic older test save.
+
+## 2026-11-24 — Daily summary
+
+Windows build 2501 is the standard playable release. Torren now has an original face and fitted workwear in solo play while keeping his existing story role. Saved Sneak practice awards 10 points for a qualifying undetected crouch pass, once per eligible hostile life. Six spruces establish woodland around the Rill Verge Woodshrew den.
+
+Private Windows checks loaded Torren’s rig and observed a Woodshrew emerge at Rill Verge. A focused authority test verified Sneak awards, persistence and repeat-credit prevention. Ordinary Briarwatch playtesting and an extended visual check of Torren remain open.
