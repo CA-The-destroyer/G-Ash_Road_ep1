@@ -5388,3 +5388,13 @@ The Ash Road's current Windows playtest, 2479, adds player-controlled starting s
 The next package continues the Harrowford investigation through the survivor and healer's ledger. It also corrects the compass and map, places goblin scouts near the camp road, gives the Long Road oath a reason in the story, and adds item weights to trade. The map save-coordinate check passed. The Game target compiled after a trade-screen variable-name fix. The matching Editor build, cook, and playable package were pending at this cut.
 
 The world authoring map assigns all 384 terrain tiles. Open-country candidates add deer, hares, foxes, wolves, and bandit patrols through the existing encounter system. Forty-eight sites passed a terrain screen. Native clearance and actual sightings are pending. A separate goblin animation correction closed the idle, walk, and run loop seams in the exported clips. Native import and in-game playback remain pending.
+
+## 2026-11-23 — Daily summary
+
+The Ash Road's current Windows playtest is build 2495. At the Rill Road crossing, it replaces the jagged waterline with contoured banks, adds shoreline vegetation and fitted swimming volumes, and restores solid collision beneath the timber deck. The Windows launch and focused collision checks passed. Normal bridge traversal and swimming still need a playtest.
+
+Earlier builds expanded grassland cover and roadside camps, piloted tall-grass concealment at distance, and added an original male Human face preset. Harrowford gained alternate investigation routes, the Silent Porter lantern clue and innkeeper follow-up, and Alys's note at Broken Axle. Sabeth now explains how to equip the earned backpack. Full quest playthroughs, distant concealment and the worn backpack remain open.
+
+The Stone Rill coach cleared its original obstruction and charged one fare in the boarding check. The Harrowford coach met a separate terrain obstruction. Full coach trips and arrival dismount remain unverified. The Harrowford linen encounter is in source and remains outside the playable build.
+
+The waterway review found more exposed edges on the southern tributary and northern extension. Stone Rill town is the next shoreline priority because deep water reaches much of its abrupt edge. The open-country art direction calls for broad bends, shallow shelves and clusters of vegetation along the water.
