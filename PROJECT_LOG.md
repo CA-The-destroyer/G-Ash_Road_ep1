@@ -5516,3 +5516,9 @@ The Ash Road Windows build 2533 extends the fitted right-hand sword grip to fema
 The dedicated-server package for the interior prop fixes booted Journey on loopback. In a 95-second check it loaded all three rooms, enabled physics for each repaired prop and recorded zero repeats of the old floor errors. The live server has yet to receive this package.
 
 The Ash Road Windows build 2534 reduces recurring solo movement stalls. It skips repeated placement checks for existing quest evidence, waits for the prerequisite before polling later quest chapters, and runs corpse cleanup, bounty and burial account checks on different frames. On the same short private solo walk, the worst frame fell from 134 ms to 68 ms and frames over 50 ms fell from seven to two. Smaller hitches and live co-op performance remain open. Both launcher routes passed. The existing cook and save format carry forward. Build 2533 is the fallback.
+
+The Ash Road Windows build 2535 makes pickpocketing work on the fitted Trading House residents. A private run kept Corin's stolen goods after reload and refused a second roll. In a separate run the guard gave one warning and began an arrest after witnessing an attempt on Sera. The existing save format carries forward. Build 2534 is the fallback.
+
+On a disposable dedicated server, a fresh client played the narrated opening with Mara seated and regained control after skipping. A private client menu check displayed cordage, and the server saved the craft using two fibres. Opening the workbench through regular remote interaction remains unverified. The live LAN host still runs its existing package.
+
+West of Harrowford, replacement graveyard trees, far-bank meadow dressing and a fitted shoreline reached Windows preview build 2537. The packaged preview loaded the new shallows and a private traversal could swim and walk out. Visible bands remain across the river and the preview stays off the normal launcher.
