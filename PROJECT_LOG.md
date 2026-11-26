@@ -5522,3 +5522,5 @@ The Ash Road Windows build 2535 makes pickpocketing work on the fitted Trading H
 On a disposable dedicated server, a fresh client played the narrated opening with Mara seated and regained control after skipping. A private client menu check displayed cordage, and the server saved the craft using two fibres. Opening the workbench through regular remote interaction remains unverified. The live LAN host still runs its existing package.
 
 West of Harrowford, replacement graveyard trees, far-bank meadow dressing and a fitted shoreline reached Windows preview build 2537. The packaged preview loaded the new shallows and a private traversal could swim and walk out. Visible bands remain across the river and the preview stays off the normal launcher.
+
+The Ash Road now has fitted medieval tavern benches and matching worktables in the editor project. Seven furniture mesh packages use the new geometry and materials while retaining placement bounds, references and collision mode. The saved packages passed a fresh editor readback. This is an asset change awaiting a playable cook.
