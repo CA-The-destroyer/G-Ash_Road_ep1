@@ -5540,3 +5540,13 @@ New travelers now earn their own five starter camp quest completions before the 
 The camp, Harrowford, and Stone Rill now use a distinct rustic wooden alchemy table. A matched client joined the private test server, which loaded the new table at all three sites. A fresh opening capture showed Mara seated with the floating first-person arms gone. Skipping restored movement and look. The uninterrupted ending and ordinary live play remain open.
 
 Next priorities are the remaining solo movement hitch and interior prop retries, the shoreline and grassland west of Harrowford, and cape fit and grounded corpse poses.
+
+## 2026-11-26 — Daily summary
+
+**Playable release.** The Ash Road build 2545 is the default Windows client and is live on the private dedicated playtest server. The matched packages add two cattle rescues, Overnight Moo-vement in Stone Rill and One Cow Short in Harrowford, with hoofprints, holding pens and rewards tied to the cattle that make it home. Two short requests, No Strings Attached and A Handle on Things, also ship. The client adds a 100–130% text-size slider and four illustrated open-book styles.
+
+**Verification.** A matching client joined a private dedicated smoke server. The default launcher passed fresh-start and existing-save checks, and the live server opened Journey with the same saved campaign fingerprint as before the update. An incremental transfer kept the rollout small. Build 2542 remains the fallback. Full rescue playthroughs, ordinary livestock behavior and book pagination at different text sizes still need playtesting.
+
+**Campaign and world checks.** The first-chapter preview clarified the courier directions, retained the missed-witness trail and separated the optional report from the main Briarwatch lead. A complete chapter walkthrough remains open. A focused west Harrowford preview loaded the new meadow dressing and confirmed exits from the water on both banks. Shoreline appearance and meadow cover still need ordinary play.
+
+**Planned quest work.** The current livestock quests resolve once per campaign. A repeatable dedicated-server version would track each rescue run and each participating character’s reward. The roadside traveller rescue and split-ring follow-up remain queued.
