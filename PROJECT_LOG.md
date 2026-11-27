@@ -5568,3 +5568,13 @@ Next priorities are the remaining solo movement hitch and interior prop retries,
 **Opening and equipment checks.** The release restores the young messenger, wounded survivor and guard corpse-moving work and adds merchant gear comparisons and a 50-copper starting purse. A private solo run showed Mara seated during the uninterrupted wake-up and restored player control afterward. Its disposable save recorded the new purse. The fight, guard cleanup and visual shop comparison still need playtesting.
 
 **Unreleased work.** A disposable checkpoint completed all five camp jobs through the quest system. The packaged pursuit check timed out while the observer faced the messenger’s entry. A source-only adjustment turns the test observer away and awaits compilation and a rerun. The winged thrall’s idle, run, attack and death clips evaluated on its own rig in the Character Lab. Rendered ground contact and campaign integration remain open, alongside the borrowed-axe outfit check and shore and grass coverage west of Harrowford.
+
+
+## 2026-11-27 — Daily summary
+
+
+**Build 2552 saves and camp update.** The Ash Road build 2552 is the default Windows client and is live on the private dedicated playtest server. Unsettled loose objects now retain their durable positions instead of blocking an otherwise valid solo snapshot. Held objects must still be put down. The camp adds four usable log seats with rough, broken ends, and Mara's existing log uses the same treatment. Mara and the Peltsmith have sitting, cooking and perimeter routines, with movement paused during an active conversation or trade.
+
+**Focused checks and preservation.** A disposable Journey snapshot completed while two loose props could not refresh their checkpoints. It reopened successfully, passed SQLite checks, and retained its inventory, abilities and personal quest records. One ordinary player sit/stand cycle passed. The final matched client joined the dedicated Journey world and reached opening-camp readiness. Deployment reused the existing cooked content, transferred one changed executable, and preserved the campaign fingerprint. The previous package remains available for rollback.
+
+**Remaining work.** Rendered camp timing, seated clothing and feet, spoon contact and log materials remain for playtesting. Opening-scene continuity, deer running, vampire variants, the prepared Harrowford investigation choices, early combat balance, player clothing and anatomy, remaining river edges, sound and facial animation, and the sky seam remain open. Episode 1 completion estimates are planning ranges, not a measured claim of overall completion.
