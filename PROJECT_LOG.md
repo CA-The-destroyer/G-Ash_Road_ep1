@@ -5582,3 +5582,9 @@ Next priorities are the remaining solo movement hitch and interior prop retries,
 **Original river-height marker prototype.** The Ash Road has a new standalone Blender source for a proposed west Harrowford crossing marker. The original mesh, procedural materials, UV layout and four-second hinge motion passed a Blender reopen check. The prototype is unreleased. Unreal material and placement checks remain open.
 
 **Creature and armor source studies.** The Ash Road prepared a distinct Ash Hound model with a skinned fur coat and nine original actions for the shelter encounter. Both weighted meshes and all takes survived a Blender and skeletal exchange readback. The Monk trousers have a corrected waist casing and an original fit preview. A separate steel knee armor study kept the plate laps and strap attachment through a 45-degree bend in Blender. These are unreleased source assets. Unreal materials, fit and gameplay checks remain open.
+
+**Build 2553 opening and creatures.** The Ash Road build 2553 is the default Windows client and is live on the private dedicated playtest server. Mara approaches during the opening narration. The release adds wingless female and male thralls, a saved chance of a tougher winged pursuer in the later survivor encounter, and revised stag and doe gaits.
+
+**Focused verification.** A private client joined the matching dedicated world and reached opening-camp readiness. A disposable creature checkpoint rejected a stale write, recovered the newer state and saved a subsequent hit. The deployment reused compatible content and preserved the saved campaign fingerprint. Build 2552 remains available for rollback.
+
+**Remaining work.** The new encounter and opening visuals still need ordinary playtesting. A recurring camp-definition conflict has clearer diagnostics and remains unresolved. The sky seam, the twelve class outfits and additional woodland encounters are in preparation.
