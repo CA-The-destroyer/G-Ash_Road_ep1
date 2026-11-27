@@ -5588,3 +5588,7 @@ Next priorities are the remaining solo movement hitch and interior prop retries,
 **Focused verification.** A private client joined the matching dedicated world and reached opening-camp readiness. A disposable creature checkpoint rejected a stale write, recovered the newer state and saved a subsequent hit. The deployment reused compatible content and preserved the saved campaign fingerprint. Build 2552 remains available for rollback.
 
 **Remaining work.** The new encounter and opening visuals still need ordinary playtesting. A recurring camp-definition conflict has clearer diagnostics and remains unresolved. The sky seam, the twelve class outfits and additional woodland encounters are in preparation.
+
+**Unreleased sky seam repair.** An isolated Unreal comparison reproduced the diagonal line in the existing night material. The revised moon mask removed it while preserving the quarter moon. The production material was updated and the scoped Windows cook passed. The change awaits a packaged gameplay check and remains unreleased.
+
+**Class outfit fit.** All twelve retained designs are the basis for the outfit work. The current Monk trouser investigation paired the original body and garment through two walk poses and traced eight suspect triangles back to their editable source. The mapping identifies where to review coverage and weights before a mesh edit. Outfit fit remains unverified in play.
