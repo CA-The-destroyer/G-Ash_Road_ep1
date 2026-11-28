@@ -5592,3 +5592,9 @@ Next priorities are the remaining solo movement hitch and interior prop retries,
 **Unreleased sky seam repair.** An isolated Unreal comparison reproduced the diagonal line in the existing night material. The revised moon mask removed it while preserving the quarter moon. The production material was updated and the scoped Windows cook passed. The change awaits a packaged gameplay check and remains unreleased.
 
 **Class outfit fit.** All twelve retained designs are the basis for the outfit work. The current Monk trouser investigation paired the original body and garment through two walk poses and traced eight suspect triangles back to their editable source. The mapping identifies where to review coverage and weights before a mesh edit. Outfit fit remains unverified in play.
+
+**Build 2554 paused for class outfits.** Build 2553 remains the playable release. The Windows build and packaging were paused to advance the outfits first. The existing compile work and material updates were retained. Unreleased changes cover the Trading House boundary and theft response, early camp reactions, and undoing uncommitted ability points. The corrected opening-encounter materials still need a packaged visual check.
+
+**Unreleased Fighter outfit.** The female Fighter chest and base tunic were fitted to the current character rig. A fresh Unreal Editor session reopened the saved mesh and confirmed complete weights, repaired shading data, both UV channels and all seven material bindings. Walking, crouching, combat fit and game integration still need checks.
+
+**Other outfit candidates.** Male Barbarian travel trousers gained a woven cloth variant. The female Bard shirt cleared its source fit checks, while the outer doublet still overlaps at the left-front waist. The female Sorcerer coat still needs an underarm pattern correction. These assets remain unreleased.
